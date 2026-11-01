@@ -258,13 +258,9 @@ function App() {
             b.x = w2 - b.w / 2 - 4;
             b.vx = -Math.abs(b.vx);
           }
-          const caught = b.y + BUBBLE_H >= catcherTop && b.y <= catcherTop + 44 && Math.abs(b.x - catcherXRef.current) < CATCHER_HALF + b.w / 2 - 10;
+          const caught = b.correct && b.y + BUBBLE_H >= catcherTop && b.y <= catcherTop + 44 && Math.abs(b.x - catcherXRef.current) < CATCHER_HALF + b.w / 2 - 10;
           if (caught) {
-            if (b.correct) goodCatch(b);
-            else {
-              bubblesRef.current = bubblesRef.current.filter((x) => x.id !== b.id);
-              applyPenalty(`\u2212${PENALTY} ! Mauvaise r\xE9ponse`, false);
-            }
+            goodCatch(b);
             break;
           }
           if (b.y > h2 + 30) {
@@ -354,7 +350,7 @@ function App() {
         },
         cat
       );
-    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Touche directement la bonne r\xE9ponse quand elle tombe"), /* @__PURE__ */ React.createElement("p", null, "\u{1F683} \u2026ou glisse ta rame pour l\u2019attraper"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB)"), /* @__PURE__ */ React.createElement("p", null, "\u274C Mauvaise r\xE9ponse : \u221275 pts, autant d\u2019essais que tu veux\u2026"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} \u2026mais si ton score passe sous z\xE9ro, c\u2019est Terminus !")), /* @__PURE__ */ React.createElement(
+    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Touche directement la bonne r\xE9ponse quand elle tombe"), /* @__PURE__ */ React.createElement("p", null, "\u{1F683} \u2026ou glisse ta rame pour l\u2019attraper"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB)"), /* @__PURE__ */ React.createElement("p", null, "\u274C Seule une mauvaise r\xE9ponse touch\xE9e co\xFBte \u221275 pts (autant d\u2019essais que tu veux)\u2026"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} \u2026mais si ton score passe sous z\xE9ro, c\u2019est Terminus !")), /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: startGame,
