@@ -77,7 +77,7 @@ const BUBBLE_H = 38;
 const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
-const VERSION = "v5";
+const VERSION = "v6";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -110,6 +110,8 @@ function App() {
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [strikes, setStrikes] = useState(0);
+  const [hadCorrect, setHadCorrect] = useState(false);
+  const [gameOverReason, setGameOverReason] = useState("");
   const [level, setLevel] = useState(1);
   const [best, setBest] = useState(loadBest);
   const [question, setQuestion] = useState(null);
@@ -132,6 +134,7 @@ function App() {
   const maxScoreRef = useRef(0);
   const comboRef = useRef(0);
   const strikesRef = useRef(0);
+  const hadCorrectRef = useRef(false);
   const levelRef = useRef(1);
   const timerRef = useRef(null);
   const areaRef = useRef(null);
@@ -159,11 +162,14 @@ function App() {
     comboRef.current = 0;
     levelRef.current = 1;
     strikesRef.current = 0;
+    hadCorrectRef.current = false;
     feedbackRef.current = false;
     setScore(100);
     setCombo(0);
     setLevel(1);
     setStrikes(0);
+    setHadCorrect(false);
+    setGameOverReason("");
     setStats({ good: 0, total: 0 });
     setFeedback(null);
     clockRef.current = 0;
@@ -182,6 +188,8 @@ function App() {
     setCombo(comboRef.current);
     strikesRef.current = 0;
     setStrikes(0);
+    hadCorrectRef.current = true;
+    setHadCorrect(true);
     if (comboRef.current % 4 === 0) {
       levelRef.current += 1;
       setLevel(levelRef.current);
@@ -209,16 +217,21 @@ function App() {
     bubblesRef.current = [];
     queueRef.current = [];
     feedbackRef.current = true;
-    setFeedback({ ok: false, label: `${label} (${strikesRef.current}/3)` });
+    setFeedback({ ok: false, label: hadCorrectRef.current ? label : `${label} (${strikesRef.current}/3)` });
     if (timerRef.current) window.clearTimeout(timerRef.current);
     timerRef.current = window.setTimeout(() => {
       feedbackRef.current = false;
       setFeedback(null);
-      if (strikesRef.current >= 3) {
+      const troisPremieres = !hadCorrectRef.current && strikesRef.current >= 3;
+      const fauche = scoreRef.current <= 0;
+      if (troisPremieres || fauche) {
         if (maxScoreRef.current > loadBest()) {
           saveBest(maxScoreRef.current);
           setBest(maxScoreRef.current);
         }
+        setGameOverReason(
+          fauche ? "Plus un point en r\xE9serve \u2014 fin de la ligne." : "Tes trois premi\xE8res r\xE9ponses \xE9taient fausses \u2014 fin de la ligne."
+        );
         setPhase("gameover");
       } else {
         loadQuestion();
@@ -352,7 +365,7 @@ function App() {
         },
         cat
       );
-    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Une seule r\xE9ponse par question : touche la bonne pendant sa chute"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB) ; les combos multiplient les gains"), /* @__PURE__ */ React.createElement("p", null, "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} 3 mauvaises r\xE9ponses d\u2019affil\xE9e : Terminus !")), /* @__PURE__ */ React.createElement(
+    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Une seule r\xE9ponse par question : touche la bonne pendant sa chute"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB) ; les combos multiplient les gains"), /* @__PURE__ */ React.createElement("p", null, "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} Terminus si tes 3 premi\xE8res r\xE9ponses sont fausses, ou si ton score tombe \xE0 z\xE9ro")), /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: startGame,
@@ -363,7 +376,7 @@ function App() {
   }
   if (phase === "gameover") {
     const acc = stats.total > 0 ? Math.round(stats.good / stats.total * 100) : 0;
-    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#7f1d1d,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F689}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-3 text-3xl font-extrabold" }, "Terminus !"), /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-sm text-white/50" }, "3 mauvaises r\xE9ponses d\u2019affil\xE9e \u2014 fin de la ligne."), /* @__PURE__ */ React.createElement("div", { className: "mt-6 space-y-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Score"), /* @__PURE__ */ React.createElement("p", { className: "text-4xl font-extrabold text-cyan-400" }, score)), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Pr\xE9cision"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, acc, "%")), /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Record"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, "\u{1F3C6} ", best)))), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, /* @__PURE__ */ React.createElement(
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#7f1d1d,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F689}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-3 text-3xl font-extrabold" }, "Terminus !"), /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-sm text-white/50" }, gameOverReason || "Fin de la ligne."), /* @__PURE__ */ React.createElement("div", { className: "mt-6 space-y-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Score"), /* @__PURE__ */ React.createElement("p", { className: "text-4xl font-extrabold text-cyan-400" }, score)), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Pr\xE9cision"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, acc, "%")), /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Record"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, "\u{1F3C6} ", best)))), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: startGame,
@@ -382,7 +395,7 @@ function App() {
   }
   const { w, h } = sizeRef.current;
   const catcherLeft = Math.max(4, Math.min(w - CATCHER_HALF * 2 - 4, catcherXRef.current - CATCHER_HALF));
-  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between px-4 pt-3" }, /* @__PURE__ */ React.createElement("div", { className: "text-base font-bold text-amber-300" }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, "Niveau ", level), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between px-4 pt-3" }, /* @__PURE__ */ React.createElement("div", { className: `text-base font-bold ${score <= 75 ? "text-rose-400" : "text-amber-300"}` }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, "Niveau ", level), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), !hadCorrect && /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => setPhase((p) => p === "playing" ? "paused" : "playing"),
