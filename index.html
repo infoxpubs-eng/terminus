@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#020617">
+<meta name="description" content="MétroQuiz : jeu de dextérité et culture générale — attrape la bonne réponse avec ta rame de métro !">
+<title>MétroQuiz — Attrape la bonne réponse</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚇</text></svg>">
+<script src="https://cdn.tailwindcss.com"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<style>
+  html, body { margin: 0; padding: 0; overscroll-behavior: none; background: #020617; }
+  #root { min-height: 100dvh; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const { useState, useEffect, useRef, useCallback } = React;
+const Button = ({ children, className, onClick, variant }) => /* @__PURE__ */ React.createElement("button", { onClick, className }, children);
+const QUESTIONS = [
+  { cat: "Histoire", emoji: "\u{1F3DB}", q: "En quelle ann\xE9e est tomb\xE9 le mur de Berlin ?", a: ["1987", "1989", "1991", "1993"], c: 1 },
+  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Qui \xE9tait le premier pr\xE9sident de la Ve R\xE9publique fran\xE7aise ?", a: ["Ren\xE9 Coty", "Georges Pompidou", "Charles de Gaulle", "Vincent Auriol"], c: 2 },
+  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Quelle civilisation a construit Machu Picchu ?", a: ["Les Mayas", "Les Azt\xE8ques", "Les Incas", "Les Olm\xE8ques"], c: 2 },
+  { cat: "Histoire", emoji: "\u{1F3DB}", q: "En quelle ann\xE9e a eu lieu la prise de la Bastille ?", a: ["1776", "1789", "1793", "1804"], c: 1 },
+  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Qui a \xE9t\xE9 le premier homme \xE0 marcher sur la Lune ?", a: ["Buzz Aldrin", "Youri Gagarine", "Neil Armstrong", "Michael Collins"], c: 2 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la capitale de l'Australie ?", a: ["Sydney", "Melbourne", "Canberra", "Perth"], c: 2 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus long fleuve d'Europe ?", a: ["Le Danube", "La Volga", "Le Rhin", "La Seine"], c: 1 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus grand oc\xE9an du monde ?", a: ["L'oc\xE9an Atlantique", "L'oc\xE9an Indien", "L'oc\xE9an Arctique", "L'oc\xE9an Pacifique"], c: 3 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Dans quel pays se trouve la ville de Marrakech ?", a: ["Le Maroc", "La Tunisie", "L'Alg\xE9rie", "L'\xC9gypte"], c: 0 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la capitale du Canada ?", a: ["Toronto", "Montr\xE9al", "Ottawa", "Vancouver"], c: 2 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus grand d\xE9sert chaud du monde ?", a: ["Le Sahara", "Le Gobi", "Le Kalahari", "L'Atacama"], c: 0 },
+  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la plus haute montagne d'Afrique ?", a: ["Le Mont Kenya", "Le Kilimandjaro", "L'Atlas", "Le Drakensberg"], c: 1 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel est le symbole chimique de l'or ?", a: ["Ag", "Or", "Au", "Gd"], c: 2 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Combien d'os poss\xE8de le corps humain adulte ?", a: ["186", "206", "226", "246"], c: 1 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quelle plan\xE8te est la plus proche du Soleil ?", a: ["V\xE9nus", "Mars", "Terre", "Mercure"], c: 3 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel gaz les plantes absorbent-elles pour la photosynth\xE8se ?", a: ["L'oxyg\xE8ne", "Le dioxyde de carbone", "L'azote", "L'hydrog\xE8ne"], c: 1 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quelle est environ la vitesse de la lumi\xE8re ?", a: ["3 000 km/s", "30 000 km/s", "300 000 km/s", "3 000 000 km/s"], c: 2 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel est le plus grand organe du corps humain ?", a: ["Le foie", "Le poumon", "La peau", "Le cerveau"], c: 2 },
+  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel animal terrestre est le plus rapide ?", a: ["Le gu\xE9pard", "Le lion", "Le cheval", "L'antilope"], c: 0 },
+  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Qui a r\xE9alis\xE9 le film \xAB Titanic \xBB ?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Martin Scorsese"], c: 1 },
+  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Dans quelle saga entend-on \xAB Que la Force soit avec toi \xBB ?", a: ["Star Trek", "Seigneur des Anneaux", "Star Wars", "Dune"], c: 2 },
+  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel justicier prot\xE8ge la ville de Gotham ?", a: ["Superman", "Spider-Man", "Batman", "Green Lantern"], c: 2 },
+  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel film d'animation met en sc\xE8ne le lionceau Simba ?", a: ["Madagascar", "Le Livre de la jungle", "Le Roi Lion", "Kirikou"], c: 2 },
+  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel acteur incarne le capitaine Jack Sparrow ?", a: ["Orlando Bloom", "Johnny Depp", "Brad Pitt", "Jude Law"], c: 1 },
+  { cat: "Musique", emoji: "\u{1F3B5}", q: "Combien de cordes a une guitare classique ?", a: ["4", "5", "6", "7"], c: 2 },
+  { cat: "Musique", emoji: "\u{1F3B5}", q: "Quel groupe a interpr\xE9t\xE9 \xAB Bohemian Rhapsody \xBB ?", a: ["The Beatles", "Queen", "The Rolling Stones", "Pink Floyd"], c: 1 },
+  { cat: "Musique", emoji: "\u{1F3B5}", q: "Qui a compos\xE9 la \xAB Neuvi\xE8me Symphonie \xBB ?", a: ["Mozart", "Bach", "Beethoven", "Chopin"], c: 2 },
+  { cat: "Musique", emoji: "\u{1F3B5}", q: "Combien de touches poss\xE8de un piano standard ?", a: ["72", "76", "88", "96"], c: 2 },
+  { cat: "Musique", emoji: "\u{1F3B5}", q: "Quel instrument \xE0 cordes est le plus grand de l'orchestre ?", a: ["Le violoncelle", "La contrebasse", "La harpe", "L'alto"], c: 1 },
+  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Les Mis\xE9rables \xBB ?", a: ["\xC9mile Zola", "Gustave Flaubert", "Victor Hugo", "Honor\xE9 de Balzac"], c: 2 },
+  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Le Petit Prince \xBB ?", a: ["Marcel Pagnol", "Antoine de Saint-Exup\xE9ry", "Jules Verne", "Albert Camus"], c: 1 },
+  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Don Quichotte \xBB ?", a: ["Victor Hugo", "Miguel de Cervant\xE8s", "Dante", "Shakespeare"], c: 1 },
+  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Quel romancier a cr\xE9\xE9 Harry Potter ?", a: ["J.R.R. Tolkien", "J.K. Rowling", "Philip Pullman", "Roald Dahl"], c: 1 },
+  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB L'\xC9tranger \xBB ?", a: ["Jean-Paul Sartre", "Albert Camus", "Simone de Beauvoir", "Andr\xE9 Gide"], c: 1 },
+  { cat: "Sport", emoji: "\u26BD", q: "Tous les combien d'ann\xE9es ont lieu les Jeux Olympiques d'\xE9t\xE9 ?", a: ["2 ans", "3 ans", "4 ans", "5 ans"], c: 2 },
+  { cat: "Sport", emoji: "\u26BD", q: "Dans quel sport marque-t-on un \xAB essai \xBB ?", a: ["Le rugby", "Le basket", "Le handball", "Le hockey"], c: 0 },
+  { cat: "Sport", emoji: "\u26BD", q: "Combien de joueurs compose une \xE9quipe de football sur le terrain ?", a: ["9", "10", "11", "12"], c: 2 },
+  { cat: "Sport", emoji: "\u26BD", q: "Quel pays a remport\xE9 la Coupe du monde de football 2018 ?", a: ["Le Br\xE9sil", "La France", "La Croatie", "L'Allemagne"], c: 1 },
+  { cat: "Sport", emoji: "\u26BD", q: "Combien de temps dure un match de tennis de table en sets gagnants ?", a: ["2 sets", "3 sets", "4 sets", "5 sets"], c: 1 },
+  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Combien de points faut-il pour remporter un set au badminton ?", a: ["11", "15", "21", "25"], c: 2 },
+  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Comment s'appelle l'objet que l'on frappe au badminton ?", a: ["La balle", "Le volant", "Le palet", "Le cochonnet"], c: 1 },
+  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Quel pays domine historiquement le badminton olympique ?", a: ["Le Japon", "L'Inde", "La Chine", "Le Danemark"], c: 2 },
+  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Quel coup de badminton descend violemment vers le sol ?", a: ["Le clear", "Le smash", "Le service", "Le drop"], c: 1 },
+  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "De quel pays la paella est-elle originaire ?", a: ["L'Italie", "Le Portugal", "L'Espagne", "Le Mexique"], c: 2 },
+  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "Quel est l'ingr\xE9dient principal du guacamole ?", a: ["Le concombre", "L'avocat", "La courgette", "Le poivron"], c: 1 },
+  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "Quel fromage est surnomm\xE9 \xAB le roi des fromages \xBB ?", a: ["Le camembert", "Le roquefort", "Le brie", "Le comt\xE9"], c: 2 },
+  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "De quel pays provient la pizza margherita ?", a: ["La Gr\xE8ce", "L'Italie", "La France", "La Turquie"], c: 1 },
+  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Quel est le pluriel de \xAB bijou \xBB ?", a: ["Bijous", "Bijoux", "Bijoes", "Bijouxes"], c: 1 },
+  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Combien de voyelles compte l'alphabet fran\xE7ais ?", a: ["5", "6", "7", "8"], c: 1 },
+  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Comment appelle-t-on une phrase qui pose une question ?", a: ["Une interrogation", "Une exclamative", "Une imp\xE9rative", "Une d\xE9clarative"], c: 0 }
+];
+const CATEGORIES = ["Histoire", "G\xE9ographie", "Sciences", "Cin\xE9ma", "Musique", "Litt\xE9rature", "Sport", "Badminton", "Gastronomie", "Langue fran\xE7aise"];
+const BUBBLE_H = 38;
+const CATCHER_HALF = 48;
+const CATCHER_TOP_OFF = 78;
+const PENALTY = 75;
+function shuffle(arr) {
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+function loadBest() {
+  try {
+    return Number(localStorage.getItem("metroquiz_best") || 0) || 0;
+  } catch {
+    return 0;
+  }
+}
+function saveBest(v) {
+  try {
+    localStorage.setItem("metroquiz_best", String(v));
+  } catch {
+  }
+}
+const BUBBLE_COLORS = [
+  "from-cyan-400 to-blue-500",
+  "from-amber-400 to-orange-500",
+  "from-fuchsia-400 to-purple-500",
+  "from-emerald-400 to-teal-500"
+];
+function App() {
+  const [phase, setPhase] = useState("home");
+  const [score, setScore] = useState(0);
+  const [combo, setCombo] = useState(0);
+  const [level, setLevel] = useState(1);
+  const [best, setBest] = useState(loadBest);
+  const [question, setQuestion] = useState(null);
+  const [feedback, setFeedback] = useState(null);
+  const [selectedCats, setSelectedCats] = useState([...CATEGORIES]);
+  const [stats, setStats] = useState({ good: 0, total: 0 });
+  const [, forceRender] = useState(0);
+  const bubblesRef = useRef([]);
+  const queueRef = useRef([]);
+  const clockRef = useRef(0);
+  const qStartRef = useRef(0);
+  const idRef = useRef(1);
+  const sizeRef = useRef({ w: 380, h: 500 });
+  const catcherXRef = useRef(190);
+  const targetXRef = useRef(190);
+  const poolRef = useRef([]);
+  const poolIdxRef = useRef(0);
+  const feedbackRef = useRef(false);
+  const scoreRef = useRef(0);
+  const maxScoreRef = useRef(0);
+  const comboRef = useRef(0);
+  const levelRef = useRef(1);
+  const timerRef = useRef(null);
+  const areaRef = useRef(null);
+  const loadQuestion = useCallback(() => {
+    if (poolIdxRef.current >= poolRef.current.length) {
+      poolRef.current = shuffle(poolRef.current);
+      poolIdxRef.current = 0;
+    }
+    const q = poolRef.current[poolIdxRef.current++];
+    setQuestion(q);
+    const answers = q.a.map((text, i) => ({ text, correct: i === q.c }));
+    const order = shuffle(answers);
+    const delay = Math.max(0.38, 1.15 - (levelRef.current - 1) * 0.07);
+    queueRef.current = order.map((ans, i) => ({ at: i * delay, text: ans.text, correct: ans.correct }));
+    bubblesRef.current = [];
+    qStartRef.current = clockRef.current;
+  }, []);
+  const startGame = useCallback(() => {
+    let pool = QUESTIONS.filter((q) => selectedCats.includes(q.cat));
+    if (pool.length === 0) pool = QUESTIONS;
+    poolRef.current = shuffle(pool);
+    poolIdxRef.current = 0;
+    scoreRef.current = 100;
+    maxScoreRef.current = 100;
+    comboRef.current = 0;
+    levelRef.current = 1;
+    feedbackRef.current = false;
+    setScore(100);
+    setCombo(0);
+    setLevel(1);
+    setStats({ good: 0, total: 0 });
+    setFeedback(null);
+    clockRef.current = 0;
+    loadQuestion();
+    setPhase("playing");
+  }, [selectedCats, loadQuestion]);
+  const goodCatch = useCallback((b) => {
+    const mult = Math.min(1 + comboRef.current, 8);
+    const reaction = clockRef.current - b.t0;
+    const speedBonus = Math.max(0, Math.round(150 - reaction * 60));
+    const pts = (100 + (levelRef.current - 1) * 20) * mult + speedBonus;
+    scoreRef.current += pts;
+    maxScoreRef.current = Math.max(maxScoreRef.current, scoreRef.current);
+    comboRef.current += 1;
+    setScore(scoreRef.current);
+    setCombo(comboRef.current);
+    if (comboRef.current % 4 === 0) {
+      levelRef.current += 1;
+      setLevel(levelRef.current);
+    }
+    setStats((s) => ({ good: s.good + 1, total: s.total + 1 }));
+    bubblesRef.current = [];
+    queueRef.current = [];
+    feedbackRef.current = true;
+    setFeedback({ ok: true, label: speedBonus >= 100 ? `\xC9clair ! +${pts} \u26A1` : `Bravo ! +${pts}` });
+    if (timerRef.current) window.clearTimeout(timerRef.current);
+    timerRef.current = window.setTimeout(() => {
+      feedbackRef.current = false;
+      setFeedback(null);
+      loadQuestion();
+    }, 800);
+  }, [loadQuestion]);
+  const applyPenalty = useCallback((label, reload) => {
+    comboRef.current = 0;
+    setCombo(0);
+    scoreRef.current -= PENALTY;
+    setScore(scoreRef.current);
+    setStats((s) => ({ ...s, total: s.total + 1 }));
+    feedbackRef.current = true;
+    setFeedback({ ok: false, label });
+    if (timerRef.current) window.clearTimeout(timerRef.current);
+    timerRef.current = window.setTimeout(() => {
+      feedbackRef.current = false;
+      setFeedback(null);
+      if (scoreRef.current < 0) {
+        if (maxScoreRef.current > loadBest()) {
+          saveBest(maxScoreRef.current);
+          setBest(maxScoreRef.current);
+        }
+        setPhase("gameover");
+      } else if (reload) {
+        loadQuestion();
+      }
+    }, 900);
+  }, [loadQuestion]);
+  useEffect(() => {
+    if (phase !== "playing") return;
+    let raf = 0;
+    let last = performance.now();
+    const step = (now) => {
+      const dt = Math.min((now - last) / 1e3, 0.05);
+      last = now;
+      const { w: w2, h: h2 } = sizeRef.current;
+      if (!feedbackRef.current) {
+        clockRef.current += dt;
+        const elapsed = clockRef.current - qStartRef.current;
+        const remaining = [];
+        for (const spawn of queueRef.current) {
+          if (elapsed >= spawn.at) {
+            const bw = Math.min(w2 - 24, Math.max(120, spawn.text.length * 8 + 36));
+            bubblesRef.current.push({
+              id: idRef.current++,
+              text: spawn.text,
+              correct: spawn.correct,
+              x: bw / 2 + 12 + Math.random() * Math.max(1, w2 - bw - 24),
+              y: -BUBBLE_H,
+              vy: 95 + (levelRef.current - 1) * 20 + Math.random() * 25,
+              vx: (Math.random() < 0.5 ? -1 : 1) * (8 + (levelRef.current - 1) * 6 + Math.random() * 14),
+              w: bw,
+              t0: clockRef.current
+            });
+          } else {
+            remaining.push(spawn);
+          }
+        }
+        queueRef.current = remaining;
+        const catcherTop = h2 - CATCHER_TOP_OFF;
+        const next = [];
+        for (const b of bubblesRef.current) {
+          b.y += b.vy * dt;
+          b.x += b.vx * dt;
+          if (b.x < b.w / 2 + 4) {
+            b.x = b.w / 2 + 4;
+            b.vx = Math.abs(b.vx);
+          }
+          if (b.x > w2 - b.w / 2 - 4) {
+            b.x = w2 - b.w / 2 - 4;
+            b.vx = -Math.abs(b.vx);
+          }
+          const caught = b.y + BUBBLE_H >= catcherTop && b.y <= catcherTop + 44 && Math.abs(b.x - catcherXRef.current) < CATCHER_HALF + b.w / 2 - 10;
+          if (caught) {
+            if (b.correct) goodCatch(b);
+            else {
+              bubblesRef.current = bubblesRef.current.filter((x) => x.id !== b.id);
+              applyPenalty(`\u2212${PENALTY} ! Mauvaise r\xE9ponse`, false);
+            }
+            break;
+          }
+          if (b.y > h2 + 30) {
+            if (b.correct) {
+              applyPenalty(`Rat\xE9 ! \u2212${PENALTY}`, true);
+              break;
+            }
+            continue;
+          }
+          next.push(b);
+        }
+        if (!feedbackRef.current) bubblesRef.current = next;
+      }
+      const dx = targetXRef.current - catcherXRef.current;
+      if (Math.abs(dx) > 1) catcherXRef.current += dx * Math.min(1, dt * 14);
+      forceRender((n) => (n + 1) % 1e6);
+      raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(raf);
+  }, [phase, goodCatch, applyPenalty]);
+  useEffect(() => {
+    const measure = () => {
+      const el = areaRef.current;
+      if (el) {
+        sizeRef.current = { w: el.clientWidth, h: el.clientHeight };
+        targetXRef.current = el.clientWidth / 2;
+        catcherXRef.current = el.clientWidth / 2;
+      }
+    };
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, [phase]);
+  useEffect(() => {
+    if (phase !== "playing") return;
+    const onKey = (e) => {
+      if (e.key === "ArrowLeft") targetXRef.current = Math.max(30, targetXRef.current - 46);
+      if (e.key === "ArrowRight") targetXRef.current = Math.min(sizeRef.current.w - 30, targetXRef.current + 46);
+      if (e.key === "p" || e.key === "Escape") setPhase((p) => p === "playing" ? "paused" : "playing");
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [phase]);
+  const moveCatcher = (clientX) => {
+    const el = areaRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    targetXRef.current = Math.max(CATCHER_HALF, Math.min(rect.width - CATCHER_HALF, clientX - rect.left));
+  };
+  const handleTap = (clientX, clientY) => {
+    if (phase !== "playing" || feedbackRef.current) return;
+    const el = areaRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const px = clientX - rect.left;
+    const py = clientY - rect.top;
+    const hit = bubblesRef.current.find(
+      (b) => px >= b.x - b.w / 2 - 12 && px <= b.x + b.w / 2 + 12 && py >= b.y - 12 && py <= b.y + BUBBLE_H + 12
+    );
+    if (hit) {
+      if (hit.correct) goodCatch(hit);
+      else {
+        bubblesRef.current = bubblesRef.current.filter((x) => x.id !== hit.id);
+        applyPenalty(`\u2212${PENALTY} ! Mauvaise r\xE9ponse`, false);
+      }
+      return;
+    }
+    moveCatcher(clientX);
+  };
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) window.clearTimeout(timerRef.current);
+    };
+  }, []);
+  if (phase === "home") {
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#1e293b,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md" }, /* @__PURE__ */ React.createElement("div", { className: "mb-6 text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F687}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-2 text-4xl font-extrabold tracking-tight" }, "M\xE9tro", /* @__PURE__ */ React.createElement("span", { className: "text-cyan-400" }, "Quiz")), /* @__PURE__ */ React.createElement("p", { className: "mt-2 text-sm text-white/60" }, "Une question tombe\u2026 attrape la bonne r\xE9ponse avec ta rame de m\xE9tro !")), /* @__PURE__ */ React.createElement("div", { className: "mb-5 rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "mb-3 text-xs font-semibold uppercase tracking-wide text-white/50" }, "Cat\xE9gories"), /* @__PURE__ */ React.createElement("div", { className: "flex flex-wrap gap-2" }, CATEGORIES.map((cat) => {
+      const on = selectedCats.includes(cat);
+      return /* @__PURE__ */ React.createElement(
+        "button",
+        {
+          key: cat,
+          onClick: () => setSelectedCats(
+            (prev) => prev.includes(cat) ? prev.filter((c) => c !== cat) : [...prev, cat]
+          ),
+          className: `rounded-full px-3 py-1.5 text-xs font-medium transition ${on ? "bg-cyan-500 text-slate-950" : "bg-white/10 text-white/60 hover:bg-white/20"}`
+        },
+        cat
+      );
+    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Touche directement la bonne r\xE9ponse quand elle tombe"), /* @__PURE__ */ React.createElement("p", null, "\u{1F683} \u2026ou glisse ta rame pour l\u2019attraper"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB)"), /* @__PURE__ */ React.createElement("p", null, "\u274C Mauvaise r\xE9ponse : \u221275 pts, autant d\u2019essais que tu veux\u2026"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} \u2026mais si ton score passe sous z\xE9ro, c\u2019est Terminus !")), /* @__PURE__ */ React.createElement(
+      Button,
+      {
+        onClick: startGame,
+        className: "w-full rounded-2xl bg-cyan-500 py-6 text-lg font-bold text-slate-950 hover:bg-cyan-400"
+      },
+      "Jouer"
+    ), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-center text-xs text-white/40" }, "\u{1F3C6} Meilleur score : ", best)));
+  }
+  if (phase === "gameover") {
+    const acc = stats.total > 0 ? Math.round(stats.good / stats.total * 100) : 0;
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#7f1d1d,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F689}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-3 text-3xl font-extrabold" }, "Terminus !"), /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-sm text-white/50" }, "Score sous z\xE9ro \u2014 fin de la ligne."), /* @__PURE__ */ React.createElement("div", { className: "mt-6 space-y-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Score"), /* @__PURE__ */ React.createElement("p", { className: "text-4xl font-extrabold text-cyan-400" }, score)), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Pr\xE9cision"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, acc, "%")), /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Record"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, "\u{1F3C6} ", best)))), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, /* @__PURE__ */ React.createElement(
+      Button,
+      {
+        onClick: startGame,
+        className: "w-full rounded-2xl bg-cyan-500 py-6 text-lg font-bold text-slate-950 hover:bg-cyan-400"
+      },
+      "Rejouer"
+    ), /* @__PURE__ */ React.createElement(
+      Button,
+      {
+        onClick: () => setPhase("home"),
+        variant: "outline",
+        className: "w-full rounded-2xl border-white/20 bg-transparent py-4 text-white hover:bg-white/10"
+      },
+      "Menu"
+    ))));
+  }
+  const { w, h } = sizeRef.current;
+  const catcherLeft = Math.max(4, Math.min(w - CATCHER_HALF * 2 - 4, catcherXRef.current - CATCHER_HALF));
+  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between px-4 pt-3" }, /* @__PURE__ */ React.createElement("div", { className: "text-base font-bold text-amber-300" }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, "Niveau ", level), /* @__PURE__ */ React.createElement("div", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: () => setPhase((p) => p === "playing" ? "paused" : "playing"),
+      className: "rounded-full bg-white/10 px-3 py-1 text-xs font-bold hover:bg-white/20"
+    },
+    phase === "paused" ? "\u25B6" : "\u23F8"
+  )), question && /* @__PURE__ */ React.createElement("div", { className: "px-4 pt-2 pb-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-3" }, /* @__PURE__ */ React.createElement("p", { className: "mb-1 text-[11px] font-semibold uppercase tracking-wide text-cyan-300" }, question.emoji, " ", question.cat, combo >= 2 && /* @__PURE__ */ React.createElement("span", { className: "ml-2 text-amber-300" }, "\u{1F525} combo \xD7", Math.min(1 + combo, 8))), /* @__PURE__ */ React.createElement("p", { className: "text-base font-bold leading-snug" }, question.q))), /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      ref: areaRef,
+      className: "relative flex-1 overflow-hidden border-t border-white/10 bg-black/30",
+      style: { touchAction: "none" },
+      onPointerDown: (e) => handleTap(e.clientX, e.clientY),
+      onPointerMove: (e) => {
+        if (e.buttons > 0 || e.pointerType === "mouse") moveCatcher(e.clientX);
+      }
+    },
+    /* @__PURE__ */ React.createElement("div", { className: "absolute inset-x-0 bottom-0 h-[70px] border-t-2 border-dashed border-white/20 bg-slate-800/60" }),
+    bubblesRef.current.map((b, i) => /* @__PURE__ */ React.createElement(
+      "div",
+      {
+        key: b.id,
+        className: `absolute flex h-[38px] items-center justify-center rounded-full bg-gradient-to-br ${BUBBLE_COLORS[i % 4]} px-4 text-[13px] font-bold text-slate-950 shadow-lg`,
+        style: {
+          left: b.x - b.w / 2,
+          top: b.y,
+          width: b.w,
+          boxShadow: "0 4px 14px rgba(0,0,0,0.35)"
+        }
+      },
+      /* @__PURE__ */ React.createElement("span", { className: "truncate" }, b.text)
+    )),
+    /* @__PURE__ */ React.createElement(
+      "div",
+      {
+        className: "absolute flex items-center justify-center rounded-xl border-2 border-amber-300/60 bg-gradient-to-b from-slate-700 to-slate-900",
+        style: {
+          left: catcherLeft,
+          bottom: 18,
+          width: CATCHER_HALF * 2,
+          height: 44
+        }
+      },
+      /* @__PURE__ */ React.createElement("span", { className: "text-2xl leading-none" }, "\u{1F683}")
+    ),
+    feedback && /* @__PURE__ */ React.createElement(
+      "div",
+      {
+        className: `absolute inset-x-0 top-[38%] text-center ${feedback.ok ? "text-emerald-400" : "text-rose-400"}`
+      },
+      /* @__PURE__ */ React.createElement("p", { className: "text-3xl font-extrabold drop-shadow-lg" }, feedback.label)
+    ),
+    phase === "paused" && /* @__PURE__ */ React.createElement("div", { className: "absolute inset-0 flex flex-col items-center justify-center gap-4 bg-slate-950/80" }, /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-extrabold" }, "\u23F8 Pause"), /* @__PURE__ */ React.createElement(
+      Button,
+      {
+        onClick: () => setPhase("playing"),
+        className: "rounded-2xl bg-cyan-500 px-10 py-4 text-lg font-bold text-slate-950 hover:bg-cyan-400"
+      },
+      "Reprendre"
+    ), /* @__PURE__ */ React.createElement(
+      Button,
+      {
+        onClick: () => setPhase("home"),
+        variant: "outline",
+        className: "rounded-2xl border-white/20 bg-transparent text-white hover:bg-white/10"
+      },
+      "Quitter"
+    ))
+  ));
+}
+
+</script>
+<script>
+  ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(App));
+</script>
+</body>
+</html>
