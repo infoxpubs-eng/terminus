@@ -79,7 +79,7 @@ const BUBBLE_H = 38;
 const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
-const VERSION = "v7";
+const VERSION = "v8";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -243,10 +243,17 @@ function App() {
   useEffect(() => {
     if (phase !== "playing") return;
     let raf = 0;
+    let frame = 0;
     let last = performance.now();
     const step = (now) => {
       const dt = Math.min((now - last) / 1e3, 0.05);
       last = now;
+      if (frame++ % 30 === 0) {
+        const el = areaRef.current;
+        if (el && el.clientWidth > 100 && el.clientHeight > 150) {
+          sizeRef.current = { w: el.clientWidth, h: el.clientHeight };
+        }
+      }
       const { w: w2, h: h2 } = sizeRef.current;
       if (!feedbackRef.current) {
         clockRef.current += dt;
@@ -305,7 +312,7 @@ function App() {
   useEffect(() => {
     const measure = () => {
       const el = areaRef.current;
-      if (el) {
+      if (el && el.clientWidth > 100 && el.clientHeight > 150) {
         sizeRef.current = { w: el.clientWidth, h: el.clientHeight };
         targetXRef.current = el.clientWidth / 2;
         catcherXRef.current = el.clientWidth / 2;
