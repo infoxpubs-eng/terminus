@@ -22,64 +22,456 @@ const { useState, useEffect, useRef, useCallback } = React;
 function Button({ children, className, onClick, ...props }) {
   return React.createElement("button", { className, onClick, ...props }, children);
 }
-const QUESTIONS = [
-  { cat: "Histoire", emoji: "\u{1F3DB}", q: "En quelle ann\xE9e est tomb\xE9 le mur de Berlin ?", a: ["1987", "1989", "1991", "1993"], c: 1 },
-  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Qui \xE9tait le premier pr\xE9sident de la Ve R\xE9publique fran\xE7aise ?", a: ["Ren\xE9 Coty", "Georges Pompidou", "Charles de Gaulle", "Vincent Auriol"], c: 2 },
-  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Quelle civilisation a construit Machu Picchu ?", a: ["Les Mayas", "Les Azt\xE8ques", "Les Incas", "Les Olm\xE8ques"], c: 2 },
-  { cat: "Histoire", emoji: "\u{1F3DB}", q: "En quelle ann\xE9e a eu lieu la prise de la Bastille ?", a: ["1776", "1789", "1793", "1804"], c: 1 },
-  { cat: "Histoire", emoji: "\u{1F3DB}", q: "Qui a \xE9t\xE9 le premier homme \xE0 marcher sur la Lune ?", a: ["Buzz Aldrin", "Youri Gagarine", "Neil Armstrong", "Michael Collins"], c: 2 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la capitale de l'Australie ?", a: ["Sydney", "Melbourne", "Canberra", "Perth"], c: 2 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus long fleuve d'Europe ?", a: ["Le Danube", "La Volga", "Le Rhin", "La Seine"], c: 1 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus grand oc\xE9an du monde ?", a: ["L'oc\xE9an Atlantique", "L'oc\xE9an Indien", "L'oc\xE9an Arctique", "L'oc\xE9an Pacifique"], c: 3 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Dans quel pays se trouve la ville de Marrakech ?", a: ["Le Maroc", "La Tunisie", "L'Alg\xE9rie", "L'\xC9gypte"], c: 0 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la capitale du Canada ?", a: ["Toronto", "Montr\xE9al", "Ottawa", "Vancouver"], c: 2 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quel est le plus grand d\xE9sert chaud du monde ?", a: ["Le Sahara", "Le Gobi", "Le Kalahari", "L'Atacama"], c: 0 },
-  { cat: "G\xE9ographie", emoji: "\u{1F30D}", q: "Quelle est la plus haute montagne d'Afrique ?", a: ["Le Mont Kenya", "Le Kilimandjaro", "L'Atlas", "Le Drakensberg"], c: 1 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel est le symbole chimique de l'or ?", a: ["Ag", "Or", "Au", "Gd"], c: 2 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Combien d'os poss\xE8de le corps humain adulte ?", a: ["186", "206", "226", "246"], c: 1 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quelle plan\xE8te est la plus proche du Soleil ?", a: ["V\xE9nus", "Mars", "Terre", "Mercure"], c: 3 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel gaz les plantes absorbent-elles pour la photosynth\xE8se ?", a: ["L'oxyg\xE8ne", "Le dioxyde de carbone", "L'azote", "L'hydrog\xE8ne"], c: 1 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quelle est environ la vitesse de la lumi\xE8re ?", a: ["3 000 km/s", "30 000 km/s", "300 000 km/s", "3 000 000 km/s"], c: 2 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel est le plus grand organe du corps humain ?", a: ["Le foie", "Le poumon", "La peau", "Le cerveau"], c: 2 },
-  { cat: "Sciences", emoji: "\u{1F52C}", q: "Quel animal terrestre est le plus rapide ?", a: ["Le gu\xE9pard", "Le lion", "Le cheval", "L'antilope"], c: 0 },
-  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Qui a r\xE9alis\xE9 le film \xAB Titanic \xBB ?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Martin Scorsese"], c: 1 },
-  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Dans quelle saga entend-on \xAB Que la Force soit avec toi \xBB ?", a: ["Star Trek", "Seigneur des Anneaux", "Star Wars", "Dune"], c: 2 },
-  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel justicier prot\xE8ge la ville de Gotham ?", a: ["Superman", "Spider-Man", "Batman", "Green Lantern"], c: 2 },
-  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel film d'animation met en sc\xE8ne le lionceau Simba ?", a: ["Madagascar", "Le Livre de la jungle", "Le Roi Lion", "Kirikou"], c: 2 },
-  { cat: "Cin\xE9ma", emoji: "\u{1F3AC}", q: "Quel acteur incarne le capitaine Jack Sparrow ?", a: ["Orlando Bloom", "Johnny Depp", "Brad Pitt", "Jude Law"], c: 1 },
-  { cat: "Musique", emoji: "\u{1F3B5}", q: "Combien de cordes a une guitare classique ?", a: ["4", "5", "6", "7"], c: 2 },
-  { cat: "Musique", emoji: "\u{1F3B5}", q: "Quel groupe a interpr\xE9t\xE9 \xAB Bohemian Rhapsody \xBB ?", a: ["The Beatles", "Queen", "The Rolling Stones", "Pink Floyd"], c: 1 },
-  { cat: "Musique", emoji: "\u{1F3B5}", q: "Qui a compos\xE9 la \xAB Neuvi\xE8me Symphonie \xBB ?", a: ["Mozart", "Bach", "Beethoven", "Chopin"], c: 2 },
-  { cat: "Musique", emoji: "\u{1F3B5}", q: "Combien de touches poss\xE8de un piano standard ?", a: ["72", "76", "88", "96"], c: 2 },
-  { cat: "Musique", emoji: "\u{1F3B5}", q: "Quel instrument \xE0 cordes est le plus grand de l'orchestre ?", a: ["Le violoncelle", "La contrebasse", "La harpe", "L'alto"], c: 1 },
-  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Les Mis\xE9rables \xBB ?", a: ["\xC9mile Zola", "Gustave Flaubert", "Victor Hugo", "Honor\xE9 de Balzac"], c: 2 },
-  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Le Petit Prince \xBB ?", a: ["Marcel Pagnol", "Antoine de Saint-Exup\xE9ry", "Jules Verne", "Albert Camus"], c: 1 },
-  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB Don Quichotte \xBB ?", a: ["Victor Hugo", "Miguel de Cervant\xE8s", "Dante", "Shakespeare"], c: 1 },
-  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Quel romancier a cr\xE9\xE9 Harry Potter ?", a: ["J.R.R. Tolkien", "J.K. Rowling", "Philip Pullman", "Roald Dahl"], c: 1 },
-  { cat: "Litt\xE9rature", emoji: "\u{1F4DA}", q: "Qui a \xE9crit \xAB L'\xC9tranger \xBB ?", a: ["Jean-Paul Sartre", "Albert Camus", "Simone de Beauvoir", "Andr\xE9 Gide"], c: 1 },
-  { cat: "Sport", emoji: "\u26BD", q: "Tous les combien d'ann\xE9es ont lieu les Jeux Olympiques d'\xE9t\xE9 ?", a: ["2 ans", "3 ans", "4 ans", "5 ans"], c: 2 },
-  { cat: "Sport", emoji: "\u26BD", q: "Dans quel sport marque-t-on un \xAB essai \xBB ?", a: ["Le rugby", "Le basket", "Le handball", "Le hockey"], c: 0 },
-  { cat: "Sport", emoji: "\u26BD", q: "Combien de joueurs compose une \xE9quipe de football sur le terrain ?", a: ["9", "10", "11", "12"], c: 2 },
-  { cat: "Sport", emoji: "\u26BD", q: "Quel pays a remport\xE9 la Coupe du monde de football 2018 ?", a: ["Le Br\xE9sil", "La France", "La Croatie", "L'Allemagne"], c: 1 },
-  { cat: "Sport", emoji: "\u26BD", q: "Combien de temps dure un match de tennis de table en sets gagnants ?", a: ["2 sets", "3 sets", "4 sets", "5 sets"], c: 1 },
-  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Combien de points faut-il pour remporter un set au badminton ?", a: ["11", "15", "21", "25"], c: 2 },
-  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Comment s'appelle l'objet que l'on frappe au badminton ?", a: ["La balle", "Le volant", "Le palet", "Le cochonnet"], c: 1 },
-  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Quel pays domine historiquement le badminton olympique ?", a: ["Le Japon", "L'Inde", "La Chine", "Le Danemark"], c: 2 },
-  { cat: "Badminton", emoji: "\u{1F3F8}", q: "Quel coup de badminton descend violemment vers le sol ?", a: ["Le clear", "Le smash", "Le service", "Le drop"], c: 1 },
-  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "De quel pays la paella est-elle originaire ?", a: ["L'Italie", "Le Portugal", "L'Espagne", "Le Mexique"], c: 2 },
-  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "Quel est l'ingr\xE9dient principal du guacamole ?", a: ["Le concombre", "L'avocat", "La courgette", "Le poivron"], c: 1 },
-  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "Quel fromage est surnomm\xE9 \xAB le roi des fromages \xBB ?", a: ["Le camembert", "Le roquefort", "Le brie", "Le comt\xE9"], c: 2 },
-  { cat: "Gastronomie", emoji: "\u{1F37D}", q: "De quel pays provient la pizza margherita ?", a: ["La Gr\xE8ce", "L'Italie", "La France", "La Turquie"], c: 1 },
-  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Quel est le pluriel de \xAB bijou \xBB ?", a: ["Bijous", "Bijoux", "Bijoes", "Bijouxes"], c: 1 },
-  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Combien de voyelles compte l'alphabet fran\xE7ais ?", a: ["5", "6", "7", "8"], c: 1 },
-  { cat: "Langue fran\xE7aise", emoji: "\u{1F5E3}", q: "Comment appelle-t-on une phrase qui pose une question ?", a: ["Une interrogation", "Une exclamative", "Une imp\xE9rative", "Une d\xE9clarative"], c: 0 }
-];
-const CATEGORIES = ["Histoire", "G\xE9ographie", "Sciences", "Cin\xE9ma", "Musique", "Litt\xE9rature", "Sport", "Badminton", "Gastronomie", "Langue fran\xE7aise"];
+const CAT_KEYS = ["hist", "geo", "sci", "cine", "mus", "lit", "spo", "bad", "gas", "lan"];
+const CAT_EMOJI = {
+  hist: "\u{1F3DB}",
+  geo: "\u{1F30D}",
+  sci: "\u{1F52C}",
+  cine: "\u{1F3AC}",
+  mus: "\u{1F3B5}",
+  lit: "\u{1F4DA}",
+  spo: "\u26BD",
+  bad: "\u{1F3F8}",
+  gas: "\u{1F37D}",
+  lan: "\u{1F5E3}"
+};
+const CAT_LABELS = {
+  fr: { hist: "Histoire", geo: "G\xE9ographie", sci: "Sciences", cine: "Cin\xE9ma", mus: "Musique", lit: "Litt\xE9rature", spo: "Sport", bad: "Badminton", gas: "Gastronomie", lan: "Langue fran\xE7aise" },
+  en: { hist: "History", geo: "Geography", sci: "Science", cine: "Cinema", mus: "Music", lit: "Literature", spo: "Sport", bad: "Badminton", gas: "Food", lan: "English language" },
+  es: { hist: "Historia", geo: "Geograf\xEDa", sci: "Ciencia", cine: "Cine", mus: "M\xFAsica", lit: "Literatura", spo: "Deporte", bad: "B\xE1dminton", gas: "Gastronom\xEDa", lan: "Lengua espa\xF1ola" }
+};
+const I18N = {
+  fr: {
+    tagline: "Une question tombe\u2026 attrape la bonne r\xE9ponse avec ta rame de m\xE9tro !",
+    catsTitle: "Cat\xE9gories",
+    rules: [
+      "\u{1F3AF} Tu d\xE9marres avec 100 points",
+      "\u{1F446} Une seule r\xE9ponse par question : touche la bonne pendant sa chute",
+      "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes (bonus \xAB \xC9clair \xBB) ; les combos multiplient les gains",
+      "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points",
+      "\u{1F4F6} Toutes les 10 questions, la chute s\u2019acc\xE9l\xE8re",
+      "\u{1F6D1} Terminus : les 3 premi\xE8res r\xE9ponses toutes fausses, ou ensuite un score \xE0 z\xE9ro"
+    ],
+    play: "Jouer",
+    bestLabel: "Meilleur score",
+    levelLabel: "Niveau",
+    pauseTitle: "\u23F8 Pause",
+    resume: "Reprendre",
+    quit: "Quitter",
+    menu: "Menu",
+    replay: "Rejouer",
+    scoreLabel: "Score",
+    accLabel: "Pr\xE9cision",
+    bestShort: "Record",
+    terminus: "Terminus !",
+    endLine: "Fin de la ligne.",
+    reasonOpening: "Tes trois premi\xE8res r\xE9ponses \xE9taient fausses \u2014 fin de la ligne.",
+    reasonScore: "Plus un point en r\xE9serve \u2014 fin de la ligne.",
+    missedLabel: (p) => `Rat\xE9 ! \u2212${p}`,
+    wrongLabel: (p) => `\u2212${p} ! Mauvaise r\xE9ponse`,
+    flashLabel: (pts) => `\xC9clair ! +${pts} \u26A1`,
+    bravoLabel: (pts) => `Bravo ! +${pts}`,
+    langTitle: "Choisis ta langue",
+    changeLang: "\u{1F310} Langue"
+  },
+  en: {
+    tagline: "A question is falling\u2026 catch the right answer with your metro train!",
+    catsTitle: "Categories",
+    rules: [
+      "\u{1F3AF} You start with 100 points",
+      "\u{1F446} One answer per question: tap the right one while it falls",
+      "\u26A1 The faster you answer, the more you win (\u201CFlash\u201D bonus); combos multiply your gains",
+      "\u274C Wrong answer or missed right answer: \u221275 points",
+      "\u{1F4F6} Every 10 questions, the fall gets faster",
+      "\u{1F6D1} Terminus: your first 3 answers all wrong, or later a score at zero"
+    ],
+    play: "Play",
+    bestLabel: "Best score",
+    levelLabel: "Level",
+    pauseTitle: "\u23F8 Pause",
+    resume: "Resume",
+    quit: "Quit",
+    menu: "Menu",
+    replay: "Play again",
+    scoreLabel: "Score",
+    accLabel: "Accuracy",
+    bestShort: "Best",
+    terminus: "Terminus!",
+    endLine: "End of the line.",
+    reasonOpening: "Your first three answers were all wrong \u2014 end of the line.",
+    reasonScore: "Not a single point left \u2014 end of the line.",
+    missedLabel: (p) => `Missed! \u2212${p}`,
+    wrongLabel: (p) => `\u2212${p}! Wrong answer`,
+    flashLabel: (pts) => `Flash! +${pts} \u26A1`,
+    bravoLabel: (pts) => `Bravo! +${pts}`,
+    langTitle: "Choose your language",
+    changeLang: "\u{1F310} Language"
+  },
+  es: {
+    tagline: "\xA1Cae una pregunta\u2026 atrapa la buena con tu tren de metro!",
+    catsTitle: "Categor\xEDas",
+    rules: [
+      "\u{1F3AF} Empiezas con 100 puntos",
+      "\u{1F446} Una sola respuesta por pregunta: toca la buena mientras cae",
+      "\u26A1 Cuanto m\xE1s r\xE1pido respondes, m\xE1s ganas (bonus \xABRel\xE1mpago\xBB); los combos multiplican",
+      "\u274C Respuesta incorrecta o buena respuesta fallada: \u221275 puntos",
+      "\u{1F4F6} Cada 10 preguntas, la ca\xEDda se acelera",
+      "\u{1F6D1} Terminus: tus 3 primeras respuestas todas falladas, o luego puntuaci\xF3n en cero"
+    ],
+    play: "Jugar",
+    bestLabel: "Mejor puntuaci\xF3n",
+    levelLabel: "Nivel",
+    pauseTitle: "\u23F8 Pausa",
+    resume: "Reanudar",
+    quit: "Salir",
+    menu: "Men\xFA",
+    replay: "Jugar otra vez",
+    scoreLabel: "Puntuaci\xF3n",
+    accLabel: "Precisi\xF3n",
+    bestShort: "R\xE9cord",
+    terminus: "\xA1Terminus!",
+    endLine: "Fin de la l\xEDnea.",
+    reasonOpening: "Tus tres primeras respuestas eran incorrectas \u2014 fin de la l\xEDnea.",
+    reasonScore: "No queda ni un punto \u2014 fin de la l\xEDnea.",
+    missedLabel: (p) => `\xA1Fallado! \u2212${p}`,
+    wrongLabel: (p) => `\u2212${p}! Respuesta incorrecta`,
+    flashLabel: (pts) => `\xA1Rel\xE1mpago! +${pts} \u26A1`,
+    bravoLabel: (pts) => `\xA1Bravo! +${pts}`,
+    langTitle: "Elige tu idioma",
+    changeLang: "\u{1F310} Idioma"
+  }
+};
+const QUESTIONS = {
+  fr: [
+    // ----- Histoire -----
+    { cat: "hist", q: "En quelle ann\xE9e est tomb\xE9 le mur de Berlin ?", a: ["1987", "1989", "1991", "1993"], c: 1 },
+    { cat: "hist", q: "Qui \xE9tait le premier pr\xE9sident de la Ve R\xE9publique fran\xE7aise ?", a: ["Ren\xE9 Coty", "Georges Pompidou", "Charles de Gaulle", "Vincent Auriol"], c: 2 },
+    { cat: "hist", q: "Quelle civilisation a construit Machu Picchu ?", a: ["Les Mayas", "Les Azt\xE8ques", "Les Incas", "Les Olm\xE8ques"], c: 2 },
+    { cat: "hist", q: "En quelle ann\xE9e a eu lieu la prise de la Bastille ?", a: ["1776", "1789", "1793", "1804"], c: 1 },
+    { cat: "hist", q: "Qui a \xE9t\xE9 le premier homme \xE0 marcher sur la Lune ?", a: ["Buzz Aldrin", "Youri Gagarine", "Neil Armstrong", "Michael Collins"], c: 2 },
+    { cat: "hist", q: "Quel empire a fait construire la Grande Muraille ?", a: ["L\u2019Empire romain", "L\u2019Empire perse", "L\u2019Empire chinois", "L\u2019\xC9gypte antique"], c: 2 },
+    { cat: "hist", q: "Qui a dirig\xE9 l\u2019URSS pendant la Seconde Guerre mondiale ?", a: ["L\xE9nine", "Staline", "Khrouchtchev", "Brejnev"], c: 1 },
+    { cat: "hist", q: "En quelle ann\xE9e la Premi\xE8re Guerre mondiale a-t-elle commenc\xE9 ?", a: ["1912", "1914", "1916", "1918"], c: 1 },
+    { cat: "hist", q: "Quel roi de France \xE9tait surnomm\xE9 \xAB le Roi-Soleil \xBB ?", a: ["Louis XV", "Louis XVI", "Henri IV", "Louis XIV"], c: 3 },
+    { cat: "hist", q: "Quelle ville antique a \xE9t\xE9 ensevelie par l\u2019\xE9ruption du V\xE9suve en 79 apr. J.-C. ?", a: ["Rome", "Ath\xE8nes", "Pomp\xE9i", "Carthage"], c: 2 },
+    { cat: "hist", q: "Quel pr\xE9sident am\xE9ricain a \xE9t\xE9 \xE9lu pour la premi\xE8re fois en 2008 ?", a: ["George W. Bush", "Bill Clinton", "John McCain", "Barack Obama"], c: 3 },
+    { cat: "hist", q: "Quel navigateur a atteint l\u2019Am\xE9rique en 1492 au service de l\u2019Espagne ?", a: ["Christophe Colomb", "Magellan", "Vasco de Gama", "Pedro Cabral"], c: 0 },
+    { cat: "hist", q: "Quelle reine d\u2019\xC9gypte est c\xE9l\xE8bre pour ses liens avec C\xE9sar et Marc Antoine ?", a: ["N\xE9fertiti", "Hatchepsout", "N\xE9fertari", "Cl\xE9op\xE2tre"], c: 3 },
+    // ----- Géographie -----
+    { cat: "geo", q: "Quelle est la capitale de l\u2019Australie ?", a: ["Sydney", "Melbourne", "Canberra", "Perth"], c: 2 },
+    { cat: "geo", q: "Quel est le plus long fleuve d\u2019Europe ?", a: ["Le Danube", "La Volga", "Le Rhin", "La Seine"], c: 1 },
+    { cat: "geo", q: "Quel est le plus grand oc\xE9an du monde ?", a: ["L\u2019oc\xE9an Atlantique", "L\u2019oc\xE9an Indien", "L\u2019oc\xE9an Arctique", "L\u2019oc\xE9an Pacifique"], c: 3 },
+    { cat: "geo", q: "Dans quel pays se trouve la ville de Marrakech ?", a: ["Le Maroc", "La Tunisie", "L\u2019Alg\xE9rie", "L\u2019\xC9gypte"], c: 0 },
+    { cat: "geo", q: "Quelle est la capitale du Canada ?", a: ["Toronto", "Montr\xE9al", "Ottawa", "Vancouver"], c: 2 },
+    { cat: "geo", q: "Quel est le plus grand d\xE9sert chaud du monde ?", a: ["Le Sahara", "Le Gobi", "Le Kalahari", "L\u2019Atacama"], c: 0 },
+    { cat: "geo", q: "Quelle est la plus haute montagne d\u2019Afrique ?", a: ["Le Mont Kenya", "Le Kilimandjaro", "L\u2019Atlas", "Le Drakensberg"], c: 1 },
+    { cat: "geo", q: "Combien de continents compte la Terre ?", a: ["5", "6", "7", "8"], c: 2 },
+    { cat: "geo", q: "Quel est le plus long fleuve du monde ?", a: ["Le Nil", "L\u2019Amazone", "Le Mississippi", "Le Yangts\xE9"], c: 0 },
+    { cat: "geo", q: "Dans quelle ville se trouve l\u2019observatoire de Greenwich ?", a: ["Paris", "Londres", "Bruxelles", "Madrid"], c: 1 },
+    { cat: "geo", q: "Quel est le plus haut sommet des Alpes ?", a: ["Le Cervin", "L\u2019Eiger", "Le mont Rose", "Le mont Blanc"], c: 3 },
+    { cat: "geo", q: "Dans quel oc\xE9an se situe Madagascar ?", a: ["L\u2019oc\xE9an Atlantique", "L\u2019oc\xE9an Pacifique", "L\u2019oc\xE9an Indien", "L\u2019oc\xE9an Arctique"], c: 2 },
+    { cat: "geo", q: "Quel est le pays le plus peupl\xE9 du monde ?", a: ["La Chine", "L\u2019Inde", "Les \xC9tats-Unis", "L\u2019Indon\xE9sie"], c: 1 },
+    // ----- Sciences -----
+    { cat: "sci", q: "Quel est le symbole chimique de l\u2019or ?", a: ["Ag", "Or", "Au", "Gd"], c: 2 },
+    { cat: "sci", q: "Combien d\u2019os poss\xE8de le corps humain adulte ?", a: ["186", "206", "226", "246"], c: 1 },
+    { cat: "sci", q: "Quelle plan\xE8te est la plus proche du Soleil ?", a: ["V\xE9nus", "Mars", "Terre", "Mercure"], c: 3 },
+    { cat: "sci", q: "Quel gaz les plantes absorbent-elles pour la photosynth\xE8se ?", a: ["L\u2019oxyg\xE8ne", "Le dioxyde de carbone", "L\u2019azote", "L\u2019hydrog\xE8ne"], c: 1 },
+    { cat: "sci", q: "Quelle est environ la vitesse de la lumi\xE8re ?", a: ["3 000 km/s", "30 000 km/s", "300 000 km/s", "3 000 000 km/s"], c: 2 },
+    { cat: "sci", q: "Quel est le plus grand organe du corps humain ?", a: ["Le foie", "Le poumon", "La peau", "Le cerveau"], c: 2 },
+    { cat: "sci", q: "Quel animal terrestre est le plus rapide ?", a: ["Le gu\xE9pard", "Le lion", "Le cheval", "L\u2019antilope"], c: 0 },
+    { cat: "sci", q: "Qui a formul\xE9 la th\xE9orie de la relativit\xE9 ?", a: ["Isaac Newton", "Albert Einstein", "Galil\xE9e", "Niels Bohr"], c: 1 },
+    { cat: "sci", q: "Quel organe pompe le sang dans le corps ?", a: ["Le c\u0153ur", "Le foie", "Les reins", "Les poumons"], c: 0 },
+    { cat: "sci", q: "Quel est l\u2019os le plus long du corps humain ?", a: ["L\u2019hum\xE9rus", "Le tibia", "Le radius", "Le f\xE9mur"], c: 3 },
+    { cat: "sci", q: "Quel scientifique a d\xE9couvert la p\xE9nicilline ?", a: ["Louis Pasteur", "Alexander Fleming", "Charles Darwin", "Lavoisier"], c: 1 },
+    { cat: "sci", q: "Quel \xE9l\xE9ment chimique a pour symbole \xAB Fe \xBB ?", a: ["Le fluor", "Le fer", "L\u2019argent", "Le phosphore"], c: 1 },
+    { cat: "sci", q: "Quel animal est le plus rapide du monde en piqu\xE9 ?", a: ["Le gu\xE9pard", "Le springbok", "Le faucon p\xE8lerin", "L\u2019antilope"], c: 2 },
+    // ----- Cinéma -----
+    { cat: "cine", q: "Qui a r\xE9alis\xE9 le film \xAB Titanic \xBB ?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Martin Scorsese"], c: 1 },
+    { cat: "cine", q: "Dans quelle saga entend-on \xAB Que la Force soit avec toi \xBB ?", a: ["Star Trek", "Le Seigneur des Anneaux", "Star Wars", "Dune"], c: 2 },
+    { cat: "cine", q: "Quel justicier prot\xE8ge la ville de Gotham ?", a: ["Superman", "Spider-Man", "Batman", "Green Lantern"], c: 2 },
+    { cat: "cine", q: "Quel film d\u2019animation met en sc\xE8ne le lionceau Simba ?", a: ["Madagascar", "Le Livre de la jungle", "Le Roi Lion", "Kirikou"], c: 2 },
+    { cat: "cine", q: "Quel acteur incarne le capitaine Jack Sparrow ?", a: ["Orlando Bloom", "Johnny Depp", "Brad Pitt", "Jude Law"], c: 1 },
+    { cat: "cine", q: "Qui a r\xE9alis\xE9 \xAB Jurassic Park \xBB ?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "George Lucas"], c: 0 },
+    { cat: "cine", q: "Quel film a remport\xE9 l\u2019Oscar du meilleur film en 2020 ?", a: ["1917", "Parasite", "Joker", "Il \xE9tait une fois \xE0 Hollywood"], c: 1 },
+    { cat: "cine", q: "Qui joue Neo dans \xAB Matrix \xBB ?", a: ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving", "Tom Cruise"], c: 0 },
+    { cat: "cine", q: "Quelle actrice fran\xE7aise a remport\xE9 un Oscar pour \xAB La M\xF4me \xBB ?", a: ["Audrey Tautou", "Juliette Binoche", "Isabelle Adjani", "Marion Cotillard"], c: 3 },
+    { cat: "cine", q: "Qui a r\xE9alis\xE9 \xAB Interstellar \xBB ?", a: ["Christopher Nolan", "Steven Spielberg", "Denis Villeneuve", "David Fincher"], c: 0 },
+    { cat: "cine", q: "Quel est le film le plus rentable de l\u2019histoire du cin\xE9ma ?", a: ["Titanic", "Avatar", "Avengers : Endgame", "Star Wars VII"], c: 1 },
+    { cat: "cine", q: "Quelle r\xE9compense supr\xEAme d\xE9cerne le festival de Cannes ?", a: ["L\u2019Oscar", "Le Lion d\u2019or", "La Palme d\u2019or", "L\u2019Ours d\u2019or"], c: 2 },
+    { cat: "cine", q: "Dans quel pays le cin\xE9ma est-il n\xE9 (fr\xE8res Lumi\xE8re) ?", a: ["L\u2019Italie", "La France", "Les \xC9tats-Unis", "Le Royaume-Uni"], c: 1 },
+    // ----- Musique -----
+    { cat: "mus", q: "Combien de cordes a une guitare classique ?", a: ["4", "5", "6", "7"], c: 2 },
+    { cat: "mus", q: "Quel groupe a interpr\xE9t\xE9 \xAB Bohemian Rhapsody \xBB ?", a: ["The Beatles", "Queen", "The Rolling Stones", "Pink Floyd"], c: 1 },
+    { cat: "mus", q: "Qui a compos\xE9 la \xAB Neuvi\xE8me Symphonie \xBB ?", a: ["Mozart", "Bach", "Beethoven", "Chopin"], c: 2 },
+    { cat: "mus", q: "Combien de touches poss\xE8de un piano standard ?", a: ["72", "76", "88", "96"], c: 2 },
+    { cat: "mus", q: "Quel instrument \xE0 cordes est le plus grand de l\u2019orchestre ?", a: ["Le violoncelle", "La contrebasse", "La harpe", "L\u2019alto"], c: 1 },
+    { cat: "mus", q: "Quel chanteur \xE9tait surnomm\xE9 \xAB The King of Pop \xBB ?", a: ["Elvis Presley", "Prince", "Michael Jackson", "James Brown"], c: 2 },
+    { cat: "mus", q: "Quelle chanteuse fran\xE7aise a chant\xE9 \xAB La Vie en rose \xBB ?", a: ["Barbara", "\xC9dith Piaf", "Dalida", "Mireille Mathieu"], c: 1 },
+    { cat: "mus", q: "De quel genre musical La Nouvelle-Orl\xE9ans est-elle le berceau ?", a: ["Le blues", "Le jazz", "Le rock", "La country"], c: 1 },
+    { cat: "mus", q: "Qui a chant\xE9 \xAB My Heart Will Go On \xBB pour le film Titanic ?", a: ["Whitney Houston", "Mariah Carey", "Adele", "C\xE9line Dion"], c: 3 },
+    { cat: "mus", q: "Quel groupe a popularis\xE9 le titre \xAB Dynamite \xBB ?", a: ["Blackpink", "BTS", "Twice", "Stray Kids"], c: 1 },
+    { cat: "mus", q: "Combien de musiciens composent un quatuor ?", a: ["3", "4", "5", "6"], c: 1 },
+    { cat: "mus", q: "Quel compositeur est surnomm\xE9 \xAB le p\xE8re de la symphonie \xBB ?", a: ["Mozart", "Beethoven", "Joseph Haydn", "Vivaldi"], c: 2 },
+    { cat: "mus", q: "Dans quel op\xE9ra de Bizet entend-on la Habanera ?", a: ["Tosca", "Aida", "Faust", "Carmen"], c: 3 },
+    // ----- Littérature -----
+    { cat: "lit", q: "Qui a \xE9crit \xAB Les Mis\xE9rables \xBB ?", a: ["\xC9mile Zola", "Gustave Flaubert", "Victor Hugo", "Honor\xE9 de Balzac"], c: 2 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB Le Petit Prince \xBB ?", a: ["Marcel Pagnol", "Antoine de Saint-Exup\xE9ry", "Jules Verne", "Albert Camus"], c: 1 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB Don Quichotte \xBB ?", a: ["Victor Hugo", "Miguel de Cervant\xE8s", "Dante", "Shakespeare"], c: 1 },
+    { cat: "lit", q: "Quel romancier a cr\xE9\xE9 Harry Potter ?", a: ["J.R.R. Tolkien", "J.K. Rowling", "Philip Pullman", "Roald Dahl"], c: 1 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB L\u2019\xC9tranger \xBB ?", a: ["Jean-Paul Sartre", "Albert Camus", "Simone de Beauvoir", "Andr\xE9 Gide"], c: 1 },
+    { cat: "lit", q: "Quelle pi\xE8ce de Shakespeare met en sc\xE8ne deux amants de V\xE9rone ?", a: ["Hamlet", "Macbeth", "Rom\xE9o et Juliette", "Othello"], c: 2 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB Cent ans de solitude \xBB ?", a: ["Borges", "Vargas Llosa", "Gabriel Garc\xEDa M\xE1rquez", "Pablo Neruda"], c: 2 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB 1984 \xBB ?", a: ["Aldous Huxley", "Ray Bradbury", "Franz Kafka", "George Orwell"], c: 3 },
+    { cat: "lit", q: "Quel \xE9crivain a cr\xE9\xE9 le commissaire Maigret ?", a: ["Agatha Christie", "Maurice Leblanc", "Gaston Leroux", "Georges Simenon"], c: 3 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB \xC0 la recherche du temps perdu \xBB ?", a: ["Flaubert", "Stendhal", "Marcel Proust", "Zola"], c: 2 },
+    { cat: "lit", q: "Quel po\xE8te a \xE9crit \xAB Les Fleurs du mal \xBB ?", a: ["Rimbaud", "Verlaine", "Hugo", "Baudelaire"], c: 3 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB Vingt mille lieues sous les mers \xBB ?", a: ["Jules Verne", "Hugo", "Dumas", "Zola"], c: 0 },
+    { cat: "lit", q: "Qui a \xE9crit \xAB Moby Dick \xBB ?", a: ["Herman Melville", "Hemingway", "Jack London", "Edgar Allan Poe"], c: 0 },
+    // ----- Sport -----
+    { cat: "spo", q: "Tous les combien d\u2019ann\xE9es ont lieu les Jeux Olympiques d\u2019\xE9t\xE9 ?", a: ["2 ans", "3 ans", "4 ans", "5 ans"], c: 2 },
+    { cat: "spo", q: "Dans quel sport marque-t-on un \xAB essai \xBB ?", a: ["Le rugby", "Le basket", "Le handball", "Le hockey"], c: 0 },
+    { cat: "spo", q: "Combien de joueurs compose une \xE9quipe de football sur le terrain ?", a: ["9", "10", "11", "12"], c: 2 },
+    { cat: "spo", q: "Quel pays a remport\xE9 la Coupe du monde de football 2018 ?", a: ["Le Br\xE9sil", "La France", "La Croatie", "L\u2019Allemagne"], c: 1 },
+    { cat: "spo", q: "Combien de sets faut-il gagner en tennis de table (simple messieurs) ?", a: ["2", "3", "4", "5"], c: 1 },
+    { cat: "spo", q: "Quelle ville a accueilli les Jeux olympiques d\u2019\xE9t\xE9 2024 ?", a: ["Tokyo", "Los Angeles", "Londres", "Paris"], c: 3 },
+    { cat: "spo", q: "Qui d\xE9tient le record du monde du 100 m ?", a: ["Tyson Gay", "Yohan Blake", "Usain Bolt", "Justin Gatlin"], c: 2 },
+    { cat: "spo", q: "Quel tournoi de tennis se joue sur gazon \xE0 Londres ?", a: ["Roland-Garros", "Wimbledon", "L\u2019US Open", "L\u2019Open d\u2019Australie"], c: 1 },
+    { cat: "spo", q: "Combien de points vaut un panier normal au basketball ?", a: ["1", "2", "3", "4"], c: 1 },
+    { cat: "spo", q: "Quel cycliste est surnomm\xE9 \xAB le Cannibale \xBB ?", a: ["Bernard Hinault", "Miguel Indurain", "Lance Armstrong", "Eddy Merckx"], c: 3 },
+    { cat: "spo", q: "Quel est le sport national du Japon ?", a: ["Le sumo", "Le judo", "Le karat\xE9", "L\u2019a\xEFkido"], c: 0 },
+    { cat: "spo", q: "Combien d\u2019anneaux compte le drapeau olympique ?", a: ["4", "5", "6", "7"], c: 1 },
+    { cat: "spo", q: "De quel pays le taekwondo est-il originaire ?", a: ["Le Japon", "La Chine", "La Cor\xE9e", "La Tha\xEFlande"], c: 2 },
+    // ----- Badminton -----
+    { cat: "bad", q: "Combien de points faut-il pour remporter un set au badminton ?", a: ["11", "15", "21", "25"], c: 2 },
+    { cat: "bad", q: "Comment s\u2019appelle l\u2019objet que l\u2019on frappe au badminton ?", a: ["La balle", "Le volant", "Le palet", "Le cochonnet"], c: 1 },
+    { cat: "bad", q: "Quel pays domine historiquement le badminton olympique ?", a: ["Le Japon", "L\u2019Inde", "La Chine", "Le Danemark"], c: 2 },
+    { cat: "bad", q: "Quel coup de badminton descend violemment vers le sol ?", a: ["Le clear", "Le smash", "Le service", "Le drop"], c: 1 },
+    { cat: "bad", q: "Combien de plumes compte traditionnellement un volant ?", a: ["12", "14", "16", "18"], c: 2 },
+    { cat: "bad", q: "\xC0 quelle hauteur se situe le filet au badminton ?", a: ["1,00 m", "1,20 m", "1,55 m", "2,00 m"], c: 2 },
+    { cat: "bad", q: "En quelle ann\xE9e le badminton est-il devenu discipline olympique ?", a: ["1972", "1992", "1996", "2000"], c: 1 },
+    { cat: "bad", q: "De quel pays le badminton moderne (jeu de Poona) est-il originaire ?", a: ["L\u2019Inde", "L\u2019Angleterre", "La Chine", "Le Danemark"], c: 0 },
+    { cat: "bad", q: "Quelle nation europ\xE9enne est une puissance historique du badminton ?", a: ["L\u2019Espagne", "La France", "Le Danemark", "L\u2019Italie"], c: 2 },
+    { cat: "bad", q: "Quel coup d\xE9fensif envoie le volant tout au fond du court adverse ?", a: ["Le clear", "Le smash", "Le drop", "Le service"], c: 0 },
+    // ----- Gastronomie -----
+    { cat: "gas", q: "De quel pays la paella est-elle originaire ?", a: ["L\u2019Italie", "Le Portugal", "L\u2019Espagne", "Le Mexique"], c: 2 },
+    { cat: "gas", q: "Quel est l\u2019ingr\xE9dient principal du guacamole ?", a: ["Le concombre", "L\u2019avocat", "La courgette", "Le poivron"], c: 1 },
+    { cat: "gas", q: "Quel fromage est surnomm\xE9 \xAB le roi des fromages \xBB ?", a: ["Le camembert", "Le roquefort", "Le brie", "Le comt\xE9"], c: 1 },
+    { cat: "gas", q: "De quel pays provient la pizza margherita ?", a: ["La Gr\xE8ce", "L\u2019Italie", "La France", "La Turquie"], c: 1 },
+    { cat: "gas", q: "Quelle \xE9pice est la plus ch\xE8re du monde ?", a: ["La vanille", "Le cardamome", "Le safran", "Le poivre"], c: 2 },
+    { cat: "gas", q: "Quelle boisson japonaise est obtenue par fermentation du riz ?", a: ["Le soju", "Le sak\xE9", "Le th\xE9", "Le whisky"], c: 1 },
+    { cat: "gas", q: "De quel pays la bi\xE8re Heineken est-elle originaire ?", a: ["L\u2019Allemagne", "La Belgique", "Les Pays-Bas", "La Tch\xE9quie"], c: 2 },
+    { cat: "gas", q: "Quelle \xE9pice donne sa couleur jaune au curry ?", a: ["Le paprika", "Le curcuma", "Le cumin", "Le safran"], c: 1 },
+    { cat: "gas", q: "Quel plat japonais associe riz vinaigr\xE9 et poisson cru ?", a: ["Les sashimis", "Les sushis", "Les tempuras", "Les ramens"], c: 1 },
+    { cat: "gas", q: "Quel est l\u2019ingr\xE9dient principal du houmous ?", a: ["Les haricots blancs", "Les lentilles", "Les pois chiches", "Les f\xE8ves"], c: 2 },
+    { cat: "gas", q: "De quelle ville les croissants (viennoiseries) viennent-ils ?", a: ["Vienne", "Paris", "Rome", "Berlin"], c: 0 },
+    { cat: "gas", q: "Que fermente-t-on pour obtenir le miso ?", a: ["Le soja", "Le riz", "L\u2019orge", "Le bl\xE9"], c: 0 },
+    { cat: "gas", q: "Quel fromage bleu est fait exclusivement de lait de brebis ?", a: ["Le bleu d\u2019Auvergne", "Le gorgonzola", "Le stilton", "Le roquefort"], c: 3 },
+    // ----- Langue française -----
+    { cat: "lan", q: "Quel est le pluriel de \xAB bijou \xBB ?", a: ["Bijous", "Bijoux", "Bijoes", "Bijouxes"], c: 1 },
+    { cat: "lan", q: "Combien de voyelles compte l\u2019alphabet fran\xE7ais ?", a: ["5", "6", "7", "8"], c: 1 },
+    { cat: "lan", q: "Comment appelle-t-on une phrase qui pose une question ?", a: ["Une interrogation", "Une exclamative", "Une imp\xE9rative", "Une d\xE9clarative"], c: 0 },
+    { cat: "lan", q: "Quel est le pluriel de \xAB cheval \xBB ?", a: ["Chevals", "Chevales", "Chevaux", "Cheval"], c: 2 },
+    { cat: "lan", q: "Comment appelle-t-on un mot qui s\u2019\xE9crit comme un autre mais a un sens diff\xE9rent ?", a: ["Un synonyme", "Un homonyme", "Un antonyme", "Un acronyme"], c: 1 },
+    { cat: "lan", q: "Quel mot d\xE9signe une phrase contenant toutes les lettres de l\u2019alphabet ?", a: ["Un palindrome", "Un pangramme", "Un anagramme", "Un acrostiche"], c: 1 },
+    { cat: "lan", q: "\xAB Je mangerais \xBB exprime\u2026", a: ["Le futur", "Le conditionnel", "L\u2019imparfait", "Le subjonctif"], c: 1 },
+    { cat: "lan", q: "Quel mot est correctement orthographi\xE9 ?", a: ["Acceuil", "Aceuil", "Accueil", "Acueil"], c: 2 },
+    { cat: "lan", q: "Comment appelle-t-on un mot qui se lit de la m\xEAme fa\xE7on dans les deux sens ?", a: ["Un palindrome", "Un pangramme", "Un homonyme", "Un anagramme"], c: 0 },
+    { cat: "lan", q: "Dans \xAB il court rapidement \xBB, quelle est la nature de \xAB rapidement \xBB ?", a: ["Un adjectif", "Un adverbe", "Un nom", "Un verbe"], c: 1 },
+    { cat: "lan", q: "Quel mot de liaison exprime la cons\xE9quence ?", a: ["Mais", "Ou", "Ni", "Donc"], c: 3 },
+    { cat: "lan", q: "Que marque l\u2019apostrophe dans \xAB l\u2019ami \xBB ?", a: ["La liaison", "L\u2019\xE9lision", "La contraction", "L\u2019accent"], c: 1 },
+    { cat: "lan", q: "Quel est le f\xE9minin de \xAB directeur \xBB ?", a: ["Directeuse", "Directoresse", "Directeure", "Directrice"], c: 3 }
+  ],
+  en: [
+    // ----- History -----
+    { cat: "hist", q: "Who was the first US president?", a: ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], c: 1 },
+    { cat: "hist", q: "In which year did World War II end?", a: ["1943", "1944", "1945", "1946"], c: 2 },
+    { cat: "hist", q: "In which country is the Great Wall?", a: ["India", "Japan", "Korea", "China"], c: 3 },
+    { cat: "hist", q: "How many wives did Henry VIII have?", a: ["4", "5", "6", "8"], c: 2 },
+    { cat: "hist", q: "Who was the first man in space?", a: ["Neil Armstrong", "Yuri Gagarin", "Alan Shepard", "German Titov"], c: 1 },
+    { cat: "hist", q: "In which year did the Titanic sink?", a: ["1905", "1912", "1915", "1922"], c: 1 },
+    { cat: "hist", q: "Which English queen reigned during the Spanish Armada?", a: ["Victoria", "Mary I", "Anne", "Elizabeth I"], c: 3 },
+    { cat: "hist", q: "Who was the first man on the Moon?", a: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"], c: 2 },
+    // ----- Geography -----
+    { cat: "geo", q: "What is the capital of Australia?", a: ["Sydney", "Melbourne", "Canberra", "Perth"], c: 2 },
+    { cat: "geo", q: "Which is the largest ocean?", a: ["The Atlantic", "The Indian", "The Arctic", "The Pacific"], c: 3 },
+    { cat: "geo", q: "What is the capital of Japan?", a: ["Kyoto", "Osaka", "Tokyo", "Seoul"], c: 2 },
+    { cat: "geo", q: "How many states are in the USA?", a: ["48", "50", "51", "52"], c: 1 },
+    { cat: "geo", q: "Which country has the most time zones?", a: ["Russia", "USA", "France", "UK"], c: 2 },
+    { cat: "geo", q: "Which is the largest hot desert?", a: ["The Gobi", "The Sahara", "The Kalahari", "The Atacama"], c: 1 },
+    { cat: "geo", q: "What is the capital of Scotland?", a: ["Glasgow", "Edinburgh", "Aberdeen", "Dundee"], c: 1 },
+    { cat: "geo", q: "Mount Everest sits on the border of Nepal and\u2026", a: ["India", "Pakistan", "China", "Bhutan"], c: 2 },
+    // ----- Science -----
+    { cat: "sci", q: "What is the chemical symbol for gold?", a: ["Ag", "Au", "Gd", "Go"], c: 1 },
+    { cat: "sci", q: "How many planets are in the solar system?", a: ["7", "8", "9", "10"], c: 1 },
+    { cat: "sci", q: "What is the approximate speed of light?", a: ["3,000 km/s", "30,000 km/s", "300,000 km/s", "3,000,000 km/s"], c: 2 },
+    { cat: "sci", q: "Which planet is closest to the Sun?", a: ["Venus", "Mars", "Earth", "Mercury"], c: 3 },
+    { cat: "sci", q: "Who discovered penicillin?", a: ["Louis Pasteur", "Alexander Fleming", "Charles Darwin", "Isaac Newton"], c: 1 },
+    { cat: "sci", q: "How many bones are in the adult human body?", a: ["186", "206", "226", "246"], c: 1 },
+    { cat: "sci", q: "Which is the largest planet?", a: ["Saturn", "Jupiter", "Neptune", "Earth"], c: 1 },
+    { cat: "sci", q: "What is H\u2082O?", a: ["Oxygen", "Salt", "Water", "Hydrogen peroxide"], c: 2 },
+    // ----- Cinema -----
+    { cat: "cine", q: "Who directed Jurassic Park?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Stanley Kubrick"], c: 0 },
+    { cat: "cine", q: "Which saga features Darth Vader?", a: ["Star Trek", "Dune", "Star Wars", "The Matrix"], c: 2 },
+    { cat: "cine", q: "Who plays Iron Man in the MCU?", a: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"], c: 1 },
+    { cat: "cine", q: "Who directed Titanic?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Martin Scorsese"], c: 1 },
+    { cat: "cine", q: "What is the highest-grossing film of all time?", a: ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars VII"], c: 1 },
+    { cat: "cine", q: "Which Disney film features the song \u201CLet It Go\u201D?", a: ["Moana", "Tangled", "Encanto", "Frozen"], c: 3 },
+    { cat: "cine", q: "Which film won Best Picture at the 2020 Oscars?", a: ["1917", "Parasite", "Joker", "Ford v Ferrari"], c: 1 },
+    { cat: "cine", q: "Who played Vito Corleone in The Godfather?", a: ["Al Pacino", "Marlon Brando", "Robert De Niro", "Jack Nicholson"], c: 1 },
+    // ----- Music -----
+    { cat: "mus", q: "Which band performed Bohemian Rhapsody?", a: ["The Beatles", "Queen", "The Rolling Stones", "Pink Floyd"], c: 1 },
+    { cat: "mus", q: "Who is the King of Pop?", a: ["Elvis Presley", "Prince", "Michael Jackson", "James Brown"], c: 2 },
+    { cat: "mus", q: "How many strings does a classical guitar have?", a: ["4", "5", "6", "7"], c: 2 },
+    { cat: "mus", q: "Who composed the Ninth Symphony with the \u201COde to Joy\u201D?", a: ["Mozart", "Bach", "Beethoven", "Brahms"], c: 2 },
+    { cat: "mus", q: "How many keys does a standard piano have?", a: ["72", "76", "88", "96"], c: 2 },
+    { cat: "mus", q: "Who sang \u201CMy Heart Will Go On\u201D?", a: ["Whitney Houston", "C\xE9line Dion", "Mariah Carey", "Adele"], c: 1 },
+    { cat: "mus", q: "Which band released \u201CDynamite\u201D?", a: ["Blackpink", "BTS", "Twice", "Stray Kids"], c: 1 },
+    { cat: "mus", q: "Which city are the Beatles from?", a: ["London", "Manchester", "Dublin", "Liverpool"], c: 3 },
+    // ----- Literature -----
+    { cat: "lit", q: "Who wrote the Harry Potter series?", a: ["J.R.R. Tolkien", "J.K. Rowling", "Stephenie Meyer", "Philip Pullman"], c: 1 },
+    { cat: "lit", q: "Who wrote Romeo and Juliet?", a: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Miguel de Cervantes"], c: 2 },
+    { cat: "lit", q: "Who wrote 1984?", a: ["Aldous Huxley", "Ray Bradbury", "Franz Kafka", "George Orwell"], c: 3 },
+    { cat: "lit", q: "Who wrote Moby Dick?", a: ["Ernest Hemingway", "Herman Melville", "Jack London", "Edgar Allan Poe"], c: 1 },
+    { cat: "lit", q: "Who wrote Don Quixote?", a: ["William Shakespeare", "Victor Hugo", "Miguel de Cervantes", "Dante"], c: 2 },
+    { cat: "lit", q: "Who wrote The Little Prince?", a: ["Albert Camus", "Victor Hugo", "Jules Verne", "Antoine de Saint-Exup\xE9ry"], c: 3 },
+    { cat: "lit", q: "Who created Hercule Poirot?", a: ["Arthur Conan Doyle", "Agatha Christie", "Georges Simenon", "Gaston Leroux"], c: 1 },
+    { cat: "lit", q: "Who wrote The Lord of the Rings?", a: ["J.K. Rowling", "C.S. Lewis", "J.R.R. Tolkien", "Philip Pullman"], c: 2 },
+    // ----- Sport -----
+    { cat: "spo", q: "How often are the Summer Olympics held?", a: ["Every 2 years", "Every 3 years", "Every 4 years", "Every 5 years"], c: 2 },
+    { cat: "spo", q: "How many players per football team on the pitch?", a: ["9", "10", "11", "12"], c: 2 },
+    { cat: "spo", q: "Who holds the 100m world record?", a: ["Tyson Gay", "Yohan Blake", "Usain Bolt", "Justin Gatlin"], c: 2 },
+    { cat: "spo", q: "Which tennis tournament is played on grass in London?", a: ["Roland-Garros", "Wimbledon", "The US Open", "The Australian Open"], c: 1 },
+    { cat: "spo", q: "Who won the 2018 football World Cup?", a: ["Brazil", "Croatia", "Germany", "France"], c: 3 },
+    { cat: "spo", q: "How many rings are on the Olympic flag?", a: ["4", "5", "6", "7"], c: 1 },
+    { cat: "spo", q: "How high is a basketball hoop?", a: ["2.44 m", "2.75 m", "3.05 m", "3.50 m"], c: 2 },
+    { cat: "spo", q: "What sport is the Tour de France?", a: ["Cycling", "Athletics", "Swimming", "Motorsport"], c: 0 },
+    // ----- Badminton -----
+    { cat: "bad", q: "How many points win a badminton set?", a: ["11", "15", "21", "25"], c: 2 },
+    { cat: "bad", q: "What do you hit in badminton?", a: ["A ball", "A shuttlecock", "A puck", "A cork"], c: 1 },
+    { cat: "bad", q: "How many feathers in a traditional shuttlecock?", a: ["12", "14", "16", "18"], c: 2 },
+    { cat: "bad", q: "How high is the badminton net?", a: ["1.00 m", "1.20 m", "1.55 m", "2.00 m"], c: 2 },
+    { cat: "bad", q: "In which year did badminton become Olympic?", a: ["1972", "1992", "1996", "2000"], c: 1 },
+    { cat: "bad", q: "Which shot sends the shuttle violently downwards?", a: ["The clear", "The smash", "The drop", "The serve"], c: 1 },
+    { cat: "bad", q: "In which country did the modern game develop (Poona)?", a: ["England", "China", "Denmark", "India"], c: 3 },
+    { cat: "bad", q: "Which European nation is a badminton powerhouse?", a: ["Spain", "Italy", "Denmark", "France"], c: 2 },
+    // ----- Food -----
+    { cat: "gas", q: "Which country invented pizza?", a: ["Greece", "Italy", "France", "Spain"], c: 1 },
+    { cat: "gas", q: "What is the main ingredient of guacamole?", a: ["Cucumber", "Zucchini", "Avocado", "Pepper"], c: 2 },
+    { cat: "gas", q: "Which dish combines vinegared rice and raw fish?", a: ["Sashimi", "Sushi", "Tempura", "Ramen"], c: 1 },
+    { cat: "gas", q: "What is the most expensive spice in the world?", a: ["Vanilla", "Saffron", "Cardamom", "Pepper"], c: 1 },
+    { cat: "gas", q: "What is the main ingredient of hummus?", a: ["Chickpeas", "White beans", "Lentils", "Fava beans"], c: 0 },
+    { cat: "gas", q: "Which drink is made from fermented rice?", a: ["Soju", "Sake", "Tea", "Whisky"], c: 1 },
+    { cat: "gas", q: "Which city gave its name to croissants (viennese pastries)?", a: ["Vienna", "Paris", "Rome", "Berlin"], c: 0 },
+    { cat: "gas", q: "What gives curry its yellow colour?", a: ["Paprika", "Cumin", "Saffron", "Turmeric"], c: 3 },
+    // ----- English language -----
+    { cat: "lan", q: "Which word means \u201Cbelonging to them\u201D?", a: ["There", "They\u2019re", "Their", "Theyre"], c: 2 },
+    { cat: "lan", q: "What is a word that reads the same both ways (e.g. \u201Clevel\u201D)?", a: ["An acronym", "A palindrome", "An anagram", "A homonym"], c: 1 },
+    { cat: "lan", q: "What is the plural of \u201Cmouse\u201D?", a: ["Mouses", "Mices", "Mice", "Mouse"], c: 2 },
+    { cat: "lan", q: "How many letters are in the English alphabet?", a: ["24", "25", "26", "27"], c: 2 },
+    { cat: "lan", q: "In \u201Cdon\u2019t\u201D, what does the apostrophe replace?", a: ["The \u201Ce\u201D of \u201Cthe\u201D", "The \u201Co\u201D of \u201Cnot\u201D", "A space", "Nothing"], c: 1 },
+    { cat: "lan", q: "Which sentence is correct?", a: ["She go to school", "She goes to school", "She going to school", "She gone to school"], c: 1 },
+    { cat: "lan", q: "How many vowels are in the English alphabet?", a: ["4", "5", "6", "7"], c: 1 },
+    { cat: "lan", q: "What is a word that sounds the same but has a different meaning called?", a: ["A synonym", "An antonym", "A homophone", "An acronym"], c: 2 }
+  ],
+  es: [
+    // ----- Historia -----
+    { cat: "hist", q: "\xBFEn qu\xE9 a\xF1o cay\xF3 el Muro de Berl\xEDn?", a: ["1987", "1989", "1991", "1993"], c: 1 },
+    { cat: "hist", q: "\xBFQui\xE9n fue el primer hombre en la Luna?", a: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"], c: 2 },
+    { cat: "hist", q: "\xBFEn qu\xE9 a\xF1o termin\xF3 la Guerra Civil espa\xF1ola?", a: ["1931", "1936", "1939", "1945"], c: 2 },
+    { cat: "hist", q: "\xBFQui\xE9n conquist\xF3 el Imperio azteca?", a: ["Francisco Pizarro", "Hern\xE1n Cort\xE9s", "Crist\xF3bal Col\xF3n", "Diego Vel\xE1zquez"], c: 1 },
+    { cat: "hist", q: "\xBFQu\xE9 civilizaci\xF3n construy\xF3 Machu Picchu?", a: ["Los mayas", "Los aztecas", "Los olmecas", "Los incas"], c: 3 },
+    { cat: "hist", q: "\xBFEn qu\xE9 a\xF1o empez\xF3 la Segunda Guerra Mundial?", a: ["1937", "1939", "1941", "1945"], c: 1 },
+    { cat: "hist", q: "\xBFQu\xE9 reina egipcia fue c\xE9lebre por sus relaciones con Roma?", a: ["Nefertiti", "Hatshepsut", "Nefertari", "Cleopatra"], c: 3 },
+    { cat: "hist", q: "\xBFCol\xF3n lleg\xF3 a Am\xE9rica al servicio de qu\xE9 pa\xEDs?", a: ["Portugal", "Espa\xF1a", "Italia", "Inglaterra"], c: 1 },
+    // ----- Geografía -----
+    { cat: "geo", q: "\xBFCu\xE1l es la capital de Australia?", a: ["S\xEDdney", "Melbourne", "Canberra", "Perth"], c: 2 },
+    { cat: "geo", q: "\xBFCu\xE1l es el r\xEDo m\xE1s caudaloso del mundo?", a: ["El Nilo", "El Amazonas", "El Misisipi", "El Yangts\xE9"], c: 1 },
+    { cat: "geo", q: "\xBFCu\xE1l es el oc\xE9ano m\xE1s grande?", a: ["El Atl\xE1ntico", "El \xCDndico", "El \xC1rtico", "El Pac\xEDfico"], c: 3 },
+    { cat: "geo", q: "\xBFCu\xE1l es la capital de Argentina?", a: ["C\xF3rdoba", "Rosario", "Buenos Aires", "Mendoza"], c: 2 },
+    { cat: "geo", q: "\xBFEn qu\xE9 continente est\xE1 Egipto?", a: ["Asia", "Europa", "\xC1frica", "Ocean\xEDa"], c: 2 },
+    { cat: "geo", q: "\xBFCu\xE1l es el desierto c\xE1lido m\xE1s grande del mundo?", a: ["El Gobi", "El Sahara", "El Kalahari", "El Atacama"], c: 1 },
+    { cat: "geo", q: "\xBFCu\xE1l es la monta\xF1a m\xE1s alta del mundo?", a: ["El K2", "El Everest", "El Annapurna", "El Aconcagua"], c: 1 },
+    { cat: "geo", q: "\xBFCu\xE1ntos continentes hay en la Tierra?", a: ["5", "6", "7", "8"], c: 2 },
+    // ----- Ciencia -----
+    { cat: "sci", q: "\xBFCu\xE1l es el s\xEDmbolo qu\xEDmico del oro?", a: ["Ag", "Au", "Or", "Go"], c: 1 },
+    { cat: "sci", q: "\xBFCu\xE1ntos planetas tiene el sistema solar?", a: ["7", "8", "9", "10"], c: 1 },
+    { cat: "sci", q: "\xBFCu\xE1l es la velocidad aproximada de la luz?", a: ["3.000 km/s", "30.000 km/s", "300.000 km/s", "3.000.000 km/s"], c: 2 },
+    { cat: "sci", q: "\xBFQu\xE9 planeta est\xE1 m\xE1s cerca del Sol?", a: ["Venus", "Marte", "La Tierra", "Mercurio"], c: 3 },
+    { cat: "sci", q: "\xBFQui\xE9n descubri\xF3 la penicilina?", a: ["Louis Pasteur", "Alexander Fleming", "Charles Darwin", "Lavoisier"], c: 1 },
+    { cat: "sci", q: "\xBFCu\xE1ntos huesos tiene el cuerpo humano adulto?", a: ["186", "206", "226", "246"], c: 1 },
+    { cat: "sci", q: "\xBFCu\xE1l es el planeta m\xE1s grande?", a: ["Saturno", "J\xFApiter", "Neptuno", "Urano"], c: 1 },
+    { cat: "sci", q: "\xBFQui\xE9n propuso la teor\xEDa de la relatividad?", a: ["Newton", "Einstein", "Galileo", "Bohr"], c: 1 },
+    // ----- Cine -----
+    { cat: "cine", q: "\xBFQui\xE9n dirigi\xF3 \xABJurassic Park\xBB?", a: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Stanley Kubrick"], c: 0 },
+    { cat: "cine", q: "\xBFEn qu\xE9 saga aparece Darth Vader?", a: ["Star Trek", "Dune", "Star Wars", "Matrix"], c: 2 },
+    { cat: "cine", q: "\xBFQui\xE9n interpreta a Iron Man?", a: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"], c: 1 },
+    { cat: "cine", q: "\xBFQu\xE9 pel\xEDcula de Disney protagoniza Simba?", a: ["Madagascar", "El libro de la selva", "Kirikou", "El Rey Le\xF3n"], c: 3 },
+    { cat: "cine", q: "\xBFQui\xE9n dirigi\xF3 \xABInterstellar\xBB (Interestelar)?", a: ["Christopher Nolan", "Steven Spielberg", "Denis Villeneuve", "David Fincher"], c: 0 },
+    { cat: "cine", q: "\xBFQu\xE9 espa\xF1ol gan\xF3 el \xD3scar por \xABMar adentro\xBB?", a: ["Pedro Almod\xF3var", "Alejandro Amen\xE1bar", "Javier Bardem", "Fernando Trueba"], c: 1 },
+    { cat: "cine", q: "\xBFQu\xE9 pel\xEDcula gan\xF3 el \xD3scar a mejor pel\xEDcula en 2020?", a: ["1917", "Par\xE1sitos", "Joker", "\xC9rase una vez\u2026 en Hollywood"], c: 1 },
+    { cat: "cine", q: "\xBFEn qu\xE9 pa\xEDs naci\xF3 el cine?", a: ["Italia", "Francia", "Estados Unidos", "Reino Unido"], c: 1 },
+    // ----- Música -----
+    { cat: "mus", q: "\xBFQu\xE9 grupo interpret\xF3 \xABBohemian Rhapsody\xBB?", a: ["The Beatles", "Queen", "The Rolling Stones", "Pink Floyd"], c: 1 },
+    { cat: "mus", q: "\xBFQui\xE9n es el Rey del Pop?", a: ["Elvis Presley", "Prince", "Michael Jackson", "James Brown"], c: 2 },
+    { cat: "mus", q: "\xBFCu\xE1ntas cuerdas tiene una guitarra cl\xE1sica?", a: ["4", "5", "6", "7"], c: 2 },
+    { cat: "mus", q: "\xBFQui\xE9n compuso el \xABHimno de la alegr\xEDa\xBB?", a: ["Mozart", "Bach", "Beethoven", "Chopin"], c: 2 },
+    { cat: "mus", q: "\xBFQui\xE9n cant\xF3 \xABDespacito\xBB?", a: ["Enrique Iglesias", "Luis Fonsi", "Maluma", "Shakira"], c: 1 },
+    { cat: "mus", q: "\xBFCu\xE1ntas teclas tiene un piano est\xE1ndar?", a: ["72", "76", "88", "96"], c: 2 },
+    { cat: "mus", q: "\xBFCu\xE1ntos m\xFAsicos forman un cuarteto?", a: ["3", "4", "5", "6"], c: 1 },
+    { cat: "mus", q: "\xBFDe qu\xE9 ciudad son los Beatles?", a: ["Londres", "M\xE1nchester", "Dubl\xEDn", "Liverpool"], c: 3 },
+    // ----- Literatura -----
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xABDon Quijote\xBB?", a: ["Shakespeare", "Victor Hugo", "Miguel de Cervantes", "Dante"], c: 2 },
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xABCien a\xF1os de soledad\xBB?", a: ["Borges", "Vargas Llosa", "Pablo Neruda", "Gabriel Garc\xEDa M\xE1rquez"], c: 3 },
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xABRomeo y Julieta\xBB?", a: ["Cervantes", "Charles Dickens", "William Shakespeare", "Jane Austen"], c: 2 },
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xABEl Principito\xBB?", a: ["Albert Camus", "Victor Hugo", "Jules Verne", "Antoine de Saint-Exup\xE9ry"], c: 3 },
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xAB1984\xBB?", a: ["Aldous Huxley", "Ray Bradbury", "Franz Kafka", "George Orwell"], c: 3 },
+    { cat: "lit", q: "\xBFQui\xE9n cre\xF3 al detective H\xE9rcules Poirot?", a: ["Arthur Conan Doyle", "Agatha Christie", "Georges Simenon", "Gaston Leroux"], c: 1 },
+    { cat: "lit", q: "\xBFQui\xE9n escribi\xF3 \xABLa Odisea\xBB?", a: ["Homero", "Virgilio", "S\xF3focles", "Ovidio"], c: 0 },
+    { cat: "lit", q: "\xBFQu\xE9 poeta chileno gan\xF3 el Premio Nobel de Literatura en 1971?", a: ["Jorge Luis Borges", "Julio Cort\xE1zar", "Gabriela Mistral", "Pablo Neruda"], c: 3 },
+    // ----- Deporte -----
+    { cat: "spo", q: "\xBFCada cu\xE1ntos a\xF1os se celebran los Juegos Ol\xEDmpicos de verano?", a: ["Cada 2 a\xF1os", "Cada 3 a\xF1os", "Cada 4 a\xF1os", "Cada 5 a\xF1os"], c: 2 },
+    { cat: "spo", q: "\xBFCu\xE1ntos jugadores tiene un equipo de f\xFAtbol en el campo?", a: ["9", "10", "11", "12"], c: 2 },
+    { cat: "spo", q: "\xBFQui\xE9n tiene el r\xE9cord mundial de 100 m?", a: ["Tyson Gay", "Yohan Blake", "Usain Bolt", "Justin Gatlin"], c: 2 },
+    { cat: "spo", q: "\xBFQu\xE9 torneo de tenis se juega sobre hierba en Londres?", a: ["Roland Garros", "Wimbledon", "El US Open", "El Abierto de Australia"], c: 1 },
+    { cat: "spo", q: "\xBFQu\xE9 pa\xEDs gan\xF3 el Mundial de f\xFAtbol de 2010?", a: ["Pa\xEDses Bajos", "Alemania", "Argentina", "Espa\xF1a"], c: 3 },
+    { cat: "spo", q: "\xBFCu\xE1ntos anillos tiene la bandera ol\xEDmpica?", a: ["4", "5", "6", "7"], c: 1 },
+    { cat: "spo", q: "\xBFD\xF3nde se celebraron los Juegos Ol\xEDmpicos de 2024?", a: ["Tokio", "Los \xC1ngeles", "Londres", "Par\xEDs"], c: 3 },
+    { cat: "spo", q: "\xBFDe qu\xE9 deporte es el Tour de Francia?", a: ["Ciclismo", "Atletismo", "Nataci\xF3n", "Automovilismo"], c: 0 },
+    // ----- Bádminton -----
+    { cat: "bad", q: "\xBFCu\xE1ntos puntos hacen falta para ganar un set?", a: ["11", "15", "21", "25"], c: 2 },
+    { cat: "bad", q: "\xBFQu\xE9 se golpea en el b\xE1dminton?", a: ["La pelota", "El disco", "La pluma", "El volante"], c: 3 },
+    { cat: "bad", q: "\xBFCu\xE1ntas plumas tiene un volante tradicional?", a: ["12", "14", "16", "18"], c: 2 },
+    { cat: "bad", q: "\xBFQu\xE9 altura tiene la red de b\xE1dminton?", a: ["1,00 m", "1,20 m", "1,55 m", "2,00 m"], c: 2 },
+    { cat: "bad", q: "\xBFEn qu\xE9 a\xF1o el b\xE1dminton se volvi\xF3 ol\xEDmpico?", a: ["1972", "1992", "1996", "2000"], c: 1 },
+    { cat: "bad", q: "\xBFQu\xE9 golpe env\xEDa el volante violentamente hacia el suelo?", a: ["El clear", "El smash", "El drop", "El saque"], c: 1 },
+    { cat: "bad", q: "\xBFEn qu\xE9 pa\xEDs naci\xF3 el b\xE1dminton moderno (Poona)?", a: ["Inglaterra", "China", "Dinamarca", "India"], c: 3 },
+    { cat: "bad", q: "\xBFQu\xE9 naci\xF3n europea es potencia en b\xE1dminton?", a: ["Espa\xF1a", "Italia", "Dinamarca", "Francia"], c: 2 },
+    // ----- Gastronomía -----
+    { cat: "gas", q: "\xBFDe qu\xE9 pa\xEDs es la pizza?", a: ["Grecia", "Italia", "Francia", "Espa\xF1a"], c: 1 },
+    { cat: "gas", q: "\xBFCu\xE1l es el ingrediente principal del guacamole?", a: ["El pepino", "El aguacate", "La zanahoria", "El pimiento"], c: 1 },
+    { cat: "gas", q: "\xBFQu\xE9 plato combina arroz avinagrado y pescado crudo?", a: ["El sashimi", "El sushi", "La tempura", "El ramen"], c: 1 },
+    { cat: "gas", q: "\xBFCu\xE1l es la especia m\xE1s cara del mundo?", a: ["La vainilla", "El azafr\xE1n", "El cardamomo", "La pimienta"], c: 1 },
+    { cat: "gas", q: "\xBFCu\xE1l es el ingrediente principal del hummus?", a: ["Las lentejas", "Las habas", "Los garbanzos", "Los frijoles"], c: 2 },
+    { cat: "gas", q: "\xBFQu\xE9 bebida se obtiene de la fermentaci\xF3n del arroz?", a: ["El soju", "El sake", "El t\xE9", "El whisky"], c: 1 },
+    { cat: "gas", q: "\xBFDe qu\xE9 pa\xEDs es el ceviche?", a: ["Chile", "M\xE9xico", "Espa\xF1a", "Per\xFA"], c: 3 },
+    { cat: "gas", q: "\xBFQu\xE9 bebida se toma con bombilla en Argentina?", a: ["El caf\xE9", "El mate", "El t\xE9", "La chicha"], c: 1 },
+    // ----- Lengua -----
+    { cat: "lan", q: "\xBFCu\xE1ntas letras tiene el alfabeto espa\xF1ol?", a: ["25", "26", "27", "28"], c: 2 },
+    { cat: "lan", q: "Completa: \xABEspero que ___ venga\xBB", a: ["Halla", "Aya", "Haya", "Habr\xE1"], c: 2 },
+    { cat: "lan", q: "\xBFQu\xE9 palabra es un pal\xEDndromo?", a: ["Casa", "\xC1rbol", "Coche", "Reconocer"], c: 3 },
+    { cat: "lan", q: "\xBFQu\xE9 palabra es aguda (t\xF3nica en la \xFAltima s\xEDlaba)?", a: ["Mesa", "Canci\xF3n", "\xC1rbol", "Casa"], c: 1 },
+    { cat: "lan", q: "\xBFCu\xE1l es el sin\xF3nimo de \xABcontento\xBB?", a: ["Triste", "Alegre", "Enojado", "Cansado"], c: 1 },
+    { cat: "lan", q: "\xBFCu\xE1ntas vocales tiene el espa\xF1ol?", a: ["4", "5", "6", "7"], c: 1 },
+    { cat: "lan", q: "Completa: \xABNo fui ___ llovi\xF3\xBB", a: ["por qu\xE9", "porqu\xE9", "porque", "por que"], c: 2 },
+    { cat: "lan", q: "\xBFD\xF3nde lleva la tilde la palabra \xABcanci\xF3n\xBB?", a: ["En la pen\xFAltima s\xEDlaba", "En la \xFAltima s\xEDlaba", "En la antepen\xFAltima", "No lleva tilde"], c: 1 }
+  ]
+};
 const BUBBLE_H = 38;
 const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
-const VERSION = "v8";
+const LEVEL_EVERY = 10;
+const VERSION = "v9";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -101,6 +493,14 @@ function saveBest(v) {
   } catch {
   }
 }
+function loadLang() {
+  try {
+    const s = localStorage.getItem("metroquiz_lang");
+    return s === "en" || s === "es" ? s : "fr";
+  } catch {
+    return "fr";
+  }
+}
 const BUBBLE_COLORS = [
   "from-cyan-400 to-blue-500",
   "from-amber-400 to-orange-500",
@@ -108,7 +508,8 @@ const BUBBLE_COLORS = [
   "from-emerald-400 to-teal-500"
 ];
 function App() {
-  const [phase, setPhase] = useState("home");
+  const [phase, setPhase] = useState("lang");
+  const [lang, setLang] = useState(loadLang);
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [strikes, setStrikes] = useState(0);
@@ -118,9 +519,10 @@ function App() {
   const [best, setBest] = useState(loadBest);
   const [question, setQuestion] = useState(null);
   const [feedback, setFeedback] = useState(null);
-  const [selectedCats, setSelectedCats] = useState([...CATEGORIES]);
+  const [selectedCats, setSelectedCats] = useState([...CAT_KEYS]);
   const [stats, setStats] = useState({ good: 0, total: 0 });
   const [, forceRender] = useState(0);
+  const t = I18N[lang];
   const bubblesRef = useRef([]);
   const queueRef = useRef([]);
   const clockRef = useRef(0);
@@ -138,12 +540,19 @@ function App() {
   const strikesRef = useRef(0);
   const hadCorrectRef = useRef(false);
   const levelRef = useRef(1);
+  const askedRef = useRef(0);
   const timerRef = useRef(null);
   const areaRef = useRef(null);
   const loadQuestion = useCallback(() => {
     if (poolIdxRef.current >= poolRef.current.length) {
       poolRef.current = shuffle(poolRef.current);
       poolIdxRef.current = 0;
+    }
+    askedRef.current += 1;
+    const lvl = 1 + Math.floor((askedRef.current - 1) / LEVEL_EVERY);
+    if (lvl !== levelRef.current) {
+      levelRef.current = lvl;
+      setLevel(lvl);
     }
     const q = poolRef.current[poolIdxRef.current++];
     setQuestion(q);
@@ -155,14 +564,15 @@ function App() {
     qStartRef.current = clockRef.current;
   }, []);
   const startGame = useCallback(() => {
-    let pool = QUESTIONS.filter((q) => selectedCats.includes(q.cat));
-    if (pool.length === 0) pool = QUESTIONS;
+    let pool = QUESTIONS[lang].filter((q) => selectedCats.includes(q.cat));
+    if (pool.length === 0) pool = QUESTIONS[lang];
     poolRef.current = shuffle(pool);
     poolIdxRef.current = 0;
     scoreRef.current = 100;
     maxScoreRef.current = 100;
     comboRef.current = 0;
     levelRef.current = 1;
+    askedRef.current = 0;
     strikesRef.current = 0;
     hadCorrectRef.current = false;
     feedbackRef.current = false;
@@ -177,7 +587,16 @@ function App() {
     clockRef.current = 0;
     loadQuestion();
     setPhase("playing");
-  }, [selectedCats, loadQuestion]);
+  }, [selectedCats, lang, loadQuestion]);
+  const chooseLang = useCallback((l) => {
+    setLang(l);
+    try {
+      localStorage.setItem("metroquiz_lang", l);
+    } catch {
+    }
+    setSelectedCats([...CAT_KEYS]);
+    setPhase("home");
+  }, []);
   const goodCatch = useCallback((b) => {
     const mult = Math.min(1 + comboRef.current, 8);
     const reaction = clockRef.current - b.t0;
@@ -192,22 +611,18 @@ function App() {
     setStrikes(0);
     hadCorrectRef.current = true;
     setHadCorrect(true);
-    if (comboRef.current % 4 === 0) {
-      levelRef.current += 1;
-      setLevel(levelRef.current);
-    }
     setStats((s) => ({ good: s.good + 1, total: s.total + 1 }));
     bubblesRef.current = [];
     queueRef.current = [];
     feedbackRef.current = true;
-    setFeedback({ ok: true, label: speedBonus >= 100 ? `\xC9clair ! +${pts} \u26A1` : `Bravo ! +${pts}` });
+    setFeedback({ ok: true, label: speedBonus >= 100 ? t.flashLabel(pts) : t.bravoLabel(pts) });
     if (timerRef.current) window.clearTimeout(timerRef.current);
     timerRef.current = window.setTimeout(() => {
       feedbackRef.current = false;
       setFeedback(null);
       loadQuestion();
     }, 800);
-  }, [loadQuestion]);
+  }, [loadQuestion, t]);
   const applyPenalty = useCallback((label) => {
     comboRef.current = 0;
     setCombo(0);
@@ -232,14 +647,14 @@ function App() {
           setBest(maxScoreRef.current);
         }
         setGameOverReason(
-          fauche ? "Plus un point en r\xE9serve \u2014 fin de la ligne." : "Tes trois premi\xE8res r\xE9ponses \xE9taient fausses \u2014 fin de la ligne."
+          fauche ? t.reasonScore : t.reasonOpening
         );
         setPhase("gameover");
       } else {
         loadQuestion();
       }
     }, 900);
-  }, [loadQuestion]);
+  }, [loadQuestion, t]);
   useEffect(() => {
     if (phase !== "playing") return;
     let raf = 0;
@@ -292,7 +707,7 @@ function App() {
           }
           if (b.y > h2 + 30) {
             if (b.correct) {
-              applyPenalty(`Rat\xE9 ! \u2212${PENALTY}`);
+              applyPenalty(t.missedLabel(PENALTY));
               break;
             }
             continue;
@@ -350,7 +765,7 @@ function App() {
     );
     if (hit) {
       if (hit.correct) goodCatch(hit);
-      else applyPenalty(`\u2212${PENALTY} ! Mauvaise r\xE9ponse`);
+      else applyPenalty(t.wrongLabel(PENALTY));
       return;
     }
     moveCatcher(clientX);
@@ -360,8 +775,19 @@ function App() {
       if (timerRef.current) window.clearTimeout(timerRef.current);
     };
   }, []);
+  if (phase === "lang") {
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#1e293b,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F687}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-2 text-4xl font-extrabold tracking-tight" }, "M\xE9tro", /* @__PURE__ */ React.createElement("span", { className: "text-cyan-400" }, "Quiz")), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-sm text-white/60" }, I18N.fr.langTitle, " \xB7 ", I18N.en.langTitle, " \xB7 ", I18N.es.langTitle), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, ["fr", "en", "es"].map((l) => /* @__PURE__ */ React.createElement(
+      "button",
+      {
+        key: l,
+        onClick: () => chooseLang(l),
+        className: `w-full rounded-2xl py-5 text-lg font-bold transition ${lang === l ? "bg-cyan-500 text-slate-950 ring-4 ring-cyan-300/50" : "bg-white/10 text-white hover:bg-white/20"}`
+      },
+      l === "fr" ? "\u{1F1EB}\u{1F1F7} Fran\xE7ais" : l === "en" ? "\u{1F1EC}\u{1F1E7} English" : "\u{1F1EA}\u{1F1F8} Espa\xF1ol"
+    ))), /* @__PURE__ */ React.createElement("p", { className: "mt-5 text-center text-xs text-white/40" }, I18N[lang].bestLabel, " : ", best, " \xB7 ", VERSION)));
+  }
   if (phase === "home") {
-    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#1e293b,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md" }, /* @__PURE__ */ React.createElement("div", { className: "mb-6 text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F687}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-2 text-4xl font-extrabold tracking-tight" }, "M\xE9tro", /* @__PURE__ */ React.createElement("span", { className: "text-cyan-400" }, "Quiz")), /* @__PURE__ */ React.createElement("p", { className: "mt-2 text-sm text-white/60" }, "Une question tombe\u2026 attrape la bonne r\xE9ponse avec ta rame de m\xE9tro !")), /* @__PURE__ */ React.createElement("div", { className: "mb-5 rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "mb-3 text-xs font-semibold uppercase tracking-wide text-white/50" }, "Cat\xE9gories"), /* @__PURE__ */ React.createElement("div", { className: "flex flex-wrap gap-2" }, CATEGORIES.map((cat) => {
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#1e293b,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md" }, /* @__PURE__ */ React.createElement("div", { className: "mb-6 text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F687}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-2 text-4xl font-extrabold tracking-tight" }, "M\xE9tro", /* @__PURE__ */ React.createElement("span", { className: "text-cyan-400" }, "Quiz")), /* @__PURE__ */ React.createElement("p", { className: "mt-2 text-sm text-white/60" }, t.tagline)), /* @__PURE__ */ React.createElement("div", { className: "mb-5 rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "mb-3 text-xs font-semibold uppercase tracking-wide text-white/50" }, t.catsTitle), /* @__PURE__ */ React.createElement("div", { className: "flex flex-wrap gap-2" }, CAT_KEYS.map((cat) => {
       const on = selectedCats.includes(cat);
       return /* @__PURE__ */ React.createElement(
         "button",
@@ -372,26 +798,35 @@ function App() {
           ),
           className: `rounded-full px-3 py-1.5 text-xs font-medium transition ${on ? "bg-cyan-500 text-slate-950" : "bg-white/10 text-white/60 hover:bg-white/20"}`
         },
-        cat
+        CAT_EMOJI[cat],
+        " ",
+        CAT_LABELS[lang][cat]
       );
-    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, /* @__PURE__ */ React.createElement("p", null, "\u{1F3AF} Tu d\xE9marres avec 100 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F446} Une seule r\xE9ponse par question : touche la bonne pendant sa chute"), /* @__PURE__ */ React.createElement("p", null, "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes de points (bonus \xAB \xC9clair \xBB) ; les combos multiplient les gains"), /* @__PURE__ */ React.createElement("p", null, "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points"), /* @__PURE__ */ React.createElement("p", null, "\u{1F6D1} Terminus : les 3 premi\xE8res r\xE9ponses toutes fausses, ou ensuite un score \xE0 z\xE9ro")), /* @__PURE__ */ React.createElement(
+    }))), /* @__PURE__ */ React.createElement("div", { className: "mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70" }, t.rules.map((r) => /* @__PURE__ */ React.createElement("p", { key: r }, r))), /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: startGame,
         className: "w-full rounded-2xl bg-cyan-500 py-6 text-lg font-bold text-slate-950 hover:bg-cyan-400"
       },
-      "Jouer"
-    ), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-center text-xs text-white/40" }, "\u{1F3C6} Meilleur score : ", best, " \xB7 ", VERSION)));
+      t.play
+    ), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-center text-xs text-white/40" }, "\u{1F3C6} ", t.bestLabel, " : ", best, " \xB7 ", VERSION), /* @__PURE__ */ React.createElement(
+      "button",
+      {
+        onClick: () => setPhase("lang"),
+        className: "mt-4 w-full text-center text-xs font-semibold text-white/50 hover:text-white/80"
+      },
+      t.changeLang
+    )));
   }
   if (phase === "gameover") {
     const acc = stats.total > 0 ? Math.round(stats.good / stats.total * 100) : 0;
-    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#7f1d1d,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F689}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-3 text-3xl font-extrabold" }, "Terminus !"), /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-sm text-white/50" }, gameOverReason || "Fin de la ligne."), /* @__PURE__ */ React.createElement("div", { className: "mt-6 space-y-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Score"), /* @__PURE__ */ React.createElement("p", { className: "text-4xl font-extrabold text-cyan-400" }, score)), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Pr\xE9cision"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, acc, "%")), /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, "Record"), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, "\u{1F3C6} ", best)))), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, /* @__PURE__ */ React.createElement(
+    return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#7f1d1d,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F689}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-3 text-3xl font-extrabold" }, t.terminus), /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-sm text-white/50" }, gameOverReason || t.endLine), /* @__PURE__ */ React.createElement("div", { className: "mt-6 space-y-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, t.scoreLabel), /* @__PURE__ */ React.createElement("p", { className: "text-4xl font-extrabold text-cyan-400" }, score)), /* @__PURE__ */ React.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, t.accLabel), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, acc, "%")), /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-white/10 bg-white/5 p-4" }, /* @__PURE__ */ React.createElement("p", { className: "text-xs uppercase tracking-wide text-white/50" }, t.bestShort), /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-bold" }, "\u{1F3C6} ", best)))), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: startGame,
         className: "w-full rounded-2xl bg-cyan-500 py-6 text-lg font-bold text-slate-950 hover:bg-cyan-400"
       },
-      "Rejouer"
+      t.replay
     ), /* @__PURE__ */ React.createElement(
       Button,
       {
@@ -399,19 +834,19 @@ function App() {
         variant: "outline",
         className: "w-full rounded-2xl border-white/20 bg-transparent py-4 text-white hover:bg-white/10"
       },
-      "Menu"
+      t.menu
     ))));
   }
   const { w, h } = sizeRef.current;
   const catcherLeft = Math.max(4, Math.min(w - CATCHER_HALF * 2 - 4, catcherXRef.current - CATCHER_HALF));
-  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between px-4 pt-3" }, /* @__PURE__ */ React.createElement("div", { className: `text-base font-bold ${hadCorrect && score <= 75 ? "text-rose-400" : "text-amber-300"}` }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, "Niveau ", level), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), !hadCorrect && /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between gap-2 px-4 py-2" }, /* @__PURE__ */ React.createElement("div", { className: `text-base font-bold ${hadCorrect && score <= 75 ? "text-rose-400" : "text-amber-300"}` }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, t.levelLabel, " ", level), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), !hadCorrect && /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => setPhase((p) => p === "playing" ? "paused" : "playing"),
       className: "rounded-full bg-white/10 px-3 py-1 text-xs font-bold hover:bg-white/20"
     },
     phase === "paused" ? "\u25B6" : "\u23F8"
-  )), question && /* @__PURE__ */ React.createElement("div", { className: "px-4 pt-2 pb-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-3" }, /* @__PURE__ */ React.createElement("p", { className: "mb-1 text-[11px] font-semibold uppercase tracking-wide text-cyan-300" }, question.emoji, " ", question.cat, combo >= 2 && /* @__PURE__ */ React.createElement("span", { className: "ml-2 text-amber-300" }, "\u{1F525} combo \xD7", Math.min(1 + combo, 8))), /* @__PURE__ */ React.createElement("p", { className: "text-base font-bold leading-snug" }, question.q))), /* @__PURE__ */ React.createElement(
+  )), question && /* @__PURE__ */ React.createElement("div", { className: "px-4 pt-2 pb-3" }, /* @__PURE__ */ React.createElement("div", { className: "rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-3" }, /* @__PURE__ */ React.createElement("p", { className: "mb-1 text-[11px] font-semibold uppercase tracking-wide text-cyan-300" }, CAT_EMOJI[question.cat], " ", CAT_LABELS[lang][question.cat], combo >= 2 && /* @__PURE__ */ React.createElement("span", { className: "ml-2 text-amber-300" }, "\u{1F525} combo \xD7", Math.min(1 + combo, 8))), /* @__PURE__ */ React.createElement("p", { className: "text-base font-bold leading-snug" }, question.q))), /* @__PURE__ */ React.createElement(
     "div",
     {
       ref: areaRef,
@@ -457,13 +892,13 @@ function App() {
       },
       /* @__PURE__ */ React.createElement("p", { className: "text-3xl font-extrabold drop-shadow-lg" }, feedback.label)
     ),
-    phase === "paused" && /* @__PURE__ */ React.createElement("div", { className: "absolute inset-0 flex flex-col items-center justify-center gap-4 bg-slate-950/80" }, /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-extrabold" }, "\u23F8 Pause"), /* @__PURE__ */ React.createElement(
+    phase === "paused" && /* @__PURE__ */ React.createElement("div", { className: "absolute inset-0 flex flex-col items-center justify-center gap-4 bg-slate-950/80" }, /* @__PURE__ */ React.createElement("p", { className: "text-2xl font-extrabold" }, t.pauseTitle), /* @__PURE__ */ React.createElement(
       Button,
       {
         onClick: () => setPhase("playing"),
         className: "rounded-2xl bg-cyan-500 px-10 py-4 text-lg font-bold text-slate-950 hover:bg-cyan-400"
       },
-      "Reprendre"
+      t.resume
     ), /* @__PURE__ */ React.createElement(
       Button,
       {
@@ -471,11 +906,12 @@ function App() {
         variant: "outline",
         className: "rounded-2xl border-white/20 bg-transparent text-white hover:bg-white/10"
       },
-      "Quitter"
+      t.quit
     ))
   ));
 }
 ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(App));
+
 </script>
 </body>
 </html>
