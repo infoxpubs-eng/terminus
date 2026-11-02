@@ -72,7 +72,8 @@ const I18N = {
     flashLabel: (pts) => `\xC9clair ! +${pts} \u26A1`,
     bravoLabel: (pts) => `Bravo ! +${pts}`,
     langTitle: "Choisis ta langue",
-    changeLang: "\u{1F310} Langue"
+    changeLang: "\u{1F310} Langue",
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 Tous droits r\xE9serv\xE9s"
   },
   en: {
     tagline: "A question is falling\u2026 catch the right answer with your metro train!",
@@ -105,7 +106,8 @@ const I18N = {
     flashLabel: (pts) => `Flash! +${pts} \u26A1`,
     bravoLabel: (pts) => `Bravo! +${pts}`,
     langTitle: "Choose your language",
-    changeLang: "\u{1F310} Language"
+    changeLang: "\u{1F310} Language",
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 All rights reserved"
   },
   es: {
     tagline: "\xA1Cae una pregunta\u2026 atrapa la buena con tu tren de metro!",
@@ -138,7 +140,8 @@ const I18N = {
     flashLabel: (pts) => `\xA1Rel\xE1mpago! +${pts} \u26A1`,
     bravoLabel: (pts) => `\xA1Bravo! +${pts}`,
     langTitle: "Elige tu idioma",
-    changeLang: "\u{1F310} Idioma"
+    changeLang: "\u{1F310} Idioma",
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 Todos los derechos reservados"
   }
 };
 const QUESTIONS = {
@@ -466,12 +469,12 @@ const QUESTIONS = {
     { cat: "lan", q: "\xBFD\xF3nde lleva la tilde la palabra \xABcanci\xF3n\xBB?", a: ["En la pen\xFAltima s\xEDlaba", "En la \xFAltima s\xEDlaba", "En la antepen\xFAltima", "No lleva tilde"], c: 1 }
   ]
 };
-const BUBBLE_H = 38;
+const BUBBLE_H = 64;
 const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
 const LEVEL_EVERY = 10;
-const VERSION = "v9";
+const VERSION = "v10";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -676,7 +679,7 @@ function App() {
         const remaining = [];
         for (const spawn of queueRef.current) {
           if (elapsed >= spawn.at) {
-            const bw = Math.min(w2 - 24, Math.max(120, spawn.text.length * 8 + 36));
+            const bw = Math.min(w2 - 16, Math.max(170, spawn.text.length * 15 + 48));
             bubblesRef.current.push({
               id: idRef.current++,
               text: spawn.text,
@@ -816,7 +819,7 @@ function App() {
         className: "mt-4 w-full text-center text-xs font-semibold text-white/50 hover:text-white/80"
       },
       t.changeLang
-    )));
+    ), /* @__PURE__ */ React.createElement("p", { className: "mt-5 text-center text-[11px] text-white/30" }, t.copyright)));
   }
   if (phase === "gameover") {
     const acc = stats.total > 0 ? Math.round(stats.good / stats.total * 100) : 0;
@@ -862,15 +865,16 @@ function App() {
       "div",
       {
         key: b.id,
-        className: `absolute flex h-[38px] items-center justify-center rounded-full bg-gradient-to-br ${BUBBLE_COLORS[i % 4]} px-4 text-[13px] font-bold text-slate-950 shadow-lg`,
+        className: `absolute flex h-[64px] items-center justify-center rounded-full bg-gradient-to-br ${BUBBLE_COLORS[i % 4]} px-4 text-[26px] font-bold text-slate-950 shadow-lg`,
         style: {
           left: b.x - b.w / 2,
           top: b.y,
           width: b.w,
+          height: BUBBLE_H,
           boxShadow: "0 4px 14px rgba(0,0,0,0.35)"
         }
       },
-      /* @__PURE__ */ React.createElement("span", { className: "truncate" }, b.text)
+      /* @__PURE__ */ React.createElement("span", { className: "text-center leading-tight" }, b.text)
     )),
     /* @__PURE__ */ React.createElement(
       "div",
