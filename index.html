@@ -22,7 +22,7 @@ const { useState, useEffect, useRef, useCallback } = React;
 function Button({ children, className, onClick, ...props }) {
   return React.createElement("button", { className, onClick, ...props }, children);
 }
-const CAT_KEYS = ["hist", "geo", "sci", "cine", "mus", "lit", "spo", "bad", "gas", "lan"];
+const CAT_KEYS = ["hist", "geo", "sci", "cine", "mus", "lit", "spo", "bad", "gas", "lan", "actu"];
 const CAT_EMOJI = {
   hist: "\u{1F3DB}",
   geo: "\u{1F30D}",
@@ -33,12 +33,13 @@ const CAT_EMOJI = {
   spo: "\u26BD",
   bad: "\u{1F3F8}",
   gas: "\u{1F37D}",
-  lan: "\u{1F5E3}"
+  lan: "\u{1F5E3}",
+  actu: "\u{1F4F0}"
 };
 const CAT_LABELS = {
-  fr: { hist: "Histoire", geo: "G\xE9ographie", sci: "Sciences", cine: "Cin\xE9ma", mus: "Musique", lit: "Litt\xE9rature", spo: "Sport", bad: "Badminton", gas: "Gastronomie", lan: "Langue fran\xE7aise" },
-  en: { hist: "History", geo: "Geography", sci: "Science", cine: "Cinema", mus: "Music", lit: "Literature", spo: "Sport", bad: "Badminton", gas: "Food", lan: "English language" },
-  es: { hist: "Historia", geo: "Geograf\xEDa", sci: "Ciencia", cine: "Cine", mus: "M\xFAsica", lit: "Literatura", spo: "Deporte", bad: "B\xE1dminton", gas: "Gastronom\xEDa", lan: "Lengua espa\xF1ola" }
+  fr: { hist: "Histoire", geo: "G\xE9ographie", sci: "Sciences", cine: "Cin\xE9ma", mus: "Musique", lit: "Litt\xE9rature", spo: "Sport", bad: "Badminton", gas: "Gastronomie", lan: "Langue fran\xE7aise", actu: "Actualit\xE9s" },
+  en: { hist: "History", geo: "Geography", sci: "Science", cine: "Cinema", mus: "Music", lit: "Literature", spo: "Sport", bad: "Badminton", gas: "Food", lan: "English language", actu: "News" },
+  es: { hist: "Historia", geo: "Geograf\xEDa", sci: "Ciencia", cine: "Cine", mus: "M\xFAsica", lit: "Literatura", spo: "Deporte", bad: "B\xE1dminton", gas: "Gastronom\xEDa", lan: "Lengua espa\xF1ola", actu: "Actualidad" }
 };
 const I18N = {
   fr: {
@@ -73,7 +74,8 @@ const I18N = {
     bravoLabel: (pts) => `Bravo ! +${pts}`,
     langTitle: "Choisis ta langue",
     changeLang: "\u{1F310} Langue",
-    copyright: "\xA9 2026 Alexandre Ansault \u2014 Tous droits r\xE9serv\xE9s"
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 Tous droits r\xE9serv\xE9s",
+    newsLabel: "Questions d'actualit\xE9"
   },
   en: {
     tagline: "A question is falling\u2026 catch the right answer with your metro train!",
@@ -107,7 +109,8 @@ const I18N = {
     bravoLabel: (pts) => `Bravo! +${pts}`,
     langTitle: "Choose your language",
     changeLang: "\u{1F310} Language",
-    copyright: "\xA9 2026 Alexandre Ansault \u2014 All rights reserved"
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 All rights reserved",
+    newsLabel: "News questions"
   },
   es: {
     tagline: "\xA1Cae una pregunta\u2026 atrapa la buena con tu tren de metro!",
@@ -141,7 +144,8 @@ const I18N = {
     bravoLabel: (pts) => `\xA1Bravo! +${pts}`,
     langTitle: "Elige tu idioma",
     changeLang: "\u{1F310} Idioma",
-    copyright: "\xA9 2026 Alexandre Ansault \u2014 Todos los derechos reservados"
+    copyright: "\xA9 2026 Alexandre Ansault \u2014 Todos los derechos reservados",
+    newsLabel: "Preguntas de actualidad"
   }
 };
 const QUESTIONS = {
@@ -474,7 +478,7 @@ const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
 const LEVEL_EVERY = 10;
-const VERSION = "v11";
+const VERSION = "v12";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -504,6 +508,36 @@ function loadLang() {
     return "fr";
   }
 }
+function validateNewsPack(p) {
+  if (!p || typeof p !== "object") return null;
+  const o = p;
+  if (typeof o.date !== "string" || !o.qs || typeof o.qs !== "object") return null;
+  const clean = { fr: [], en: [], es: [] };
+  const src = o.qs;
+  for (const l of ["fr", "en", "es"]) {
+    if (Array.isArray(src[l])) {
+      clean[l] = src[l].filter(
+        (q) => !!q && typeof q === "object" && typeof q.q === "string" && Array.isArray(q.a) && q.a.length === 4 && typeof q.c === "number" && q.c >= 0 && q.c < 4
+      );
+    }
+  }
+  return { date: o.date, qs: clean };
+}
+function loadNewsPack() {
+  try {
+    const raw = localStorage.getItem("metroquiz_news");
+    if (!raw) return null;
+    return validateNewsPack(JSON.parse(raw));
+  } catch {
+    return null;
+  }
+}
+function saveNewsPack(p) {
+  try {
+    localStorage.setItem("metroquiz_news", JSON.stringify(p));
+  } catch {
+  }
+}
 const BUBBLE_COLORS = [
   "from-cyan-400 to-blue-500",
   "from-amber-400 to-orange-500",
@@ -523,6 +557,7 @@ function App() {
   const [question, setQuestion] = useState(null);
   const [feedback, setFeedback] = useState(null);
   const [selectedCats, setSelectedCats] = useState([...CAT_KEYS]);
+  const [newsPack, setNewsPack] = useState(loadNewsPack);
   const [stats, setStats] = useState({ good: 0, total: 0 });
   const [, forceRender] = useState(0);
   const t = I18N[lang];
@@ -568,6 +603,8 @@ function App() {
   }, []);
   const startGame = useCallback(() => {
     let pool = QUESTIONS[lang].filter((q) => selectedCats.includes(q.cat));
+    const news = newsPack && newsPack.qs[lang] ? newsPack.qs[lang].filter((q) => selectedCats.includes(q.cat)) : [];
+    pool = [...pool, ...news];
     if (pool.length === 0) pool = QUESTIONS[lang];
     poolRef.current = shuffle(pool);
     poolIdxRef.current = 0;
@@ -590,7 +627,7 @@ function App() {
     clockRef.current = 0;
     loadQuestion();
     setPhase("playing");
-  }, [selectedCats, lang, loadQuestion]);
+  }, [selectedCats, lang, loadQuestion, newsPack]);
   const chooseLang = useCallback((l) => {
     setLang(l);
     try {
@@ -778,6 +815,18 @@ function App() {
       if (timerRef.current) window.clearTimeout(timerRef.current);
     };
   }, []);
+  useEffect(() => {
+    if (typeof fetch !== "function") return;
+    fetch(`news.json?v=${VERSION}`, { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((p) => {
+      const clean = validateNewsPack(p);
+      if (!clean) return;
+      const cur = loadNewsPack();
+      if (cur && cur.date === clean.date) return;
+      saveNewsPack(clean);
+      setNewsPack(clean);
+    }).catch(() => {
+    });
+  }, []);
   if (phase === "lang") {
     return /* @__PURE__ */ React.createElement("div", { className: "flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#1e293b,#020617)] p-6 text-white" }, /* @__PURE__ */ React.createElement("div", { className: "w-full max-w-md text-center" }, /* @__PURE__ */ React.createElement("div", { className: "text-6xl" }, "\u{1F687}"), /* @__PURE__ */ React.createElement("h1", { className: "mt-2 text-4xl font-extrabold tracking-tight" }, "M\xE9tro", /* @__PURE__ */ React.createElement("span", { className: "text-cyan-400" }, "Quiz")), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-sm text-white/60" }, I18N.fr.langTitle, " \xB7 ", I18N.en.langTitle, " \xB7 ", I18N.es.langTitle), /* @__PURE__ */ React.createElement("div", { className: "mt-8 space-y-3" }, ["fr", "en", "es"].map((l) => /* @__PURE__ */ React.createElement(
       "button",
@@ -812,7 +861,7 @@ function App() {
         className: "w-full rounded-2xl bg-cyan-500 py-6 text-lg font-bold text-slate-950 hover:bg-cyan-400"
       },
       t.play
-    ), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-center text-xs text-white/40" }, "\u{1F3C6} ", t.bestLabel, " : ", best, " \xB7 ", VERSION), /* @__PURE__ */ React.createElement(
+    ), /* @__PURE__ */ React.createElement("p", { className: "mt-3 text-center text-xs text-white/40" }, "\u{1F3C6} ", t.bestLabel, " : ", best, " \xB7 ", VERSION), newsPack && newsPack.qs[lang] && newsPack.qs[lang].length > 0 && /* @__PURE__ */ React.createElement("p", { className: "mt-1 text-center text-xs text-white/40" }, "\u{1F4F0} ", t.newsLabel, " : ", newsPack.qs[lang].length, " \xB7 ", newsPack.date), /* @__PURE__ */ React.createElement(
       "button",
       {
         onClick: () => setPhase("lang"),
