@@ -49,7 +49,7 @@ const I18N = {
       "\u{1F3AF} Tu d\xE9marres avec 100 points",
       "\u{1F446} Une seule r\xE9ponse par question : touche la bonne pendant sa chute",
       "\u26A1 Plus tu r\xE9ponds vite, plus tu gagnes (bonus \xAB \xC9clair \xBB) ; les combos multiplient les gains",
-      "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points",
+      "\u274C R\xE9ponse fausse ou bonne r\xE9ponse manqu\xE9e : \u221275 points, p\xE9nalit\xE9 qui double toutes les 20 questions",
       "\u{1F4F6} Toutes les 10 questions, la chute s\u2019acc\xE9l\xE8re",
       "\u{1F6D1} Terminus : les 3 premi\xE8res r\xE9ponses toutes fausses, ou ensuite un score \xE0 z\xE9ro"
     ],
@@ -84,7 +84,7 @@ const I18N = {
       "\u{1F3AF} You start with 100 points",
       "\u{1F446} One answer per question: tap the right one while it falls",
       "\u26A1 The faster you answer, the more you win (\u201CFlash\u201D bonus); combos multiply your gains",
-      "\u274C Wrong answer or missed right answer: \u221275 points",
+      "\u274C Wrong answer or missed right answer: \u221275 points, penalty doubles every 20 questions",
       "\u{1F4F6} Every 10 questions, the fall gets faster",
       "\u{1F6D1} Terminus: your first 3 answers all wrong, or later a score at zero"
     ],
@@ -119,7 +119,7 @@ const I18N = {
       "\u{1F3AF} Empiezas con 100 puntos",
       "\u{1F446} Una sola respuesta por pregunta: toca la buena mientras cae",
       "\u26A1 Cuanto m\xE1s r\xE1pido respondes, m\xE1s ganas (bonus \xABRel\xE1mpago\xBB); los combos multiplican",
-      "\u274C Respuesta incorrecta o buena respuesta fallada: \u221275 puntos",
+      "\u274C Respuesta incorrecta o buena respuesta fallada: \u221275 puntos, penalidad que se duplica cada 20 preguntas",
       "\u{1F4F6} Cada 10 preguntas, la ca\xEDda se acelera",
       "\u{1F6D1} Terminus: tus 3 primeras respuestas todas falladas, o luego puntuaci\xF3n en cero"
     ],
@@ -477,13 +477,28 @@ const BUBBLE_H = 64;
 const CATCHER_HALF = 48;
 const CATCHER_TOP_OFF = 78;
 const PENALTY = 75;
+const PENALTY_EVERY = 20;
 const LEVEL_EVERY = 10;
-const VERSION = "v12";
+const VERSION = "v13";
 function shuffle(arr) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+function interleaveCategories(pool) {
+  const out = [];
+  const rest = [...pool];
+  let lastCat = null;
+  while (rest.length > 0) {
+    const valid = rest.map((q, i) => ({ q, i })).filter((x) => x.q.cat !== lastCat);
+    const pickFrom = valid.length > 0 ? valid : rest.map((q, i) => ({ q, i }));
+    const chosen = pickFrom[Math.floor(Math.random() * pickFrom.length)];
+    rest.splice(chosen.i, 1);
+    out.push(chosen.q);
+    lastCat = chosen.q.cat;
   }
   return out;
 }
@@ -583,7 +598,7 @@ function App() {
   const areaRef = useRef(null);
   const loadQuestion = useCallback(() => {
     if (poolIdxRef.current >= poolRef.current.length) {
-      poolRef.current = shuffle(poolRef.current);
+      poolRef.current = interleaveCategories(shuffle(poolRef.current));
       poolIdxRef.current = 0;
     }
     askedRef.current += 1;
@@ -606,7 +621,7 @@ function App() {
     const news = newsPack && newsPack.qs[lang] ? newsPack.qs[lang].filter((q) => selectedCats.includes(q.cat)) : [];
     pool = [...pool, ...news];
     if (pool.length === 0) pool = QUESTIONS[lang];
-    poolRef.current = shuffle(pool);
+    poolRef.current = interleaveCategories(shuffle(pool));
     poolIdxRef.current = 0;
     scoreRef.current = 100;
     maxScoreRef.current = 100;
@@ -663,12 +678,15 @@ function App() {
       loadQuestion();
     }, 800);
   }, [loadQuestion, t]);
+  const currentPenalty = useCallback(() => {
+    return PENALTY * Math.pow(2, Math.floor((askedRef.current - 1) / PENALTY_EVERY));
+  }, []);
   const applyPenalty = useCallback((label) => {
     comboRef.current = 0;
     setCombo(0);
     strikesRef.current += 1;
     setStrikes(strikesRef.current);
-    scoreRef.current -= PENALTY;
+    scoreRef.current -= currentPenalty();
     setScore(scoreRef.current);
     setStats((s) => ({ ...s, total: s.total + 1 }));
     bubblesRef.current = [];
@@ -694,7 +712,7 @@ function App() {
         loadQuestion();
       }
     }, 900);
-  }, [loadQuestion, t]);
+  }, [loadQuestion, t, currentPenalty]);
   useEffect(() => {
     if (phase !== "playing") return;
     let raf = 0;
@@ -747,7 +765,7 @@ function App() {
           }
           if (b.y > h2 + 30) {
             if (b.correct) {
-              applyPenalty(t.missedLabel(PENALTY));
+              applyPenalty(t.missedLabel(currentPenalty()));
               break;
             }
             continue;
@@ -805,7 +823,7 @@ function App() {
     );
     if (hit) {
       if (hit.correct) goodCatch(hit);
-      else applyPenalty(t.wrongLabel(PENALTY));
+      else applyPenalty(t.wrongLabel(currentPenalty()));
       return;
     }
     moveCatcher(clientX);
@@ -891,7 +909,7 @@ function App() {
   }
   const { w, h } = sizeRef.current;
   const catcherLeft = Math.max(4, Math.min(w - CATCHER_HALF * 2 - 4, catcherXRef.current - CATCHER_HALF));
-  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between gap-2 px-4 py-2" }, /* @__PURE__ */ React.createElement("div", { className: `text-base font-bold ${hadCorrect && score <= 75 ? "text-rose-400" : "text-amber-300"}` }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, t.levelLabel, " ", level), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), !hadCorrect && /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { className: "flex h-screen flex-col bg-[radial-gradient(circle_at_top,#1e293b,#020617)] text-white select-none" }, /* @__PURE__ */ React.createElement("div", { className: "flex items-center justify-between gap-2 px-4 py-2" }, /* @__PURE__ */ React.createElement("div", { className: `text-base font-bold ${hadCorrect && score <= 75 ? "text-rose-400" : "text-amber-300"}` }, "\u2B50 ", score), /* @__PURE__ */ React.createElement("div", { className: "text-xs font-semibold text-cyan-400" }, t.levelLabel, " ", level, " ", /* @__PURE__ */ React.createElement("span", { className: "text-rose-400" }, "\xB7 -", currentPenalty())), /* @__PURE__ */ React.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ React.createElement("span", { className: "text-sm font-bold" }, "\u{1F525} \xD7", Math.min(1 + combo, 8)), !hadCorrect && /* @__PURE__ */ React.createElement("span", { className: `text-xs font-bold ${strikes >= 2 ? "text-rose-400" : "text-white/60"}` }, "\u274C ", strikes, "/3")), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => setPhase((p) => p === "playing" ? "paused" : "playing"),
