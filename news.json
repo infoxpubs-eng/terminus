@@ -1,196 +1,2046 @@
 {
-  "date": "2026-11-02",
-  "qs": {
-    "fr": [
-      {"cat":"actu","q":"Selon l'Insee, qu'a fait l'économie française au 3e trimestre 2026 ?","a":["Elle a reculé de 0,1 %","Elle a crû de 0,5 %","Elle a stagné","Elle a reculé de 2 %"],"c":0},
-      {"cat":"actu","q":"Qui a remporté le Ballon d'Or 2026 ?","a":["Lionel Messi","Harry Kane","Kylian Mbappé","Erling Haaland"],"c":1},
-      {"cat":"actu","q":"Quel pays africain accueille les Jeux olympiques de la jeunesse 2026, une première en Afrique ?","a":["Le Maroc","L'Afrique du Sud","Le Sénégal","Le Kenya"],"c":2},
-      {"cat":"actu","q":"Quel pays le FBI accuse-t-il du piratage de la plateforme Binance ?","a":["La Corée du Nord","L'Iran","La Russie","La Chine"],"c":0},
-      {"cat":"actu","q":"Dans quelle ville espagnole a eu lieu la collision de trains qui a fait au moins 69 morts ?","a":["Urda","Saragosse","Valence","Bilbao"],"c":0},
-      {"cat":"actu","q":"De combien E.Leclerc a-t-il baissé le prix du gazole dans ses 742 stations ?","a":["5 centimes par litre","50 centimes par litre","1 centime par litre","21 centimes par litre"],"c":3},
-      {"cat":"actu","q":"Quel a été le score du Klassiker Dortmund-Bayern fin octobre ?","a":["2-2","1-0","3-1","0-0"],"c":0},
-      {"cat":"actu","q":"Dans quelle ville américaine s'est tenue la réunion des ministres du G20 fin octobre ?","a":["New York","Atlanta","Washington","Chicago"],"c":1},
-      {"cat":"actu","q":"Quel sport la Russie pourra-t-elle de nouveau pratiquer en championnat du monde après une décision du TAS ?","a":["Le football","L'athlétisme","Le hockey sur glace","Le volley-ball"],"c":2},
-      {"cat":"actu","q":"Quelle enseigne de restauration rapide a vu son franchisé ProNoïa placé en sauvegarde ?","a":["McDonald's","KFC","Burger King","Quick"],"c":1},
-      {"cat":"actu","q":"Quel ministre français de l'Économie a déclaré que « l'économie française est à l'arrêt » ?","a":["Rachida Dati","Éric Lombard","Antoine Armand","Roland Lescure"],"c":3},
-      {"cat":"actu","q":"Combien de directions de médias français ont signé une alerte sur la liberté d'information face au RN ?","a":["7","10","14","20"],"c":2},
-      {"cat":"hist","q":"En quelle année le mur de Berlin est-il tombé ?","a":["1989","1979","1991","1968"],"c":0},
-      {"cat":"hist","q":"Qui fut le premier président des États-Unis ?","a":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"c":0},
-      {"cat":"hist","q":"Quelle civilisation a bâti Machu Picchu ?","a":["Les Aztèques","Les Mayas","Les Incas","Les Olmèques"],"c":2},
-      {"cat":"hist","q":"Quel traité a mis fin à la Première Guerre mondiale en 1919 ?","a":["Le traité de Vienne","Le traité de Versailles","Le traité de Rome","Le traité d'Utrecht"],"c":1},
-      {"cat":"hist","q":"En quelle année Napoléon a-t-il été couronné empereur des Français ?","a":["1789","1812","1804","1830"],"c":2},
-      {"cat":"geo","q":"Quelle est la capitale de l'Australie ?","a":["Sydney","Melbourne","Canberra","Perth"],"c":2},
-      {"cat":"geo","q":"Quel est le plus long fleuve d'Europe ?","a":["Le Danube","La Volga","Le Rhin","La Loire"],"c":1},
-      {"cat":"geo","q":"Quel est l'océan le plus vaste du monde ?","a":["L'Atlantique","L'Indien","L'Arctique","Le Pacifique"],"c":3},
-      {"cat":"geo","q":"Quelle est la capitale du Canada ?","a":["Toronto","Ottawa","Montréal","Vancouver"],"c":1},
-      {"cat":"geo","q":"Dans quel pays se trouve le Kilimandjaro ?","a":["Le Kenya","La Tanzanie","L'Éthiopie","L'Ouganda"],"c":1},
-      {"cat":"sci","q":"Quel est le symbole chimique de l'or ?","a":["Ag","Or","Au","Go"],"c":2},
-      {"cat":"sci","q":"Quelle planète est la plus proche du Soleil ?","a":["Vénus","Mercure","Mars","La Terre"],"c":1},
-      {"cat":"sci","q":"Quel gaz les plantes absorbent-elles pour la photosynthèse ?","a":["L'oxygène","L'azote","Le dioxyde de carbone","L'hydrogène"],"c":2},
-      {"cat":"sci","q":"À quelle vitesse approximative la lumière voyage-t-elle dans le vide ?","a":["3 000 km/s","300 000 km/s","30 000 km/s","3 000 000 km/s"],"c":1},
-      {"cat":"sci","q":"Quel est l'os le plus long du corps humain ?","a":["Le tibia","L'humérus","Le fémur","Le radius"],"c":2},
-      {"cat":"cine","q":"Qui a réalisé 'Jurassic Park' (1993) ?","a":["Steven Spielberg","James Cameron","Ridley Scott","George Lucas"],"c":0},
-      {"cat":"cine","q":"Quel film fut le premier non anglophone à remporter l'Oscar du meilleur film ?","a":["Roma","Parasite","La Vie est belle","Amour"],"c":1},
-      {"cat":"cine","q":"Quelle actrice incarne Katniss dans 'Hunger Games' ?","a":["Emma Stone","Jennifer Lawrence","Scarlett Johansson","Anne Hathaway"],"c":1},
-      {"cat":"cine","q":"Quel robot de Pixar nettoie une Terre abandonnée ?","a":["R2-D2","Baymax","WALL-E","Optimus Prime"],"c":2},
-      {"cat":"cine","q":"Qui a composé la musique de 'La Guerre des étoiles' ?","a":["John Williams","Hans Zimmer","Ennio Morricone","Danny Elfman"],"c":0},
-      {"cat":"mus","q":"Combien de cordes possède un violon ?","a":["4","5","6","7"],"c":0},
-      {"cat":"mus","q":"Quel groupe britannique a créé 'Bohemian Rhapsody' ?","a":["The Beatles","Queen","Pink Floyd","The Rolling Stones"],"c":1},
-      {"cat":"mus","q":"Qui chante 'Like a Rolling Stone' (1965) ?","a":["Bob Dylan","John Lennon","Elvis Presley","David Bowie"],"c":0},
-      {"cat":"mus","q":"Quel compositeur a écrit la Symphonie n°5 « du destin » ?","a":["Mozart","Beethoven","Bach","Tchaïkovski"],"c":1},
-      {"cat":"mus","q":"De quel pays le tango est-il originaire ?","a":["L'Espagne","Le Mexique","L'Argentine","Cuba"],"c":2},
-      {"cat":"lit","q":"Qui a écrit 'Cent ans de solitude' ?","a":["Mario Vargas Llosa","Gabriel García Márquez","Jorge Luis Borges","Julio Cortázar"],"c":1},
-      {"cat":"lit","q":"Qui est l'auteur du roman '1984' ?","a":["Aldous Huxley","Ray Bradbury","George Orwell","Jules Verne"],"c":2},
-      {"cat":"lit","q":"Qui a écrit 'Don Quichotte' ?","a":["Lope de Vega","Miguel de Cervantès","Corneille","Tirso de Molina"],"c":1},
-      {"cat":"lit","q":"Quelle autrice a créé Harry Potter ?","a":["Suzanne Collins","J. K. Rowling","Stephenie Meyer","Philip Pullman"],"c":1},
-      {"cat":"lit","q":"Qui a écrit 'L'Étranger' (1942) ?","a":["Jean-Paul Sartre","Albert Camus","Émile Zola","André Gide"],"c":1},
-      {"cat":"spo","q":"Quel pays a accueilli les Jeux olympiques d'été 2024 ?","a":["Le Japon","La France","Le Brésil","L'Australie"],"c":1},
-      {"cat":"spo","q":"Combien de joueurs par équipe sur un terrain de football ?","a":["9","10","11","12"],"c":2},
-      {"cat":"spo","q":"Quel pays a remporté la Coupe du monde de football 2022 ?","a":["La France","Le Brésil","L'Argentine","La Croatie"],"c":2},
-      {"cat":"spo","q":"Dans quel sport marque-t-on un 'touchdown' ?","a":["Le rugby","Le football américain","Le hockey sur glace","Le baseball"],"c":1},
-      {"cat":"spo","q":"Quelle ville accueille les Jeux olympiques d'hiver 2026 ?","a":["Sapporo","Milan-Cortina","Vancouver","Lillehammer"],"c":1},
-      {"cat":"bad","q":"À quelle hauteur se trouve le filet de badminton ?","a":["1,55 m","1,10 m","2,00 m","1,24 m"],"c":0},
-      {"cat":"bad","q":"Combien de plumes compose un volant de badminton ?","a":["12","14","16","18"],"c":2},
-      {"cat":"bad","q":"En quelle année le badminton est-il devenu sport olympique officiel ?","a":["1988","1992","1996","2000"],"c":1},
-      {"cat":"bad","q":"Combien de points faut-il pour remporter un set de badminton (nouveau barème) ?","a":["21","15","11","25"],"c":1},
-      {"cat":"bad","q":"De quel pays vient le nom 'badminton' du jeu moderne ?","a":["L'Inde","L'Angleterre","La Chine","Le Danemark"],"c":1},
-      {"cat":"gas","q":"Quel est l'ingrédient principal du guacamole ?","a":["Le concombre","L'avocat","La courgette","Le pois chiche"],"c":1},
-      {"cat":"gas","q":"De quel pays la pizza est-elle originaire ?","a":["La Grèce","L'Espagne","L'Italie","La France"],"c":2},
-      {"cat":"gas","q":"Quelle boisson japonaise est faite de riz fermenté ?","a":["Le matcha","Le saké","Le soju","Le shochu"],"c":1},
-      {"cat":"gas","q":"Quel fromage italien râpe-t-on traditionnellement sur les pâtes ?","a":["La mozzarella","Le parmesan","Le gorgonzola","La ricotta"],"c":1},
-      {"cat":"gas","q":"Quelle est l'épice la plus chère au monde ?","a":["La vanille","Le safran","La cardamome","Le poivre noir"],"c":1},
-      {"cat":"lan","q":"Quel est le pluriel de 'cheval' ?","a":["Chevals","Chevaux","Chevales","Chevauxs"],"c":1},
-      {"cat":"lan","q":"Comment appelle-t-on un mot qui se prononce comme un autre mais s'écrit différemment ?","a":["Un synonyme","Un homophone","Un antonyme","Un paronyme"],"c":1},
-      {"cat":"lan","q":"À quel temps correspond 'je mangeai' ?","a":["L'imparfait","Le passé composé","Le passé simple","Le futur antérieur"],"c":2},
-      {"cat":"lan","q":"Quelle est la lettre la plus fréquente en français ?","a":["A","S","E","T"],"c":2},
-      {"cat":"lan","q":"Dans 'je sais que tu viens', 'que' est une…","a":["Préposition","Conjonction","Adverbe","Pronom"],"c":1}
+ "date": "2026-11-03",
+ "qs": {
+  "fr": [
+   {
+    "cat": "actu",
+    "q": "Selon l'Insee, qu'a fait l'économie française au 3e trimestre 2026 ?",
+    "a": [
+     "Elle a reculé de 0,1 %",
+     "Elle a crû de 0,5 %",
+     "Elle a stagné",
+     "Elle a reculé de 2 %"
     ],
-    "en": [
-      {"cat":"actu","q":"Who won the 2026 Ballon d'Or?","a":["Harry Kane","Lionel Messi","Kylian Mbappé","Erling Haaland"],"c":0},
-      {"cat":"actu","q":"Harry Kane is the first Bayern Munich player to win the Ballon d'Or in how many years?","a":["10","45","25","60"],"c":1},
-      {"cat":"actu","q":"Which country did the FBI blame for the hack of Binance?","a":["Iran","Russia","North Korea","China"],"c":2},
-      {"cat":"actu","q":"Which sport can Russia play again at world championships after a Court of Arbitration ruling?","a":["Ice hockey","Football","Athletics","Volleyball"],"c":0},
-      {"cat":"actu","q":"Which country is bobsled world champion Leonie Fiebig now racing for?","a":["Germany","USA","Canada","Switzerland"],"c":1},
-      {"cat":"actu","q":"At least how many people died in the train collision in Urda, Spain?","a":["69","12","100","30"],"c":0},
-      {"cat":"actu","q":"What was the final score of the Bundesliga Klassiker between Dortmund and Bayern?","a":["1-0","3-1","2-2","0-0"],"c":2},
-      {"cat":"actu","q":"Which US city hosted the G20 foreign ministers' meeting?","a":["Atlanta","New York","Washington","Chicago"],"c":0},
-      {"cat":"actu","q":"Whose bloc came first in Israel's election without winning a majority?","a":["Benny Gantz's","Benjamin Netanyahu's","Yair Lapid's","Naftali Bennett's"],"c":1},
-      {"cat":"actu","q":"Which US agency publicly blamed North Korea for the hack of Binance?","a":["The CIA","The NSA","The FBI","The SEC"],"c":2},
-      {"cat":"actu","q":"Which African country is hosting the 2026 Youth Olympic Games, a first for Africa?","a":["Morocco","South Africa","Senegal","Kenya"],"c":2},
-      {"cat":"actu","q":"By how many cents did E.Leclerc cut the price of diesel at its 742 stations?","a":["7","14","21","28"],"c":2},
-      {"cat":"hist","q":"In which year did the Berlin Wall fall?","a":["1989","1979","1991","1968"],"c":0},
-      {"cat":"hist","q":"Who was the first president of the United States?","a":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"c":0},
-      {"cat":"hist","q":"Which civilization built Machu Picchu?","a":["The Aztecs","The Maya","The Incas","The Olmecs"],"c":2},
-      {"cat":"hist","q":"Which treaty ended World War I in 1919?","a":["The Treaty of Vienna","The Treaty of Versailles","The Treaty of Rome","The Treaty of Utrecht"],"c":1},
-      {"cat":"hist","q":"In which year was Napoleon crowned emperor of the French?","a":["1789","1812","1804","1830"],"c":2},
-      {"cat":"geo","q":"What is the capital of Australia?","a":["Sydney","Melbourne","Canberra","Perth"],"c":2},
-      {"cat":"geo","q":"What is the longest river in Europe?","a":["The Danube","The Volga","The Rhine","The Seine"],"c":1},
-      {"cat":"geo","q":"Which is the largest ocean on Earth?","a":["The Atlantic","The Indian","The Arctic","The Pacific"],"c":3},
-      {"cat":"geo","q":"What is the capital of Canada?","a":["Toronto","Ottawa","Montreal","Vancouver"],"c":1},
-      {"cat":"geo","q":"In which country is Mount Kilimanjaro located?","a":["Kenya","Tanzania","Ethiopia","Uganda"],"c":1},
-      {"cat":"sci","q":"What is the chemical symbol for gold?","a":["Ag","Gd","Au","Go"],"c":2},
-      {"cat":"sci","q":"Which planet is closest to the Sun?","a":["Venus","Mercury","Mars","Earth"],"c":1},
-      {"cat":"sci","q":"Which gas do plants absorb for photosynthesis?","a":["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"],"c":2},
-      {"cat":"sci","q":"At what approximate speed does light travel in a vacuum?","a":["3,000 km/s","300,000 km/s","30,000 km/s","3,000,000 km/s"],"c":1},
-      {"cat":"sci","q":"What is the longest bone in the human body?","a":["The tibia","The humerus","The femur","The radius"],"c":2},
-      {"cat":"cine","q":"Who directed 'Jurassic Park' (1993)?","a":["Steven Spielberg","James Cameron","Ridley Scott","George Lucas"],"c":0},
-      {"cat":"cine","q":"Which was the first non-English-language film to win Best Picture at the Oscars?","a":["Roma","Parasite","Life Is Beautiful","Amour"],"c":1},
-      {"cat":"cine","q":"Which actress plays Katniss in 'The Hunger Games'?","a":["Emma Stone","Jennifer Lawrence","Scarlett Johansson","Anne Hathaway"],"c":1},
-      {"cat":"cine","q":"Which Pixar robot cleans up an abandoned Earth?","a":["R2-D2","Baymax","WALL-E","Optimus Prime"],"c":2},
-      {"cat":"cine","q":"Who composed the music for 'Star Wars'?","a":["John Williams","Hans Zimmer","Ennio Morricone","Danny Elfman"],"c":0},
-      {"cat":"mus","q":"How many strings does a violin have?","a":["4","5","6","7"],"c":0},
-      {"cat":"mus","q":"Which British band created 'Bohemian Rhapsody'?","a":["The Beatles","Queen","Pink Floyd","The Rolling Stones"],"c":1},
-      {"cat":"mus","q":"Who sings 'Like a Rolling Stone' (1965)?","a":["Bob Dylan","John Lennon","Elvis Presley","David Bowie"],"c":0},
-      {"cat":"mus","q":"Which composer wrote Symphony No. 5, the 'Fate' symphony?","a":["Mozart","Beethoven","Bach","Tchaikovsky"],"c":1},
-      {"cat":"mus","q":"Which country is the tango originally from?","a":["Spain","Mexico","Argentina","Cuba"],"c":2},
-      {"cat":"lit","q":"Who wrote 'One Hundred Years of Solitude'?","a":["Mario Vargas Llosa","Gabriel García Márquez","Jorge Luis Borges","Julio Cortázar"],"c":1},
-      {"cat":"lit","q":"Who is the author of the novel '1984'?","a":["Aldous Huxley","Ray Bradbury","George Orwell","Jules Verne"],"c":2},
-      {"cat":"lit","q":"Who wrote 'Don Quixote'?","a":["Lope de Vega","Miguel de Cervantes","Corneille","Tirso de Molina"],"c":1},
-      {"cat":"lit","q":"Which author created Harry Potter?","a":["Suzanne Collins","J. K. Rowling","Stephenie Meyer","Philip Pullman"],"c":1},
-      {"cat":"lit","q":"Who wrote 'The Stranger' (1942)?","a":["Jean-Paul Sartre","Albert Camus","Émile Zola","André Gide"],"c":1},
-      {"cat":"spo","q":"Which country hosted the 2024 Summer Olympics?","a":["Japan","France","Brazil","Australia"],"c":1},
-      {"cat":"spo","q":"How many players per team are on a football (soccer) pitch?","a":["9","10","11","12"],"c":2},
-      {"cat":"spo","q":"Which country won the 2022 FIFA World Cup?","a":["France","Brazil","Argentina","Croatia"],"c":2},
-      {"cat":"spo","q":"In which sport do you score a 'touchdown'?","a":["Rugby","American football","Ice hockey","Baseball"],"c":1},
-      {"cat":"spo","q":"Which city hosts the 2026 Winter Olympics?","a":["Sapporo","Milan-Cortina","Vancouver","Lillehammer"],"c":1},
-      {"cat":"bad","q":"How high is the badminton net?","a":["1.55 m","1.10 m","2.00 m","1.24 m"],"c":0},
-      {"cat":"bad","q":"How many feathers make up a badminton shuttlecock?","a":["12","14","16","18"],"c":2},
-      {"cat":"bad","q":"In which year did badminton become an official Olympic sport?","a":["1988","1992","1996","2000"],"c":1},
-      {"cat":"bad","q":"How many points win a badminton set (new scoring)?","a":["21","15","11","25"],"c":1},
-      {"cat":"bad","q":"Which country gave modern badminton its name?","a":["India","England","China","Denmark"],"c":1},
-      {"cat":"gas","q":"What is the main ingredient of guacamole?","a":["Cucumber","Avocado","Zucchini","Chickpea"],"c":1},
-      {"cat":"gas","q":"Which country did pizza originate from?","a":["Greece","Spain","Italy","France"],"c":2},
-      {"cat":"gas","q":"Which Japanese drink is made from fermented rice?","a":["Matcha","Sake","Soju","Shochu"],"c":1},
-      {"cat":"gas","q":"Which Italian cheese is traditionally grated over pasta?","a":["Mozzarella","Parmesan","Gorgonzola","Ricotta"],"c":1},
-      {"cat":"gas","q":"What is the most expensive spice in the world?","a":["Vanilla","Saffron","Cardamom","Black pepper"],"c":1},
-      {"cat":"lan","q":"What is the plural of 'child'?","a":["Childs","Childes","Children","Childrens"],"c":2},
-      {"cat":"lan","q":"What do you call a word that reads the same backwards?","a":["A synonym","A palindrome","An acronym","An anagram"],"c":1},
-      {"cat":"lan","q":"What is the past tense of 'go'?","a":["Goed","Gone","Went","Going"],"c":2},
-      {"cat":"lan","q":"Which article goes before a vowel sound: 'a' or 'an'?","a":["a","an","the","either"],"c":1},
-      {"cat":"lan","q":"What does the contraction 'it's' stand for?","a":["It is","Its","It has been","It was"],"c":0}
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Qui a remporté le Ballon d'Or 2026 ?",
+    "a": [
+     "Lionel Messi",
+     "Harry Kane",
+     "Kylian Mbappé",
+     "Erling Haaland"
     ],
-    "es": [
-      {"cat":"actu","q":"¿En qué ciudad española ocurrió la colisión de trenes que dejó al menos 69 muertos?","a":["Urda","Zaragoza","Valencia","Bilbao"],"c":0},
-      {"cat":"actu","q":"¿Quién ganó el Balón de Oro 2026?","a":["Lionel Messi","Kylian Mbappé","Harry Kane","Erling Haaland"],"c":2},
-      {"cat":"actu","q":"¿Contra qué boxeador pelea Canelo Álvarez en Arabia Saudita?","a":["David Benavidez","Christian Mbilli","Jaime Munguía","Gennady Golovkin"],"c":1},
-      {"cat":"actu","q":"¿Cuál fue el resultado del Klassiker Dortmund-Bayern de fin de octubre?","a":["1-0","3-1","2-2","0-0"],"c":2},
-      {"cat":"actu","q":"¿A qué país acusó el FBI del hackeo de Binance?","a":["Irán","Corea del Norte","Rusia","China"],"c":1},
-      {"cat":"actu","q":"¿A qué ciudad de EE. UU. viajó Serguéi Lavrov para la reunión del G20?","a":["Atlanta","Nueva York","Washington","Chicago"],"c":0},
-      {"cat":"actu","q":"¿Qué bloque quedó a la cabeza de las elecciones de Israel sin lograr mayoría?","a":["El de Netanyahu","El de Gantz","El de Lapid","El de Bennett"],"c":0},
-      {"cat":"actu","q":"¿Qué país africano organiza los Juegos Olímpicos de la Juventud 2026?","a":["Marruecos","Sudáfrica","Senegal","Kenia"],"c":2},
-      {"cat":"actu","q":"¿De qué país es la policía que investiga una estancia de Epstein en el castillo de Balmoral en 1999?","a":["Inglaterra","Escocia","Irlanda","Gales"],"c":1},
-      {"cat":"actu","q":"¿Qué deporte podrá practicar de nuevo Rusia en campeonatos del mundo tras la decisión del TAS?","a":["El atletismo","El hockey hielo","El fútbol","El baloncesto"],"c":1},
-      {"cat":"actu","q":"¿Por qué país compite ahora la campeona mundial de bobsled Leonie Fiebig?","a":["Alemania","Estados Unidos","Austria","Canadá"],"c":1},
-      {"cat":"hist","q":"¿En qué año cayó el muro de Berlín?","a":["1989","1979","1991","1968"],"c":0},
-      {"cat":"hist","q":"¿Quién fue el primer presidente de Estados Unidos?","a":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"c":0},
-      {"cat":"hist","q":"¿Qué civilización construyó Machu Picchu?","a":["Los aztecas","Los mayas","Los incas","Los olmecas"],"c":2},
-      {"cat":"hist","q":"¿Qué tratado puso fin a la Primera Guerra Mundial en 1919?","a":["El Tratado de Viena","El Tratado de Versalles","El Tratado de Roma","El Tratado de Utrecht"],"c":1},
-      {"cat":"hist","q":"¿En qué año fue coronado Napoleón emperador de los franceses?","a":["1789","1812","1804","1830"],"c":2},
-      {"cat":"geo","q":"¿Cuál es la capital de Australia?","a":["Sídney","Melbourne","Canberra","Perth"],"c":2},
-      {"cat":"geo","q":"¿Cuál es el río más largo de Europa?","a":["El Danubio","El Volga","El Rin","El Sena"],"c":1},
-      {"cat":"geo","q":"¿Cuál es el océano más grande del planeta?","a":["El Atlántico","El Índico","El Ártico","El Pacífico"],"c":3},
-      {"cat":"geo","q":"¿Cuál es la capital de Canadá?","a":["Toronto","Ottawa","Montreal","Vancouver"],"c":1},
-      {"cat":"geo","q":"¿En qué país se encuentra el Kilimanjaro?","a":["Kenia","Tanzania","Etiopía","Uganda"],"c":1},
-      {"cat":"sci","q":"¿Cuál es el símbolo químico del oro?","a":["Ag","Or","Au","Go"],"c":2},
-      {"cat":"sci","q":"¿Cuál es el planeta más cercano al Sol?","a":["Venus","Mercurio","Marte","La Tierra"],"c":1},
-      {"cat":"sci","q":"¿Qué gas absorben las plantas para la fotosíntesis?","a":["El oxígeno","El nitrógeno","El dióxido de carbono","El hidrógeno"],"c":2},
-      {"cat":"sci","q":"¿A qué velocidad aproximada viaja la luz en el vacío?","a":["3.000 km/s","300.000 km/s","30.000 km/s","3.000.000 km/s"],"c":1},
-      {"cat":"sci","q":"¿Cuál es el hueso más largo del cuerpo humano?","a":["La tibia","El húmero","El fémur","El radio"],"c":2},
-      {"cat":"cine","q":"¿Quién dirigió 'Parque Jurásico' (1993)?","a":["Steven Spielberg","James Cameron","Ridley Scott","George Lucas"],"c":0},
-      {"cat":"cine","q":"¿Qué película fue la primera no anglófona en ganar el Óscar a mejor película?","a":["Roma","Parásitos","La vida es bella","Amour"],"c":1},
-      {"cat":"cine","q":"¿Qué actriz interpreta a Katniss en 'Los juegos del hambre'?","a":["Emma Stone","Jennifer Lawrence","Scarlett Johansson","Anne Hathaway"],"c":1},
-      {"cat":"cine","q":"¿Qué robot de Pixar limpia una Tierra abandonada?","a":["R2-D2","Baymax","WALL-E","Optimus Prime"],"c":2},
-      {"cat":"cine","q":"¿Quién compuso la música de 'La guerra de las galaxias'?","a":["John Williams","Hans Zimmer","Ennio Morricone","Danny Elfman"],"c":0},
-      {"cat":"mus","q":"¿Cuántas cuerdas tiene un violín?","a":["4","5","6","7"],"c":0},
-      {"cat":"mus","q":"¿Qué grupo británico creó 'Bohemian Rhapsody'?","a":["The Beatles","Queen","Pink Floyd","The Rolling Stones"],"c":1},
-      {"cat":"mus","q":"¿Quién canta 'Like a Rolling Stone' (1965)?","a":["Bob Dylan","John Lennon","Elvis Presley","David Bowie"],"c":0},
-      {"cat":"mus","q":"¿Qué compositor escribió la Sinfonía n.º 5, la del 'destino'?","a":["Mozart","Beethoven","Bach","Chaikovski"],"c":1},
-      {"cat":"mus","q":"¿De qué país es originario el tango?","a":["España","México","Argentina","Cuba"],"c":2},
-      {"cat":"lit","q":"¿Quién escribió 'Cien años de soledad'?","a":["Mario Vargas Llosa","Gabriel García Márquez","Jorge Luis Borges","Julio Cortázar"],"c":1},
-      {"cat":"lit","q":"¿Quién es el autor de la novela '1984'?","a":["Aldous Huxley","Ray Bradbury","George Orwell","Julio Verne"],"c":2},
-      {"cat":"lit","q":"¿Quién escribió 'Don Quijote'?","a":["Lope de Vega","Miguel de Cervantes","Corneille","Tirso de Molina"],"c":1},
-      {"cat":"lit","q":"¿Qué autora creó a Harry Potter?","a":["Suzanne Collins","J. K. Rowling","Stephenie Meyer","Philip Pullman"],"c":1},
-      {"cat":"lit","q":"¿Quién escribió 'El extranjero' (1942)?","a":["Jean-Paul Sartre","Albert Camus","Émile Zola","André Gide"],"c":1},
-      {"cat":"spo","q":"¿Qué país acogió los Juegos Olímpicos de verano de 2024?","a":["Japón","Francia","Brasil","Australia"],"c":1},
-      {"cat":"spo","q":"¿Cuántos jugadores por equipo hay en un campo de fútbol?","a":["9","10","11","12"],"c":2},
-      {"cat":"spo","q":"¿Qué país ganó la Copa del Mundo de fútbol de 2022?","a":["Francia","Brasil","Argentina","Croacia"],"c":2},
-      {"cat":"spo","q":"¿En qué deporte se consigue un 'touchdown'?","a":["El rugby","El fútbol americano","El hockey hielo","El béisbol"],"c":1},
-      {"cat":"spo","q":"¿Qué ciudad acoge los Juegos Olímpicos de invierno de 2026?","a":["Sapporo","Milán-Cortina","Vancouver","Lillehammer"],"c":1},
-      {"cat":"bad","q":"¿A qué altura está la red de bádminton?","a":["1,55 m","1,10 m","2,00 m","1,24 m"],"c":0},
-      {"cat":"bad","q":"¿Cuántas plumas tiene un volante de bádminton?","a":["12","14","16","18"],"c":2},
-      {"cat":"bad","q":"¿En qué año se convirtió el bádminton en deporte olímpico oficial?","a":["1988","1992","1996","2000"],"c":1},
-      {"cat":"bad","q":"¿Cuántos puntos hacen falta para ganar un set de bádminton (nuevo baremo)?","a":["21","15","11","25"],"c":1},
-      {"cat":"bad","q":"¿De qué país viene el nombre 'badminton' del juego moderno?","a":["India","Inglaterra","China","Dinamarca"],"c":1},
-      {"cat":"gas","q":"¿Cuál es el ingrediente principal del guacamole?","a":["El pepino","El aguacate","El calabacín","El garbanzo"],"c":1},
-      {"cat":"gas","q":"¿De qué país es originaria la pizza?","a":["Grecia","España","Italia","Francia"],"c":2},
-      {"cat":"gas","q":"¿Qué bebida japonesa se hace con arroz fermentado?","a":["El matcha","El sake","El soju","El shochu"],"c":1},
-      {"cat":"gas","q":"¿Qué queso italiano se rallan tradicionalmente sobre la pasta?","a":["La mozzarella","El parmesano","El gorgonzola","El ricotta"],"c":1},
-      {"cat":"gas","q":"¿Cuál es la especia más cara del mundo?","a":["La vainilla","El azafrán","El cardamomo","La pimienta negra"],"c":1},
-      {"cat":"lan","q":"¿Cuál es el plural de 'ciudad'?","a":["Ciudades","Ciudadeses","Ciudadías","Ciudad"],"c":0},
-      {"cat":"lan","q":"¿Cuál es el plural de 'lápiz'?","a":["Lápizs","Lápices","Lápizes","Lapiceros"],"c":1},
-      {"cat":"lan","q":"¿Qué verbo español se usa para características permanentes?","a":["Estar","Ser","Haber","Tener"],"c":1},
-      {"cat":"lan","q":"¿Cuántas letras tiene el alfabeto español?","a":["26","27","28","25"],"c":1},
-      {"cat":"lan","q":"¿Qué particularidad ortográfica distingue al español?","a":["Abre los signos ¿ y ¡","No usa acentos","No tiene plurales","Escribe todo junto"],"c":0}
-    ]
-  }
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Quel pays africain accueille les Jeux olympiques de la jeunesse 2026, une première en Afrique ?",
+    "a": [
+     "Le Maroc",
+     "L'Afrique du Sud",
+     "Le Sénégal",
+     "Le Kenya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Quel pays le FBI accuse-t-il du piratage de la plateforme Binance ?",
+    "a": [
+     "La Corée du Nord",
+     "L'Iran",
+     "La Russie",
+     "La Chine"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Dans quelle ville espagnole a eu lieu la collision de trains qui a fait au moins 69 morts ?",
+    "a": [
+     "Urda",
+     "Saragosse",
+     "Valence",
+     "Bilbao"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "De combien E.Leclerc a-t-il baissé le prix du gazole dans ses 742 stations ?",
+    "a": [
+     "5 centimes par litre",
+     "50 centimes par litre",
+     "1 centime par litre",
+     "21 centimes par litre"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Quel a été le score du Klassiker Dortmund-Bayern fin octobre ?",
+    "a": [
+     "2-2",
+     "1-0",
+     "3-1",
+     "0-0"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Dans quelle ville américaine s'est tenue la réunion des ministres du G20 fin octobre ?",
+    "a": [
+     "New York",
+     "Atlanta",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Quel sport la Russie pourra-t-elle de nouveau pratiquer en championnat du monde après une décision du TAS ?",
+    "a": [
+     "Le football",
+     "L'athlétisme",
+     "Le hockey sur glace",
+     "Le volley-ball"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Quelle enseigne de restauration rapide a vu son franchisé ProNoïa placé en sauvegarde ?",
+    "a": [
+     "McDonald's",
+     "KFC",
+     "Burger King",
+     "Quick"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Quel ministre français de l'Économie a déclaré que « l'économie française est à l'arrêt » ?",
+    "a": [
+     "Rachida Dati",
+     "Éric Lombard",
+     "Antoine Armand",
+     "Roland Lescure"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Combien de directions de médias français ont signé une alerte sur la liberté d'information face au RN ?",
+    "a": [
+     "7",
+     "10",
+     "14",
+     "20"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+    "a": [
+     "1492",
+     "1453",
+     "1520",
+     "1607"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année le Titanic a-t-il sombré ?",
+    "a": [
+     "1905",
+     "1912",
+     "1920",
+     "1898"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année la Révolution française a-t-elle commencé ?",
+    "a": [
+     "1776",
+     "1789",
+     "1804",
+     "1815"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Cléopâtre était la reine de quel royaume antique ?",
+    "a": [
+     "La Grèce",
+     "L'Égypte",
+     "Carthage",
+     "La Perse"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel conflit s'est déroulé de 1939 à 1945 ?",
+    "a": [
+     "La guerre de Crimée",
+     "La Première Guerre mondiale",
+     "La Seconde Guerre mondiale",
+     "La guerre froide"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus grand pays du monde par sa superficie ?",
+    "a": [
+     "La Chine",
+     "Les États-Unis",
+     "Le Canada",
+     "La Russie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la capitale du Japon ?",
+    "a": [
+     "Kyoto",
+     "Osaka",
+     "Tokyo",
+     "Nagoya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus grand désert chaud du monde ?",
+    "a": [
+     "Le Gobi",
+     "Le Sahara",
+     "Le Kalahari",
+     "L'Atacama"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel continent compte le plus de pays ?",
+    "a": [
+     "L'Asie",
+     "L'Amérique du Sud",
+     "L'Afrique",
+     "L'Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve la Grande Barrière de corail ?",
+    "a": [
+     "L'Australie",
+     "L'Indonésie",
+     "Les Philippines",
+     "Le Brésil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Comment appelle-t-on couramment la molécule H2O ?",
+    "a": [
+     "Le sel",
+     "L'eau",
+     "L'oxygène",
+     "L'ozone"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel organe pompe le sang dans le corps humain ?",
+    "a": [
+     "Le foie",
+     "Le poumon",
+     "Le cœur",
+     "Le rein"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle est la substance naturelle la plus dure ?",
+    "a": [
+     "Le granit",
+     "L'acier",
+     "Le quartz",
+     "Le diamant"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle planète est surnommée la planète rouge ?",
+    "a": [
+     "Vénus",
+     "Mars",
+     "Jupiter",
+     "Mercure"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle force nous maintient-elle au sol ?",
+    "a": [
+     "Le magnétisme",
+     "La gravité",
+     "La friction",
+     "La poussée"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé 'Titanic' (1997) ?",
+    "a": [
+     "James Cameron",
+     "Steven Spielberg",
+     "Ridley Scott",
+     "Martin Scorsese"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quelle saga entend-on « Que la Force soit avec toi » ?",
+    "a": [
+     "Star Trek",
+     "Star Wars",
+     "Dune",
+     "Avatar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne le pirate Jack Sparrow ?",
+    "a": [
+     "Orlando Bloom",
+     "Johnny Depp",
+     "Brad Pitt",
+     "Hugh Jackman"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film d'animation apparaît le lionceau Simba ?",
+    "a": [
+     "Le Roi lion",
+     "Madagascar",
+     "Kirikou",
+     "Le Livre de la jungle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de 1994 se déroule dans la prison de Shawshank ?",
+    "a": [
+     "Les Évadés",
+     "La Ligne verte",
+     "Volte-Face",
+     "Papillon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Combien de touches possède un piano standard ?",
+    "a": [
+     "61",
+     "76",
+     "88",
+     "108"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "À quelle famille d'instruments appartient la trompette ?",
+    "a": [
+     "Les bois",
+     "Les cuivres",
+     "Les percussions",
+     "Les cordes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel chanteur est surnommé le « roi de la pop » ?",
+    "a": [
+     "Elvis Presley",
+     "Michael Jackson",
+     "Prince",
+     "David Bowie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Que signifie l'indication musicale « forte » ?",
+    "a": [
+     "Jouer doucement",
+     "Jouer fort",
+     "Jouer vite",
+     "Jouer lentement"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel Beatles jouait de la basse ?",
+    "a": [
+     "John Lennon",
+     "Paul McCartney",
+     "George Harrison",
+     "Ringo Starr"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit 'Les Misérables' ?",
+    "a": [
+     "Émile Zola",
+     "Victor Hugo",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit 'Roméo et Juliette' ?",
+    "a": [
+     "Molière",
+     "William Shakespeare",
+     "Christopher Marlowe",
+     "Jean Racine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le détective Sherlock Holmes ?",
+    "a": [
+     "Agatha Christie",
+     "Arthur Conan Doyle",
+     "Edgar Allan Poe",
+     "Georges Simenon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit 'Le Petit Prince' ?",
+    "a": [
+     "Antoine de Saint-Exupéry",
+     "Jules Verne",
+     "Marcel Pagnol",
+     "Jean Giono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Quel poète grec de l'Antiquité a écrit l'Iliade ?",
+    "a": [
+     "Homère",
+     "Virgile",
+     "Sophocle",
+     "Ovide"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Comment appelle-t-on un score de zéro au tennis ?",
+    "a": [
+     "Nul",
+     "Love",
+     "Zero",
+     "Blank"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Combien d'anneaux figurent sur le drapeau olympique ?",
+    "a": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "De quel sport le Tour de France est-il l'épreuve reine ?",
+    "a": [
+     "Le cyclisme",
+     "L'athlétisme",
+     "La course automobile",
+     "La marche"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Tous les combien d'années se tiennent les Jeux olympiques d'été ?",
+    "a": [
+     "2 ans",
+     "3 ans",
+     "4 ans",
+     "5 ans"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel pays le judo a-t-il été inventé ?",
+    "a": [
+     "La Chine",
+     "La Corée",
+     "Le Japon",
+     "La Thaïlande"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "Sous quel nom le badminton était-il joué en Inde au XIXe siècle ?",
+    "a": [
+     "Poona",
+     "Punja",
+     "Kabaddi",
+     "Pallone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "Comment s'appelle le coup d'attaque frappé vers le bas au badminton ?",
+    "a": [
+     "Le clear",
+     "Le smash",
+     "Le drop",
+     "Le drive"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Quel pays a dominé le badminton mondial avec des champions comme Lin Dan ?",
+    "a": [
+     "L'Indonésie",
+     "La Malaisie",
+     "La Chine",
+     "Le Danemark"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "Comment s'appelle le coup qui envoie le volant haut et au fond du court ?",
+    "a": [
+     "Le clear",
+     "Le net shot",
+     "Le service",
+     "Le lift court"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "En doubles mixte, combien y a-t-il d'hommes et de femmes par équipe ?",
+    "a": [
+     "2 et 0",
+     "1 et 1",
+     "0 et 2",
+     "2 et 1"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région espagnole la paella est-elle originaire ?",
+    "a": [
+     "La Catalogne",
+     "L'Andalousie",
+     "La Communauté valencienne",
+     "La Galice"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel grain constitue la base des sushis ?",
+    "a": [
+     "Le blé",
+     "Le maïs",
+     "Le riz",
+     "L'orge"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quelle herbe entre traditionnellement dans le pesto ?",
+    "a": [
+     "Le persil",
+     "Le basilic",
+     "La menthe",
+     "La sauge"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "À partir de quoi le tofu est-il fabriqué ?",
+    "a": [
+     "Le soja",
+     "Le blé",
+     "L'amande",
+     "La coco"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région française le camembert est-il originaire ?",
+    "a": [
+     "La Bretagne",
+     "La Normandie",
+     "L'Alsace",
+     "Le Poitou"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'écrit le nombre 20 en toutes lettres ?",
+    "a": [
+     "Vint",
+     "Vingt",
+     "Vinze",
+     "Vings"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Le mot « où » avec accent grave indique…",
+    "a": [
+     "Le temps",
+     "Le lieu",
+     "La cause",
+     "La manière"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le contraire de « ancien » ?",
+    "a": [
+     "Vieux",
+     "Récent",
+     "Antique",
+     "Passé"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la nature du mot « rapidement » ?",
+    "a": [
+     "Un adjectif",
+     "Un adverbe",
+     "Un nom",
+     "Un verbe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Combien de voyelles compte l'alphabet français ?",
+    "a": [
+     "5",
+     "6",
+     "7",
+     "4"
+    ],
+    "c": 1
+   }
+  ],
+  "en": [
+   {
+    "cat": "actu",
+    "q": "Who won the 2026 Ballon d'Or?",
+    "a": [
+     "Harry Kane",
+     "Lionel Messi",
+     "Kylian Mbappé",
+     "Erling Haaland"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Harry Kane is the first Bayern Munich player to win the Ballon d'Or in how many years?",
+    "a": [
+     "10",
+     "45",
+     "25",
+     "60"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Which country did the FBI blame for the hack of Binance?",
+    "a": [
+     "Iran",
+     "Russia",
+     "North Korea",
+     "China"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Which sport can Russia play again at world championships after a Court of Arbitration ruling?",
+    "a": [
+     "Ice hockey",
+     "Football",
+     "Athletics",
+     "Volleyball"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Which country is bobsled world champion Leonie Fiebig now racing for?",
+    "a": [
+     "Germany",
+     "USA",
+     "Canada",
+     "Switzerland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "At least how many people died in the train collision in Urda, Spain?",
+    "a": [
+     "69",
+     "12",
+     "100",
+     "30"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "What was the final score of the Bundesliga Klassiker between Dortmund and Bayern?",
+    "a": [
+     "1-0",
+     "3-1",
+     "2-2",
+     "0-0"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Which US city hosted the G20 foreign ministers' meeting?",
+    "a": [
+     "Atlanta",
+     "New York",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Whose bloc came first in Israel's election without winning a majority?",
+    "a": [
+     "Benny Gantz's",
+     "Benjamin Netanyahu's",
+     "Yair Lapid's",
+     "Naftali Bennett's"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Which US agency publicly blamed North Korea for the hack of Binance?",
+    "a": [
+     "The CIA",
+     "The NSA",
+     "The FBI",
+     "The SEC"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Which African country is hosting the 2026 Youth Olympic Games, a first for Africa?",
+    "a": [
+     "Morocco",
+     "South Africa",
+     "Senegal",
+     "Kenya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "By how many cents did E.Leclerc cut the price of diesel at its 742 stations?",
+    "a": [
+     "7",
+     "14",
+     "21",
+     "28"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "In which year did Columbus reach the Americas?",
+    "a": [
+     "1492",
+     "1453",
+     "1520",
+     "1607"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "In which year did the Titanic sink?",
+    "a": [
+     "1905",
+     "1912",
+     "1920",
+     "1898"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "In which year did the French Revolution begin?",
+    "a": [
+     "1776",
+     "1789",
+     "1804",
+     "1815"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Cleopatra was the queen of which ancient kingdom?",
+    "a": [
+     "Greece",
+     "Egypt",
+     "Carthage",
+     "Persia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which conflict was fought from 1939 to 1945?",
+    "a": [
+     "The Crimean War",
+     "World War I",
+     "World War II",
+     "The Cold War"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which is the largest country in the world by area?",
+    "a": [
+     "China",
+     "The United States",
+     "Canada",
+     "Russia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the capital of Japan?",
+    "a": [
+     "Kyoto",
+     "Osaka",
+     "Tokyo",
+     "Nagoya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which is the largest hot desert in the world?",
+    "a": [
+     "The Gobi",
+     "The Sahara",
+     "The Kalahari",
+     "The Atacama"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which continent has the most countries?",
+    "a": [
+     "Asia",
+     "South America",
+     "Africa",
+     "Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Great Barrier Reef?",
+    "a": [
+     "Australia",
+     "Indonesia",
+     "The Philippines",
+     "Brazil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "What is the molecule H2O commonly known as?",
+    "a": [
+     "Salt",
+     "Water",
+     "Oxygen",
+     "Ozone"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which organ pumps blood around the human body?",
+    "a": [
+     "The liver",
+     "The lung",
+     "The heart",
+     "The kidney"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the hardest natural substance?",
+    "a": [
+     "Granite",
+     "Steel",
+     "Quartz",
+     "Diamond"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which planet is nicknamed the Red Planet?",
+    "a": [
+     "Venus",
+     "Mars",
+     "Jupiter",
+     "Mercury"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which force keeps us on the ground?",
+    "a": [
+     "Magnetism",
+     "Gravity",
+     "Friction",
+     "Thrust"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed 'Titanic' (1997)?",
+    "a": [
+     "James Cameron",
+     "Steven Spielberg",
+     "Ridley Scott",
+     "Martin Scorsese"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "'May the Force be with you' is a quote from which saga?",
+    "a": [
+     "Star Trek",
+     "Star Wars",
+     "Dune",
+     "Avatar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor plays the pirate Jack Sparrow?",
+    "a": [
+     "Orlando Bloom",
+     "Johnny Depp",
+     "Brad Pitt",
+     "Hugh Jackman"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "In which animated film does the cub Simba appear?",
+    "a": [
+     "The Lion King",
+     "Madagascar",
+     "Kirikou",
+     "The Jungle Book"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1994 film is set in Shawshank prison?",
+    "a": [
+     "The Shawshank Redemption",
+     "The Green Mile",
+     "Face/Off",
+     "Papillon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "How many keys does a standard piano have?",
+    "a": [
+     "61",
+     "76",
+     "88",
+     "108"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument family does the trumpet belong to?",
+    "a": [
+     "Woodwind",
+     "Brass",
+     "Percussion",
+     "Strings"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which singer is nicknamed the 'King of Pop'?",
+    "a": [
+     "Elvis Presley",
+     "Michael Jackson",
+     "Prince",
+     "David Bowie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "What does the musical marking 'forte' mean?",
+    "a": [
+     "Play softly",
+     "Play loudly",
+     "Play fast",
+     "Play slowly"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which Beatle played bass guitar?",
+    "a": [
+     "John Lennon",
+     "Paul McCartney",
+     "George Harrison",
+     "Ringo Starr"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'Les Misérables'?",
+    "a": [
+     "Émile Zola",
+     "Victor Hugo",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'Romeo and Juliet'?",
+    "a": [
+     "Molière",
+     "William Shakespeare",
+     "Christopher Marlowe",
+     "Jean Racine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the detective Sherlock Holmes?",
+    "a": [
+     "Agatha Christie",
+     "Arthur Conan Doyle",
+     "Edgar Allan Poe",
+     "Georges Simenon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'The Little Prince'?",
+    "a": [
+     "Antoine de Saint-Exupéry",
+     "Jules Verne",
+     "Marcel Pagnol",
+     "Jean Giono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Which ancient Greek poet wrote the Iliad?",
+    "a": [
+     "Homer",
+     "Virgil",
+     "Sophocles",
+     "Ovid"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "What is a score of zero called in tennis?",
+    "a": [
+     "Nil",
+     "Love",
+     "Zero",
+     "Blank"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "How many rings appear on the Olympic flag?",
+    "a": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "The Tour de France is the crown event of which sport?",
+    "a": [
+     "Cycling",
+     "Athletics",
+     "Motor racing",
+     "Race walking"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "How often are the Summer Olympics held?",
+    "a": [
+     "Every 2 years",
+     "Every 3 years",
+     "Every 4 years",
+     "Every 5 years"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "In which country was judo invented?",
+    "a": [
+     "China",
+     "South Korea",
+     "Japan",
+     "Thailand"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "Under what name was badminton played in 19th-century India?",
+    "a": [
+     "Poona",
+     "Punja",
+     "Kabaddi",
+     "Pallone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "What is the overhead attacking shot in badminton called?",
+    "a": [
+     "The clear",
+     "The smash",
+     "The drop",
+     "The drive"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Which country dominated world badminton with champions like Lin Dan?",
+    "a": [
+     "Indonesia",
+     "Malaysia",
+     "China",
+     "Denmark"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "What is the shot that sends the shuttle high and deep called?",
+    "a": [
+     "The clear",
+     "The net shot",
+     "The serve",
+     "The short lift"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "In mixed doubles, how many men and women are on each team?",
+    "a": [
+     "2 and 0",
+     "1 and 1",
+     "0 and 2",
+     "2 and 1"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which Spanish region is paella originally from?",
+    "a": [
+     "Catalonia",
+     "Andalusia",
+     "Valencia",
+     "Galicia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which grain is the base of sushi?",
+    "a": [
+     "Wheat",
+     "Corn",
+     "Rice",
+     "Barley"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which herb traditionally goes into pesto?",
+    "a": [
+     "Parsley",
+     "Basil",
+     "Mint",
+     "Sage"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "What is tofu made from?",
+    "a": [
+     "Soybeans",
+     "Wheat",
+     "Almonds",
+     "Coconut"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Which French region is camembert from?",
+    "a": [
+     "Brittany",
+     "Normandy",
+     "Alsace",
+     "Poitou"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What do you call a word that means the opposite of another?",
+    "a": [
+     "A synonym",
+     "An antonym",
+     "A homonym",
+     "A palindrome"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Which of these words is a noun?",
+    "a": [
+     "Quickly",
+     "Happiness",
+     "Bright",
+     "Swim"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "How many letters are in the English alphabet?",
+    "a": [
+     "24",
+     "25",
+     "26",
+     "28"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which of these is a compound word?",
+    "a": [
+     "Sunflower",
+     "Brightly",
+     "Happier",
+     "Rainless"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Which word type describes a verb: adjective or adverb?",
+    "a": [
+     "Adjective",
+     "Adverb",
+     "Noun",
+     "Pronoun"
+    ],
+    "c": 1
+   }
+  ],
+  "es": [
+   {
+    "cat": "actu",
+    "q": "¿En qué ciudad española ocurrió la colisión de trenes que dejó al menos 69 muertos?",
+    "a": [
+     "Urda",
+     "Zaragoza",
+     "Valencia",
+     "Bilbao"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "¿Quién ganó el Balón de Oro 2026?",
+    "a": [
+     "Lionel Messi",
+     "Kylian Mbappé",
+     "Harry Kane",
+     "Erling Haaland"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿Contra qué boxeador pelea Canelo Álvarez en Arabia Saudita?",
+    "a": [
+     "David Benavidez",
+     "Christian Mbilli",
+     "Jaime Munguía",
+     "Gennady Golovkin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "¿Cuál fue el resultado del Klassiker Dortmund-Bayern de fin de octubre?",
+    "a": [
+     "1-0",
+     "3-1",
+     "2-2",
+     "0-0"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿A qué país acusó el FBI del hackeo de Binance?",
+    "a": [
+     "Irán",
+     "Corea del Norte",
+     "Rusia",
+     "China"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "¿A qué ciudad de EE. UU. viajó Serguéi Lavrov para la reunión del G20?",
+    "a": [
+     "Atlanta",
+     "Nueva York",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "¿Qué bloque quedó a la cabeza de las elecciones de Israel sin lograr mayoría?",
+    "a": [
+     "El de Netanyahu",
+     "El de Gantz",
+     "El de Lapid",
+     "El de Bennett"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "¿Qué país africano organiza los Juegos Olímpicos de la Juventud 2026?",
+    "a": [
+     "Marruecos",
+     "Sudáfrica",
+     "Senegal",
+     "Kenia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿De qué país es la policía que investiga una estancia de Epstein en el castillo de Balmoral en 1999?",
+    "a": [
+     "Inglaterra",
+     "Escocia",
+     "Irlanda",
+     "Gales"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "¿Qué deporte podrá practicar de nuevo Rusia en campeonatos del mundo tras la decisión del TAS?",
+    "a": [
+     "El atletismo",
+     "El hockey hielo",
+     "El fútbol",
+     "El baloncesto"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "¿Por qué país compite ahora la campeona mundial de bobsled Leonie Fiebig?",
+    "a": [
+     "Alemania",
+     "Estados Unidos",
+     "Austria",
+     "Canadá"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año llegó Colón a América?",
+    "a": [
+     "1492",
+     "1453",
+     "1520",
+     "1607"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año se hundió el Titanic?",
+    "a": [
+     "1905",
+     "1912",
+     "1920",
+     "1898"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año comenzó la Revolución francesa?",
+    "a": [
+     "1776",
+     "1789",
+     "1804",
+     "1815"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿De qué reino antiguo fue reina Cleopatra?",
+    "a": [
+     "Grecia",
+     "Egipto",
+     "Cartago",
+     "Persia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué conflicto se libró de 1939 a 1945?",
+    "a": [
+     "La guerra de Crimea",
+     "La Primera Guerra Mundial",
+     "La Segunda Guerra Mundial",
+     "La guerra fría"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el país más grande del mundo por superficie?",
+    "a": [
+     "China",
+     "Estados Unidos",
+     "Canadá",
+     "Rusia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la capital de Japón?",
+    "a": [
+     "Kioto",
+     "Osaka",
+     "Tokio",
+     "Nagoya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el desierto caliente más grande del mundo?",
+    "a": [
+     "El Gobi",
+     "El Sáhara",
+     "El Kalahari",
+     "El Atacama"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué continente tiene más países?",
+    "a": [
+     "Asia",
+     "Sudamérica",
+     "África",
+     "Europa"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país se encuentra la Gran Barrera de Coral?",
+    "a": [
+     "Australia",
+     "Indonesia",
+     "Filipinas",
+     "Brasil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama comúnmente la molécula H2O?",
+    "a": [
+     "La sal",
+     "El agua",
+     "El oxígeno",
+     "El ozono"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué órgano bombea la sangre por el cuerpo humano?",
+    "a": [
+     "El hígado",
+     "El pulmón",
+     "El corazón",
+     "El riñón"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es la sustancia natural más dura?",
+    "a": [
+     "El granito",
+     "El acero",
+     "El cuarzo",
+     "El diamante"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué planeta tiene el apodo de planeta rojo?",
+    "a": [
+     "Venus",
+     "Marte",
+     "Júpiter",
+     "Mercurio"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué fuerza nos mantiene en el suelo?",
+    "a": [
+     "El magnetismo",
+     "La gravedad",
+     "La fricción",
+     "El empuje"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió 'Titanic' (1997)?",
+    "a": [
+     "James Cameron",
+     "Steven Spielberg",
+     "Ridley Scott",
+     "Martin Scorsese"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué saga se oye «Que la Fuerza te acompañe»?",
+    "a": [
+     "Star Trek",
+     "Star Wars",
+     "Dune",
+     "Avatar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta al pirata Jack Sparrow?",
+    "a": [
+     "Orlando Bloom",
+     "Johnny Depp",
+     "Brad Pitt",
+     "Hugh Jackman"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película de animación aparece el cachorro Simba?",
+    "a": [
+     "El Rey León",
+     "Madagascar",
+     "Kirikú",
+     "El libro de la selva"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de 1994 transcurre en la prisión de Shawshank?",
+    "a": [
+     "Cadena perpetua",
+     "Cadena perpetua... Milagros inesperados",
+     "La Roca",
+     "Papillon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Cuántas teclas tiene un piano estándar?",
+    "a": [
+     "61",
+     "76",
+     "88",
+     "108"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿A qué familia de instrumentos pertenece la trompeta?",
+    "a": [
+     "Maderas",
+     "Metales",
+     "Percusión",
+     "Cuerdas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante es apodado el «rey del pop»?",
+    "a": [
+     "Elvis Presley",
+     "Michael Jackson",
+     "Prince",
+     "David Bowie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué significa la indicación musical «forte»?",
+    "a": [
+     "Tocar suave",
+     "Tocar fuerte",
+     "Tocar rápido",
+     "Tocar lento"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué Beatle tocaba el bajo?",
+    "a": [
+     "John Lennon",
+     "Paul McCartney",
+     "George Harrison",
+     "Ringo Starr"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'Los miserables'?",
+    "a": [
+     "Émile Zola",
+     "Victor Hugo",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'Romeo y Julieta'?",
+    "a": [
+     "Molière",
+     "William Shakespeare",
+     "Christopher Marlowe",
+     "Jean Racine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó al detective Sherlock Holmes?",
+    "a": [
+     "Agatha Christie",
+     "Arthur Conan Doyle",
+     "Edgar Allan Poe",
+     "Georges Simenon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'El Principito'?",
+    "a": [
+     "Antoine de Saint-Exupéry",
+     "Julio Verne",
+     "Marcel Pagnol",
+     "Jean Giono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué poeta griego antiguo escribió la Ilíada?",
+    "a": [
+     "Homero",
+     "Virgilio",
+     "Sófocles",
+     "Ovidio"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cómo se llama un puntaje de cero en tenis?",
+    "a": [
+     "Nada",
+     "Love",
+     "Cero",
+     "Limpio"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántos anillos hay en la bandera olímpica?",
+    "a": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿De qué deporte es la prueba reina el Tour de Francia?",
+    "a": [
+     "El ciclismo",
+     "El atletismo",
+     "El automovilismo",
+     "La marcha"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+    "a": [
+     "2 años",
+     "3 años",
+     "4 años",
+     "5 años"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué país se inventó el judo?",
+    "a": [
+     "China",
+     "Corea del Sur",
+     "Japón",
+     "Tailandia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "¿Con qué nombre se jugaba al bádminton en la India del siglo XIX?",
+    "a": [
+     "Poona",
+     "Punja",
+     "Kabaddi",
+     "Pallone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cómo se llama el golpe de ataque por encima de la cabeza en bádminton?",
+    "a": [
+     "El clear",
+     "El smash",
+     "El drop",
+     "El drive"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Qué país dominó el bádminton mundial con campeones como Lin Dan?",
+    "a": [
+     "Indonesia",
+     "Malasia",
+     "China",
+     "Dinamarca"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cómo se llama el golpe que envía el volante alto y al fondo?",
+    "a": [
+     "El clear",
+     "El golpe de red",
+     "El saque",
+     "El lift corto"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "En dobles mixtos, ¿cuántos hombres y mujeres hay por equipo?",
+    "a": [
+     "2 y 0",
+     "1 y 1",
+     "0 y 2",
+     "2 y 1"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región española es originaria la paella?",
+    "a": [
+     "Cataluña",
+     "Andalucía",
+     "Valencia",
+     "Galicia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué grano es la base del sushi?",
+    "a": [
+     "El trigo",
+     "El maíz",
+     "El arroz",
+     "La cebada"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué hierba entra tradicionalmente en el pesto?",
+    "a": [
+     "El perejil",
+     "La albahaca",
+     "La menta",
+     "La salvia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿A partir de qué se fabrica el tofu?",
+    "a": [
+     "La soja",
+     "El trigo",
+     "La almendra",
+     "El coco"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región francesa es originario el camembert?",
+    "a": [
+     "Bretaña",
+     "Normandía",
+     "Alsacia",
+     "Poitou"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál de estas palabras es aguda?",
+    "a": [
+     "Mesa",
+     "Canción",
+     "Árbol",
+     "Rápido"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el femenino de 'actor'?",
+    "a": [
+     "Actora",
+     "Actriz",
+     "Actriza",
+     "Actorisa"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "'Rápidamente' es un…",
+    "a": [
+     "Adjetivo",
+     "Adverbio",
+     "Nombre",
+     "Verbo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el plural de 'flor'?",
+    "a": [
+     "Flores",
+     "Floreses",
+     "Florís",
+     "Florales"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas vocales tiene el español?",
+    "a": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "c": 1
+   }
+  ]
+ }
 }
