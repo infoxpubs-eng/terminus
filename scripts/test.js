@@ -433,13 +433,13 @@ function scenarioG() {
   console.log("— Scénario G : bulles agrandies + question 32px + copyright (v22) —");
   check("BUBBLE_H = 64 px (lu : " + BUBBLE_H + ")", BUBBLE_H === 64);
   check("LEVEL_EVERY = 10 (lu : " + LEVEL_EVERY + ")", LEVEL_EVERY === 10);
-  check("VERSION = v22 (lu : " + VERSION + ")", VERSION === "v22");
+  check("VERSION = v23 (lu : " + VERSION + ")", VERSION === "v23");
   resetSession();
   check("copyright sur l'accueil ('© 2026 … Ansault')", /© 2026[^]*Ansault/.test(textOf(tree)));
   check("copyright FR exact", textOf(tree).includes(I18N.fr.copyright));
   check("copyright traduit (EN/ES présents dans I18N)",
     /rights reserved/i.test(I18N.en.copyright) && /derechos/i.test(I18N.es.copyright));
-  check("badge v22 sur l'accueil", textOf(tree).includes("v22"));
+  check("badge v23 sur l'accueil", textOf(tree).includes("v23"));
   check("pas de ligne stats sans historique", !textOf(tree).includes("Parties :"));
   startGame("fr");
   check("question en 32 px (texte doublé, lu : '" + questionCls() + "')",
