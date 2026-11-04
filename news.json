@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "qs": {
   "fr": [
    {
@@ -683,6 +683,556 @@
      "4"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Qui fut le premier empereur de Rome ?",
+    "a": [
+     "Néron",
+     "Auguste",
+     "Trajan",
+     "Jules César"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle reine de France a été guillotinée en 1793 ?",
+    "a": [
+     "Catherine de Médicis",
+     "Anne d'Autriche",
+     "Marie-Antoinette",
+     "Marie de Médicis"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel empire Gengis Khan a-t-il fondé ?",
+    "a": [
+     "L'Empire mongol",
+     "L'Empire ottoman",
+     "L'Empire perse",
+     "L'Empire romain"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle ville antique fut ensevelie par le Vésuve en l'an 79 ?",
+    "a": [
+     "Ostie",
+     "Carthage",
+     "Athènes",
+     "Pompéi"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel pharaon a fait construire la grande pyramide de Gizeh ?",
+    "a": [
+     "Khéops",
+     "Toutânkhamon",
+     "Ramsès II",
+     "Akhenaton"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus long fleuve d'Europe ?",
+    "a": [
+     "Le Danube",
+     "Le Rhin",
+     "La Volga",
+     "La Loire"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "a": [
+     "Gibraltar",
+     "Le Bosphore",
+     "Le détroit de Béring",
+     "Le détroit de Magellan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Sur quel continent se trouve le lac Baïkal ?",
+    "a": [
+     "L'Europe",
+     "L'Asie",
+     "L'Amérique du Sud",
+     "L'Afrique"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la plus grande île du monde ?",
+    "a": [
+     "Madagascar",
+     "Bornéo",
+     "La Nouvelle-Guinée",
+     "Le Groenland"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus haut sommet d'Amérique du Nord ?",
+    "a": [
+     "Le mont Logan",
+     "Le Denali",
+     "L'Aconcagua",
+     "Le mont Whitney"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel est le seul mammifère capable de voler activement ?",
+    "a": [
+     "L'écureuil volant",
+     "Le poisson volant",
+     "La chauve-souris",
+     "La grenouille volante"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de chromosomes contient une cellule humaine normale ?",
+    "a": [
+     "23",
+     "42",
+     "48",
+     "46"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice incarne Hermione Granger au cinéma ?",
+    "a": [
+     "Bonnie Wright",
+     "Emma Watson",
+     "Evanna Lynch",
+     "Katie Leung"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film Heath Ledger joue-t-il le Joker ?",
+    "a": [
+     "Batman Begins",
+     "Joker",
+     "The Dark Knight",
+     "Suicide Squad"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quel studio d'animation a produit 'Toy Story' ?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "Illumination",
+     "Studio Ghibli"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé 'Léon' (1994) ?",
+    "a": [
+     "Luc Besson",
+     "Jean-Pierre Jeunet",
+     "François Truffaut",
+     "Claude Chabrol"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de 1994 raconte l'histoire de Forrest Gump ?",
+    "a": [
+     "Rain Man",
+     "Big",
+     "The Truman Show",
+     "Forrest Gump"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel compositeur allemand est devenu sourd en composant ?",
+    "a": [
+     "Mozart",
+     "Bach",
+     "Beethoven",
+     "Brahms"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Combien de cordes possède un violon ?",
+    "a": [
+     "Quatre",
+     "Cinq",
+     "Six",
+     "Sept"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quel instrument à vent fonctionne avec une anche double ?",
+    "a": [
+     "La clarinette",
+     "La flûte",
+     "Le hautbois",
+     "La trompette"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Dans quel pays le reggae est-il né ?",
+    "a": [
+     "Cuba",
+     "La Jamaïque",
+     "Trinité-et-Tobago",
+     "L'Éthiopie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel type de voix féminine est le plus aigu ?",
+    "a": [
+     "La contralto",
+     "Le mezzo-soprano",
+     "L'alto",
+     "La soprano"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Quel écrivain britannique a créé James Bond dans les romans ?",
+    "a": [
+     "John le Carré",
+     "Ken Follett",
+     "Frederick Forsyth",
+     "Ian Fleming"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Dans quel roman de Jules Verne navigue le capitaine Nemo ?",
+    "a": [
+     "'Le Tour du monde en 80 jours'",
+     "'Vingt mille lieues sous les mers'",
+     "'Voyage au centre de la Terre'",
+     "'De la Terre à la Lune'"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quel écrivain français a reçu le prix Nobel de littérature en 1957 ?",
+    "a": [
+     "Jean-Paul Sartre",
+     "André Malraux",
+     "Louis Aragon",
+     "Albert Camus"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel sport se pratique sur un « green » ?",
+    "a": [
+     "Le golf",
+     "Le cricket",
+     "Le curling",
+     "Le croquet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel sport utilise le fleuret et l'épée ?",
+    "a": [
+     "Le tir à l'arc",
+     "L'escrime",
+     "La boxe",
+     "Le judo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Qui a inventé le basket-ball en 1891 ?",
+    "a": [
+     "Pierre de Coubertin",
+     "William Morgan",
+     "Abner Doubleday",
+     "James Naismith"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "En quelle année la France a-t-elle remporté sa première Coupe du monde ?",
+    "a": [
+     "1984",
+     "1998",
+     "2006",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Comment s'effectue le service au badminton ?",
+    "a": [
+     "En diagonale",
+     "En ligne droite",
+     "Dans le couloir latéral",
+     "Vers le fond du court"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "À quelle hauteur maximale la raquette doit-elle être au service ?",
+    "a": [
+     "0,80 m",
+     "1,15 m",
+     "1,55 m",
+     "2 m"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Combien de sets faut-il gagner pour remporter un match de badminton ?",
+    "a": [
+     "Un",
+     "Deux",
+     "Trois",
+     "Quatre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Que se passe-t-il quand un « let » est appelé au badminton ?",
+    "a": [
+     "Le point est donné",
+     "L'échange est rejoué",
+     "Le serveur change",
+     "Le volant est changé"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quel fruit entre traditionnellement dans la marmelade ?",
+    "a": [
+     "L'orange",
+     "La fraise",
+     "L'abricot",
+     "La cerise"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quel pain indien cuit traditionnellement dans un four tandoor ?",
+    "a": [
+     "Le chapati",
+     "Le pita",
+     "Le naan",
+     "La tortilla"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays le ceviche est-il le plat emblématique ?",
+    "a": [
+     "Le Mexique",
+     "Le Pérou",
+     "Le Chili",
+     "La Colombie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quelle boisson se boit traditionnellement avec une bombille en Argentine ?",
+    "a": [
+     "Le café",
+     "Le chocolat chaud",
+     "Le thé noir",
+     "Le maté"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le pluriel de « bonhomme » ?",
+    "a": [
+     "Des bonhommes",
+     "Des bons hommes",
+     "Des bonshommes",
+     "Des bonhommières"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on l'auteur d'un dictionnaire ?",
+    "a": [
+     "Un grammairien",
+     "Un lexicographe",
+     "Un sémanticien",
+     "Un philologue"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "À quel temps correspond « je mangeai » ?",
+    "a": [
+     "L'imparfait",
+     "Le passé composé",
+     "Le passé simple",
+     "Le futur antérieur"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "À quelle température l'eau bout-elle au niveau de la mer ?",
+    "a": [
+     "90 °C",
+     "100 °C",
+     "110 °C",
+     "95 °C"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel océan est le plus vaste ?",
+    "a": [
+     "L'Atlantique",
+     "L'Indien",
+     "Le Pacifique",
+     "L'Arctique"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Sur quel navire Charles Darwin a-t-il voyagé autour du monde ?",
+    "a": [
+     "Le Bounty",
+     "Le Beagle",
+     "L'Endeavour",
+     "Le Nautilus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel explorateur a atteint le pôle Sud en premier en 1911 ?",
+    "a": [
+     "Robert Scott",
+     "Ernest Shackleton",
+     "Roald Amundsen",
+     "Fridtjof Nansen"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays compte le plus de lacs au monde ?",
+    "a": [
+     "La Russie",
+     "La Finlande",
+     "Le Canada",
+     "Les États-Unis"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel organe produit l'insuline ?",
+    "a": [
+     "Le foie",
+     "Le pancréas",
+     "L'estomac",
+     "La rate"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne Iron Man dans les films Marvel ?",
+    "a": [
+     "Chris Evans",
+     "Mark Ruffalo",
+     "Robert Downey Jr.",
+     "Chris Hemsworth"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Comment appelle-t-on un groupe de deux musiciens ?",
+    "a": [
+     "Un trio",
+     "Un duo",
+     "Un quatuor",
+     "Un chœur"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle héroïne Jane Austen a-t-elle créée dans 'Orgueil et Préjugés' ?",
+    "a": [
+     "Emma Woodhouse",
+     "Elizabeth Bennet",
+     "Catherine Morland",
+     "Fanny Price"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit la pièce 'Cyrano de Bergerac' ?",
+    "a": [
+     "Victor Hugo",
+     "Molière",
+     "Edmond Rostand",
+     "Beaumarchais"
+    ],
+    "c": 2
    }
   ],
   "en": [
@@ -1367,6 +1917,556 @@
      "Pronoun"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Who was the first emperor of Rome?",
+    "a": [
+     "Nero",
+     "Augustus",
+     "Trajan",
+     "Julius Caesar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which queen of France was guillotined in 1793?",
+    "a": [
+     "Catherine de' Medici",
+     "Anne of Austria",
+     "Marie Antoinette",
+     "Marie de' Medici"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which empire did Genghis Khan found?",
+    "a": [
+     "The Mongol Empire",
+     "The Ottoman Empire",
+     "The Persian Empire",
+     "The Roman Empire"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Which ancient city was buried by Vesuvius in AD 79?",
+    "a": [
+     "Ostia",
+     "Carthage",
+     "Athens",
+     "Pompeii"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which pharaoh built the Great Pyramid of Giza?",
+    "a": [
+     "Khufu",
+     "Tutankhamun",
+     "Ramses II",
+     "Akhenaten"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "What is the longest river in Europe?",
+    "a": [
+     "The Danube",
+     "The Rhine",
+     "The Volga",
+     "The Loire"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which strait separates Europe from Africa?",
+    "a": [
+     "Gibraltar",
+     "The Bosphorus",
+     "The Bering Strait",
+     "The Strait of Magellan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "On which continent is Lake Baikal?",
+    "a": [
+     "Europe",
+     "Asia",
+     "South America",
+     "Africa"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "What is the largest island in the world?",
+    "a": [
+     "Madagascar",
+     "Borneo",
+     "New Guinea",
+     "Greenland"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the highest mountain in North America?",
+    "a": [
+     "Mount Logan",
+     "Denali",
+     "Aconcagua",
+     "Mount Whitney"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which gas do plants absorb for photosynthesis?",
+    "a": [
+     "Carbon dioxide",
+     "Oxygen",
+     "Nitrogen",
+     "Hydrogen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "What is the longest bone in the human body?",
+    "a": [
+     "The humerus",
+     "The tibia",
+     "The femur",
+     "The radius"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the largest organ of the human body?",
+    "a": [
+     "The liver",
+     "The skin",
+     "The lung",
+     "The brain"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which is the only mammal capable of true flight?",
+    "a": [
+     "The flying squirrel",
+     "The flying fish",
+     "The bat",
+     "The flying frog"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "How many chromosomes does a normal human cell contain?",
+    "a": [
+     "23",
+     "42",
+     "48",
+     "46"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress plays Hermione Granger in the films?",
+    "a": [
+     "Bonnie Wright",
+     "Emma Watson",
+     "Evanna Lynch",
+     "Katie Leung"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "In which film does Heath Ledger play the Joker?",
+    "a": [
+     "Batman Begins",
+     "Joker",
+     "The Dark Knight",
+     "Suicide Squad"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which animation studio produced 'Toy Story'?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "Illumination",
+     "Studio Ghibli"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1994 film tells the story of Forrest Gump?",
+    "a": [
+     "Rain Man",
+     "Big",
+     "The Truman Show",
+     "Forrest Gump"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which German composer went deaf while composing?",
+    "a": [
+     "Mozart",
+     "Bach",
+     "Beethoven",
+     "Brahms"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "How many strings does a violin have?",
+    "a": [
+     "Four",
+     "Five",
+     "Six",
+     "Seven"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which wind instrument uses a double reed?",
+    "a": [
+     "The clarinet",
+     "The flute",
+     "The oboe",
+     "The trumpet"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "In which country was reggae born?",
+    "a": [
+     "Cuba",
+     "Jamaica",
+     "Trinidad and Tobago",
+     "Ethiopia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which female voice type is the highest?",
+    "a": [
+     "Contralto",
+     "Mezzo-soprano",
+     "Alto",
+     "Soprano"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Which Belgian writer created Detective Maigret?",
+    "a": [
+     "Georges Simenon",
+     "Léo Malet",
+     "Gaston Leroux",
+     "Agatha Christie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'One Hundred Years of Solitude'?",
+    "a": [
+     "Julio Cortázar",
+     "Gabriel García Márquez",
+     "Mario Vargas Llosa",
+     "Jorge Luis Borges"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which British author created James Bond in novels?",
+    "a": [
+     "John le Carré",
+     "Ken Follett",
+     "Frederick Forsyth",
+     "Ian Fleming"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "In which Jules Verne novel does Captain Nemo sail?",
+    "a": [
+     "'Around the World in 80 Days'",
+     "'Twenty Thousand Leagues Under the Seas'",
+     "'Journey to the Center of the Earth'",
+     "'From the Earth to the Moon'"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which French writer won the Nobel Prize in Literature in 1957?",
+    "a": [
+     "Jean-Paul Sartre",
+     "André Malraux",
+     "Louis Aragon",
+     "Albert Camus"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "How many players are on the court per volleyball team?",
+    "a": [
+     "Four",
+     "Five",
+     "Six",
+     "Seven"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which sport is played on a 'green'?",
+    "a": [
+     "Golf",
+     "Cricket",
+     "Curling",
+     "Croquet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which sport uses the foil and the épée?",
+    "a": [
+     "Archery",
+     "Fencing",
+     "Boxing",
+     "Judo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Who invented basketball in 1891?",
+    "a": [
+     "Pierre de Coubertin",
+     "William Morgan",
+     "Abner Doubleday",
+     "James Naismith"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "In which year did France win its first World Cup?",
+    "a": [
+     "1984",
+     "1998",
+     "2006",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "How is the serve performed in badminton?",
+    "a": [
+     "Diagonally",
+     "Straight ahead",
+     "Into the side alley",
+     "Toward the back of the court"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "At what maximum height must the racket be at the serve?",
+    "a": [
+     "0.80 m",
+     "1.15 m",
+     "1.55 m",
+     "2 m"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "How many sets must you win to take a badminton match?",
+    "a": [
+     "One",
+     "Two",
+     "Three",
+     "Four"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "What happens when a 'let' is called in badminton?",
+    "a": [
+     "The point is awarded",
+     "The rally is replayed",
+     "The server changes",
+     "The shuttle is replaced"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which spice is known as the most expensive in the world?",
+    "a": [
+     "Vanilla",
+     "Saffron",
+     "Cardamom",
+     "Pepper"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which fruit traditionally goes into marmalade?",
+    "a": [
+     "Orange",
+     "Strawberry",
+     "Apricot",
+     "Cherry"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Which Indian bread is traditionally baked in a tandoor oven?",
+    "a": [
+     "Chapati",
+     "Pita",
+     "Naan",
+     "Tortilla"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which country is ceviche the signature dish of?",
+    "a": [
+     "Mexico",
+     "Peru",
+     "Chile",
+     "Colombia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which drink is traditionally sipped with a bombilla in Argentina?",
+    "a": [
+     "Coffee",
+     "Hot chocolate",
+     "Black tea",
+     "Mate"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What do you call a word that reads the same in both directions?",
+    "a": [
+     "An acronym",
+     "A palindrome",
+     "An anagram",
+     "An antonym"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of 'go'?",
+    "a": [
+     "Goed",
+     "Gone",
+     "Went",
+     "Going"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which sentence is grammatically correct?",
+    "a": [
+     "Their going home",
+     "There going home",
+     "They're going home",
+     "Theyre going home"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is a word that imitates a sound called?",
+    "a": [
+     "A synonym",
+     "An oxymoron",
+     "An onomatopoeia",
+     "A metaphor"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "What is the official distance of a marathon?",
+    "a": [
+     "40 km",
+     "41.195 km",
+     "42.195 km",
+     "45 km"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which is the fastest land animal?",
+    "a": [
+     "The lion",
+     "The cheetah",
+     "The horse",
+     "The antelope"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "In which year was the Statue of Liberty inaugurated?",
+    "a": [
+     "1876",
+     "1886",
+     "1892",
+     "1901"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -2038,6 +3138,556 @@
      "5",
      "6",
      "7"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién fue el primer emperador de Roma?",
+    "a": [
+     "Nerón",
+     "Augusto",
+     "Trajano",
+     "Julio César"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué reina de Francia fue guillotinada en 1793?",
+    "a": [
+     "Catalina de Médicis",
+     "Ana de Austria",
+     "María Antonieta",
+     "María de Médicis"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué imperio fundó Gengis Khan?",
+    "a": [
+     "El Imperio mongol",
+     "El Imperio otomano",
+     "El Imperio persa",
+     "El Imperio romano"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué ciudad antigua fue sepultada por el Vesubio en el año 79?",
+    "a": [
+     "Ostia",
+     "Cartago",
+     "Atenas",
+     "Pompeya"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué faraón mandó construir la gran pirámide de Guiza?",
+    "a": [
+     "Keops",
+     "Tutankamón",
+     "Ramsés II",
+     "Akenatón"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el río más largo de Europa?",
+    "a": [
+     "El Danubio",
+     "El Rin",
+     "El Volga",
+     "El Loira"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué estrecho separa Europa de África?",
+    "a": [
+     "Gibraltar",
+     "El Bósforo",
+     "El estrecho de Bering",
+     "El estrecho de Magallanes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué continente se encuentra el lago Baikal?",
+    "a": [
+     "Europa",
+     "Asia",
+     "América del Sur",
+     "África"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la isla más grande del mundo?",
+    "a": [
+     "Madagascar",
+     "Borneo",
+     "Nueva Guinea",
+     "Groenlandia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la montaña más alta de América del Norte?",
+    "a": [
+     "Monte Logan",
+     "Denali",
+     "Aconcagua",
+     "Monte Whitney"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué gas absorben las plantas para la fotosíntesis?",
+    "a": [
+     "El dióxido de carbono",
+     "El oxígeno",
+     "El nitrógeno",
+     "El hidrógeno"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "a": [
+     "El húmero",
+     "La tibia",
+     "El fémur",
+     "El radio"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "a": [
+     "El hígado",
+     "La piel",
+     "El pulmón",
+     "El cerebro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el único mamífero capaz de volar de verdad?",
+    "a": [
+     "La ardilla voladora",
+     "El pez volador",
+     "El murciélago",
+     "La rana voladora"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos cromosomas contiene una célula humana normal?",
+    "a": [
+     "23",
+     "42",
+     "48",
+     "46"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz interpreta a Hermione Granger en el cine?",
+    "a": [
+     "Bonnie Wright",
+     "Emma Watson",
+     "Evanna Lynch",
+     "Katie Leung"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película Heath Ledger interpreta al Joker?",
+    "a": [
+     "Batman Begins",
+     "Joker",
+     "The Dark Knight",
+     "Suicide Squad"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué estudio de animación produjo 'Toy Story'?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "Illumination",
+     "Studio Ghibli"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió 'Léon' (1994)?",
+    "a": [
+     "Luc Besson",
+     "Jean-Pierre Jeunet",
+     "François Truffaut",
+     "Claude Chabrol"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de 1994 narra la historia de Forrest Gump?",
+    "a": [
+     "Rain Man",
+     "Big",
+     "The Truman Show",
+     "Forrest Gump"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué compositor alemán se quedó sordo mientras componía?",
+    "a": [
+     "Mozart",
+     "Bach",
+     "Beethoven",
+     "Brahms"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Cuántas cuerdas tiene un violín?",
+    "a": [
+     "Cuatro",
+     "Cinco",
+     "Seis",
+     "Siete"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué instrumento de viento usa una doble lengüeta?",
+    "a": [
+     "El clarinete",
+     "La flauta",
+     "El oboe",
+     "La trompeta"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿En qué país nació el reggae?",
+    "a": [
+     "Cuba",
+     "Jamaica",
+     "Trinidad y Tobago",
+     "Etiopía"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué tipo de voz femenina es el más agudo?",
+    "a": [
+     "La contralto",
+     "La mezzosoprano",
+     "El alto",
+     "La soprano"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué escritor belga creó al comisario Maigret?",
+    "a": [
+     "Georges Simenon",
+     "Léo Malet",
+     "Gaston Leroux",
+     "Agatha Christie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué escritor británico creó a James Bond en las novelas?",
+    "a": [
+     "John le Carré",
+     "Ken Follett",
+     "Frederick Forsyth",
+     "Ian Fleming"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿En qué novela de Julio Verne navega el capitán Nemo?",
+    "a": [
+     "'La vuelta al mundo en 80 días'",
+     "'Veinte mil leguas de viaje submarino'",
+     "'Viaje al centro de la Tierra'",
+     "'De la Tierra a la Luna'"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué escritor francés recibió el Nobel de Literatura en 1957?",
+    "a": [
+     "Jean-Paul Sartre",
+     "André Malraux",
+     "Louis Aragon",
+     "Albert Camus"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántos jugadores tiene un equipo de voleibol en la pista?",
+    "a": [
+     "Cuatro",
+     "Cinco",
+     "Seis",
+     "Siete"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué deporte se practica en un 'green'?",
+    "a": [
+     "El golf",
+     "El críquet",
+     "El curling",
+     "El croquet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué deporte usa el florete y la espada?",
+    "a": [
+     "El tiro con arco",
+     "La esgrima",
+     "El boxeo",
+     "El judo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Quién inventó el baloncesto en 1891?",
+    "a": [
+     "Pierre de Coubertin",
+     "William Morgan",
+     "Abner Doubleday",
+     "James Naismith"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué año ganó Francia su primera Copa del Mundo?",
+    "a": [
+     "1984",
+     "1998",
+     "2006",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cómo se realiza el saque en bádminton?",
+    "a": [
+     "En diagonal",
+     "En línea recta",
+     "Al pasillo lateral",
+     "Hacia el fondo de la pista"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "¿A qué altura máxima debe estar la raqueta al sacar?",
+    "a": [
+     "0,80 m",
+     "1,15 m",
+     "1,55 m",
+     "2 m"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cuántos sets hay que ganar para llevarse un partido de bádminton?",
+    "a": [
+     "Uno",
+     "Dos",
+     "Tres",
+     "Cuatro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Qué ocurre cuando se canta 'let' en bádminton?",
+    "a": [
+     "El punto se concede",
+     "Se repite el intercambio",
+     "Cambia el sacador",
+     "Se cambia el volante"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué fruta entra tradicionalmente en la mermelada?",
+    "a": [
+     "La naranja",
+     "La fresa",
+     "El albaricoque",
+     "La cereza"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué pan indio se hornea tradicionalmente en un horno tandoor?",
+    "a": [
+     "El chapati",
+     "El pita",
+     "El naan",
+     "La tortilla"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama la palabra que se lee igual al derecho y al revés?",
+    "a": [
+     "Un acrónimo",
+     "Un palíndromo",
+     "Un anagrama",
+     "Un antónimo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué tiempo verbal es 'comí'?",
+    "a": [
+     "Presente",
+     "Pretérito perfecto simple",
+     "Futuro",
+     "Condicional"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es la distancia oficial de un maratón?",
+    "a": [
+     "40 km",
+     "41,195 km",
+     "42,195 km",
+     "45 km"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el animal terrestre más rápido?",
+    "a": [
+     "El león",
+     "El guepardo",
+     "El caballo",
+     "La antílope"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué barco viajó Charles Darwin alrededor del mundo?",
+    "a": [
+     "El Bounty",
+     "El Beagle",
+     "El Endeavour",
+     "El Nautilus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué explorador llegó primero al Polo Sur en 1911?",
+    "a": [
+     "Robert Scott",
+     "Ernest Shackleton",
+     "Roald Amundsen",
+     "Fridtjof Nansen"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país tiene más lagos del mundo?",
+    "a": [
+     "Rusia",
+     "Finlandia",
+     "Canadá",
+     "Estados Unidos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué órgano produce la insulina?",
+    "a": [
+     "El hígado",
+     "El páncreas",
+     "El estómago",
+     "El bazo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta a Iron Man en las películas de Marvel?",
+    "a": [
+     "Chris Evans",
+     "Mark Ruffalo",
+     "Robert Downey Jr.",
+     "Chris Hemsworth"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Cómo se llama un grupo de dos músicos?",
+    "a": [
+     "Un trío",
+     "Un dúo",
+     "Un cuarteto",
+     "Un coro"
     ],
     "c": 1
    }
