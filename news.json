@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "qs": {
   "fr": [
    {
@@ -1233,6 +1233,754 @@
      "Beaumarchais"
     ],
     "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle civilisation a construit le Colisée ?",
+    "a": [
+     "La Rome antique",
+     "La Grèce antique",
+     "L'Égypte antique",
+     "La Perse"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a été assassiné aux ides de mars en 44 av. J.-C. ?",
+    "a": [
+     "Pompée",
+     "Jules César",
+     "Auguste",
+     "Brutus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel peuple a bâti la cité de Machu Picchu ?",
+    "a": [
+     "Les Aztèques",
+     "Les Mayas",
+     "Les Incas",
+     "Les Olmèques"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Sous quelle reine l'Angleterre a-t-elle vaincu l'Armada espagnole ?",
+    "a": [
+     "Victoria",
+     "Marie Tudor",
+     "Anne",
+     "Élisabeth Iʳᵉ"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel roi a fait construire le château de Versailles ?",
+    "a": [
+     "Louis XIV",
+     "Louis XVI",
+     "François Iᵉʳ",
+     "Napoléon Iᵉʳ"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le mont Kilimandjaro ?",
+    "a": [
+     "Au Kenya",
+     "En Tanzanie",
+     "En Éthiopie",
+     "En Ouganda"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel fleuve traverse Londres ?",
+    "a": [
+     "Le Rhin",
+     "La Seine",
+     "La Tamise",
+     "L'Escaut"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus petit État du monde ?",
+    "a": [
+     "Monaco",
+     "Saint-Marin",
+     "Le Liechtenstein",
+     "Le Vatican"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle mer est réputée la plus salée du monde ?",
+    "a": [
+     "La mer Morte",
+     "La mer Rouge",
+     "La mer Noire",
+     "La mer Baltique"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle ville italienne est célèbre pour ses gondoles ?",
+    "a": [
+     "Florence",
+     "Venise",
+     "Naples",
+     "Gênes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Que mesure un baromètre ?",
+    "a": [
+     "La température",
+     "La vitesse du vent",
+     "La pression atmosphérique",
+     "L'humidité"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel insecte produit la soie ?",
+    "a": [
+     "L'abeille",
+     "Le termite",
+     "La fourmi",
+     "Le ver à soie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Combien d'os compte environ un squelette humain adulte ?",
+    "a": [
+     "206",
+     "300",
+     "150",
+     "500"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de reins possède un être humain ?",
+    "a": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel animal marin possède huit bras ?",
+    "a": [
+     "Le calmar",
+     "L'étoile de mer",
+     "La pieuvre",
+     "Le dauphin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film Bill Murray revit-il sans cesse la même journée ?",
+    "a": [
+     "Ghostbusters",
+     "The Truman Show",
+     "Là-haut",
+     "Un jour sans fin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel super-héros tisse des toiles à New York ?",
+    "a": [
+     "Spider-Man",
+     "Batman",
+     "Superman",
+     "Daredevil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de 1972 raconte la famille Corleone ?",
+    "a": [
+     "Scarface",
+     "Le Parrain",
+     "Les Affranchis",
+     "Heat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quel réalisateur est surnommé le « maître du suspense » ?",
+    "a": [
+     "Stanley Kubrick",
+     "David Lynch",
+     "Alfred Hitchcock",
+     "Orson Welles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice a joué dans Pretty Woman et Notting Hill ?",
+    "a": [
+     "Meg Ryan",
+     "Sandra Bullock",
+     "Jennifer Aniston",
+     "Julia Roberts"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe britannique a sorti l'album Abbey Road ?",
+    "a": [
+     "The Beatles",
+     "The Rolling Stones",
+     "Pink Floyd",
+     "Queen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle famille d'instruments comprend le violon et l'alto ?",
+    "a": [
+     "Les cuivres",
+     "Les cordes frottées",
+     "Les bois",
+     "Les percussions"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel compositeur a écrit Les Quatre Saisons ?",
+    "a": [
+     "Johann Sebastian Bach",
+     "Wolfgang Amadeus Mozart",
+     "Antonio Vivaldi",
+     "Joseph Haydn"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quel genre musical est né à La Nouvelle-Orléans ?",
+    "a": [
+     "Le blues",
+     "Le country",
+     "Le gospel",
+     "Le jazz"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse est surnommée la « Queen of Pop » ?",
+    "a": [
+     "Madonna",
+     "Whitney Houston",
+     "Mariah Carey",
+     "Cher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a scénarisé Le Petit Nicolas, illustré par Sempé ?",
+    "a": [
+     "Marcel Pagnol",
+     "René Goscinny",
+     "Antoine de Saint-Exupéry",
+     "Jean Giono"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle romancière a écrit le roman Rebecca ?",
+    "a": [
+     "Agatha Christie",
+     "Virginia Woolf",
+     "Daphne du Maurier",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Quel poète français a écrit le poème Le Lac ?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Charles Baudelaire",
+     "Alphonse de Lamartine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le monde de Narnia ?",
+    "a": [
+     "C.S. Lewis",
+     "J.R.R. Tolkien",
+     "Philip Pullman",
+     "J.K. Rowling"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit le roman Bel-Ami ?",
+    "a": [
+     "Émile Zola",
+     "Guy de Maupassant",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel sport marque-t-on un panier à trois points ?",
+    "a": [
+     "Le handball",
+     "Le volley-ball",
+     "Le basket-ball",
+     "Le water-polo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Combien de temps dure un quart-temps en NBA ?",
+    "a": [
+     "10 minutes",
+     "15 minutes",
+     "20 minutes",
+     "12 minutes"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel sport jette-t-on le javelot ?",
+    "a": [
+     "L'athlétisme",
+     "Le biathlon",
+     "L'escrime",
+     "Le triathlon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel tournoi du Grand Chelem se joue sur terre battue ?",
+    "a": [
+     "Wimbledon",
+     "Roland-Garros",
+     "L'US Open",
+     "L'Open d'Australie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "En quel sport un « coup du chapeau » désigne-t-il trois buts ?",
+    "a": [
+     "Le hockey sur glace",
+     "Le basket-ball",
+     "Le football",
+     "Le rugby"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "De quel pays vient la championne Carolina Marín ?",
+    "a": [
+     "Le Portugal",
+     "L'Italie",
+     "La France",
+     "L'Espagne"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "Quel matériau compose le cadre des raquettes modernes ?",
+    "a": [
+     "Le graphite",
+     "Le bois massif",
+     "L'acier",
+     "L'aluminium pur"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "De quel pays vient Viktor Axelsen ?",
+    "a": [
+     "La Suède",
+     "Le Danemark",
+     "La Norvège",
+     "L'Allemagne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Environ combien mesure une raquette de badminton ?",
+    "a": [
+     "45 cm",
+     "90 cm",
+     "68 cm",
+     "120 cm"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "Comment appelle-t-on un coup doux qui retombe tout près du filet ?",
+    "a": [
+     "Le smash",
+     "Le clear",
+     "Le drive",
+     "L'amorti"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Quel légume est la base de la vichyssoise ?",
+    "a": [
+     "Le poireau",
+     "La courgette",
+     "La carotte",
+     "Le céleri"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quelle sauce est une émulsion d'œuf et d'huile ?",
+    "a": [
+     "La béchamel",
+     "La mayonnaise",
+     "La sauce tartare",
+     "La sauce vierge"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quel légume fermenté est la base du kimchi coréen ?",
+    "a": [
+     "La carotte",
+     "Le concombre",
+     "Le chou",
+     "Le radis"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays la feijoada est-elle le plat national ?",
+    "a": [
+     "Le Portugal",
+     "L'Argentine",
+     "Le Mexique",
+     "Le Brésil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Dans quelle ville est né le Sachertorte ?",
+    "a": [
+     "Vienne",
+     "Munich",
+     "Prague",
+     "Budapest"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Que sont « mais » et « donc » en grammaire ?",
+    "a": [
+     "Des prépositions",
+     "Des conjonctions",
+     "Des adverbes",
+     "Des interjections"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on un mot qui a plusieurs sens ?",
+    "a": [
+     "Homonyme",
+     "Synonyme",
+     "Polysémique",
+     "Paronyme"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la lettre la plus fréquente en français ?",
+    "a": [
+     "Le A",
+     "Le S",
+     "Le I",
+     "Le E"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Combien de genres grammaticaux distingue le français ?",
+    "a": [
+     "Deux",
+     "Un",
+     "Trois",
+     "Quatre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Dans « il mange rapidement », quel est l'adverbe ?",
+    "a": [
+     "Mange",
+     "Rapidement",
+     "Il",
+     "Aucun"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, qui a été sacré champion du monde de Formule 1 ?",
+    "a": [
+     "Max Verstappen",
+     "Lando Norris",
+     "Kimi Antonelli",
+     "Lewis Hamilton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Qui a remporté le Grand Prix du Mexique le 1er novembre 2026 ?",
+    "a": [
+     "Kimi Antonelli",
+     "Lewis Hamilton",
+     "Charles Leclerc",
+     "Max Verstappen"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel parti a remporté une large victoire aux midterms américains ?",
+    "a": [
+     "Le Parti démocrate",
+     "Le Parti républicain",
+     "Le Parti vert",
+     "Le Parti libertarien"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, qui a battu le nouveau n°1 Zverev au Masters de Paris ?",
+    "a": [
+     "Jannik Sinner",
+     "Lorenzo Musetti",
+     "Carlos Alcaraz",
+     "Quentin Halys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Qui a éliminé Djokovic au Masters de Paris-Bercy début novembre 2026 ?",
+    "a": [
+     "Lorenzo Musetti",
+     "Arthur Fils",
+     "Rinky Hijikata",
+     "Alexandre Müller"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pays la Suède refuse-t-elle d'affronter au Mondial de hockey ?",
+    "a": [
+     "La Biélorussie",
+     "Le Kazakhstan",
+     "La Chine",
+     "La Russie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, quel président craint des morts sous les décombres d'un bombardement ?",
+    "a": [
+     "Volodymyr Zelensky",
+     "Vladimir Poutine",
+     "Emmanuel Macron",
+     "Recep Tayyip Erdogan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, dans quel pays se tient le premier exercice de la force pro-Ukraine ?",
+    "a": [
+     "En Roumanie",
+     "En Pologne",
+     "En Allemagne",
+     "En Estonie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel grand magasin parisien est placé en redressement judiciaire ?",
+    "a": [
+     "Les Galeries Lafayette",
+     "Le Printemps",
+     "Le BHV",
+     "La Samaritaine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, quelle île française est en vigilance pluies-inondations ?",
+    "a": [
+     "La Réunion",
+     "La Guadeloupe",
+     "La Martinique",
+     "La Corse"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, quels établissements ont été bloqués en France ?",
+    "a": [
+     "Des lycées",
+     "Des universités",
+     "Des hôpitaux",
+     "Des tribunaux"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, contre quoi manifeste-t-on en Europe les 20-22 novembre ?",
+    "a": [
+     "Le réchauffement climatique",
+     "La vie chère",
+     "La guerre en Ukraine",
+     "Les retraites"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel joueur du FC Barcelone a décliné un retour en équipe de France ?",
+    "a": [
+     "Nikola Karabatic",
+     "Dika Mem",
+     "Timothey Nguessan",
+     "Luka Karabatic"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quelle équipe est favorite du Championnat des nations de rugby ?",
+    "a": [
+     "La Nouvelle-Zélande",
+     "La France",
+     "L'Irlande",
+     "L'Afrique du Sud"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Début novembre 2026, quel pays le XV de France affronte-t-il au Championnat des nations ?",
+    "a": [
+     "Les Fidji",
+     "L'Afrique du Sud",
+     "L'Australie",
+     "L'Argentine"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel président latino-américain soutient Haïti contre les gangs ?",
+    "a": [
+     "Andrés Manuel López Obrador",
+     "Nayib Bukele",
+     "Javier Milei",
+     "Gustavo Petro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel défenseur français est revenu à l'entraînement avec Arsenal ?",
+    "a": [
+     "Ibrahima Konaté",
+     "Jules Koundé",
+     "William Saliba",
+     "Lucas Hernandez"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Pour le GP du Mexique 2026, quel pilote français a été écarté par Haas ?",
+    "a": [
+     "Pierre Gasly",
+     "Isack Hadjar",
+     "Romain Grosjean",
+     "Esteban Ocon"
+    ],
+    "c": 3
    }
   ],
   "en": [
@@ -2467,6 +3215,754 @@
      "1901"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which civilization built the Colosseum?",
+    "a": [
+     "Ancient Rome",
+     "Ancient Greece",
+     "Ancient Egypt",
+     "Persia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Who was assassinated on the Ides of March in 44 BC?",
+    "a": [
+     "Pompey",
+     "Julius Caesar",
+     "Augustus",
+     "Brutus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which people built the city of Machu Picchu?",
+    "a": [
+     "The Aztecs",
+     "The Mayas",
+     "The Incas",
+     "The Olmecs"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Under which queen did England defeat the Spanish Armada?",
+    "a": [
+     "Victoria",
+     "Mary Tudor",
+     "Anne",
+     "Elizabeth I"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which king built the Palace of Versailles?",
+    "a": [
+     "Louis XIV",
+     "Louis XVI",
+     "Francis I",
+     "Napoleon I"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is Mount Kilimanjaro located?",
+    "a": [
+     "Kenya",
+     "Tanzania",
+     "Ethiopia",
+     "Uganda"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which river flows through London?",
+    "a": [
+     "The Rhine",
+     "The Seine",
+     "The Thames",
+     "The Scheldt"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "What is the smallest state in the world?",
+    "a": [
+     "Monaco",
+     "San Marino",
+     "Liechtenstein",
+     "Vatican City"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Which sea is considered the saltiest in the world?",
+    "a": [
+     "The Dead Sea",
+     "The Red Sea",
+     "The Black Sea",
+     "The Baltic Sea"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which Italian city is known for its gondolas?",
+    "a": [
+     "Florence",
+     "Venice",
+     "Naples",
+     "Genoa"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What does a barometer measure?",
+    "a": [
+     "Temperature",
+     "Wind speed",
+     "Atmospheric pressure",
+     "Humidity"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which insect produces silk?",
+    "a": [
+     "The bee",
+     "The termite",
+     "The ant",
+     "The silkworm"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "About how many bones are in an adult human skeleton?",
+    "a": [
+     "206",
+     "300",
+     "150",
+     "500"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "How many kidneys does a human have?",
+    "a": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which sea creature has eight arms?",
+    "a": [
+     "The squid",
+     "The starfish",
+     "The octopus",
+     "The dolphin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "In which movie does Bill Murray relive the same day endlessly?",
+    "a": [
+     "Ghostbusters",
+     "The Truman Show",
+     "Up",
+     "Groundhog Day"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which superhero swings on webs across New York?",
+    "a": [
+     "Spider-Man",
+     "Batman",
+     "Superman",
+     "Daredevil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1972 movie follows the Corleone family?",
+    "a": [
+     "Scarface",
+     "The Godfather",
+     "Goodfellas",
+     "Heat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which director is nicknamed the 'Master of Suspense'?",
+    "a": [
+     "Stanley Kubrick",
+     "David Lynch",
+     "Alfred Hitchcock",
+     "Orson Welles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress starred in Pretty Woman and Notting Hill?",
+    "a": [
+     "Meg Ryan",
+     "Sandra Bullock",
+     "Jennifer Aniston",
+     "Julia Roberts"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which British band released the album Abbey Road?",
+    "a": [
+     "The Beatles",
+     "The Rolling Stones",
+     "Pink Floyd",
+     "Queen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument family includes the violin and the viola?",
+    "a": [
+     "Brass",
+     "Strings",
+     "Woodwind",
+     "Percussion"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which composer wrote The Four Seasons?",
+    "a": [
+     "Johann Sebastian Bach",
+     "Wolfgang Amadeus Mozart",
+     "Antonio Vivaldi",
+     "Joseph Haydn"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which music genre was born in New Orleans?",
+    "a": [
+     "Blues",
+     "Country",
+     "Gospel",
+     "Jazz"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which singer is nicknamed the 'Queen of Pop'?",
+    "a": [
+     "Madonna",
+     "Whitney Houston",
+     "Mariah Carey",
+     "Cher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who scripted the Little Nicholas books, illustrated by Sempé?",
+    "a": [
+     "Marcel Pagnol",
+     "René Goscinny",
+     "Antoine de Saint-Exupéry",
+     "Jean Giono"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which novelist wrote the novel Rebecca?",
+    "a": [
+     "Agatha Christie",
+     "Virginia Woolf",
+     "Daphne du Maurier",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Which French poet wrote the poem Le Lac?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Charles Baudelaire",
+     "Alphonse de Lamartine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the world of Narnia?",
+    "a": [
+     "C.S. Lewis",
+     "J.R.R. Tolkien",
+     "Philip Pullman",
+     "J.K. Rowling"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the novel Bel-Ami?",
+    "a": [
+     "Émile Zola",
+     "Guy de Maupassant",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "In which sport do you score a three-point basket?",
+    "a": [
+     "Handball",
+     "Volleyball",
+     "Basketball",
+     "Water polo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "How long is a quarter in the NBA?",
+    "a": [
+     "10 minutes",
+     "15 minutes",
+     "20 minutes",
+     "12 minutes"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "In which sport is the javelin thrown?",
+    "a": [
+     "Athletics",
+     "Biathlon",
+     "Fencing",
+     "Triathlon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which Grand Slam tournament is played on clay?",
+    "a": [
+     "Wimbledon",
+     "The French Open",
+     "The US Open",
+     "The Australian Open"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "In which sport does a hat-trick mean three goals by one player?",
+    "a": [
+     "Handball",
+     "Basketball",
+     "Football",
+     "Rugby"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "Which country is badminton champion Carolina Marín from?",
+    "a": [
+     "Portugal",
+     "Italy",
+     "France",
+     "Spain"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "What material are modern badminton racket frames made of?",
+    "a": [
+     "Graphite",
+     "Solid wood",
+     "Steel",
+     "Pure aluminium"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "Which country is Viktor Axelsen from?",
+    "a": [
+     "Sweden",
+     "Denmark",
+     "Norway",
+     "Germany"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "About how long is a badminton racket?",
+    "a": [
+     "45 cm",
+     "90 cm",
+     "68 cm",
+     "120 cm"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "What is a soft shot that drops just over the net called?",
+    "a": [
+     "A smash",
+     "A clear",
+     "A drive",
+     "A net drop"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which soup is made with leeks and potatoes?",
+    "a": [
+     "Vichyssoise",
+     "Borscht",
+     "Gazpacho",
+     "Minestrone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Which sauce is an emulsion of egg and oil?",
+    "a": [
+     "Béchamel",
+     "Mayonnaise",
+     "Tartare sauce",
+     "Sauce vierge"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Korean kimchi is made by fermenting which vegetable?",
+    "a": [
+     "Carrot",
+     "Cucumber",
+     "Cabbage",
+     "Radish"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which country claims feijoada as its national dish?",
+    "a": [
+     "Portugal",
+     "Argentina",
+     "Mexico",
+     "Brazil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "In which city was the Sachertorte born?",
+    "a": [
+     "Vienna",
+     "Munich",
+     "Prague",
+     "Budapest"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What are 'and' and 'but' in grammar?",
+    "a": [
+     "Prepositions",
+     "Conjunctions",
+     "Adverbs",
+     "Interjections"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the irregular plural of 'child'?",
+    "a": [
+     "Childs",
+     "Childes",
+     "Children",
+     "Childrens"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is the most frequent in English?",
+    "a": [
+     "A",
+     "S",
+     "I",
+     "E"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "How many grammatical genders does English have?",
+    "a": [
+     "None",
+     "One",
+     "Two",
+     "Three"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in the word 'knife'?",
+    "a": [
+     "The N",
+     "The K",
+     "The F",
+     "The E"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In early November 2026, who was crowned Formula 1 world champion?",
+    "a": [
+     "Max Verstappen",
+     "Lando Norris",
+     "Kimi Antonelli",
+     "Lewis Hamilton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Who won the Mexico City Grand Prix on November 1, 2026?",
+    "a": [
+     "Kimi Antonelli",
+     "Lewis Hamilton",
+     "Charles Leclerc",
+     "Max Verstappen"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which party won a sweeping victory in the US midterms?",
+    "a": [
+     "The Democratic Party",
+     "The Republican Party",
+     "The Green Party",
+     "The Libertarian Party"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In early November 2026, who beat new world No. 1 Zverev at the Paris Masters?",
+    "a": [
+     "Jannik Sinner",
+     "Lorenzo Musetti",
+     "Carlos Alcaraz",
+     "Quentin Halys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Who knocked Novak Djokovic out of the Paris Masters in early November 2026?",
+    "a": [
+     "Lorenzo Musetti",
+     "Arthur Fils",
+     "Rinky Hijikata",
+     "Alexandre Müller"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country does Sweden refuse to play against at the hockey worlds?",
+    "a": [
+     "Belarus",
+     "Kazakhstan",
+     "China",
+     "Russia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In early November 2026, which president feared deaths under rubble after a bombardment?",
+    "a": [
+     "Volodymyr Zelensky",
+     "Vladimir Putin",
+     "Emmanuel Macron",
+     "Recep Tayyip Erdogan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country hosts the first exercise of the pro-Ukraine force?",
+    "a": [
+     "Romania",
+     "Poland",
+     "Germany",
+     "Estonia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which Paris department store was placed in receivership?",
+    "a": [
+     "Galeries Lafayette",
+     "Le Printemps",
+     "Le BHV",
+     "La Samaritaine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In early November 2026, which French island was under rain-flood alert?",
+    "a": [
+     "Réunion",
+     "Guadeloupe",
+     "Martinique",
+     "Corsica"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In early November 2026, which schools were blocked in France?",
+    "a": [
+     "High schools",
+     "Universities",
+     "Hospitals",
+     "Courts"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, what will Europeans protest about on 20-22 November?",
+    "a": [
+     "Global warming",
+     "The cost of living",
+     "The war in Ukraine",
+     "Pensions"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which FC Barcelona player declined a France recall?",
+    "a": [
+     "Nikola Karabatic",
+     "Dika Mem",
+     "Timothey Nguessan",
+     "Luka Karabatic"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which team is favourite for the rugby Nations Championship?",
+    "a": [
+     "New Zealand",
+     "France",
+     "Ireland",
+     "South Africa"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, who does France's rugby team face in the Nations Championship?",
+    "a": [
+     "Fiji",
+     "South Africa",
+     "Australia",
+     "Argentina"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which Latin American leader is backing Haiti against gangs?",
+    "a": [
+     "Andrés Manuel López Obrador",
+     "Nayib Bukele",
+     "Javier Milei",
+     "Gustavo Petro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which French defender returned to training with Arsenal?",
+    "a": [
+     "Ibrahima Konaté",
+     "Jules Koundé",
+     "William Saliba",
+     "Lucas Hernandez"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "For the 2026 Mexico GP, which French driver was dropped by Haas?",
+    "a": [
+     "Pierre Gasly",
+     "Isack Hadjar",
+     "Romain Grosjean",
+     "Esteban Ocon"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -3690,6 +5186,754 @@
      "Un coro"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué civilización construyó el Coliseo?",
+    "a": [
+     "La antigua Roma",
+     "La antigua Grecia",
+     "El antiguo Egipto",
+     "Persia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién fue asesinado en las idus de marzo del 44 a. C.?",
+    "a": [
+     "Pompeyo",
+     "Julio César",
+     "Augusto",
+     "Bruto"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué pueblo construyó la ciudad de Machu Picchu?",
+    "a": [
+     "Los aztecas",
+     "Los mayas",
+     "Los incas",
+     "Los olmecas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Bajo qué reina Inglaterra venció a la Armada española?",
+    "a": [
+     "Victoria",
+     "María Tudor",
+     "Ana",
+     "Isabel I"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué rey mandó construir el palacio de Versalles?",
+    "a": [
+     "Luis XIV",
+     "Luis XVI",
+     "Francisco I",
+     "Napoleón I"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país se encuentra el monte Kilimanjaro?",
+    "a": [
+     "Kenia",
+     "Tanzania",
+     "Etiopía",
+     "Uganda"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué río atraviesa Londres?",
+    "a": [
+     "El Rin",
+     "El Sena",
+     "El Támesis",
+     "El Escalda"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el Estado más pequeño del mundo?",
+    "a": [
+     "Mónaco",
+     "San Marino",
+     "Liechtenstein",
+     "El Vaticano"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué mar se considera el más salado del mundo?",
+    "a": [
+     "El Mar Muerto",
+     "El Mar Rojo",
+     "El Mar Negro",
+     "El mar Báltico"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué ciudad italiana es famosa por sus góndolas?",
+    "a": [
+     "Florencia",
+     "Venecia",
+     "Nápoles",
+     "Génova"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué mide un barómetro?",
+    "a": [
+     "La temperatura",
+     "La velocidad del viento",
+     "La presión atmosférica",
+     "La humedad"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué insecto produce la seda?",
+    "a": [
+     "La abeja",
+     "La termita",
+     "La hormiga",
+     "El gusano de seda"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos huesos tiene aproximadamente un esqueleto humano adulto?",
+    "a": [
+     "206",
+     "300",
+     "150",
+     "500"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos riñones tiene una persona?",
+    "a": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué animal marino tiene ocho brazos?",
+    "a": [
+     "El calamar",
+     "La estrella de mar",
+     "El pulpo",
+     "El delfín"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película Bill Murray revive sin parar el mismo día?",
+    "a": [
+     "Ghostbusters",
+     "The Truman Show",
+     "Up",
+     "Atrapado en el tiempo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué superhéroe lanza telarañas en Nueva York?",
+    "a": [
+     "Spider-Man",
+     "Batman",
+     "Superman",
+     "Daredevil"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de 1972 narra a la familia Corleone?",
+    "a": [
+     "Scarface",
+     "El Padrino",
+     "Uno de los nuestros",
+     "Heat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué director es apodado el 'maestro del suspense'?",
+    "a": [
+     "Stanley Kubrick",
+     "David Lynch",
+     "Alfred Hitchcock",
+     "Orson Welles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz protagonizó Pretty Woman y Notting Hill?",
+    "a": [
+     "Meg Ryan",
+     "Sandra Bullock",
+     "Jennifer Aniston",
+     "Julia Roberts"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo británico publicó el álbum Abbey Road?",
+    "a": [
+     "The Beatles",
+     "The Rolling Stones",
+     "Pink Floyd",
+     "Queen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué familia de instrumentos incluye el violín y la viola?",
+    "a": [
+     "Los metales",
+     "Las cuerdas frotadas",
+     "Las maderas",
+     "Las percusiones"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué compositor escribió Las cuatro estaciones?",
+    "a": [
+     "Johann Sebastian Bach",
+     "Wolfgang Amadeus Mozart",
+     "Antonio Vivaldi",
+     "Joseph Haydn"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué género musical nació en Nueva Orleans?",
+    "a": [
+     "El blues",
+     "El country",
+     "El gospel",
+     "El jazz"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante es apodada la 'Reina del Pop'?",
+    "a": [
+     "Madonna",
+     "Whitney Houston",
+     "Mariah Carey",
+     "Cher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién guionizó El pequeño Nicolás, ilustrado por Sempé?",
+    "a": [
+     "Marcel Pagnol",
+     "René Goscinny",
+     "Antoine de Saint-Exupéry",
+     "Jean Giono"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué novelista escribió la novela Rebecca?",
+    "a": [
+     "Agatha Christie",
+     "Virginia Woolf",
+     "Daphne du Maurier",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué poeta francés escribió el poema El lago?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Charles Baudelaire",
+     "Alphonse de Lamartine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó el mundo de Narnia?",
+    "a": [
+     "C.S. Lewis",
+     "J.R.R. Tolkien",
+     "Philip Pullman",
+     "J.K. Rowling"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la novela Bel-Ami?",
+    "a": [
+     "Émile Zola",
+     "Guy de Maupassant",
+     "Gustave Flaubert",
+     "Honoré de Balzac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte se anota un triple?",
+    "a": [
+     "El balonmano",
+     "El voleibol",
+     "El baloncesto",
+     "El waterpolo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuánto dura un cuarto en la NBA?",
+    "a": [
+     "10 minutos",
+     "15 minutos",
+     "20 minutos",
+     "12 minutos"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte se lanza la jabalina?",
+    "a": [
+     "El atletismo",
+     "El biatlón",
+     "La esgrima",
+     "El triatlón"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué torneo de Grand Slam se juega sobre tierra batida?",
+    "a": [
+     "Wimbledon",
+     "Roland Garros",
+     "El US Open",
+     "El Abierto de Australia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte un 'hat-trick' son tres goles de un jugador?",
+    "a": [
+     "El balonmano",
+     "El baloncesto",
+     "El fútbol",
+     "El rugby"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "¿De qué país es la campeona de bádminton Carolina Marín?",
+    "a": [
+     "Portugal",
+     "Italia",
+     "Francia",
+     "España"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "¿De qué material son las raquetas modernas de bádminton?",
+    "a": [
+     "El grafite",
+     "La madera maciza",
+     "El acero",
+     "El aluminio puro"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "¿De qué país es Viktor Axelsen?",
+    "a": [
+     "Suecia",
+     "Dinamarca",
+     "Noruega",
+     "Alemania"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cuánto mide aproximadamente una raqueta de bádminton?",
+    "a": [
+     "45 cm",
+     "90 cm",
+     "68 cm",
+     "120 cm"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cómo se llama un golpe suave que cae justo tras la red?",
+    "a": [
+     "El smash",
+     "El clear",
+     "El drive",
+     "La dejada"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué verdura es la base de la vichyssoise?",
+    "a": [
+     "El puerro",
+     "El calabacín",
+     "La zanahoria",
+     "El apio"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué salsa es una emulsión de huevo y aceite?",
+    "a": [
+     "La bechamel",
+     "La mayonesa",
+     "La salsa tártara",
+     "La salsa virgen"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué verdura es la base del kimchi coreano?",
+    "a": [
+     "La zanahoria",
+     "El pepino",
+     "La col",
+     "El rábano"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "El feijoada, guiso de alubias, es típico de qué país?",
+    "a": [
+     "Portugal",
+     "Argentina",
+     "México",
+     "Brasil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿En qué ciudad nació el Sachertorte?",
+    "a": [
+     "Viena",
+     "Múnich",
+     "Praga",
+     "Budapest"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué son 'pero' y 'aunque' en gramática?",
+    "a": [
+     "Preposiciones",
+     "Conjunciones",
+     "Adverbios",
+     "Interjecciones"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué palabra es sinónimo de 'feliz'?",
+    "a": [
+     "Triste",
+     "Nervioso",
+     "Alegre",
+     "Enfermo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es la letra más frecuente en español?",
+    "a": [
+     "La A",
+     "La S",
+     "La I",
+     "La E"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántos géneros gramaticales distingue el español?",
+    "a": [
+     "Dos",
+     "Uno",
+     "Tres",
+     "Cuatro"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué letra es muda en la palabra 'hola'?",
+    "a": [
+     "La O",
+     "La H",
+     "La L",
+     "La A"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "A principios de noviembre de 2026, ¿quién fue coronado campeón mundial de Fórmula 1?",
+    "a": [
+     "Max Verstappen",
+     "Lando Norris",
+     "Kimi Antonelli",
+     "Lewis Hamilton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿Quién ganó el Gran Premio de México el 1 de noviembre de 2026?",
+    "a": [
+     "Kimi Antonelli",
+     "Lewis Hamilton",
+     "Charles Leclerc",
+     "Max Verstappen"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué partido ganó de forma amplia las elecciones intermedias de EE. UU.?",
+    "a": [
+     "El Partido Demócrata",
+     "El Partido Republicano",
+     "El Partido Verde",
+     "El Partido Libertario"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿quién venció al nuevo número 1 Zverev en el Masters de París?",
+    "a": [
+     "Jannik Sinner",
+     "Lorenzo Musetti",
+     "Carlos Alcaraz",
+     "Quentin Halys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "¿Quién eliminó a Djokovic del Masters de París a principios de noviembre de 2026?",
+    "a": [
+     "Lorenzo Musetti",
+     "Arthur Fils",
+     "Rinky Hijikata",
+     "Alexandre Müller"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿contra qué país se niega Suecia a jugar en el Mundial de hockey?",
+    "a": [
+     "Bielorrusia",
+     "Kazajistán",
+     "China",
+     "Rusia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué presidente teme muertos bajo los escombros tras un bombardeo?",
+    "a": [
+     "Volodímir Zelenski",
+     "Vladímir Putin",
+     "Emmanuel Macron",
+     "Recep Tayyip Erdogan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿en qué país se realiza el primer ejercicio de la fuerza pro-Ucrania?",
+    "a": [
+     "Rumania",
+     "Polonia",
+     "Alemania",
+     "Estonia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué gran almacén parisino ha entrado en concurso de acreedores?",
+    "a": [
+     "Galeries Lafayette",
+     "El Printemps",
+     "El BHV",
+     "La Samaritaine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué isla francesa está en alerta por lluvias e inundaciones?",
+    "a": [
+     "Reunión",
+     "Guadalupe",
+     "Martinica",
+     "Córcega"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "A principios de noviembre de 2026, ¿qué centros educativos fueron bloqueados en Francia?",
+    "a": [
+     "Institutos de secundaria",
+     "Universidades",
+     "Hospitales",
+     "Tribunales"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿contra qué se manifestará Europa del 20 al 22 de noviembre?",
+    "a": [
+     "El calentamiento climático",
+     "El coste de la vida",
+     "La guerra en Ucrania",
+     "Las pensiones"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué jugador del FC Barcelona rechazó volver a la selección francesa?",
+    "a": [
+     "Nikola Karabatic",
+     "Dika Mem",
+     "Timothey Nguessan",
+     "Luka Karabatic"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué equipo es favorito del Campeonato de Naciones de rugby?",
+    "a": [
+     "Nueva Zelanda",
+     "Francia",
+     "Irlanda",
+     "Sudáfrica"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "A principios de noviembre de 2026, ¿contra qué país juega Francia en el Campeonato de Naciones?",
+    "a": [
+     "Fiyi",
+     "Sudáfrica",
+     "Australia",
+     "Argentina"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué líder latinoamericano apoya a Haití contra las pandillas?",
+    "a": [
+     "Andrés Manuel López Obrador",
+     "Nayib Bukele",
+     "Javier Milei",
+     "Gustavo Petro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué defensa francés volvió a entrenar con el Arsenal?",
+    "a": [
+     "Ibrahima Konaté",
+     "Jules Koundé",
+     "William Saliba",
+     "Lucas Hernandez"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Para el GP de México de 2026, ¿qué piloto francés fue apartado por Haas?",
+    "a": [
+     "Pierre Gasly",
+     "Isack Hadjar",
+     "Romain Grosjean",
+     "Esteban Ocon"
+    ],
+    "c": 3
    }
   ]
  }
