@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "qs": {
     "fr": [
       {
@@ -2531,6 +2531,556 @@
           "Le point d'interrogation"
         ],
         "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "En quelle année Charlemagne a-t-il été couronné empereur ?",
+        "a": [
+          "En 800",
+          "En 962",
+          "En 843",
+          "En 500"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quelle reine d'Écosse a été exécutée en 1587 ?",
+        "a": [
+          "Élisabeth Iʳᵉ",
+          "Marie Stuart",
+          "Anne Boleyn",
+          "Catherine de Médicis"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel explorateur vénitien a voyagé vers la Chine au XIIIe siècle ?",
+        "a": [
+          "Magellan",
+          "Vasco de Gama",
+          "Marco Polo",
+          "Christophe Colomb"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Quelle ville Jeanne d'Arc a-t-elle libérée en 1429 ?",
+        "a": [
+          "Paris",
+          "Reims",
+          "Rouen",
+          "Orléans"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Qui a peint La Joconde ?",
+        "a": [
+          "Léonard de Vinci",
+          "Michel-Ange",
+          "Raphaël",
+          "Botticelli"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+        "a": [
+          "Le Caucase",
+          "L'Oural",
+          "Les Alpes",
+          "L'Himalaya"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Entre quels pays se trouvent les chutes du Niagara ?",
+        "a": [
+          "Le Brésil et l'Argentine",
+          "La Zambie et le Zimbabwe",
+          "Le Canada et les États-Unis",
+          "L'Argentine et le Chili"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quel pays est surnommé « l'île de glace et de feu » ?",
+        "a": [
+          "La Norvège",
+          "La Finlande",
+          "L'Irlande",
+          "L'Islande"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel pays se trouve le mont Fuji ?",
+        "a": [
+          "Au Japon",
+          "En Chine",
+          "En Corée du Sud",
+          "Aux Philippines"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quels océans relie le canal de Panama ?",
+        "a": [
+          "L'Indien et le Pacifique",
+          "L'Atlantique et le Pacifique",
+          "L'Arctique et l'Atlantique",
+          "L'Atlantique et l'Indien"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Quel mammifère est célèbre pour pondre des œufs ?",
+        "a": [
+          "Le pangolin",
+          "Le dauphin",
+          "L'ornithorynque",
+          "Le kangourou"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle est la planète la plus éloignée du Soleil ?",
+        "a": [
+          "Pluton",
+          "Uranus",
+          "Saturne",
+          "Neptune"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Quel instrument mesure la température ?",
+        "a": [
+          "Le thermomètre",
+          "Le baromètre",
+          "L'anémomètre",
+          "L'hygromètre"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel animal construit des barrages dans les rivières ?",
+        "a": [
+          "Le ragondin",
+          "Le castor",
+          "La loutre",
+          "Le rat musqué"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien de pattes possède un insecte ?",
+        "a": [
+          "8",
+          "4",
+          "6",
+          "10"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Dans quel film d'animation un rat cuisine à Paris ?",
+        "a": [
+          "Cars",
+          "Là-haut",
+          "WALL-E",
+          "Ratatouille"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle reine aux pouvoirs de glace chante « Libérée, délivrée » ?",
+        "a": [
+          "Elsa",
+          "Anna",
+          "Cendrillon",
+          "Raiponce"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quel acteur incarne Gandalf dans Le Seigneur des anneaux ?",
+        "a": [
+          "Anthony Hopkins",
+          "Ian McKellen",
+          "Michael Caine",
+          "Patrick Stewart"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Qui a réalisé E.T. et Rencontres du troisième type ?",
+        "a": [
+          "George Lucas",
+          "James Cameron",
+          "Steven Spielberg",
+          "Ridley Scott"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quel est le premier long métrage d'animation des studios Disney ?",
+        "a": [
+          "Pinocchio",
+          "Bambi",
+          "Dumbo",
+          "Blanche-Neige"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Qui a composé La Marseillaise ?",
+        "a": [
+          "Rouget de Lisle",
+          "Berlioz",
+          "Rameau",
+          "Gounod"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "De quel pays la samba est-elle originaire ?",
+        "a": [
+          "Cuba",
+          "Le Brésil",
+          "Le Mexique",
+          "La Colombie"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quel groupe de rock australien chante Highway to Hell ?",
+        "a": [
+          "The Rolling Stones",
+          "Queen",
+          "AC/DC",
+          "Led Zeppelin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Quel groupe suédois a chanté Dancing Queen ?",
+        "a": [
+          "Roxette",
+          "Ace of Base",
+          "The Cardigans",
+          "ABBA"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "De quel instrument Jimi Hendrix était-il une légende ?",
+        "a": [
+          "La guitare",
+          "Le piano",
+          "La batterie",
+          "Le saxophone"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit Le Diable au corps ?",
+        "a": [
+          "Balzac",
+          "Raymond Radiguet",
+          "Flaubert",
+          "Gide"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit la trilogie Millennium ?",
+        "a": [
+          "Jo Nesbø",
+          "Dan Brown",
+          "Stieg Larsson",
+          "Henning Mankell"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit Les Thibault ?",
+        "a": [
+          "François Mauriac",
+          "André Gide",
+          "Romain Rolland",
+          "Roger Martin du Gard"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit Du côté de chez Swann ?",
+        "a": [
+          "Marcel Proust",
+          "Colette",
+          "Jean Giono",
+          "Anatole France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit La Peau de chagrin ?",
+        "a": [
+          "Flaubert",
+          "Honoré de Balzac",
+          "Zola",
+          "Stendhal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quel est le score parfait au bowling ?",
+        "a": [
+          "200",
+          "100",
+          "300",
+          "500"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Environ combien de kilomètres fait un semi-marathon ?",
+        "a": [
+          "42,2 km",
+          "10 km",
+          "30 km",
+          "21,1 km"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Quel sport d'hiver combine ski de fond et tir à la carabine ?",
+        "a": [
+          "Le biathlon",
+          "Le ski alpin",
+          "Le snowboard",
+          "Le saut à ski"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Le 100 mètres et le saut en longueur appartiennent à quel sport ?",
+        "a": [
+          "La gymnastique",
+          "L'athlétisme",
+          "Le tir à l'arc",
+          "La natation"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quel pays a accueilli les Jeux olympiques d'hiver 2026 ?",
+        "a": [
+          "La France",
+          "La Suisse",
+          "L'Italie",
+          "Le Japon"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Combien de zones de service compte un terrain de badminton ?",
+        "a": [
+          "2",
+          "6",
+          "8",
+          "4"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "Le volant tombe sur la ligne de fond : l'échange est... ?",
+        "a": [
+          "Valide",
+          "Perdu",
+          "À rejouer",
+          "Nul"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Comment s'appelle la rotation du poignet qui accélère le smash ?",
+        "a": [
+          "La supination",
+          "La pronation",
+          "La flexion",
+          "L'extension"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Que signifiait le sigle IBF, ancien nom de la BWF ?",
+        "a": [
+          "Indian Badminton Federation",
+          "International Ball Federation",
+          "International Badminton Federation",
+          "Iberian Badminton Federation"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Comment s'appelle le tissage de fils de la raquette ?",
+        "a": [
+          "Le grip",
+          "Le cadre",
+          "Le manche",
+          "Le cordage"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Avec quel fruit fait-on le cidre ?",
+        "a": [
+          "La pomme",
+          "La poire",
+          "La prune",
+          "La cerise"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quoi est fait le saké ?",
+        "a": [
+          "De blé fermenté",
+          "De riz fermenté",
+          "D'orge maltée",
+          "De soja"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "De quel animal provient le jambon ?",
+        "a": [
+          "Le bœuf",
+          "Le mouton",
+          "Le porc",
+          "La dinde"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Le pruneau est le fruit séché de... ?",
+        "a": [
+          "La pêche",
+          "L'abricot",
+          "La figue",
+          "La prune"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "De quel fruit l'huile d'olive est-elle tirée ?",
+        "a": [
+          "L'olive",
+          "La noix",
+          "L'amande",
+          "L'avocat"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Quel type de mot exprime une émotion vive comme « aïe » ?",
+        "a": [
+          "La préposition",
+          "L'interjection",
+          "Le pronom",
+          "L'adjectif"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Quel est le pluriel de « un cheveu » ?",
+        "a": [
+          "Des cheveus",
+          "Des cheveu",
+          "Des cheveux",
+          "Des chevelures"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Que remplace un pronom ?",
+        "a": [
+          "Un verbe",
+          "Un adjectif",
+          "Une conjonction",
+          "Un nom"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "Dans « Le chat dort », quel est le verbe ?",
+        "a": [
+          "Dort",
+          "Le",
+          "Chat",
+          "Très"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "« Hier » situe l'action dans quel temps ?",
+        "a": [
+          "Le présent",
+          "Le passé",
+          "Le futur",
+          "Le conditionnel"
+        ],
+        "c": 1
       }
     ],
     "en": [
@@ -5063,6 +5613,556 @@
           "One"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "In what year was Charlemagne crowned emperor?",
+        "a": [
+          "In 800",
+          "In 962",
+          "In 843",
+          "In 500"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which Scottish queen was executed in 1587?",
+        "a": [
+          "Elizabeth I",
+          "Mary Stuart",
+          "Anne Boleyn",
+          "Catherine de' Medici"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which Venetian explorer travelled to China in the 13th century?",
+        "a": [
+          "Magellan",
+          "Vasco da Gama",
+          "Marco Polo",
+          "Christopher Columbus"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Which city did Joan of Arc liberate in 1429?",
+        "a": [
+          "Paris",
+          "Reims",
+          "Rouen",
+          "Orléans"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Who painted the Mona Lisa?",
+        "a": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Raphael",
+          "Botticelli"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which mountain range separates Europe from Asia?",
+        "a": [
+          "The Caucasus",
+          "The Urals",
+          "The Alps",
+          "The Himalayas"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "The Niagara Falls lie between which two countries?",
+        "a": [
+          "Brazil and Argentina",
+          "Zambia and Zimbabwe",
+          "Canada and the United States",
+          "Argentina and Chile"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Which country is nicknamed \"the island of ice and fire\"?",
+        "a": [
+          "Norway",
+          "Finland",
+          "Ireland",
+          "Iceland"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "In which country is Mount Fuji located?",
+        "a": [
+          "Japan",
+          "China",
+          "South Korea",
+          "The Philippines"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which two oceans does the Panama Canal connect?",
+        "a": [
+          "The Indian and the Pacific",
+          "The Atlantic and the Pacific",
+          "The Arctic and the Atlantic",
+          "The Atlantic and the Indian"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Which mammal is famous for laying eggs?",
+        "a": [
+          "The pangolin",
+          "The dolphin",
+          "The platypus",
+          "The kangaroo"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which is the farthest planet from the Sun?",
+        "a": [
+          "Pluto",
+          "Uranus",
+          "Saturn",
+          "Neptune"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Which instrument measures temperature?",
+        "a": [
+          "The thermometer",
+          "The barometer",
+          "The anemometer",
+          "The hygrometer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which animal builds dams in rivers?",
+        "a": [
+          "The coypu",
+          "The beaver",
+          "The otter",
+          "The muskrat"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "How many legs does an insect have?",
+        "a": [
+          "8",
+          "4",
+          "6",
+          "10"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "In which animated film does a rat cook in Paris?",
+        "a": [
+          "Cars",
+          "Up",
+          "WALL-E",
+          "Ratatouille"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Which ice-powered queen sings \"Let It Go\"?",
+        "a": [
+          "Elsa",
+          "Anna",
+          "Cinderella",
+          "Rapunzel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which actor plays Gandalf in The Lord of the Rings?",
+        "a": [
+          "Anthony Hopkins",
+          "Ian McKellen",
+          "Michael Caine",
+          "Patrick Stewart"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Who directed E.T. and Close Encounters of the Third Kind?",
+        "a": [
+          "George Lucas",
+          "James Cameron",
+          "Steven Spielberg",
+          "Ridley Scott"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "What was Disney's first feature-length animation?",
+        "a": [
+          "Pinocchio",
+          "Bambi",
+          "Dumbo",
+          "Snow White"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Who composed La Marseillaise?",
+        "a": [
+          "Rouget de Lisle",
+          "Berlioz",
+          "Rameau",
+          "Gounod"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which country is the birthplace of samba?",
+        "a": [
+          "Cuba",
+          "Brazil",
+          "Mexico",
+          "Colombia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which Australian rock band sang Highway to Hell?",
+        "a": [
+          "The Rolling Stones",
+          "Queen",
+          "AC/DC",
+          "Led Zeppelin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Which Swedish band sang Dancing Queen?",
+        "a": [
+          "Roxette",
+          "Ace of Base",
+          "The Cardigans",
+          "ABBA"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "On which instrument was Jimi Hendrix a legend?",
+        "a": [
+          "The guitar",
+          "The piano",
+          "The drums",
+          "The saxophone"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote The Devil in the Flesh?",
+        "a": [
+          "Balzac",
+          "Raymond Radiguet",
+          "Flaubert",
+          "Gide"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote the Millennium trilogy?",
+        "a": [
+          "Jo Nesbø",
+          "Dan Brown",
+          "Stieg Larsson",
+          "Henning Mankell"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote Les Thibault?",
+        "a": [
+          "François Mauriac",
+          "André Gide",
+          "Romain Rolland",
+          "Roger Martin du Gard"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote Swann's Way?",
+        "a": [
+          "Marcel Proust",
+          "Colette",
+          "Jean Giono",
+          "Anatole France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote La Peau de chagrin?",
+        "a": [
+          "Flaubert",
+          "Honoré de Balzac",
+          "Zola",
+          "Stendhal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "What is a perfect score in bowling?",
+        "a": [
+          "200",
+          "100",
+          "300",
+          "500"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "About how many kilometres is a half marathon?",
+        "a": [
+          "42.2 km",
+          "10 km",
+          "30 km",
+          "21.1 km"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Which winter sport combines cross-country skiing and rifle shooting?",
+        "a": [
+          "Biathlon",
+          "Alpine skiing",
+          "Snowboarding",
+          "Ski jumping"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "The 100 metres and the long jump belong to which sport?",
+        "a": [
+          "Gymnastics",
+          "Athletics",
+          "Archery",
+          "Swimming"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which country hosted the 2026 Winter Olympics?",
+        "a": [
+          "France",
+          "Switzerland",
+          "Italy",
+          "Japan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "How many service courts are there on a badminton court?",
+        "a": [
+          "2",
+          "6",
+          "8",
+          "4"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "The shuttle lands on the back line: the shot is...?",
+        "a": [
+          "In",
+          "Out",
+          "A let",
+          "Replayed"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "What is the wrist rotation that speeds up a smash called?",
+        "a": [
+          "Supination",
+          "Pronation",
+          "Flexion",
+          "Extension"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "What did IBF, the BWF's former name, stand for?",
+        "a": [
+          "Indian Badminton Federation",
+          "International Ball Federation",
+          "International Badminton Federation",
+          "Iberian Badminton Federation"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "What is the string mesh of a racket called?",
+        "a": [
+          "The grip",
+          "The frame",
+          "The handle",
+          "The strings"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which fruit is used to make cider?",
+        "a": [
+          "The apple",
+          "The pear",
+          "The plum",
+          "The cherry"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "What is sake made from?",
+        "a": [
+          "Fermented wheat",
+          "Fermented rice",
+          "Malted barley",
+          "Soybeans"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which animal does ham come from?",
+        "a": [
+          "The cow",
+          "The sheep",
+          "The pig",
+          "The turkey"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "A prune is the dried version of which fruit?",
+        "a": [
+          "The peach",
+          "The apricot",
+          "The fig",
+          "The plum"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Olive oil is extracted from which fruit?",
+        "a": [
+          "The olive",
+          "The walnut",
+          "The almond",
+          "The avocado"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Which word type expresses a vivid emotion like \"ouch\"?",
+        "a": [
+          "The preposition",
+          "The interjection",
+          "The pronoun",
+          "The adjective"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "What is the plural of \"knee\"?",
+        "a": [
+          "Knies",
+          "Knee's",
+          "Knees",
+          "Knee"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "What does a pronoun replace?",
+        "a": [
+          "A verb",
+          "An adjective",
+          "A conjunction",
+          "A noun"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "In \"The cat sleeps\", which word is the verb?",
+        "a": [
+          "Sleeps",
+          "The",
+          "Cat",
+          "Very"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "\"Yesterday\" places the action in which tense?",
+        "a": [
+          "The present",
+          "The past",
+          "The future",
+          "The conditional"
+        ],
+        "c": 1
       }
     ],
     "es": [
@@ -7584,6 +8684,556 @@
           "Cinco"
         ],
         "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿En qué año fue coronado emperador Carlomagno?",
+        "a": [
+          "En el 800",
+          "En el 962",
+          "En el 843",
+          "En el 500"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué reina de Escocia fue ejecutada en 1587?",
+        "a": [
+          "Isabel I",
+          "María Estuardo",
+          "Ana Bolena",
+          "Catalina de Médicis"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué explorador veneciano viajó a China en el siglo XIII?",
+        "a": [
+          "Magallanes",
+          "Vasco de Gama",
+          "Marco Polo",
+          "Cristóbal Colón"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué ciudad liberó Juana de Arco en 1429?",
+        "a": [
+          "París",
+          "Reims",
+          "Ruan",
+          "Orléans"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién pintó la Mona Lisa?",
+        "a": [
+          "Leonardo da Vinci",
+          "Miguel Ángel",
+          "Rafael",
+          "Botticelli"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué cordillera separa Europa de Asia?",
+        "a": [
+          "El Cáucaso",
+          "Los Urales",
+          "Los Alpes",
+          "El Himalaya"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Entre qué países están las cataratas del Niágara?",
+        "a": [
+          "Brasil y Argentina",
+          "Zambia y Zimbabue",
+          "Canadá y Estados Unidos",
+          "Argentina y Chile"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué país es apodado « la isla de hielo y fuego »?",
+        "a": [
+          "Noruega",
+          "Finlandia",
+          "Irlanda",
+          "Islandia"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué país se encuentra el monte Fuji?",
+        "a": [
+          "Japón",
+          "China",
+          "Corea del Sur",
+          "Filipinas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué dos océanos une el canal de Panamá?",
+        "a": [
+          "El Índico y el Pacífico",
+          "El Atlántico y el Pacífico",
+          "El Ártico y el Atlántico",
+          "El Atlántico y el Índico"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué mamífero es famoso por poner huevos?",
+        "a": [
+          "El pangolín",
+          "El delfín",
+          "El ornitorrinco",
+          "El canguro"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el planeta más lejano del Sol?",
+        "a": [
+          "Plutón",
+          "Urano",
+          "Saturno",
+          "Neptuno"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué instrumento mide la temperatura?",
+        "a": [
+          "El termómetro",
+          "El barómetro",
+          "El anemómetro",
+          "El higrómetro"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué animal construye presas en los ríos?",
+        "a": [
+          "El coipo",
+          "El castor",
+          "La nutria",
+          "La rata almizclera"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuántas patas tiene un insecto?",
+        "a": [
+          "8",
+          "4",
+          "6",
+          "10"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿En qué película de animación una rata cocina en París?",
+        "a": [
+          "Cars",
+          "Up",
+          "WALL-E",
+          "Ratatouille"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué reina con poderes de hielo canta « Libre soy »?",
+        "a": [
+          "Elsa",
+          "Anna",
+          "Cenicienta",
+          "Rapunzel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actor interpreta a Gandalf en El Señor de los Anillos?",
+        "a": [
+          "Anthony Hopkins",
+          "Ian McKellen",
+          "Michael Caine",
+          "Patrick Stewart"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Quién dirigió E.T. y Encuentros cercanos del tercer tipo?",
+        "a": [
+          "George Lucas",
+          "James Cameron",
+          "Steven Spielberg",
+          "Ridley Scott"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Cuál fue el primer largometraje de animación de Disney?",
+        "a": [
+          "Pinocho",
+          "Bambi",
+          "Dumbo",
+          "Blancanieves"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿Quién compuso La Marsellesa?",
+        "a": [
+          "Rouget de Lisle",
+          "Berlioz",
+          "Rameau",
+          "Gounod"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿De qué país es originaria la samba?",
+        "a": [
+          "Cuba",
+          "Brasil",
+          "México",
+          "Colombia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué banda de rock australiana canta Highway to Hell?",
+        "a": [
+          "The Rolling Stones",
+          "Queen",
+          "AC/DC",
+          "Led Zeppelin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué grupo sueco cantó Dancing Queen?",
+        "a": [
+          "Roxette",
+          "Ace of Base",
+          "The Cardigans",
+          "ABBA"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿En qué instrumento era una leyenda Jimi Hendrix?",
+        "a": [
+          "La guitarra",
+          "El piano",
+          "La batería",
+          "El saxofón"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió El diablo en el cuerpo?",
+        "a": [
+          "Balzac",
+          "Raymond Radiguet",
+          "Flaubert",
+          "Gide"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió la trilogía Millenium?",
+        "a": [
+          "Jo Nesbø",
+          "Dan Brown",
+          "Stieg Larsson",
+          "Henning Mankell"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió Los Thibault?",
+        "a": [
+          "François Mauriac",
+          "André Gide",
+          "Romain Rolland",
+          "Roger Martin du Gard"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió Por el camino de Swann?",
+        "a": [
+          "Marcel Proust",
+          "Colette",
+          "Jean Giono",
+          "Anatole France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió La piel de zapa?",
+        "a": [
+          "Flaubert",
+          "Honoré de Balzac",
+          "Zola",
+          "Stendhal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuál es la puntuación perfecta en el bowling?",
+        "a": [
+          "200",
+          "100",
+          "300",
+          "500"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuántos kilómetros mide aproximadamente un medio maratón?",
+        "a": [
+          "42,2 km",
+          "10 km",
+          "30 km",
+          "21,1 km"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué deporte de invierno combina esquí de fondo y tiro con rifle?",
+        "a": [
+          "El biatlón",
+          "El esquí alpino",
+          "El snowboard",
+          "El salto de esquí"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿A qué deporte pertenecen los 100 metros y el salto de longitud?",
+        "a": [
+          "La gimnasia",
+          "El atletismo",
+          "El tiro con arco",
+          "La natación"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué país organizó los Juegos Olímpicos de invierno de 2026?",
+        "a": [
+          "Francia",
+          "Suiza",
+          "Italia",
+          "Japón"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cuántas zonas de servicio tiene una pista de bádminton?",
+        "a": [
+          "2",
+          "6",
+          "8",
+          "4"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "El volante cae sobre la línea de fondo: el golpe es...?",
+        "a": [
+          "Válido",
+          "Nulo",
+          "A repetir",
+          "Falta"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama la rotación de muñeca que acelera el smash?",
+        "a": [
+          "La supinación",
+          "La pronación",
+          "La flexión",
+          "La extensión"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué significaba IBF, antiguo nombre de la BWF?",
+        "a": [
+          "Indian Badminton Federation",
+          "International Ball Federation",
+          "International Badminton Federation",
+          "Iberian Badminton Federation"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama el tejido de cuerdas de una raqueta?",
+        "a": [
+          "La empuñadura",
+          "El marco",
+          "El mango",
+          "El encordado"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Con qué fruta se hace la sidra?",
+        "a": [
+          "La manzana",
+          "La pera",
+          "La ciruela",
+          "La cereza"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué está hecho el sake?",
+        "a": [
+          "De trigo fermentado",
+          "De arroz fermentado",
+          "De cebada malteada",
+          "De soja"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué animal procede el jamón?",
+        "a": [
+          "La vaca",
+          "La oveja",
+          "El cerdo",
+          "El pavo"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "La ciruela pasa es la versión seca de qué fruta?",
+        "a": [
+          "El melocotón",
+          "El albaricoque",
+          "El higo",
+          "La ciruela"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué fruta se extrae el aceite de oliva?",
+        "a": [
+          "La aceituna",
+          "La nuez",
+          "La almendra",
+          "El aguacate"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué tipo de palabra expresa una emoción viva como « ¡ay »?",
+        "a": [
+          "La preposición",
+          "La interjección",
+          "El pronombre",
+          "El adjetivo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el plural de « una rodilla »?",
+        "a": [
+          "Rodilla",
+          "Rodillias",
+          "Rodillas",
+          "Rodillases"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué reemplaza un pronombre?",
+        "a": [
+          "Un verbo",
+          "Un adjetivo",
+          "Una conjunción",
+          "Un sustantivo"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "En « El gato duerme », ¿cuál es el verbo?",
+        "a": [
+          "Duerme",
+          "El",
+          "Gato",
+          "Muy"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "« Ayer » sitúa la acción en qué tiempo?",
+        "a": [
+          "El presente",
+          "El pasado",
+          "El futuro",
+          "El condicional"
+        ],
+        "c": 1
       }
     ]
   }
