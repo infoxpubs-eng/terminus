@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "qs": {
     "fr": [
       {
@@ -3081,6 +3081,754 @@
           "Le conditionnel"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Qui a écrit « Le Prince », célèbre traité politique de la Renaissance ?",
+        "a": [
+          "Machiavel",
+          "Hobbes",
+          "Érasme",
+          "Montesquieu"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "En quelle année l'Empire romain d'Occident est-il tombé ?",
+        "a": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quelle reine du Royaume-Uni a régné plus de 63 ans au XIXe siècle ?",
+        "a": [
+          "Victoria",
+          "Élisabeth Iʳᵉ",
+          "Anne",
+          "Marie II"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel traité a mis fin à la Première Guerre mondiale en 1919 ?",
+        "a": [
+          "Le traité de Versailles",
+          "Le traité de Vienne",
+          "Le traité de Westphalie",
+          "Le traité d'Utrecht"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel conflit a opposé la France et l'Angleterre de 1337 à 1453 ?",
+        "a": [
+          "La guerre de Cent Ans",
+          "La guerre de Trente Ans",
+          "Les guerres de religion",
+          "La guerre de Sept Ans"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quel désert s'étend entre la Mongolie et la Chine du Nord ?",
+        "a": [
+          "Le désert de Gobi",
+          "Le Taklamakan",
+          "Le Karakoum",
+          "Le Kalahari"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel océan se trouve l'archipel des Maldives ?",
+        "a": [
+          "L'océan Indien",
+          "L'océan Pacifique",
+          "L'océan Atlantique",
+          "L'océan Arctique"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quel est le plus grand lac d'eau douce du monde par superficie ?",
+        "a": [
+          "Le lac Supérieur",
+          "Le lac Baïkal",
+          "Le lac Victoria",
+          "Le lac Michigan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quel est le plus grand pays d'Amérique du Sud ?",
+        "a": [
+          "Le Brésil",
+          "L'Argentine",
+          "Le Pérou",
+          "La Colombie"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quel fleuve traverse Paris ?",
+        "a": [
+          "La Seine",
+          "La Loire",
+          "Le Rhône",
+          "La Marne"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel organe produit la bile ?",
+        "a": [
+          "Le foie",
+          "L'estomac",
+          "Le pancréas",
+          "La vésicule biliaire"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel métal est liquide à température ambiante ?",
+        "a": [
+          "Le mercure",
+          "Le plomb",
+          "L'étain",
+          "Le zinc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel instrument enregistre les tremblements de terre ?",
+        "a": [
+          "Le sismographe",
+          "Le baromètre",
+          "L'hygromètre",
+          "L'anémomètre"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle couche de l'atmosphère nous protège des ultraviolets ?",
+        "a": [
+          "La couche d'ozone",
+          "La troposphère",
+          "L'ionosphère",
+          "La magnétosphère"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Comment appelle-t-on les abeilles mâles de la ruche ?",
+        "a": [
+          "Les faux-bourdons",
+          "Les ouvrières",
+          "Les gardiennes",
+          "Les butineuses"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film d'animation met en scène les jouets Woody et Buzz l'Éclair ?",
+        "a": [
+          "Toy Story",
+          "Cars",
+          "Vice-versa",
+          "Zootopie"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Qui interprète Michael Corleone dans « Le Parrain » ?",
+        "a": [
+          "Al Pacino",
+          "Marlon Brando",
+          "Robert De Niro",
+          "James Caan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quel studio japonais a produit « Mon voisin Totoro » ?",
+        "a": [
+          "Le Studio Ghibli",
+          "Toei Animation",
+          "Kyoto Animation",
+          "Madhouse"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle actrice joue Amélie Poulain dans le film de Jeunet ?",
+        "a": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Juliette Binoche",
+          "Béatrice Dalle"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Dans quelle saga une DeLorean sert-elle de machine à voyager dans le temps ?",
+        "a": [
+          "Retour vers le futur",
+          "Terminator",
+          "Interstellar",
+          "Looper"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quel instrument à vent se joue au moyen d'une coulisse ?",
+        "a": [
+          "Le trombone",
+          "La trompette",
+          "Le tuba",
+          "Le cor"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quel duo français de musique électronique se produisait avec des casques de robot ?",
+        "a": [
+          "Daft Punk",
+          "Air",
+          "Justice",
+          "Cassius"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quel groupe de rock irlandais est mené par le chanteur Bono ?",
+        "a": [
+          "U2",
+          "The Cure",
+          "Oasis",
+          "Coldplay"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quelle est la voix masculine la plus grave ?",
+        "a": [
+          "La basse",
+          "Le ténor",
+          "Le baryton",
+          "Le contralto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Qui a composé la musique du film « Le Parrain » ?",
+        "a": [
+          "Nino Rota",
+          "Ennio Morricone",
+          "John Williams",
+          "Hans Zimmer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit « Le Guépard » ?",
+        "a": [
+          "Giuseppe Tomasi di Lampedusa",
+          "Italo Calvino",
+          "Alberto Moravia",
+          "Umberto Eco"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit « L'Assommoir » ?",
+        "a": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Guy de Maupassant",
+          "Honoré de Balzac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit le roman de science-fiction « Dune » ?",
+        "a": [
+          "Frank Herbert",
+          "Isaac Asimov",
+          "Arthur C. Clarke",
+          "Philip K. Dick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Quel écrivain français a refusé le Nobel de littérature en 1964 ?",
+        "a": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit « L'Éducation sentimentale » ?",
+        "a": [
+          "Gustave Flaubert",
+          "Émile Zola",
+          "Stendhal",
+          "Hippolyte Taine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle nation a remporté la Coupe du monde de rugby 2023 ?",
+        "a": [
+          "L'Afrique du Sud",
+          "La Nouvelle-Zélande",
+          "L'Angleterre",
+          "La France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Comment s'appelle le trophée remis au champion de la NHL ?",
+        "a": [
+          "La Coupe Stanley",
+          "La Coupe Grey",
+          "La Coupe Calder",
+          "La Coupe des présidents"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quel sport est surnommé « le noble art » ?",
+        "a": [
+          "La boxe",
+          "L'escrime",
+          "La lutte",
+          "Le judo"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quel nageur a remporté 23 médailles d'or olympiques ?",
+        "a": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Caeleb Dressel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quel club espagnol dispute ses matchs au stade Santiago-Bernabéu ?",
+        "a": [
+          "Le Real Madrid",
+          "Le FC Barcelone",
+          "L'Atlético de Madrid",
+          "Le Séville FC"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Si le volant touche la bande du filet puis retombe dans le camp adverse, l'échange est... ?",
+        "a": [
+          "Valide",
+          "Nul",
+          "À rejouer",
+          "Perdu par le frappeur"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Combien d'épreuves de badminton figurent au programme olympique ?",
+        "a": [
+          "5",
+          "3",
+          "7",
+          "10"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Comment appelle-t-on le coup frappé au-dessus de l'épaule, dos au filet ?",
+        "a": [
+          "L'around the head",
+          "Le clear",
+          "Le flick",
+          "Le drive"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Comment appelle-t-on un smash frappé en plein saut ?",
+        "a": [
+          "Le jump smash",
+          "Le flick smash",
+          "Le smash inversé",
+          "Le smash glissé"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Comment appelle-t-on l'ensemble des déplacements d'un joueur de badminton ?",
+        "a": [
+          "Le footwork",
+          "Le takedown",
+          "Le dribble",
+          "Le check"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle sauce au beurre et aux jaunes d'œufs accompagne traditionnellement les asperges ?",
+        "a": [
+          "La sauce hollandaise",
+          "La sauce béarnaise",
+          "La sauce mousseline",
+          "Le beurre blanc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quel fruit l'eau-de-vie appelée kirsch est-elle tirée ?",
+        "a": [
+          "La cerise",
+          "La mirabelle",
+          "La poire",
+          "La framboise"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Le tarama est préparé à partir d'œufs de quel poisson ?",
+        "a": [
+          "La morue",
+          "Le saumon",
+          "Le thon",
+          "La sardine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle boisson fermentée russe est à base de pain de seigle ?",
+        "a": [
+          "Le kvass",
+          "Le kéfir",
+          "Le kombucha",
+          "Le mors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quelle région française la choucroute garnie est-elle la spécialité ?",
+        "a": [
+          "L'Alsace",
+          "La Bretagne",
+          "La Provence",
+          "Le Nord"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on une langue issue du latin, comme le français ?",
+        "a": [
+          "Une langue romane",
+          "Une langue germanique",
+          "Une langue slave",
+          "Une langue celtique"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Quelle relation le mot « mais » exprime-t-il entre deux idées ?",
+        "a": [
+          "L'opposition",
+          "La cause",
+          "Le but",
+          "La conséquence"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on une expression en plusieurs mots qui remplace un mot unique ?",
+        "a": [
+          "Une périphrase",
+          "Une métaphore",
+          "Une litote",
+          "Une ellipse"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on l'ensemble des formes que peut prendre un verbe ?",
+        "a": [
+          "La conjugaison",
+          "La déclinaison",
+          "La syntaxe",
+          "L'orthographe"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on un verbe employé sans complément d'objet ?",
+        "a": [
+          "Intransitif",
+          "Transitif",
+          "Attributif",
+          "Pronominal"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, qui le président israélien charge-t-il de former le nouveau gouvernement ?",
+        "a": [
+          "Gadi Eisenkot",
+          "Benjamin Netanyahu",
+          "Isaac Herzog",
+          "Yair Lapid"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, quel rang 2026 occupera-t-elle probablement parmi les années les plus chaudes ?",
+        "a": [
+          "La 2e",
+          "La 1re",
+          "La 3e",
+          "La 5e"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, qui fait son retour en équipe de France de football ?",
+        "a": [
+          "Kylian Mbappé",
+          "Antoine Griezmann",
+          "Ousmane Dembélé",
+          "William Saliba"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, depuis quand la charnière Dupont-Ntamack n'avait-elle pas rejoué avec le XV de France ?",
+        "a": [
+          "Mars 2025",
+          "Juin 2024",
+          "Novembre 2024",
+          "Mars 2024"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, pourquoi la France renonce-t-elle aux mondiaux de para-hockey sur glace ?",
+        "a": [
+          "La présence d'une équipe russe",
+          "Un budget insuffisant",
+          "Des blessures en nombre",
+          "Un conflit de calendrier"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, comment les estimations de vendanges 2026 en France ont-elles été révisées ?",
+        "a": [
+          "À la hausse",
+          "À la baisse",
+          "Elles sont restées stables",
+          "Elles ont été annulées"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, qui dirige le gouvernement par intérim en Nouvelle-Zélande après une élection serrée ?",
+        "a": [
+          "Christopher Luxon",
+          "Chris Hipkins",
+          "Winston Peters",
+          "Judith Collins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, quel pays a limogé son sélectionneur Hossam Hassan ?",
+        "a": [
+          "L'Égypte",
+          "Le Maroc",
+          "La Tunisie",
+          "L'Algérie"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, qu'ont approuvé les électeurs de l'État de Washington aux midterms ?",
+        "a": [
+          "Une interdiction des athlètes transgenres en équipe féminine",
+          "Un impôt carbone",
+          "La légalisation du cannabis",
+          "Une réforme électorale"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, combien de pays participent à la première Eurovision asiatique ?",
+        "a": [
+          "11",
+          "8",
+          "15",
+          "20"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, pourquoi la n°1 mondiale Elena Rybakina a-t-elle déclaré forfait au WTA Finals ?",
+        "a": [
+          "Un virus",
+          "Une blessure au genou",
+          "Une opération du poignet",
+          "Un désaccord avec la WTA"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, devant quelle instance l'Argentine fait-elle appel des sanctions de la finale du Mondial ?",
+        "a": [
+          "Le TAS",
+          "La Cour suprême suisse",
+          "L'UEFA",
+          "Le CIO"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quel sommet accueille Manille avec Lula et Trump parmi les invités ?",
+        "a": [
+          "Le sommet de l'ASEAN",
+          "Le G20",
+          "L'APEC",
+          "Un sommet de l'ONU"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quand sort le jeu très attendu « Grand Theft Auto VI » ?",
+        "a": [
+          "Le 19 novembre",
+          "Le 1er décembre",
+          "Le 19 décembre",
+          "Le 25 novembre"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, dans quel scandale le président paraguayen Peña est-il mis en cause ?",
+        "a": [
+          "Une crise bancaire",
+          "Une fraude électorale",
+          "Un trafic de drogue",
+          "Un scandale écologique"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quel club argentin remporte la Tabla Anual, son premier titre en trois ans ?",
+        "a": [
+          "Boca Juniors",
+          "River Plate",
+          "Racing Club",
+          "Vélez Sarsfield"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, quel restaurant espagnol est élu meilleur du monde par les World's 50 Best ?",
+        "a": [
+          "Asador Etxebarri",
+          "Central",
+          "Diverxo",
+          "Disfrutar"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quelle ville turque accueille la COP31 ?",
+        "a": [
+          "Antalya",
+          "Istanbul",
+          "Ankara",
+          "Izmir"
+        ],
+        "c": 0
       }
     ],
     "en": [
@@ -6163,6 +6911,754 @@
           "The conditional"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Who wrote \"The Prince\", the famous Renaissance political treatise?",
+        "a": [
+          "Niccolò Machiavelli",
+          "Thomas Hobbes",
+          "Erasmus",
+          "Montesquieu"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "In which year did the Western Roman Empire fall?",
+        "a": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which queen of the United Kingdom reigned over 63 years in the 19th century?",
+        "a": [
+          "Victoria",
+          "Elizabeth I",
+          "Anne",
+          "Mary II"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which treaty ended the First World War in 1919?",
+        "a": [
+          "The Treaty of Versailles",
+          "The Treaty of Vienna",
+          "The Treaty of Westphalia",
+          "The Treaty of Utrecht"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which conflict opposed France and England from 1337 to 1453?",
+        "a": [
+          "The Hundred Years' War",
+          "The Thirty Years' War",
+          "The Wars of Religion",
+          "The Seven Years' War"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which desert stretches between Mongolia and northern China?",
+        "a": [
+          "The Gobi Desert",
+          "The Taklamakan",
+          "The Karakum",
+          "The Kalahari"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "In which ocean is the Maldives archipelago located?",
+        "a": [
+          "The Indian Ocean",
+          "The Pacific Ocean",
+          "The Atlantic Ocean",
+          "The Arctic Ocean"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "What is the largest freshwater lake in the world by area?",
+        "a": [
+          "Lake Superior",
+          "Lake Baikal",
+          "Lake Victoria",
+          "Lake Michigan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "What is the largest country in South America?",
+        "a": [
+          "Brazil",
+          "Argentina",
+          "Peru",
+          "Colombia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which river flows through Paris?",
+        "a": [
+          "The Seine",
+          "The Loire",
+          "The Rhône",
+          "The Marne"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which organ produces bile?",
+        "a": [
+          "The liver",
+          "The stomach",
+          "The pancreas",
+          "The gallbladder"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which metal is liquid at room temperature?",
+        "a": [
+          "Mercury",
+          "Lead",
+          "Tin",
+          "Zinc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which instrument records earthquakes?",
+        "a": [
+          "The seismograph",
+          "The barometer",
+          "The hygrometer",
+          "The anemometer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which layer of the atmosphere protects us from ultraviolet rays?",
+        "a": [
+          "The ozone layer",
+          "The troposphere",
+          "The ionosphere",
+          "The magnetosphere"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "What are the male bees of a hive called?",
+        "a": [
+          "Drones",
+          "Workers",
+          "Guards",
+          "Foragers"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which animated film features the toys Woody and Buzz Lightyear?",
+        "a": [
+          "Toy Story",
+          "Cars",
+          "Inside Out",
+          "Zootopia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Who plays Michael Corleone in \"The Godfather\"?",
+        "a": [
+          "Al Pacino",
+          "Marlon Brando",
+          "Robert De Niro",
+          "James Caan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which Japanese studio produced \"My Neighbor Totoro\"?",
+        "a": [
+          "Studio Ghibli",
+          "Toei Animation",
+          "Kyoto Animation",
+          "Madhouse"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which actress plays Amélie Poulain in Jeunet's film?",
+        "a": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Juliette Binoche",
+          "Béatrice Dalle"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "In which movie saga does a DeLorean serve as a time machine?",
+        "a": [
+          "Back to the Future",
+          "Terminator",
+          "Interstellar",
+          "Looper"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which wind instrument is played using a slide?",
+        "a": [
+          "The trombone",
+          "The trumpet",
+          "The tuba",
+          "The French horn"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which French electronic duo performed wearing robot helmets?",
+        "a": [
+          "Daft Punk",
+          "Air",
+          "Justice",
+          "Cassius"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which Irish rock band is fronted by singer Bono?",
+        "a": [
+          "U2",
+          "The Cure",
+          "Oasis",
+          "Coldplay"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "What is the lowest male singing voice?",
+        "a": [
+          "The bass",
+          "The tenor",
+          "The baritone",
+          "The contralto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Who composed the soundtrack of \"The Godfather\"?",
+        "a": [
+          "Nino Rota",
+          "Ennio Morricone",
+          "John Williams",
+          "Hans Zimmer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote \"The Leopard\"?",
+        "a": [
+          "Giuseppe Tomasi di Lampedusa",
+          "Italo Calvino",
+          "Alberto Moravia",
+          "Umberto Eco"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote \"L'Assommoir\", the novel of Gervaise?",
+        "a": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Guy de Maupassant",
+          "Honoré de Balzac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote the science fiction novel \"Dune\"?",
+        "a": [
+          "Frank Herbert",
+          "Isaac Asimov",
+          "Arthur C. Clarke",
+          "Philip K. Dick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which French writer declined the Nobel Prize in Literature in 1964?",
+        "a": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote \"Sentimental Education\"?",
+        "a": [
+          "Gustave Flaubert",
+          "Émile Zola",
+          "Stendhal",
+          "Hippolyte Taine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which nation won the 2023 Rugby World Cup?",
+        "a": [
+          "South Africa",
+          "New Zealand",
+          "England",
+          "France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "What is the trophy awarded to the NHL champion called?",
+        "a": [
+          "The Stanley Cup",
+          "The Grey Cup",
+          "The Calder Cup",
+          "The Presidents' Trophy"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which sport is nicknamed \"the noble art\"?",
+        "a": [
+          "Boxing",
+          "Fencing",
+          "Wrestling",
+          "Judo"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which swimmer won 23 Olympic gold medals?",
+        "a": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Caeleb Dressel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which Spanish club plays its home games at the Santiago Bernabéu stadium?",
+        "a": [
+          "Real Madrid",
+          "FC Barcelona",
+          "Atlético Madrid",
+          "Sevilla FC"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "In badminton, if the shuttle clips the tape of the net and lands in, the rally is... ?",
+        "a": [
+          "Valid",
+          "Void",
+          "Replayed",
+          "Lost by the hitter"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "How many badminton events are on the Olympic programme?",
+        "a": [
+          "5",
+          "3",
+          "7",
+          "10"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "What is an overhead shot hit with your back to the net called?",
+        "a": [
+          "The around the head",
+          "The clear",
+          "The flick",
+          "The drive"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "What is a smash hit while jumping called?",
+        "a": [
+          "The jump smash",
+          "The flick smash",
+          "The reverse smash",
+          "The slide smash"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "What are a badminton player's court movements collectively called?",
+        "a": [
+          "Footwork",
+          "Takedown",
+          "Dribbling",
+          "Checking"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which butter and egg yolk sauce traditionally accompanies asparagus?",
+        "a": [
+          "Hollandaise sauce",
+          "Béarnaise sauce",
+          "Mousseline sauce",
+          "Beurre blanc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "From which fruit is the eau-de-vie called kirsch made?",
+        "a": [
+          "The cherry",
+          "The mirabelle plum",
+          "The pear",
+          "The raspberry"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Tarama is made from the roe of which fish?",
+        "a": [
+          "Cod",
+          "Salmon",
+          "Tuna",
+          "Sardine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which fermented Russian drink is made from rye bread?",
+        "a": [
+          "Kvass",
+          "Kefir",
+          "Kombucha",
+          "Mors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Choucroute garnie is a specialty of which French region?",
+        "a": [
+          "Alsace",
+          "Brittany",
+          "Provence",
+          "Northern France"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What is a language derived from Latin, like French, called?",
+        "a": [
+          "A Romance language",
+          "A Germanic language",
+          "A Slavic language",
+          "A Celtic language"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What relationship does the word \"but\" express between two ideas?",
+        "a": [
+          "Opposition",
+          "Cause",
+          "Purpose",
+          "Consequence"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What is a multi-word expression replacing a single word, like \"the City of Light\", called?",
+        "a": [
+          "A periphrasis",
+          "A metaphor",
+          "A litotes",
+          "An ellipsis"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What is the set of all forms a verb can take called?",
+        "a": [
+          "Conjugation",
+          "Declension",
+          "Syntax",
+          "Spelling"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What is a verb used without a direct object called?",
+        "a": [
+          "Intransitive",
+          "Transitive",
+          "Attributive",
+          "Reflexive"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, who does the Israeli president task with forming the new government?",
+        "a": [
+          "Gadi Eisenkot",
+          "Benjamin Netanyahu",
+          "Isaac Herzog",
+          "Yair Lapid"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, what rank will 2026 probably hold among the hottest years on record?",
+        "a": [
+          "Second",
+          "First",
+          "Third",
+          "Fifth"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, who is returning to the French national football team?",
+        "a": [
+          "Kylian Mbappé",
+          "Antoine Griezmann",
+          "Ousmane Dembélé",
+          "William Saliba"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, how long had Dupont and Ntamack not played together for France's rugby team?",
+        "a": [
+          "Since March 2025",
+          "Since June 2024",
+          "Since November 2024",
+          "Since March 2024"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, why is France withdrawing from the para ice hockey world championships?",
+        "a": [
+          "The presence of a Russian team",
+          "Insufficient funding",
+          "A wave of injuries",
+          "A scheduling conflict"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, how were France's 2026 grape harvest estimates revised?",
+        "a": [
+          "Upward",
+          "Downward",
+          "They stayed flat",
+          "They were cancelled"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, who leads New Zealand's caretaker government after a knife-edge election?",
+        "a": [
+          "Christopher Luxon",
+          "Chris Hipkins",
+          "Winston Peters",
+          "Judith Collins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, which country sacked its national coach Hossam Hassan?",
+        "a": [
+          "Egypt",
+          "Morocco",
+          "Tunisia",
+          "Algeria"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, what did Washington state voters approve in the midterms?",
+        "a": [
+          "A ban on transgender athletes in girls' teams",
+          "A carbon tax",
+          "Cannabis legalisation",
+          "An electoral reform"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, how many countries take part in the first Asian Eurovision?",
+        "a": [
+          "11",
+          "8",
+          "15",
+          "20"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, why did world number one Elena Rybakina withdraw from the WTA Finals?",
+        "a": [
+          "A virus",
+          "A knee injury",
+          "Wrist surgery",
+          "A dispute with the WTA"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, before which body is Argentina appealing its World Cup final sanctions?",
+        "a": [
+          "The Court of Arbitration for Sport",
+          "Switzerland's Supreme Court",
+          "UEFA",
+          "The IOC"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, which summit hosts Lula and Trump in Manila?",
+        "a": [
+          "The ASEAN summit",
+          "The G20",
+          "APEC",
+          "A UN summit"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, when is the long-awaited game Grand Theft Auto VI released?",
+        "a": [
+          "November 19",
+          "December 1",
+          "December 19",
+          "November 25"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, in which scandal is Paraguay's President Peña implicated?",
+        "a": [
+          "A banking crisis",
+          "Electoral fraud",
+          "Drug trafficking",
+          "An ecological scandal"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, which Argentine club won the Tabla Anual, its first title in three years?",
+        "a": [
+          "Boca Juniors",
+          "River Plate",
+          "Racing Club",
+          "Vélez Sarsfield"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, which Spanish restaurant was named the world's best by the World's 50 Best?",
+        "a": [
+          "Asador Etxebarri",
+          "Central",
+          "Diverxo",
+          "Disfrutar"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, which Turkish city is hosting COP31?",
+        "a": [
+          "Antalya",
+          "Istanbul",
+          "Ankara",
+          "Izmir"
+        ],
+        "c": 0
       }
     ],
     "es": [
@@ -9234,6 +10730,754 @@
           "El condicional"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién escribió « El Príncipe », el famoso tratado político del Renacimiento?",
+        "a": [
+          "Maquiavelo",
+          "Hobbes",
+          "Erasmo",
+          "Montesquieu"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿En qué año cayó el Imperio romano de Occidente?",
+        "a": [
+          "476",
+          "410",
+          "1453",
+          "800"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué reina del Reino Unido reinó más de 63 años en el siglo XIX?",
+        "a": [
+          "Victoria",
+          "Isabel I",
+          "Ana",
+          "María II"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué tratado puso fin a la Primera Guerra Mundial en 1919?",
+        "a": [
+          "El Tratado de Versalles",
+          "El Tratado de Viena",
+          "El Tratado de Westfalia",
+          "El Tratado de Utrecht"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué conflicto enfrentó a Francia e Inglaterra de 1337 a 1453?",
+        "a": [
+          "La Guerra de los Cien Años",
+          "La Guerra de los Treinta Años",
+          "Las guerras de religión",
+          "La Guerra de los Siete Años"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué desierto se extiende entre Mongolia y el norte de China?",
+        "a": [
+          "El desierto de Gobi",
+          "El Taklamakán",
+          "El Karakum",
+          "El Kalahari"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué océano se encuentra el archipiélago de las Maldivas?",
+        "a": [
+          "El océano Índico",
+          "El océano Pacífico",
+          "El océano Atlántico",
+          "El océano Ártico"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es el mayor lago de agua dulce del mundo por superficie?",
+        "a": [
+          "El lago Superior",
+          "El lago Baikal",
+          "El lago Victoria",
+          "El lago Míchigan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es el mayor país de América del Sur?",
+        "a": [
+          "Brasil",
+          "Argentina",
+          "Perú",
+          "Colombia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué río atraviesa París?",
+        "a": [
+          "El Sena",
+          "El Loira",
+          "El Ródano",
+          "El Marne"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué órgano produce la bilis?",
+        "a": [
+          "El hígado",
+          "El estómago",
+          "El páncreas",
+          "La vesícula biliar"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué metal es líquido a temperatura ambiente?",
+        "a": [
+          "El mercurio",
+          "El plomo",
+          "El estaño",
+          "El zinc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué instrumento registra los terremotos?",
+        "a": [
+          "El sismógrafo",
+          "El barómetro",
+          "El higrómetro",
+          "El anemómetro"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta?",
+        "a": [
+          "La capa de ozono",
+          "La troposfera",
+          "La ionosfera",
+          "La magnetosfera"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cómo se llaman las abejas macho de la colmena?",
+        "a": [
+          "Los zánganos",
+          "Las obreras",
+          "Las guardianas",
+          "Las pecoreadoras"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de animación presenta a los juguetes Woody y Buzz Lightyear?",
+        "a": [
+          "Toy Story",
+          "Cars",
+          "Del revés",
+          "Zootrópolis"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Quién interpreta a Michael Corleone en « El Padrino »?",
+        "a": [
+          "Al Pacino",
+          "Marlon Brando",
+          "Robert De Niro",
+          "James Caan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué estudio japonés produjo « Mi vecino Totoro »?",
+        "a": [
+          "El Studio Ghibli",
+          "Toei Animation",
+          "Kyoto Animation",
+          "Madhouse"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actriz interpreta a Amélie Poulain en la película de Jeunet?",
+        "a": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Juliette Binoche",
+          "Béatrice Dalle"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿En qué saga un DeLorean sirve de máquina del tiempo?",
+        "a": [
+          "Regreso al futuro",
+          "Terminator",
+          "Interstellar",
+          "Looper"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué instrumento de viento se toca con un tubo deslizante?",
+        "a": [
+          "El trombón",
+          "La trompeta",
+          "La tuba",
+          "El corno"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué dúo francés de música electrónica actuaba con cascos de robot?",
+        "a": [
+          "Daft Punk",
+          "Air",
+          "Justice",
+          "Cassius"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué banda de rock irlandesa está liderada por el cantante Bono?",
+        "a": [
+          "U2",
+          "The Cure",
+          "Oasis",
+          "Coldplay"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Cuál es la voz masculina más grave?",
+        "a": [
+          "El bajo",
+          "El tenor",
+          "El barítono",
+          "El contralto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Quién compuso la música de la película « El Padrino »?",
+        "a": [
+          "Nino Rota",
+          "Ennio Morricone",
+          "John Williams",
+          "Hans Zimmer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió « El gatopardo »?",
+        "a": [
+          "Giuseppe Tomasi di Lampedusa",
+          "Italo Calvino",
+          "Alberto Moravia",
+          "Umberto Eco"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió « L'Assommoir », la novela de Gervaise?",
+        "a": [
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Guy de Maupassant",
+          "Honoré de Balzac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió la novela de ciencia ficción « Dune »?",
+        "a": [
+          "Frank Herbert",
+          "Isaac Asimov",
+          "Arthur C. Clarke",
+          "Philip K. Dick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué escritor francés rechazó el Nobel de Literatura en 1964?",
+        "a": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió « La educación sentimental »?",
+        "a": [
+          "Gustave Flaubert",
+          "Émile Zola",
+          "Stendhal",
+          "Hippolyte Taine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué nación ganó la Copa del Mundo de rugby de 2023?",
+        "a": [
+          "Sudáfrica",
+          "Nueva Zelanda",
+          "Inglaterra",
+          "Francia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cómo se llama el trofeo del campeón de la NHL?",
+        "a": [
+          "La Copa Stanley",
+          "La Copa Grey",
+          "La Copa Calder",
+          "La Copa de los Presidentes"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué deporte es apodado « el noble arte »?",
+        "a": [
+          "El boxeo",
+          "La esgrima",
+          "La lucha",
+          "El judo"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué nadador ganó 23 medallas de oro olímpicas?",
+        "a": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ian Thorpe",
+          "Caeleb Dressel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué club español juega en el estadio Santiago Bernabéu?",
+        "a": [
+          "El Real Madrid",
+          "El FC Barcelona",
+          "El Atlético de Madrid",
+          "El Sevilla FC"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "En bádminton, si el volante toca la banda de la red y cae dentro, el intercambio es... ?",
+        "a": [
+          "Válido",
+          "Nulo",
+          "A repetir",
+          "Perdido por el golpeador"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cuántas pruebas de bádminton hay en el programa olímpico?",
+        "a": [
+          "5",
+          "3",
+          "7",
+          "10"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama el golpe por encima del hombro con la espalda a la red?",
+        "a": [
+          "El around the head",
+          "El clear",
+          "El flick",
+          "El drive"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama un smash golpeado en pleno salto?",
+        "a": [
+          "El jump smash",
+          "El flick smash",
+          "El smash invertido",
+          "El smash deslizante"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama el conjunto de desplazamientos de un jugador de bádminton?",
+        "a": [
+          "El footwork",
+          "El takedown",
+          "El regate",
+          "El check"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué salsa de mantequilla y yemas acompaña tradicionalmente a los espárragos?",
+        "a": [
+          "La salsa holandesa",
+          "La salsa bearnesa",
+          "La salsa mousseline",
+          "El beurre blanc"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué fruta se obtiene el aguardiente llamado kirsch?",
+        "a": [
+          "La cereza",
+          "La mirabela",
+          "La pera",
+          "La frambuesa"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "El tarama se prepara con huevas de qué pescado?",
+        "a": [
+          "El bacalao",
+          "El salmón",
+          "El atún",
+          "La sardina"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué bebida rusa fermentada se hace a base de pan de centeno?",
+        "a": [
+          "El kvass",
+          "El kéfir",
+          "El kombucha",
+          "El mors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "La choucroute garnie es una especialidad de qué región francesa?",
+        "a": [
+          "Alsacia",
+          "Bretaña",
+          "Provenza",
+          "El norte de Francia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el plural de « una ciudad »?",
+        "a": [
+          "Ciudades",
+          "Ciudads",
+          "Ciudad",
+          "Cities"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el antónimo de « claro »?",
+        "a": [
+          "Oscuro",
+          "Luminoso",
+          "Brillante",
+          "Blanco"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuántas sílabas tiene la palabra « elefante »?",
+        "a": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cómo se llaman las palabras que suenan igual pero se escriben diferente?",
+        "a": [
+          "Homófonas",
+          "Homógrafas",
+          "Sinónimas",
+          "Antónimas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué tiempo verbal expresa una condición o una posibilidad futura?",
+        "a": [
+          "El condicional",
+          "El imperativo",
+          "El subjuntivo",
+          "El pretérito perfecto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿a quién encarga el presidente israelí formar el nuevo gobierno?",
+        "a": [
+          "Gadi Eisenkot",
+          "Benjamin Netanyahu",
+          "Isaac Herzog",
+          "Yair Lapid"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿qué puesto ocupará probablemente 2026 entre los años más cálidos registrados?",
+        "a": [
+          "El segundo",
+          "El primero",
+          "El tercero",
+          "El quinto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿quién regresa a la selección francesa de fútbol?",
+        "a": [
+          "Kylian Mbappé",
+          "Antoine Griezmann",
+          "Ousmane Dembélé",
+          "William Saliba"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿desde cuándo no jugaban juntos Dupont y Ntamack con Francia de rugby?",
+        "a": [
+          "Desde marzo de 2025",
+          "Desde junio de 2024",
+          "Desde noviembre de 2024",
+          "Desde marzo de 2024"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿por qué Francia renuncia a los mundiales de para-hockey sobre hielo?",
+        "a": [
+          "Por la presencia de un equipo ruso",
+          "Por falta de presupuesto",
+          "Por una ola de lesiones",
+          "Por un conflicto de calendario"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿cómo se revisaron las estimaciones de la vendimia 2026 en Francia?",
+        "a": [
+          "Al alza",
+          "A la baja",
+          "Quedaron estables",
+          "Fueron anuladas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿quién dirige el gobierno interino de Nueva Zelanda tras una elección reñida?",
+        "a": [
+          "Christopher Luxon",
+          "Chris Hipkins",
+          "Winston Peters",
+          "Judith Collins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿qué país despidió a su seleccionador Hossam Hassan?",
+        "a": [
+          "Egipto",
+          "Marruecos",
+          "Túnez",
+          "Argelia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué aprobaron los votantes del estado de Washington en los midterms?",
+        "a": [
+          "Una prohibición de atletas transgénero en equipos femeninos",
+          "Un impuesto al carbono",
+          "La legalización del cannabis",
+          "Una reforma electoral"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿cuántos países participan en la primera Eurovisión asiática?",
+        "a": [
+          "11",
+          "8",
+          "15",
+          "20"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿por qué se retiró del WTA Finals la número uno Elena Rybakina?",
+        "a": [
+          "Por un virus",
+          "Por una lesión de rodilla",
+          "Por una operación de muñeca",
+          "Por una disputa con la WTA"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿ante qué instancia apela Argentina las sanciones de la final del Mundial?",
+        "a": [
+          "El TAS",
+          "El Tribunal Supremo suizo",
+          "La UEFA",
+          "El COI"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué cumbre acoge Manila con Lula y Trump entre los invitados?",
+        "a": [
+          "La cumbre de la ASEAN",
+          "El G20",
+          "La APEC",
+          "Una cumbre de la ONU"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿cuándo sale el esperadísimo juego Grand Theft Auto VI?",
+        "a": [
+          "El 19 de noviembre",
+          "El 1 de diciembre",
+          "El 19 de diciembre",
+          "El 25 de noviembre"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿en qué escándalo está implicado el presidente paraguayo Peña?",
+        "a": [
+          "Una crisis bancaria",
+          "Un fraude electoral",
+          "Un tráfico de drogas",
+          "Un escándalo ecológico"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué club argentino ganó la Tabla Anual, su primer título en tres años?",
+        "a": [
+          "Boca Juniors",
+          "River Plate",
+          "Racing Club",
+          "Vélez Sarsfield"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿qué restaurante español fue elegido el mejor del mundo por los World's 50 Best?",
+        "a": [
+          "Asador Etxebarri",
+          "Central",
+          "Diverxo",
+          "Disfrutar"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué ciudad turca acoge la COP31?",
+        "a": [
+          "Antalya",
+          "Estambul",
+          "Ankara",
+          "Esmirna"
+        ],
+        "c": 0
       }
     ]
   }
