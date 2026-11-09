@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "qs": {
     "fr": [
       {
@@ -3827,6 +3827,556 @@
           "Istanbul",
           "Ankara",
           "Izmir"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Où est né Napoléon Bonaparte ?",
+        "a": [
+          "À Bastia",
+          "À Paris",
+          "À Marseille",
+          "À Ajaccio"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Qui a inventé l'imprimerie à caractères mobiles en Europe ?",
+        "a": [
+          "Johannes Gutenberg",
+          "Léonard de Vinci",
+          "William Caxton",
+          "Nicolas Jenson"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel empereur romain a légalisé le christianisme ?",
+        "a": [
+          "Néron",
+          "Constantin",
+          "Trajan",
+          "Caligula"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel roi d'Angleterre a signé la Grande Charte en 1215 ?",
+        "a": [
+          "Henri II",
+          "Édouard Ier",
+          "Jean sans Terre",
+          "Richard Cœur de Lion"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "En quelle année Nelson Mandela est-il devenu président de l'Afrique du Sud ?",
+        "a": [
+          "1990",
+          "1994",
+          "1998",
+          "2000"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle mer sépare l'Europe de l'Afrique ?",
+        "a": [
+          "La mer Rouge",
+          "La mer Noire",
+          "La mer Méditerranée",
+          "La mer Caspienne"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle est la plus grande île du Japon ?",
+        "a": [
+          "Hokkaido",
+          "Kyushu",
+          "Shikoku",
+          "Honshu"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel département d'outre-mer se trouve le Piton de la Fournaise ?",
+        "a": [
+          "La Guadeloupe",
+          "La Martinique",
+          "La Réunion",
+          "La Guyane"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle ville est traversée par le détroit du Bosphore ?",
+        "a": [
+          "Athènes",
+          "Istanbul",
+          "Smyrne",
+          "Odessa"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Quel est l'État le plus vaste des États-Unis ?",
+        "a": [
+          "Le Texas",
+          "La Californie",
+          "L'Alaska",
+          "Le Montana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle est la plus grande île de Méditerranée ?",
+        "a": [
+          "La Corse",
+          "La Sicile",
+          "La Sardaigne",
+          "Chypre"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien de chambres compte le cœur humain ?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle scientifique a découvert le radium ?",
+        "a": [
+          "Marie Curie",
+          "Lise Meitner",
+          "Rosalind Franklin",
+          "Ada Lovelace"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "En combien de temps la Terre tourne-t-elle sur elle-même ?",
+        "a": [
+          "12 heures",
+          "24 heures",
+          "48 heures",
+          "365 jours"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle vitamine notre peau produit-elle au soleil ?",
+        "a": [
+          "La vitamine A",
+          "La vitamine C",
+          "La vitamine D",
+          "La vitamine K"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film de Spielberg montre un requin terrorisant la station balnéaire d'Amity ?",
+        "a": [
+          "Les Dents de la mer",
+          "Le Grand Bleu",
+          "Orca",
+          "Deep Blue Sea"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle actrice incarne Wonder Woman au cinéma ?",
+        "a": [
+          "Scarlett Johansson",
+          "Gal Gadot",
+          "Brie Larson",
+          "Zendaya"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Qui a joué James Bond dans « Casino Royale » (2006) ?",
+        "a": [
+          "Pierce Brosnan",
+          "Daniel Craig",
+          "Timothy Dalton",
+          "Sean Connery"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film Pixar se déroule dans le cerveau d'une fillette ?",
+        "a": [
+          "Vice-Versa",
+          "Soul",
+          "Là-haut",
+          "Onward"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Dans quel pays se trouve Bollywood ?",
+        "a": [
+          "Aux États-Unis",
+          "En Inde",
+          "En Chine",
+          "Au Japon"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Combien de cordes possède une harpe de concert ?",
+        "a": [
+          "36",
+          "41",
+          "47",
+          "52"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Qui a rendu célèbre la chanson « My Way » ?",
+        "a": [
+          "Elvis Presley",
+          "Frank Sinatra",
+          "Dean Martin",
+          "Tony Bennett"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quelle chanteuse est surnommée « la Reine de la soul » ?",
+        "a": [
+          "Aretha Franklin",
+          "Etta James",
+          "Tina Turner",
+          "Diana Ross"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quelle note suit immédiatement le « do » dans la gamme ?",
+        "a": [
+          "Mi",
+          "Fa",
+          "Ré",
+          "Si"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Quel album de Michael Jackson est le plus vendu de l'histoire ?",
+        "a": [
+          "Bad",
+          "Dangerous",
+          "Thriller",
+          "Off the Wall"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel pays a remporté la Coupe du monde de football 2014 ?",
+        "a": [
+          "L'Argentine",
+          "Le Brésil",
+          "L'Allemagne",
+          "Les Pays-Bas"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel boxeur est surnommé « The Greatest » ?",
+        "a": [
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Joe Louis",
+          "Rocky Marciano"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quel pays a accueilli les Jeux olympiques d'été de 2016 ?",
+        "a": [
+          "La Chine",
+          "Le Japon",
+          "Le Brésil",
+          "La Grèce"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel joueur de basket est surnommé « King » ?",
+        "a": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Shaquille O'Neal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Quel joueur malaisien fut le grand rival de Lin Dan ?",
+        "a": [
+          "Lee Chong Wei",
+          "Peter Gade",
+          "Taufik Hidayat",
+          "Kento Momota"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Quel pays a accueilli les Championnats du monde de badminton en 2025 ?",
+        "a": [
+          "Le Japon",
+          "La France",
+          "Le Danemark",
+          "L'Indonésie"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le volant touche le cadre de la raquette ?",
+        "a": [
+          "C'est une faute",
+          "C'est un let",
+          "L'échange continue",
+          "Le point est rejoué"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Dans quel pays la Sudirman Cup 2025 a-t-elle eu lieu ?",
+        "a": [
+          "L'Indonésie",
+          "La Chine",
+          "La Malaisie",
+          "L'Inde"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "De quel type de plante la gousse de vanille est-elle issue ?",
+        "a": [
+          "Une orchidée",
+          "Une passiflore",
+          "Un poivrier",
+          "Un cacaoyer"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quelle céréale le bourbon est-il principalement composé ?",
+        "a": [
+          "Le seigle",
+          "Le blé",
+          "Le maïs",
+          "L'orge"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "De quoi est faite la chicha morada péruvienne ?",
+        "a": [
+          "De maïs violet",
+          "De mûres",
+          "De grenade",
+          "De betterave"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Quel temps verbal sert à donner un ordre ?",
+        "a": [
+          "L'indicatif",
+          "Le subjonctif",
+          "L'impératif",
+          "Le conditionnel"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Quel est le féminin de « président » ?",
+        "a": [
+          "Présidenteuse",
+          "Présidente",
+          "Présidentesse",
+          "Présidentine"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Combien de lettres compte le mot « mercredi » ?",
+        "a": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on un mot qui ne change jamais de forme ?",
+        "a": [
+          "Un mot invariable",
+          "Un mot variable",
+          "Un mot intransitif",
+          "Un mot composé"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Qui a sculpté « Le Penseur » ?",
+        "a": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Michel-Ange"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel est le plus grand félin du monde ?",
+        "a": [
+          "Le lion",
+          "Le tigre",
+          "Le jaguar",
+          "Le léopard"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien de cœurs possède une pieuvre ?",
+        "a": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film Marvel de 2018 se déroule au royaume du Wakanda ?",
+        "a": [
+          "Black Panther",
+          "Iron Man 3",
+          "Captain Marvel",
+          "Doctor Strange"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Combien de joueurs forment une équipe de football sur le terrain ?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel pays a remporté le plus de Coupes du monde de football ?",
+        "a": [
+          "L'Allemagne",
+          "L'Argentine",
+          "L'Italie",
+          "Le Brésil"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Quel champignon blanc est le plus cultivé au monde ?",
+        "a": [
+          "Le champignon de Paris",
+          "La girolle",
+          "Le shiitake",
+          "La pleurote"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle boisson alcoolisée est fabriquée à partir de miel fermenté ?",
+        "a": [
+          "L'hydromel",
+          "Le cidre",
+          "Le saké",
+          "Le kvass"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Quel est le contraire de « jour » ?",
+        "a": [
+          "Nuit",
+          "Matin",
+          "Soir",
+          "Aube"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Quel dessinateur belge a créé Tintin ?",
+        "a": [
+          "Hergé",
+          "Morris",
+          "Peyo",
+          "Franquin"
         ],
         "c": 0
       }
@@ -7659,6 +8209,556 @@
           "Izmir"
         ],
         "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Where was Napoleon Bonaparte born?",
+        "a": [
+          "Bastia",
+          "Paris",
+          "Marseille",
+          "Ajaccio"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Who invented movable-type printing in Europe?",
+        "a": [
+          "Johannes Gutenberg",
+          "Leonardo da Vinci",
+          "William Caxton",
+          "Nicolas Jenson"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which Roman emperor legalized Christianity?",
+        "a": [
+          "Nero",
+          "Constantine",
+          "Trajan",
+          "Caligula"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which English king signed Magna Carta in 1215?",
+        "a": [
+          "Henry II",
+          "Edward I",
+          "King John",
+          "Richard the Lionheart"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "In which year did Nelson Mandela become president of South Africa?",
+        "a": [
+          "1990",
+          "1994",
+          "1998",
+          "2000"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Which sea separates Europe from Africa?",
+        "a": [
+          "The Red Sea",
+          "The Black Sea",
+          "The Mediterranean Sea",
+          "The Caspian Sea"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "What is Japan's largest island?",
+        "a": [
+          "Hokkaido",
+          "Kyushu",
+          "Shikoku",
+          "Honshu"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "In which overseas region lies the Piton de la Fournaise volcano?",
+        "a": [
+          "Guadeloupe",
+          "Martinique",
+          "Reunion",
+          "Corsica"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Which city is split by the Bosphorus strait?",
+        "a": [
+          "Athens",
+          "Istanbul",
+          "Izmir",
+          "Odessa"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "What is the largest US state by area?",
+        "a": [
+          "Texas",
+          "California",
+          "Alaska",
+          "Montana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "What is the largest island in the Mediterranean Sea?",
+        "a": [
+          "Corsica",
+          "Sicily",
+          "Sardinia",
+          "Cyprus"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "How many chambers does the human heart have?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which scientist discovered radium?",
+        "a": [
+          "Marie Curie",
+          "Lise Meitner",
+          "Rosalind Franklin",
+          "Ada Lovelace"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "How long does Earth take to rotate once on its axis?",
+        "a": [
+          "12 hours",
+          "24 hours",
+          "48 hours",
+          "365 days"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Which vitamin does our skin produce in sunlight?",
+        "a": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Which Spielberg film features a shark terrorizing Amity?",
+        "a": [
+          "The Deep",
+          "Jaws",
+          "Deep Blue Sea",
+          "The Big Blue"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which actress plays Wonder Woman on screen?",
+        "a": [
+          "Scarlett Johansson",
+          "Gal Gadot",
+          "Brie Larson",
+          "Zendaya"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Who played James Bond in 'Casino Royale' (2006)?",
+        "a": [
+          "Pierce Brosnan",
+          "Daniel Craig",
+          "Timothy Dalton",
+          "Sean Connery"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which Pixar film takes place inside a girl's brain?",
+        "a": [
+          "Inside Out",
+          "Soul",
+          "Up",
+          "Onward"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "In which country is Bollywood based?",
+        "a": [
+          "The United States",
+          "India",
+          "China",
+          "Japan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "How many strings does a concert harp have?",
+        "a": [
+          "36",
+          "41",
+          "47",
+          "52"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Who made the song 'My Way' famous?",
+        "a": [
+          "Elvis Presley",
+          "Frank Sinatra",
+          "Dean Martin",
+          "Tony Bennett"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which singer is nicknamed the 'Queen of Soul'?",
+        "a": [
+          "Aretha Franklin",
+          "Etta James",
+          "Tina Turner",
+          "Diana Ross"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which note comes right after 'do' in the scale?",
+        "a": [
+          "Mi",
+          "Fa",
+          "Re",
+          "Si"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Which Michael Jackson album is the best-selling of all time?",
+        "a": [
+          "Bad",
+          "Dangerous",
+          "Thriller",
+          "Off the Wall"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which country won the 2014 football World Cup?",
+        "a": [
+          "Argentina",
+          "Brazil",
+          "Germany",
+          "The Netherlands"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which boxer is nicknamed 'The Greatest'?",
+        "a": [
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Joe Louis",
+          "Rocky Marciano"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which basketball player is nicknamed 'King'?",
+        "a": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Shaquille O'Neal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Which Malaysian player was Lin Dan's great rival?",
+        "a": [
+          "Lee Chong Wei",
+          "Peter Gade",
+          "Taufik Hidayat",
+          "Kento Momota"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Which country hosted the 2025 Badminton World Championships?",
+        "a": [
+          "Japan",
+          "France",
+          "Denmark",
+          "Indonesia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the shuttlecock hits the racket frame?",
+        "a": [
+          "It is a fault",
+          "It is a let",
+          "The rally continues",
+          "The point is replayed"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "In which country was the 2025 Sudirman Cup held?",
+        "a": [
+          "Indonesia",
+          "China",
+          "Malaysia",
+          "India"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "What kind of plant does the vanilla pod come from?",
+        "a": [
+          "An orchid",
+          "A passionflower",
+          "A pepper vine",
+          "A cacao tree"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "What is miso soup mainly made from?",
+        "a": [
+          "Fish powder",
+          "Fermented soybean paste",
+          "Seaweed broth",
+          "Rice cream"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which grain is bourbon mostly made from?",
+        "a": [
+          "Rye",
+          "Wheat",
+          "Corn",
+          "Barley"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "What is the Peruvian drink chicha morada made from?",
+        "a": [
+          "Purple corn",
+          "Blackberries",
+          "Pomegranate",
+          "Beetroot"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Which verb tense is used to give orders?",
+        "a": [
+          "The indicative",
+          "The subjunctive",
+          "The imperative",
+          "The conditional"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "What is the opposite of 'deep'?",
+        "a": [
+          "Thick",
+          "Shallow",
+          "Wide",
+          "High"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "How many letters are in the word 'Wednesday'?",
+        "a": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call a word that imitates a sound?",
+        "a": [
+          "An onomatopoeia",
+          "A homophone",
+          "A synonym",
+          "An acronym"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Which word is a synonym of 'begin'?",
+        "a": [
+          "Finish",
+          "Commence",
+          "Delay",
+          "Follow"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Who sculpted 'The Thinker'?",
+        "a": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Michelangelo"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "What is the world's largest wild cat?",
+        "a": [
+          "The lion",
+          "The tiger",
+          "The jaguar",
+          "The leopard"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which 2018 Marvel film is set in the kingdom of Wakanda?",
+        "a": [
+          "Black Panther",
+          "Iron Man 3",
+          "Captain Marvel",
+          "Doctor Strange"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "How many players does a football team field?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which country has won the most football World Cups?",
+        "a": [
+          "Germany",
+          "Argentina",
+          "Italy",
+          "Brazil"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which white mushroom is the most cultivated in the world?",
+        "a": [
+          "The button mushroom",
+          "The chanterelle",
+          "The shiitake",
+          "The oyster mushroom"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which alcoholic drink is made from fermented honey?",
+        "a": [
+          "Mead",
+          "Cider",
+          "Sake",
+          "Kvass"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What is the opposite of 'day'?",
+        "a": [
+          "Night",
+          "Morning",
+          "Evening",
+          "Dawn"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which Belgian cartoonist created Tintin?",
+        "a": [
+          "Herge",
+          "Morris",
+          "Peyo",
+          "Franquin"
+        ],
+        "c": 0
       }
     ],
     "es": [
@@ -11476,6 +12576,556 @@
           "Estambul",
           "Ankara",
           "Esmirna"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Dónde nació Napoleón Bonaparte?",
+        "a": [
+          "En Bastia",
+          "En París",
+          "En Marsella",
+          "En Ajaccio"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién inventó la imprenta de tipos móviles en Europa?",
+        "a": [
+          "Johannes Gutenberg",
+          "Leonardo da Vinci",
+          "William Caxton",
+          "Nicolas Jenson"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué emperador romano legalizó el cristianismo?",
+        "a": [
+          "Nerón",
+          "Constantino",
+          "Trajano",
+          "Calígula"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué rey de Inglaterra firmó la Carta Magna en 1215?",
+        "a": [
+          "Enrique II",
+          "Eduardo I",
+          "Juan sin Tierra",
+          "Ricardo Corazón de León"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿En qué año Nelson Mandela llegó a presidente de Sudáfrica?",
+        "a": [
+          "1990",
+          "1994",
+          "1998",
+          "2000"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué mar separa Europa de África?",
+        "a": [
+          "El mar Rojo",
+          "El mar Negro",
+          "El mar Mediterráneo",
+          "El mar Caspio"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es la mayor isla de Japón?",
+        "a": [
+          "Hokkaido",
+          "Kyushu",
+          "Shikoku",
+          "Honshu"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué región de ultramar se encuentra el Pitón de la Fournaise?",
+        "a": [
+          "Guadalupe",
+          "Martinica",
+          "Reunión",
+          "Guayana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué ciudad atraviesa el estrecho del Bósforo?",
+        "a": [
+          "Atenas",
+          "Estambul",
+          "Esmirna",
+          "Odesa"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es el estado más grande de Estados Unidos?",
+        "a": [
+          "Texas",
+          "California",
+          "Alaska",
+          "Montana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es la mayor isla del Mediterráneo?",
+        "a": [
+          "Córcega",
+          "Sicilia",
+          "Cerdeña",
+          "Chipre"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuántas cavidades tiene el corazón humano?",
+        "a": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué científica descubrió el radio?",
+        "a": [
+          "Marie Curie",
+          "Lise Meitner",
+          "Rosalind Franklin",
+          "Ada Lovelace"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuánto tarda la Tierra en girar sobre sí misma?",
+        "a": [
+          "12 horas",
+          "24 horas",
+          "48 horas",
+          "365 días"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué vitamina produce la piel con la luz del sol?",
+        "a": [
+          "La vitamina A",
+          "La vitamina C",
+          "La vitamina D",
+          "La vitamina K"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de Spielberg muestra un tiburón que aterroriza Amity?",
+        "a": [
+          "Tiburón",
+          "El gran azul",
+          "Orca",
+          "Deep Blue Sea"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actriz interpreta a Wonder Woman en el cine?",
+        "a": [
+          "Scarlett Johansson",
+          "Gal Gadot",
+          "Brie Larson",
+          "Zendaya"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Quién interpretó a James Bond en « Casino Royale » (2006)?",
+        "a": [
+          "Pierce Brosnan",
+          "Daniel Craig",
+          "Timothy Dalton",
+          "Sean Connery"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de Pixar transcurre dentro del cerebro de una niña?",
+        "a": [
+          "Del revés",
+          "Soul",
+          "Up",
+          "Onward"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿En qué país se encuentra Bollywood?",
+        "a": [
+          "Estados Unidos",
+          "India",
+          "China",
+          "Japón"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Cuántas cuerdas tiene un arpa de concierto?",
+        "a": [
+          "36",
+          "41",
+          "47",
+          "52"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Quién popularizó la canción « My Way »?",
+        "a": [
+          "Elvis Presley",
+          "Frank Sinatra",
+          "Dean Martin",
+          "Tony Bennett"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante es apodada « la Reina del soul »?",
+        "a": [
+          "Aretha Franklin",
+          "Etta James",
+          "Tina Turner",
+          "Diana Ross"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué nota sigue inmediatamente al « do » en la escala?",
+        "a": [
+          "Mi",
+          "Fa",
+          "Re",
+          "Si"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué álbum de Michael Jackson es el más vendido de la historia?",
+        "a": [
+          "Bad",
+          "Dangerous",
+          "Thriller",
+          "Off the Wall"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué país ganó el Mundial de fútbol de 2014?",
+        "a": [
+          "Argentina",
+          "Brasil",
+          "Alemania",
+          "Países Bajos"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué boxeador es apodado « The Greatest »?",
+        "a": [
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Joe Louis",
+          "Rocky Marciano"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué país acogió los Juegos Olímpicos de verano de 2016?",
+        "a": [
+          "China",
+          "Japón",
+          "Brasil",
+          "Grecia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué jugador de básquet es apodado « King »?",
+        "a": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Shaquille O'Neal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué jugador malasio fue el gran rival de Lin Dan?",
+        "a": [
+          "Lee Chong Wei",
+          "Peter Gade",
+          "Taufik Hidayat",
+          "Kento Momota"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué país acogió los Campeonatos del Mundo de bádminton de 2025?",
+        "a": [
+          "Japón",
+          "Francia",
+          "Dinamarca",
+          "Indonesia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el volante toca el marco de la raqueta?",
+        "a": [
+          "Es una falta",
+          "Es un let",
+          "El intercambio continúa",
+          "El punto se repite"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿En qué país se celebró la Copa Sudirman 2025?",
+        "a": [
+          "Indonesia",
+          "China",
+          "Malasia",
+          "India"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué tipo de planta procede la vainilla?",
+        "a": [
+          "Una orquídea",
+          "Una pasionaria",
+          "Un pimentero",
+          "Un cacaotero"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué está hecha principalmente la sopa de miso?",
+        "a": [
+          "De harina de pescado",
+          "De pasta de soja fermentada",
+          "De caldo de algas",
+          "De crema de arroz"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué cereal se compone principalmente el bourbon?",
+        "a": [
+          "El centeno",
+          "El trigo",
+          "El maíz",
+          "La cebada"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué está hecha la chicha morada peruana?",
+        "a": [
+          "De maíz morado",
+          "De moras",
+          "De granada",
+          "De remolacha"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué tiempo verbal se usa para dar órdenes?",
+        "a": [
+          "El indicativo",
+          "El subjuntivo",
+          "El imperativo",
+          "El condicional"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el femenino de « presidente »?",
+        "a": [
+          "Presidenta",
+          "Presidentesa",
+          "Presidentina",
+          "Presidente"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el antónimo de « profundo »?",
+        "a": [
+          "Grueso",
+          "Superficial",
+          "Ancho",
+          "Alto"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuántas letras tiene la palabra « miércoles »?",
+        "a": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién esculpió « El pensador »?",
+        "a": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Antoine Bourdelle",
+          "Miguel Ángel"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el mayor felino del mundo?",
+        "a": [
+          "El león",
+          "El tigre",
+          "El jaguar",
+          "El leopardo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de Marvel de 2018 transcurre en el reino de Wakanda?",
+        "a": [
+          "Black Panther",
+          "Iron Man 3",
+          "Capitana Marvel",
+          "Doctor Strange"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuántos jugadores forman un equipo de fútbol en el campo?",
+        "a": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué país ha ganado más Mundiales de fútbol?",
+        "a": [
+          "Alemania",
+          "Argentina",
+          "Italia",
+          "Brasil"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué champiñón blanco es el más cultivado del mundo?",
+        "a": [
+          "El champiñón de París",
+          "La girolle",
+          "El shiitake",
+          "La seta de ostra"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué bebida alcohólica se fabrica con miel fermentada?",
+        "a": [
+          "El hidromiel",
+          "La sidra",
+          "El sake",
+          "El kvass"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el antónimo de « día »?",
+        "a": [
+          "Noche",
+          "Mañana",
+          "Tarde",
+          "Alba"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué dibujante belga creó a Tintín?",
+        "a": [
+          "Hergé",
+          "Morris",
+          "Peyo",
+          "Franquin"
         ],
         "c": 0
       }
