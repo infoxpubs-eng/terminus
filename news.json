@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "qs": {
     "fr": [
       {
@@ -4379,6 +4379,556 @@
           "Franquin"
         ],
         "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel dramaturge est devenu président de la République tchèque ?",
+        "a": [
+          "Václav Havel",
+          "Václav Klaus",
+          "Lech Wałęsa",
+          "Milan Kundera"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel empire était dirigé par Soliman le Magnifique ?",
+        "a": [
+          "L'Empire perse",
+          "L'Empire moghol",
+          "L'Empire espagnol",
+          "L'Empire ottoman"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Quel mur romain sépare l'Écosse de l'Angleterre ?",
+        "a": [
+          "Le mur de Berlin",
+          "Les limes du Rhin",
+          "Le mur d'Hadrien",
+          "Le mur d'Antonin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Quel leader indien a défendu l'indépendance par la non-violence ?",
+        "a": [
+          "Subhas Chandra Bose",
+          "Mohandas Gandhi",
+          "Jawaharlal Nehru",
+          "Muhammad Ali Jinnah"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Qui a peint le plafond de la chapelle Sixtine ?",
+        "a": [
+          "Michel-Ange",
+          "Raphaël",
+          "Léonard de Vinci",
+          "Botticelli"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle ville italienne est surnommée « la Ville éternelle » ?",
+        "a": [
+          "Florence",
+          "Venise",
+          "Milan",
+          "Rome"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle est la capitale de l'Écosse ?",
+        "a": [
+          "Aberdeen",
+          "Dundee",
+          "Édimbourg",
+          "Glasgow"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle mer sépare la Grèce de la Turquie ?",
+        "a": [
+          "La mer Ionienne",
+          "La mer Égée",
+          "La mer Adriatique",
+          "La mer Noire"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Quel volcan actif domine la Sicile ?",
+        "a": [
+          "L'Etna",
+          "Le Vésuve",
+          "Le Stromboli",
+          "L'Ossola"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel État américain se trouve le Grand Canyon ?",
+        "a": [
+          "Le Nevada",
+          "L'Utah",
+          "Le Colorado",
+          "L'Arizona"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Quel fleuve traverse Prague ?",
+        "a": [
+          "L'Elbe",
+          "L'Oder",
+          "La Vltava",
+          "Le Danube"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle est la planète la plus chaude du système solaire ?",
+        "a": [
+          "Jupiter",
+          "Vénus",
+          "Mercure",
+          "Mars"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Comment s'appelle la peur des araignées ?",
+        "a": [
+          "L'arachnophobie",
+          "La claustrophobie",
+          "L'acrophobie",
+          "L'agoraphobie"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel est le plus grand primate du monde ?",
+        "a": [
+          "L'orang-outan",
+          "Le chimpanzé",
+          "Le babouin",
+          "Le gorille"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Quel astre est la principale cause des marées ?",
+        "a": [
+          "Mars",
+          "Vénus",
+          "La Lune",
+          "Le Soleil"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quel oiseau est le seul capable de voler à reculons ?",
+        "a": [
+          "Le faucon",
+          "Le colibri",
+          "Le moineau",
+          "L'hirondelle"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Comment s'appelle le squelette externe des insectes ?",
+        "a": [
+          "L'exosquelette",
+          "L'endosquelette",
+          "La carapace molle",
+          "Le cartilage"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quel pantin de bois rêve de devenir un vrai petit garçon ?",
+        "a": [
+          "Peter Pan",
+          "Aladdin",
+          "Mowgli",
+          "Pinocchio"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Qui a réalisé la trilogie ciné du « Seigneur des anneaux » ?",
+        "a": [
+          "Ridley Scott",
+          "Christopher Nolan",
+          "Peter Jackson",
+          "James Cameron"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quel super-héros est surnommé « l'homme d'acier » ?",
+        "a": [
+          "Iron Man",
+          "Superman",
+          "Batman",
+          "Spider-Man"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quel acteur incarne Mad Max dans la saga originale ?",
+        "a": [
+          "Mel Gibson",
+          "Tom Hardy",
+          "Russell Crowe",
+          "Hugh Jackman"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film Pixar se déroule au Mexique autour du jour des morts ?",
+        "a": [
+          "Vice-Versa",
+          "Là-haut",
+          "Luca",
+          "Coco"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Quel ténor italien a popularisé « Nessun dorma » ?",
+        "a": [
+          "José Carreras",
+          "Andrea Bocelli",
+          "Luciano Pavarotti",
+          "Plácido Domingo"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Quel chanteur jamaïcain a fait connaître le reggae dans le monde ?",
+        "a": [
+          "Sean Paul",
+          "Bob Marley",
+          "Peter Tosh",
+          "Jimmy Cliff"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quelle danse espagnole se danse avec des castagnettes ?",
+        "a": [
+          "Le flamenco",
+          "Le tango",
+          "La sardane",
+          "Le paso doble"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Dans quel pays se tient le festival de musique de Glastonbury ?",
+        "a": [
+          "L'Irlande",
+          "L'Écosse",
+          "Les Pays-Bas",
+          "L'Angleterre"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Sous quel nom de plume la romancière Mary Ann Evans publiait-elle ?",
+        "a": [
+          "Jane Austen",
+          "Emily Dickinson",
+          "George Eliot",
+          "Charlotte Brontë"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Quelle poétesse grecque antique vivait sur l'île de Lesbos ?",
+        "a": [
+          "Cléobuline",
+          "Sappho",
+          "Aspasie",
+          "Hypatie"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Quel philosophe grec a écrit « La République » ?",
+        "a": [
+          "Platon",
+          "Aristote",
+          "Socrate",
+          "Homère"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Dans quel pays est né le conteur Hans Christian Andersen ?",
+        "a": [
+          "La Suède",
+          "La Norvège",
+          "L'Allemagne",
+          "Le Danemark"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Quel est le plus ancien marathon annuel du monde ?",
+        "a": [
+          "Celui de Londres",
+          "Celui de Paris",
+          "Celui de Boston",
+          "Celui de New York"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle épreuve d'athlétisme consiste à sauter avec une perche ?",
+        "a": [
+          "Le triple saut",
+          "Le saut à la perche",
+          "Le saut en hauteur",
+          "Le saut en longueur"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quel tournoi majeur de golf se joue chaque année à Augusta ?",
+        "a": [
+          "Le Masters",
+          "L'US Open",
+          "Le British Open",
+          "Le PGA Championship"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quel club anglais de football joue à Old Trafford ?",
+        "a": [
+          "Liverpool",
+          "Manchester City",
+          "Chelsea",
+          "Manchester United"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Quel club français a remporté la Ligue des champions en 1993 ?",
+        "a": [
+          "L'Olympique lyonnais",
+          "L'AS Monaco",
+          "L'Olympique de Marseille",
+          "Le PSG"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Comment s'appelle la prise de raquette de base, comme une poignée de main ?",
+        "a": [
+          "La prise panhandle",
+          "La prise coup droit",
+          "La prise revers",
+          "La prise marteau"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le volant touche le sol dans le camp adverse ?",
+        "a": [
+          "L'échange est terminé",
+          "L'échange continue",
+          "Un let est annoncé",
+          "Le point est rejoué"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le volant passe sous le filet ?",
+        "a": [
+          "L'échange continue",
+          "C'est un let",
+          "Le point est rejoué",
+          "C'est une faute"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "Quelle partie du volant le serveur doit-il frapper ?",
+        "a": [
+          "La jupe synthétique",
+          "N'importe laquelle",
+          "La base en liège",
+          "Les plumes"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le pied du serveur touche la ligne de service ?",
+        "a": [
+          "Le service est rejoué",
+          "C'est une faute",
+          "L'échange continue",
+          "C'est un let"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Quel condiment japonais très piquant accompagne les sushis ?",
+        "a": [
+          "Le wasabi",
+          "Le miso",
+          "Le raifort",
+          "Le sésame"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Quel apéritif italien rouge et amer entre dans le Negroni ?",
+        "a": [
+          "Le Martini",
+          "L'Aperol",
+          "Le Fernet",
+          "Le Campari"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Quel dessert portugais est une petite tarte à la crème ?",
+        "a": [
+          "Le flan",
+          "Le tiramisu",
+          "Le pastel de nata",
+          "Le churro"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle pseudo-céréale des Andes est cultivée depuis des millénaires ?",
+        "a": [
+          "L'amarante",
+          "Le quinoa",
+          "Le millet",
+          "Le sarrasin"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Quel dessert turc alterne des feuilles de pâte et des pistaches ?",
+        "a": [
+          "Le baklava",
+          "Le loukoum",
+          "Le halva",
+          "La kataïfi"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on l'ensemble des mots d'une langue ?",
+        "a": [
+          "La syntaxe",
+          "La phonétique",
+          "L'orthographe",
+          "Le lexique"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "Quel signe de ponctuation termine une phrase exclamative ?",
+        "a": [
+          "Le point-virgule",
+          "Les points de suspension",
+          "Le point d'exclamation",
+          "Le point d'interrogation"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Quelle est la première personne du singulier de « être » au présent ?",
+        "a": [
+          "Je vais",
+          "Je suis",
+          "J'ai",
+          "Je fais"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Quel adjectif signifie « qui ne peut pas mourir » ?",
+        "a": [
+          "Immortel",
+          "Invulnérable",
+          "Impérissable",
+          "Inébranlable"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on le nom des habitants d'une ville ?",
+        "a": [
+          "Le patronyme",
+          "L'épicène",
+          "Le sobriquet",
+          "Le gentilé"
+        ],
+        "c": 3
       }
     ],
     "en": [
@@ -8759,6 +9309,556 @@
           "Franquin"
         ],
         "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which playwright became president of the Czech Republic?",
+        "a": [
+          "Václav Klaus",
+          "Lech Wałęsa",
+          "Milan Kundera",
+          "Václav Havel"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Which empire was ruled by Suleiman the Magnificent?",
+        "a": [
+          "The Mughal Empire",
+          "The Spanish Empire",
+          "The Ottoman Empire",
+          "The Persian Empire"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Which Roman wall separates Scotland from England?",
+        "a": [
+          "The Rhine limes",
+          "Hadrian's Wall",
+          "The Antonine Wall",
+          "The Berlin Wall"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which Indian leader championed independence through non-violence?",
+        "a": [
+          "Mohandas Gandhi",
+          "Jawaharlal Nehru",
+          "Muhammad Ali Jinnah",
+          "Subhas Chandra Bose"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Who painted the ceiling of the Sistine Chapel?",
+        "a": [
+          "Raphael",
+          "Leonardo da Vinci",
+          "Botticelli",
+          "Michelangelo"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Which Italian city is nicknamed 'the Eternal City'?",
+        "a": [
+          "Venice",
+          "Milan",
+          "Rome",
+          "Florence"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "What is the capital of Scotland?",
+        "a": [
+          "Dundee",
+          "Edinburgh",
+          "Glasgow",
+          "Aberdeen"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Which sea separates Greece from Turkey?",
+        "a": [
+          "The Aegean Sea",
+          "The Adriatic Sea",
+          "The Black Sea",
+          "The Ionian Sea"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which active volcano towers over Sicily?",
+        "a": [
+          "Mount Vesuvius",
+          "Stromboli",
+          "Mount Olympus",
+          "Mount Etna"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "In which US state is the Grand Canyon located?",
+        "a": [
+          "Utah",
+          "Colorado",
+          "Arizona",
+          "Nevada"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Which river flows through Prague?",
+        "a": [
+          "The Oder",
+          "The Vltava",
+          "The Danube",
+          "The Elbe"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Which is the hottest planet in the solar system?",
+        "a": [
+          "Venus",
+          "Mercury",
+          "Mars",
+          "Jupiter"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "What is the fear of spiders called?",
+        "a": [
+          "Claustrophobia",
+          "Acrophobia",
+          "Agoraphobia",
+          "Arachnophobia"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "What is the largest primate in the world?",
+        "a": [
+          "The chimpanzee",
+          "The baboon",
+          "The gorilla",
+          "The orangutan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which celestial body is the main cause of ocean tides?",
+        "a": [
+          "Venus",
+          "The Moon",
+          "The Sun",
+          "Mars"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Which is the only bird able to fly backwards?",
+        "a": [
+          "The hummingbird",
+          "The sparrow",
+          "The swallow",
+          "The falcon"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "What is an insect's outer skeleton called?",
+        "a": [
+          "An endoskeleton",
+          "Soft cartilage",
+          "A shell membrane",
+          "An exoskeleton"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Which wooden puppet dreams of becoming a real boy?",
+        "a": [
+          "Aladdin",
+          "Mowgli",
+          "Pinocchio",
+          "Peter Pan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Who directed the Lord of the Rings film trilogy?",
+        "a": [
+          "Christopher Nolan",
+          "Peter Jackson",
+          "James Cameron",
+          "Ridley Scott"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which superhero is nicknamed 'the Man of Steel'?",
+        "a": [
+          "Superman",
+          "Batman",
+          "Spider-Man",
+          "Iron Man"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which actor played Mad Max in the original saga?",
+        "a": [
+          "Tom Hardy",
+          "Russell Crowe",
+          "Hugh Jackman",
+          "Mel Gibson"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Which Pixar film takes place in Mexico around the Day of the Dead?",
+        "a": [
+          "Up",
+          "Luca",
+          "Coco",
+          "Inside Out"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Which Italian tenor popularised 'Nessun dorma'?",
+        "a": [
+          "Andrea Bocelli",
+          "Luciano Pavarotti",
+          "Plácido Domingo",
+          "José Carreras"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which Jamaican singer made reggae famous worldwide?",
+        "a": [
+          "Bob Marley",
+          "Peter Tosh",
+          "Jimmy Cliff",
+          "Sean Paul"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which Spanish dance is performed with castanets?",
+        "a": [
+          "Tango",
+          "Sardana",
+          "Paso doble",
+          "Flamenco"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "In which country is the Glastonbury music festival held?",
+        "a": [
+          "Scotland",
+          "The Netherlands",
+          "England",
+          "Ireland"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Under which pen name did novelist Mary Ann Evans publish?",
+        "a": [
+          "Emily Dickinson",
+          "George Eliot",
+          "Charlotte Brontë",
+          "Jane Austen"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Which ancient Greek poetess lived on the island of Lesbos?",
+        "a": [
+          "Sappho",
+          "Aspasia",
+          "Hypatia",
+          "Anyte"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which Greek philosopher wrote 'The Republic'?",
+        "a": [
+          "Aristotle",
+          "Socrates",
+          "Homer",
+          "Plato"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "In which country was storyteller Hans Christian Andersen born?",
+        "a": [
+          "Norway",
+          "Germany",
+          "Denmark",
+          "Sweden"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which is the oldest annual marathon in the world?",
+        "a": [
+          "Paris's",
+          "Boston's",
+          "New York's",
+          "London's"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which athletics event involves jumping with a pole?",
+        "a": [
+          "The pole vault",
+          "The high jump",
+          "The long jump",
+          "The triple jump"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which golf major is played every year at Augusta?",
+        "a": [
+          "The US Open",
+          "The British Open",
+          "The PGA Championship",
+          "The Masters"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Which English football club plays at Old Trafford?",
+        "a": [
+          "Manchester City",
+          "Chelsea",
+          "Manchester United",
+          "Liverpool"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which French club won the Champions League in 1993?",
+        "a": [
+          "AS Monaco",
+          "Olympique de Marseille",
+          "PSG",
+          "Olympique Lyonnais"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "What is the basic handshake grip on the racket called?",
+        "a": [
+          "The forehand grip",
+          "The backhand grip",
+          "The hammer grip",
+          "The panhandle grip"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the shuttle lands on the opponent's side?",
+        "a": [
+          "The rally continues",
+          "A let is called",
+          "The point is replayed",
+          "The rally ends"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the shuttle passes under the net?",
+        "a": [
+          "It is a let",
+          "The point is replayed",
+          "It is a fault",
+          "The rally continues"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Which part of the shuttle must the server strike?",
+        "a": [
+          "Any part",
+          "The cork base",
+          "The feathers",
+          "The plastic skirt"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the server's foot touches the service line?",
+        "a": [
+          "It is a fault",
+          "The rally continues",
+          "It is a let",
+          "The serve is replayed"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which very spicy Japanese condiment accompanies sushi?",
+        "a": [
+          "Miso",
+          "Horseradish",
+          "Sesame",
+          "Wasabi"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which red bitter Italian aperitif goes into a Negroni?",
+        "a": [
+          "Aperol",
+          "Fernet",
+          "Campari",
+          "Martini"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Which Portuguese dessert is a small custard tart?",
+        "a": [
+          "Tiramisu",
+          "Pastel de nata",
+          "Churro",
+          "Flan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which Andean pseudo-grain has been grown for millennia?",
+        "a": [
+          "Quinoa",
+          "Millet",
+          "Buckwheat",
+          "Amaranth"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which Turkish dessert layers pastry sheets and pistachios?",
+        "a": [
+          "Turkish delight",
+          "Halva",
+          "Kataifi",
+          "Baklava"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call the entire set of words of a language?",
+        "a": [
+          "The phonetics",
+          "The spelling",
+          "The lexicon",
+          "The syntax"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Which punctuation mark ends an exclamatory sentence?",
+        "a": [
+          "The ellipsis",
+          "The exclamation mark",
+          "The question mark",
+          "The semicolon"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "What is the first person singular of the verb 'to be'?",
+        "a": [
+          "I am",
+          "I be",
+          "I is",
+          "I are"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Which adjective means 'unable to die'?",
+        "a": [
+          "Invulnerable",
+          "Imperishable",
+          "Unbreakable",
+          "Immortal"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call the name for the inhabitants of a place?",
+        "a": [
+          "An epicene",
+          "A nickname",
+          "A demonym",
+          "A patronym"
+        ],
+        "c": 2
       }
     ],
     "es": [
@@ -13128,6 +14228,556 @@
           "Franquin"
         ],
         "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué dramaturgo llegó a ser presidente de la República Checa?",
+        "a": [
+          "Lech Wałęsa",
+          "Milan Kundera",
+          "Václav Havel",
+          "Václav Klaus"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué imperio gobernaba Solimán el Magnífico?",
+        "a": [
+          "El Imperio español",
+          "El Imperio otomano",
+          "El Imperio persa",
+          "El Imperio mogol"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué muralla romana separa Escocia de Inglaterra?",
+        "a": [
+          "La muralla de Adriano",
+          "La muralla de Antonino",
+          "El muro de Berlín",
+          "Los limes del Rin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué líder indio defendió la independencia con la no violencia?",
+        "a": [
+          "Jawaharlal Nehru",
+          "Muhammad Ali Jinnah",
+          "Subhas Chandra Bose",
+          "Mohandas Gandhi"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién pintó el techo de la Capilla Sixtina?",
+        "a": [
+          "Leonardo da Vinci",
+          "Boticelli",
+          "Miguel Ángel",
+          "Rafael"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué ciudad italiana es apodada «la Ciudad Eterna»?",
+        "a": [
+          "Milán",
+          "Roma",
+          "Florencia",
+          "Venecia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es la capital de Escocia?",
+        "a": [
+          "Edimburgo",
+          "Glasgow",
+          "Aberdeen",
+          "Dundee"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué mar separa Grecia de Turquía?",
+        "a": [
+          "El mar Adriático",
+          "El mar Negro",
+          "El mar Jónico",
+          "El mar Egeo"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué volcán activo domina Sicilia?",
+        "a": [
+          "El Estrómboli",
+          "El Olimpo",
+          "El Etna",
+          "El Vesubio"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué estado de EE. UU. está el Gran Cañón?",
+        "a": [
+          "Colorado",
+          "Arizona",
+          "Nevada",
+          "Utah"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué río atraviesa Praga?",
+        "a": [
+          "El Moldava",
+          "El Danubio",
+          "El Elba",
+          "El Óder"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el planeta más caliente del sistema solar?",
+        "a": [
+          "Mercurio",
+          "Marte",
+          "Júpiter",
+          "Venus"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cómo se llama el miedo a las arañas?",
+        "a": [
+          "La acrofobia",
+          "La agorafobia",
+          "La aracnofobia",
+          "La claustrofobia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el primate más grande del mundo?",
+        "a": [
+          "El babuino",
+          "El gorila",
+          "El orangután",
+          "El chimpancé"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué astro es la causa principal de las mareas?",
+        "a": [
+          "La Luna",
+          "El Sol",
+          "Marte",
+          "Venus"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es la única ave capaz de volar hacia atrás?",
+        "a": [
+          "El gorrión",
+          "La golondrina",
+          "El halcón",
+          "El colibrí"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cómo se llama el esqueleto externo de los insectos?",
+        "a": [
+          "El cartílago blando",
+          "La membrana",
+          "El exoesqueleto",
+          "El endoesqueleto"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué muñeco de madera sueña con ser un niño de verdad?",
+        "a": [
+          "Mowgli",
+          "Pinocho",
+          "Peter Pan",
+          "Aladdín"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Quién dirigió la trilogía cinematográfica de «El Señor de los Anillos»?",
+        "a": [
+          "Peter Jackson",
+          "James Cameron",
+          "Ridley Scott",
+          "Christopher Nolan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué superhéroe es apodado «el hombre de acero»?",
+        "a": [
+          "Batman",
+          "Spider-Man",
+          "Iron Man",
+          "Superman"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actor interpretó a Mad Max en la saga original?",
+        "a": [
+          "Russell Crowe",
+          "Hugh Jackman",
+          "Mel Gibson",
+          "Tom Hardy"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de Pixar transcurre en México en el Día de Muertos?",
+        "a": [
+          "Luca",
+          "Coco",
+          "Del revés",
+          "Up"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué tenor italiano popularizó «Nessun dorma»?",
+        "a": [
+          "Luciano Pavarotti",
+          "Plácido Domingo",
+          "José Carreras",
+          "Andrea Bocelli"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante jamaicano hizo famoso el reggae en el mundo?",
+        "a": [
+          "Peter Tosh",
+          "Jimmy Cliff",
+          "Sean Paul",
+          "Bob Marley"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué danza española se baila con castañuelas?",
+        "a": [
+          "La sardana",
+          "El paso doble",
+          "El flamenco",
+          "El tango"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿En qué país se celebra el festival de música de Glastonbury?",
+        "a": [
+          "Países Bajos",
+          "Inglaterra",
+          "Irlanda",
+          "Escocia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Bajo qué seudónimo publicaba la novelista Mary Ann Evans?",
+        "a": [
+          "George Eliot",
+          "Charlotte Brontë",
+          "Jane Austen",
+          "Emily Dickinson"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué poeta griega antigua vivía en la isla de Lesbos?",
+        "a": [
+          "Aspasia",
+          "Hipatia",
+          "Anite",
+          "Safo"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué filósofo griego escribió «La República»?",
+        "a": [
+          "Sócrates",
+          "Homero",
+          "Platón",
+          "Aristóteles"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "¿En qué país nació el cuentista Hans Christian Andersen?",
+        "a": [
+          "Alemania",
+          "Dinamarca",
+          "Suecia",
+          "Noruega"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuál es el maratón anual más antiguo del mundo?",
+        "a": [
+          "El de Boston",
+          "El de Nueva York",
+          "El de Londres",
+          "El de París"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué prueba de atletismo consiste en saltar con una pértiga?",
+        "a": [
+          "El salto de altura",
+          "El salto de longitud",
+          "El triple salto",
+          "El salto con pértiga"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué gran torneo de golf se juega cada año en Augusta?",
+        "a": [
+          "El British Open",
+          "El PGA Championship",
+          "El Masters",
+          "El US Open"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué club inglés de fútbol juega en Old Trafford?",
+        "a": [
+          "Chelsea",
+          "Manchester United",
+          "Liverpool",
+          "Manchester City"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué club francés ganó la Liga de Campeones en 1993?",
+        "a": [
+          "El Olympique de Marsella",
+          "El PSG",
+          "El Olympique de Lyon",
+          "El AS Mónaco"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama el agarre básico de raqueta, como un apretón de manos?",
+        "a": [
+          "El agarre de revés",
+          "El agarre de martillo",
+          "El agarre panhandle",
+          "El agarre de derecha"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el volante toca el suelo en la pista rival?",
+        "a": [
+          "Se anuncia un let",
+          "El punto se repite",
+          "El intercambio termina",
+          "El intercambio continúa"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el volante pasa por debajo de la red?",
+        "a": [
+          "El punto se repite",
+          "Es falta",
+          "El intercambio continúa",
+          "Es un let"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué parte del volante debe golpear el que saca?",
+        "a": [
+          "La base de corcho",
+          "Las plumas",
+          "La falda sintética",
+          "Cualquiera"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el pie del que saca toca la línea de saque?",
+        "a": [
+          "El intercambio continúa",
+          "Es un let",
+          "El saque se repite",
+          "Es falta"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué condimento japonés muy picante acompaña al sushi?",
+        "a": [
+          "El rábano picante",
+          "El sésamo",
+          "El wasabi",
+          "El miso"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué aperitivo italiano rojo y amargo entra en el Negroni?",
+        "a": [
+          "El Fernet",
+          "El Campari",
+          "El Martini",
+          "El Aperol"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué postre portugués es una pequeña tarta de crema?",
+        "a": [
+          "El pastel de nata",
+          "El churro",
+          "El flan",
+          "El tiramisú"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué pseudocereal andino se cultiva desde hace milenios?",
+        "a": [
+          "El mijo",
+          "El alforfón",
+          "El amaranto",
+          "La quinua"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué postre turco alterna hojas de masa y pistachos?",
+        "a": [
+          "El halva",
+          "El kataifi",
+          "El baklava",
+          "El turron"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cómo se llama el conjunto de palabras de una lengua?",
+        "a": [
+          "La ortografía",
+          "El léxico",
+          "La sintaxis",
+          "La fonética"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué signo de puntuación termina una frase exclamativa?",
+        "a": [
+          "El signo de exclamación",
+          "El signo de interrogación",
+          "El punto y coma",
+          "Los puntos suspensivos"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es la primera persona del singular del verbo «ser»?",
+        "a": [
+          "Yo estoy",
+          "Yo sea",
+          "Yo fui",
+          "Yo soy"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué adjetivo significa «que no puede morir»?",
+        "a": [
+          "Imperecedero",
+          "Inquebrantable",
+          "Inmortal",
+          "Invulnerable"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cómo se llama el nombre de los habitantes de un lugar?",
+        "a": [
+          "El apodo",
+          "El gentilicio",
+          "El patronímico",
+          "El epíceno"
+        ],
+        "c": 1
       }
     ]
   }
