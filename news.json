@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "qs": {
     "fr": [
       {
@@ -4927,6 +4927,754 @@
           "L'épicène",
           "Le sobriquet",
           "Le gentilé"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Quel homme d'État prussien a unifié l'Allemagne en 1871 ?",
+        "a": [
+          "Otto von Bismarck",
+          "Guillaume Ier",
+          "Konrad Adenauer",
+          "Friedrich Ebert"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel chef des Huns a été surnommé « le fléau de Dieu » ?",
+        "a": [
+          "Gengis Khan",
+          "Attila",
+          "Alaric",
+          "Tamerlan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Devant quel général Vercingétorix a-t-il capitulé à Alésia ?",
+        "a": [
+          "Marc Antoine",
+          "Pompée",
+          "Jules César",
+          "Trajan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Quel empereur est considéré comme le premier empereur de Chine ?",
+        "a": [
+          "Sun Yat-sen",
+          "Kublai Khan",
+          "Kangxi",
+          "Qin Shi Huang"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Quel explorateur viking aurait atteint l'Amérique vers l'an 1000 ?",
+        "a": [
+          "Leif Erikson",
+          "Erik le Rouge",
+          "Björn Côtes-de-Fer",
+          "Harald à la Belle Chevelure"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quel fleuve traverse la ville du Caire ?",
+        "a": [
+          "L'Euphrate",
+          "Le Nil",
+          "Le Tigre",
+          "Le Congo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel pays se trouve l'immense désert de sel Salar d'Uyuni ?",
+        "a": [
+          "Le Pérou",
+          "Le Chili",
+          "La Bolivie",
+          "L'Argentine"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle est l'île la plus peuplée du monde ?",
+        "a": [
+          "Madagascar",
+          "Honshu",
+          "Sumatra",
+          "Java"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle rivière a creusé le Grand Canyon ?",
+        "a": [
+          "Le Colorado",
+          "Le Mississippi",
+          "Le Rio Grande",
+          "La Columbia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle ville américaine est surnommée « la Cité des anges » ?",
+        "a": [
+          "San Francisco",
+          "Los Angeles",
+          "Miami",
+          "Las Vegas"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien de pattes possède un crabe ?",
+        "a": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle est l'unité de température du Système international ?",
+        "a": [
+          "Le joule",
+          "Le degré Celsius",
+          "Le degré Fahrenheit",
+          "Le kelvin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Quel instrument mesure la vitesse du vent ?",
+        "a": [
+          "L'anémomètre",
+          "Le baromètre",
+          "L'hygromètre",
+          "Le luxmètre"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle maladie le moustique anophèle transmet-il ?",
+        "a": [
+          "La dengue",
+          "Le paludisme",
+          "Le choléra",
+          "La fièvre jaune"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien d'estomacs possède une vache ?",
+        "a": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle actrice incarne Ellen Ripley dans « Alien » ?",
+        "a": [
+          "Jodie Foster",
+          "Carrie Fisher",
+          "Linda Hamilton",
+          "Sigourney Weaver"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film de 1927 est considéré comme le premier film parlant ?",
+        "a": [
+          "Le Chanteur de jazz",
+          "Metropolis",
+          "Nosferatu",
+          "Le Cuirassé Potemkine"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "De quel pays le cinéaste Akira Kurosawa était-il originaire ?",
+        "a": [
+          "La Chine",
+          "Le Japon",
+          "La Corée du Sud",
+          "Le Vietnam"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle princesse de Disney est une sirène nommée Ariel ?",
+        "a": [
+          "La Belle au bois dormant",
+          "Raiponce",
+          "La Petite Sirène",
+          "Vaiana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Comment s'appelle le clown maléfique du roman « Ça » de Stephen King ?",
+        "a": [
+          "Fizzlebottom",
+          "Art le Clown",
+          "Twisty",
+          "Pennywise"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Quel chanteur américain est surnommé « The Boss » ?",
+        "a": [
+          "Bruce Springsteen",
+          "Bob Dylan",
+          "Tom Petty",
+          "Neil Young"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Dans quel quartier de New York le hip-hop est-il né ?",
+        "a": [
+          "Brooklyn",
+          "Le Bronx",
+          "Harlem",
+          "Queens"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quel artiste britannique a sorti l'album « Blackstar » en 2016 ?",
+        "a": [
+          "Peter Gabriel",
+          "Brian Eno",
+          "David Bowie",
+          "Robert Smith"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Quel compositeur polonais a écrit de célèbres nocturnes ?",
+        "a": [
+          "Claude Debussy",
+          "Franz Liszt",
+          "Robert Schumann",
+          "Frédéric Chopin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Quel chanteur britannique a popularisé « Rocket Man » ?",
+        "a": [
+          "Elton John",
+          "Phil Collins",
+          "Rod Stewart",
+          "George Michael"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Quel capitaine de roman traque une baleine blanche ?",
+        "a": [
+          "Le capitaine Nemo",
+          "Le capitaine Achab",
+          "Le capitaine Haddock",
+          "Ishmaël"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Quel romancier américain a créé le détective Philip Marlowe ?",
+        "a": [
+          "Agatha Christie",
+          "Dashiell Hammett",
+          "Raymond Chandler",
+          "Erle Stanley Gardner"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Quel poète français a employé le premier le mot « surréaliste » ?",
+        "a": [
+          "Tristan Tzara",
+          "André Breton",
+          "Paul Éluard",
+          "Guillaume Apollinaire"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Quel poète français a écrit « Le Bateau ivre » ?",
+        "a": [
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Charles Baudelaire",
+          "Gérard de Nerval"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Quelle héroïne de Perrault perd une chaussure au bal ?",
+        "a": [
+          "La Belle au bois dormant",
+          "Cendrillon",
+          "Blanche-Neige",
+          "Peau d'Âne"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle ville américaine accueillera les JO d'été de 2028 ?",
+        "a": [
+          "Chicago",
+          "New York",
+          "Los Angeles",
+          "Houston"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel pays détient le record de médailles aux JO d'hiver ?",
+        "a": [
+          "Le Canada",
+          "Les États-Unis",
+          "L'Allemagne",
+          "La Norvège"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Dans quel stade le FC Barcelone joue-t-il à domicile ?",
+        "a": [
+          "Le Camp Nou",
+          "La Romareda",
+          "Le stade de la Cartuja",
+          "Le Molino"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Dans quel sport utilise-t-on un vélodrome ?",
+        "a": [
+          "Le patinage de vitesse",
+          "Le cyclisme sur piste",
+          "L'athlétisme",
+          "Le roller"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle équipe a remporté la Coupe du monde de football 2022 ?",
+        "a": [
+          "Le Brésil",
+          "La France",
+          "L'Argentine",
+          "La Croatie"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Quel pays a accueilli les Championnats du monde de badminton 2023 ?",
+        "a": [
+          "La Malaisie",
+          "Le Japon",
+          "L'Indonésie",
+          "Le Danemark"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le volant reste coincé dans le filet ?",
+        "a": [
+          "L'échange est perdu par celui qui l'a frappé",
+          "C'est un let",
+          "L'échange est rejoué",
+          "Le point est offert"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Quel officiel vérifie la régularité du service ?",
+        "a": [
+          "Le juge de ligne",
+          "Le juge de service",
+          "Le marqueur",
+          "Le chef de salle"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Quand les joueurs changent-ils de côté du court ?",
+        "a": [
+          "Au milieu de chaque set",
+          "Après chaque point",
+          "Entre chaque set",
+          "Uniquement en finale"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Que se passe-t-il si le volant touche le corps d'un joueur ?",
+        "a": [
+          "Le point est rejoué",
+          "C'est un let",
+          "L'échange continue",
+          "C'est une faute"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Quel fruit donne son nom au sirop de grenadine ?",
+        "a": [
+          "La grenade",
+          "La cerise",
+          "La framboise",
+          "La groseille"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Quel plat coréen mélange riz, légumes et œuf dans un même bol ?",
+        "a": [
+          "Le kimchi",
+          "Le bibimbap",
+          "Le bulgogi",
+          "Le tteokbokki"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Comment appelle-t-on le beurre clarifié de la cuisine indienne ?",
+        "a": [
+          "Le masala",
+          "Le paneer",
+          "Le ghee",
+          "Le dhal"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Quel gâteau allemand au chocolat et aux cerises vient de la Forêt-Noire ?",
+        "a": [
+          "Le Berliner",
+          "Le stollen",
+          "Le streusel",
+          "La forêt-noire"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Quel poisson est traditionnellement fumé en Écosse ?",
+        "a": [
+          "Le saumon",
+          "La truite",
+          "Le hareng",
+          "Le flétan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on un mot né de la fusion de deux mots, comme « franglais » ?",
+        "a": [
+          "Un mot composé",
+          "Un mot-valise",
+          "Un diminutif",
+          "Un sigle"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Quelle figure de style répète le même mot en début de phrases ?",
+        "a": [
+          "L'allitération",
+          "La métaphore",
+          "L'anaphore",
+          "L'hyperbole"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Quel type d'adjectif est « quelques », qui indique une quantité vague ?",
+        "a": [
+          "Un adjectif démonstratif",
+          "Un adjectif numéral",
+          "Un adjectif possessif",
+          "Un adjectif indéfini"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "Comment qualifie-t-on un produit qui porte le nom de son inventeur ?",
+        "a": [
+          "Éponyme",
+          "Synonyme",
+          "Homonyme",
+          "Paronyme"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "« Avec » est un mot de quelle nature ?",
+        "a": [
+          "Une conjonction de coordination",
+          "Une préposition",
+          "Un adverbe",
+          "Un pronom"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, où est annoncée la COP32 prévue en 2027 ?",
+        "a": [
+          "Au Caire (Égypte)",
+          "À Nairobi (Kenya)",
+          "À Addis-Abeba (Éthiopie)",
+          "À Dakar (Sénégal)"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Selon le Global Carbon Budget, que font les émissions mondiales de fossiles en 2026 ?",
+        "a": [
+          "Elles baissent de 10 %",
+          "Elles augmentent fortement",
+          "Elles stagnent",
+          "Elles baissent légèrement (−0,4 %)"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "Quelle dirigeante européenne participe à la COP31 d'Antalya en novembre 2026 ?",
+        "a": [
+          "Ursula von der Leyen",
+          "Giorgia Meloni",
+          "Mette Frederiksen",
+          "Sanna Marin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quel PDG de Nvidia est éclaboussé par un scandale d'espionnage présumé chinois ?",
+        "a": [
+          "Tim Cook",
+          "Jensen Huang",
+          "Jensen Wong",
+          "Lisa Su"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "Dans quelle ville s'est ouvert le Web Summit en novembre 2026 ?",
+        "a": [
+          "Dublin",
+          "Barcelone",
+          "Lisbonne",
+          "Berlin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Quel cap le surplus commercial de la Chine a-t-il franchi en octobre 2026 ?",
+        "a": [
+          "100 milliards de dollars",
+          "500 milliards de dollars",
+          "2 000 milliards de dollars",
+          "1 000 milliards de dollars"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "Début novembre 2026, à combien la Banque de France ramène-t-elle sa prévision de croissance 2026 ?",
+        "a": [
+          "Environ 0,3 %",
+          "Environ 1,5 %",
+          "Environ 0,8 %",
+          "Environ −1 %"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Quelle cérémonie à l'école fait polémique en France en novembre 2026 ?",
+        "a": [
+          "La fête du sport scolaire",
+          "L'hommage aux « Morts pour la France »",
+          "La remise des prix du bac",
+          "La kermesse de fin d'année"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "Quelle ONG déclare « l'état d'alerte sur l'État de droit » en France en novembre 2026 ?",
+        "a": [
+          "Greenpeace",
+          "Médecins sans frontières",
+          "Amnesty International",
+          "La Croix-Rouge"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Comment le BRGM qualifie-t-il les nappes phréatiques françaises début novembre 2026 ?",
+        "a": [
+          "En excès",
+          "Rebondies",
+          "Stables",
+          "Très préoccupantes"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "Pour quelle année Airbus annonce-t-il une usine supplémentaire en France, en novembre 2026 ?",
+        "a": [
+          "2031",
+          "2027",
+          "2040",
+          "2029"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, la capitale de quel pays est secouée par des explosions et un missile intercepté ?",
+        "a": [
+          "L'Iran",
+          "L'Arabie saoudite",
+          "Le Qatar",
+          "Israël"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, quel président américain admet que sa politique de déportations a été « trop dure » ?",
+        "a": [
+          "Barack Obama",
+          "Joe Biden",
+          "Donald Trump",
+          "George W. Bush"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Quel pays demande des comptes à la Russie sur ses nationaux recrutés pour l'Ukraine, en novembre 2026 ?",
+        "a": [
+          "Le Chili",
+          "Le Mexique",
+          "Le Brésil",
+          "Le Pérou"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "Combien de morts au minimum dans l'explosion d'une aciérie près d'Izmir début novembre 2026 ?",
+        "a": [
+          "17",
+          "7",
+          "37",
+          "70"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Quel romancier de 81 ans remporte le prix Booker en novembre 2026 ?",
+        "a": [
+          "Salman Rushdie",
+          "M. John Harrison",
+          "Ian McEwan",
+          "Martin Amis"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "Quel tournoi Carlos Alcaraz remporte-t-il pour la première fois en novembre 2026 ?",
+        "a": [
+          "L'Open d'Australie",
+          "Le Masters de Madrid",
+          "Le Masters de Paris",
+          "Le Masters 1000 de Rome"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "En novembre 2026, Antoine Arnault devient président de quel club de football ?",
+        "a": [
+          "Le LOSC",
+          "Le PSG",
+          "L'AS Monaco",
+          "Le Paris FC"
         ],
         "c": 3
       }
@@ -9859,6 +10607,754 @@
           "A patronym"
         ],
         "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Which Prussian statesman unified Germany in 1871?",
+        "a": [
+          "Otto von Bismarck",
+          "Wilhelm I",
+          "Konrad Adenauer",
+          "Friedrich Ebert"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which leader of the Huns was called 'the Scourge of God'?",
+        "a": [
+          "Genghis Khan",
+          "Attila",
+          "Alaric",
+          "Tamerlane"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "To which general did Vercingetorix surrender at Alesia?",
+        "a": [
+          "Mark Antony",
+          "Pompey",
+          "Julius Caesar",
+          "Trajan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Who is considered the first emperor of China?",
+        "a": [
+          "Sun Yat-sen",
+          "Kublai Khan",
+          "Kangxi",
+          "Qin Shi Huang"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Which Viking explorer is said to have reached America around the year 1000?",
+        "a": [
+          "Leif Erikson",
+          "Erik the Red",
+          "Bjorn Ironside",
+          "Harald Fairhair"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which river flows through the city of Cairo?",
+        "a": [
+          "The Euphrates",
+          "The Nile",
+          "The Tigris",
+          "The Congo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "In which country is the giant salt desert Salar de Uyuni?",
+        "a": [
+          "Peru",
+          "Chile",
+          "Bolivia",
+          "Argentina"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "What is the most populous island in the world?",
+        "a": [
+          "Madagascar",
+          "Honshu",
+          "Sumatra",
+          "Java"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Which river carved out the Grand Canyon?",
+        "a": [
+          "The Colorado",
+          "The Mississippi",
+          "The Rio Grande",
+          "The Columbia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Which US city is nicknamed 'the City of Angels'?",
+        "a": [
+          "San Francisco",
+          "Los Angeles",
+          "Miami",
+          "Las Vegas"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "How many legs does a crab have?",
+        "a": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "What is the SI unit of temperature?",
+        "a": [
+          "The joule",
+          "The degree Celsius",
+          "The degree Fahrenheit",
+          "The kelvin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Which instrument measures wind speed?",
+        "a": [
+          "The anemometer",
+          "The barometer",
+          "The hygrometer",
+          "The luxmeter"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which disease is transmitted by the Anopheles mosquito?",
+        "a": [
+          "Dengue",
+          "Malaria",
+          "Cholera",
+          "Yellow fever"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "How many stomachs does a cow have?",
+        "a": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Which actress plays Ellen Ripley in 'Alien'?",
+        "a": [
+          "Jodie Foster",
+          "Carrie Fisher",
+          "Linda Hamilton",
+          "Sigourney Weaver"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Which 1927 film is considered the first talkie?",
+        "a": [
+          "The Jazz Singer",
+          "Metropolis",
+          "Nosferatu",
+          "The Battleship Potemkin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "Which country was the filmmaker Akira Kurosawa from?",
+        "a": [
+          "China",
+          "Japan",
+          "South Korea",
+          "Vietnam"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which Disney princess is a mermaid named Ariel?",
+        "a": [
+          "Sleeping Beauty",
+          "Rapunzel",
+          "The Little Mermaid",
+          "Moana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "What is the evil clown in Stephen King's novel 'It' called?",
+        "a": [
+          "Fizzlebottom",
+          "Art the Clown",
+          "Twisty",
+          "Pennywise"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Which American singer is nicknamed 'The Boss'?",
+        "a": [
+          "Bruce Springsteen",
+          "Bob Dylan",
+          "Tom Petty",
+          "Neil Young"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "In which New York borough was hip-hop born?",
+        "a": [
+          "Brooklyn",
+          "The Bronx",
+          "Harlem",
+          "Queens"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which British artist released the album 'Blackstar' in 2016?",
+        "a": [
+          "Peter Gabriel",
+          "Brian Eno",
+          "David Bowie",
+          "Robert Smith"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Which Polish composer wrote famous nocturnes?",
+        "a": [
+          "Claude Debussy",
+          "Franz Liszt",
+          "Robert Schumann",
+          "Frederic Chopin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Which British singer popularized 'Rocket Man'?",
+        "a": [
+          "Elton John",
+          "Phil Collins",
+          "Rod Stewart",
+          "George Michael"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which fictional captain hunts a white whale?",
+        "a": [
+          "Captain Nemo",
+          "Captain Ahab",
+          "Captain Haddock",
+          "Ishmael"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Which American novelist created the detective Philip Marlowe?",
+        "a": [
+          "Agatha Christie",
+          "Dashiell Hammett",
+          "Raymond Chandler",
+          "Erle Stanley Gardner"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Which French poet first used the word 'surrealist'?",
+        "a": [
+          "Tristan Tzara",
+          "Andre Breton",
+          "Paul Eluard",
+          "Guillaume Apollinaire"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Which French poet wrote 'The Drunken Boat'?",
+        "a": [
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Charles Baudelaire",
+          "Gerard de Nerval"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which fairy-tale heroine loses a slipper at the ball?",
+        "a": [
+          "Sleeping Beauty",
+          "Cinderella",
+          "Snow White",
+          "Rapunzel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which US city will host the 2028 Summer Olympics?",
+        "a": [
+          "Chicago",
+          "New York",
+          "Los Angeles",
+          "Houston"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which country holds the record for Winter Olympic medals?",
+        "a": [
+          "Canada",
+          "The United States",
+          "Germany",
+          "Norway"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "In which stadium does FC Barcelona play at home?",
+        "a": [
+          "Camp Nou",
+          "La Romareda",
+          "La Cartuja",
+          "El Molinon"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which sport is competed on a velodrome?",
+        "a": [
+          "Speed skating",
+          "Track cycling",
+          "Athletics",
+          "Roller skating"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which team won the 2022 FIFA World Cup?",
+        "a": [
+          "Brazil",
+          "France",
+          "Argentina",
+          "Croatia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Which country hosted the 2023 Badminton World Championships?",
+        "a": [
+          "Malaysia",
+          "Japan",
+          "Indonesia",
+          "Denmark"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the shuttle gets caught in the net?",
+        "a": [
+          "The hitter loses the rally",
+          "It is a let",
+          "The rally is replayed",
+          "The point is awarded"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Which official checks the legality of the serve?",
+        "a": [
+          "The line judge",
+          "The service judge",
+          "The scorer",
+          "The floor manager"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "When do players change ends of the court?",
+        "a": [
+          "In the middle of each game",
+          "After every point",
+          "Between each game",
+          "Only in finals"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "What happens if the shuttle touches a player's body?",
+        "a": [
+          "The point is replayed",
+          "It is a let",
+          "The rally continues",
+          "It is a fault"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which fruit gives its name to grenadine syrup?",
+        "a": [
+          "The pomegranate",
+          "The cherry",
+          "The raspberry",
+          "The currant"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which Korean dish mixes rice, vegetables and egg in one bowl?",
+        "a": [
+          "Kimchi",
+          "Bibimbap",
+          "Bulgogi",
+          "Tteokbokki"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "What is clarified butter called in Indian cuisine?",
+        "a": [
+          "Masala",
+          "Paneer",
+          "Ghee",
+          "Dhal"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Which German chocolate and cherry cake comes from the Black Forest?",
+        "a": [
+          "Berliner",
+          "Stollen",
+          "Streusel",
+          "Black Forest gateau"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which fish is traditionally smoked in Scotland?",
+        "a": [
+          "Salmon",
+          "Trout",
+          "Herring",
+          "Halibut"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call a word like 'brunch', a blend of two words?",
+        "a": [
+          "A compound word",
+          "A portmanteau",
+          "A diminutive",
+          "An acronym"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "What is the past tense of 'run'?",
+        "a": [
+          "Run",
+          "Runned",
+          "Ran",
+          "Rinned"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call a very young dog?",
+        "a": [
+          "A calf",
+          "A cub",
+          "A kitten",
+          "A puppy"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "What word means a group of lions?",
+        "a": [
+          "A pride",
+          "A flock",
+          "A herd",
+          "A pack"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call the main character of a story?",
+        "a": [
+          "The antagonist",
+          "The protagonist",
+          "The narrator",
+          "The extra"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, where was the COP32 of 2027 announced to be held?",
+        "a": [
+          "Cairo (Egypt)",
+          "Nairobi (Kenya)",
+          "Addis Ababa (Ethiopia)",
+          "Dakar (Senegal)"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "According to the Global Carbon Budget, what do global fossil emissions do in 2026?",
+        "a": [
+          "They fall by 10%",
+          "They rise sharply",
+          "They stagnate",
+          "They fall slightly (-0.4%)"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "Which European leader is attending the COP31 in Antalya in November 2026?",
+        "a": [
+          "Ursula von der Leyen",
+          "Giorgia Meloni",
+          "Mette Frederiksen",
+          "Sanna Marin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, which Nvidia CEO is hit by a suspected Chinese espionage scandal?",
+        "a": [
+          "Tim Cook",
+          "Jensen Huang",
+          "Jensen Wong",
+          "Lisa Su"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "In which city did the Web Summit open in November 2026?",
+        "a": [
+          "Dublin",
+          "Barcelona",
+          "Lisbon",
+          "Berlin"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "What milestone did China's trade surplus pass in October 2026?",
+        "a": [
+          "$100 billion",
+          "$500 billion",
+          "$2 trillion",
+          "$1 trillion"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "In early November 2026, what is the Bank of France's revised 2026 growth forecast?",
+        "a": [
+          "Around 0.3%",
+          "Around 1.5%",
+          "Around 0.8%",
+          "Around -1%"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Which school ceremony is causing controversy in France in November 2026?",
+        "a": [
+          "School sports day",
+          "A tribute to the 'Morts pour la France'",
+          "The baccalaureat prize ceremony",
+          "The end-of-year fair"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "Which NGO declared a 'state of alert on the rule of law' in France in November 2026?",
+        "a": [
+          "Greenpeace",
+          "Doctors Without Borders",
+          "Amnesty International",
+          "The Red Cross"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "How did the BRGM describe France's groundwater levels in early November 2026?",
+        "a": [
+          "In surplus",
+          "Rebounding",
+          "Stable",
+          "Very worrying"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "For which year did Airbus announce an extra plant in France, in November 2026?",
+        "a": [
+          "2031",
+          "2027",
+          "2040",
+          "2029"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, the capital of which country was shaken by blasts and an intercepted missile?",
+        "a": [
+          "Iran",
+          "Saudi Arabia",
+          "Qatar",
+          "Israel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, which US president admitted his deportation policy was 'too harsh'?",
+        "a": [
+          "Barack Obama",
+          "Joe Biden",
+          "Donald Trump",
+          "George W. Bush"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Which country asked Russia about its nationals recruited to fight in Ukraine, in November 2026?",
+        "a": [
+          "Chile",
+          "Mexico",
+          "Brazil",
+          "Peru"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "At least how many people died in a steel plant explosion near Izmir in early November 2026?",
+        "a": [
+          "17",
+          "7",
+          "37",
+          "70"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "Which 81-year-old novelist won the Booker Prize in November 2026?",
+        "a": [
+          "Salman Rushdie",
+          "M. John Harrison",
+          "Ian McEwan",
+          "Martin Amis"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "Which tournament did Carlos Alcaraz win for the first time in November 2026?",
+        "a": [
+          "The Australian Open",
+          "The Madrid Masters",
+          "The Paris Masters",
+          "The Rome Masters 1000"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "In November 2026, Antoine Arnault became president of which football club?",
+        "a": [
+          "Lille",
+          "PSG",
+          "AS Monaco",
+          "Paris FC"
+        ],
+        "c": 3
       }
     ],
     "es": [
@@ -14778,6 +16274,754 @@
           "El epíceno"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué estadista prusiano unificó Alemania en 1871?",
+        "a": [
+          "Otto von Bismarck",
+          "Guillermo I",
+          "Konrad Adenauer",
+          "Friedrich Ebert"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué líder de los hunos fue llamado « el azote de Dios »?",
+        "a": [
+          "Gengis Khan",
+          "Atila",
+          "Alarico",
+          "Tamerlán"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Ante qué general capituló Vercingétorix en Alésia?",
+        "a": [
+          "Marco Antonio",
+          "Pompeyo",
+          "Julio César",
+          "Trajano"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "¿Quién es considerado el primer emperador de China?",
+        "a": [
+          "Sun Yat-sen",
+          "Kublai Khan",
+          "Kangxi",
+          "Qin Shi Huang"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué explorador vikingo habría llegado a América hacia el año 1000?",
+        "a": [
+          "Leif Erikson",
+          "Erik el Rojo",
+          "Björn Costado de Hierro",
+          "Harald Cabellera Bella"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué río atraviesa la ciudad de El Cairo?",
+        "a": [
+          "El Éufrates",
+          "El Nilo",
+          "El Tigris",
+          "El Congo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué país está el enorme desierto de sal Salar de Uyuni?",
+        "a": [
+          "Perú",
+          "Chile",
+          "Bolivia",
+          "Argentina"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es la isla más poblada del mundo?",
+        "a": [
+          "Madagascar",
+          "Honshu",
+          "Sumatra",
+          "Java"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué río excavó el Gran Cañón?",
+        "a": [
+          "El Colorado",
+          "El Misisipi",
+          "El Río Bravo",
+          "La Columbia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué ciudad estadounidense es apodada « la Ciudad de los Ángeles »?",
+        "a": [
+          "San Francisco",
+          "Los Ángeles",
+          "Miami",
+          "Las Vegas"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuántas patas tiene un cangrejo?",
+        "a": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es la unidad de temperatura del Sistema Internacional?",
+        "a": [
+          "El julio",
+          "El grado Celsius",
+          "El grado Fahrenheit",
+          "El kelvin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué instrumento mide la velocidad del viento?",
+        "a": [
+          "El anemómetro",
+          "El barómetro",
+          "El higrómetro",
+          "El luxómetro"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué enfermedad transmite el mosquito anofeles?",
+        "a": [
+          "El dengue",
+          "El paludismo",
+          "El cólera",
+          "La fiebre amarilla"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuántos estómagos tiene una vaca?",
+        "a": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actriz interpreta a Ellen Ripley en « Alien »?",
+        "a": [
+          "Jodie Foster",
+          "Carrie Fisher",
+          "Linda Hamilton",
+          "Sigourney Weaver"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película de 1927 se considera la primera sonora?",
+        "a": [
+          "El cantor de jazz",
+          "Metropolis",
+          "Nosferatu",
+          "El acorazado Potemkin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "¿De qué país era el cineasta Akira Kurosawa?",
+        "a": [
+          "China",
+          "Japón",
+          "Corea del Sur",
+          "Vietnam"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué princesa de Disney es una sirena llamada Ariel?",
+        "a": [
+          "La Bella Durmiente",
+          "Rapunzel",
+          "La sirenita",
+          "Vaiana"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Cómo se llama el payaso maligno de la novela « It » de Stephen King?",
+        "a": [
+          "Fizzlebottom",
+          "Art el Payaso",
+          "Twisty",
+          "Pennywise"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante estadounidense es apodado « The Boss »?",
+        "a": [
+          "Bruce Springsteen",
+          "Bob Dylan",
+          "Tom Petty",
+          "Neil Young"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿En qué barrio de Nueva York nació el hip-hop?",
+        "a": [
+          "Brooklyn",
+          "El Bronx",
+          "Harlem",
+          "Queens"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué artista británico publicó el álbum « Blackstar » en 2016?",
+        "a": [
+          "Peter Gabriel",
+          "Brian Eno",
+          "David Bowie",
+          "Robert Smith"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué compositor polaco escribió célebres nocturnos?",
+        "a": [
+          "Claude Debussy",
+          "Franz Liszt",
+          "Robert Schumann",
+          "Frédéric Chopin"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante británico popularizó « Rocket Man »?",
+        "a": [
+          "Elton John",
+          "Phil Collins",
+          "Rod Stewart",
+          "George Michael"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué capitán de novela persigue una ballena blanca?",
+        "a": [
+          "El capitán Nemo",
+          "El capitán Ahab",
+          "El capitán Haddock",
+          "Ishmael"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué novelista estadounidense creó al detective Philip Marlowe?",
+        "a": [
+          "Agatha Christie",
+          "Dashiell Hammett",
+          "Raymond Chandler",
+          "Erle Stanley Gardner"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué poeta francés empleó por primera vez la palabra « surrealista »?",
+        "a": [
+          "Tristan Tzara",
+          "André Breton",
+          "Paul Éluard",
+          "Guillaume Apollinaire"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué poeta escribió « El barco ebrio »?",
+        "a": [
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Charles Baudelaire",
+          "Gérard de Nerval"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué heroína de cuento pierde un zapatillo en el baile?",
+        "a": [
+          "La Bella Durmiente",
+          "Cenicienta",
+          "Blancanieves",
+          "Rapunzel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué ciudad estadounidense albergará los Juegos Olímpicos de 2028?",
+        "a": [
+          "Chicago",
+          "Nueva York",
+          "Los Ángeles",
+          "Houston"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué país ostenta el récord de medallas en los Juegos de invierno?",
+        "a": [
+          "Canadá",
+          "Estados Unidos",
+          "Alemania",
+          "Noruega"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "¿En qué estadio juega de local el FC Barcelona?",
+        "a": [
+          "El Camp Nou",
+          "La Romareda",
+          "La Cartuja",
+          "El Molinón"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿En qué deporte se compite en un velódromo?",
+        "a": [
+          "El patinaje de velocidad",
+          "El ciclismo en pista",
+          "El atletismo",
+          "El patinaje"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué selección ganó el Mundial de fútbol de 2022?",
+        "a": [
+          "Brasil",
+          "Francia",
+          "Argentina",
+          "Croacia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué país acogió los Mundiales de bádminton de 2023?",
+        "a": [
+          "Malasia",
+          "Japón",
+          "Indonesia",
+          "Dinamarca"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el volante queda atrapado en la red?",
+        "a": [
+          "Pierde el intercambio quien lo golpeó",
+          "Es un let",
+          "El intercambio se repite",
+          "El punto se regala"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué oficial comprueba la legalidad del saque?",
+        "a": [
+          "El juez de línea",
+          "El juez de saque",
+          "El anotador",
+          "El jefe de pista"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cuándo cambian los jugadores de lado de la pista?",
+        "a": [
+          "En medio de cada set",
+          "Después de cada punto",
+          "Entre cada set",
+          "Solo en las finales"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué ocurre si el volante toca el cuerpo de un jugador?",
+        "a": [
+          "El punto se repite",
+          "Es un let",
+          "El intercambio continúa",
+          "Es falta"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué fruta da nombre al jarabe de granadina?",
+        "a": [
+          "La granada",
+          "La cereza",
+          "La frambuesa",
+          "La grosella"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué plato coreano mezcla arroz, verduras y huevo en un mismo bol?",
+        "a": [
+          "El kimchi",
+          "El bibimbap",
+          "El bulgogi",
+          "El tteokbokki"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿Cómo se llama la mantequilla clarificada de la cocina india?",
+        "a": [
+          "El masala",
+          "El paneer",
+          "El ghee",
+          "El dhal"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué tarta alemana de chocolate y cerezas viene de la Selva Negra?",
+        "a": [
+          "El berlinés",
+          "El stollen",
+          "El streusel",
+          "La tarta de la Selva Negra"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué pescado se ahúma tradicionalmente en Escocia?",
+        "a": [
+          "El salmón",
+          "La trucha",
+          "El arenque",
+          "El fletán"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cómo se llama la palabra cuyo acento recae en la antepenúltima sílaba?",
+        "a": [
+          "Aguda",
+          "Esdrújula",
+          "Llana",
+          "Sobreaguda"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el pasado de « poder » en primera persona?",
+        "a": [
+          "Podré",
+          "Podí",
+          "Pude",
+          "Podo"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el diminutivo de « casa »?",
+        "a": [
+          "Casucha",
+          "Casilla",
+          "Casota",
+          "Casita"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué significa el prefijo « bi- » en palabras como « bilingüe »?",
+        "a": [
+          "Dos",
+          "Medio",
+          "Ambos",
+          "Tres"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cuál es el femenino de « poeta »?",
+        "a": [
+          "Poeta",
+          "Poetisa",
+          "Poetiza",
+          "Poetosa"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿dónde se celebrará la COP32 de 2027?",
+        "a": [
+          "En El Cairo (Egipto)",
+          "En Nairobi (Kenia)",
+          "En Adís Abeba (Etiopía)",
+          "En Dakar (Senegal)"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "Según el Global Carbon Budget, ¿qué hacen las emisiones mundiales de combustibles fósiles en 2026?",
+        "a": [
+          "Bajan un 10 %",
+          "Suben fuertemente",
+          "Se estancan",
+          "Bajan ligeramente (−0,4 %)"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué dirigente europea asiste a la COP31 de Antalya en noviembre de 2026?",
+        "a": [
+          "Ursula von der Leyen",
+          "Giorgia Meloni",
+          "Mette Frederiksen",
+          "Sanna Marin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué CEO de Nvidia está salpicado por un escándalo de espionaje chino presunto?",
+        "a": [
+          "Tim Cook",
+          "Jensen Huang",
+          "Jensen Wong",
+          "Lisa Su"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "¿En qué ciudad se inauguró la Web Summit en noviembre de 2026?",
+        "a": [
+          "Dublín",
+          "Barcelona",
+          "Lisboa",
+          "Berlín"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué cota superó el superávit comercial de China en octubre de 2026?",
+        "a": [
+          "100.000 millones de dólares",
+          "500.000 millones de dólares",
+          "Dos billones de dólares",
+          "Un billón de dólares (1.000.000 millones)"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "A principios de noviembre de 2026, ¿a cuánto rebaja el Banco de Francia su previsión de crecimiento de 2026?",
+        "a": [
+          "A un 0,3 % aproximadamente",
+          "A un 1,5 %",
+          "A un 0,8 %",
+          "A un −1 %"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué ceremonia escolar provoca polémica en Francia en noviembre de 2026?",
+        "a": [
+          "La fiesta del deporte escolar",
+          "El homenaje a los « Muertos por Francia »",
+          "La entrega de premios del bachillerato",
+          "La feria de fin de curso"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué ONG declaró en noviembre de 2026 « el estado de alerta sobre el Estado de derecho » en Francia?",
+        "a": [
+          "Greenpeace",
+          "Médicos Sin Fronteras",
+          "Amnistía Internacional",
+          "La Cruz Roja"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "¿Cómo calificó el BRGM los acuíferos franceses a principios de noviembre de 2026?",
+        "a": [
+          "En exceso",
+          "Rebotados",
+          "Estables",
+          "Muy preocupantes"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "¿Para qué año anunció Airbus una fábrica adicional en Francia, en noviembre de 2026?",
+        "a": [
+          "2031",
+          "2027",
+          "2040",
+          "2029"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿la capital de qué país fue sacudida por explosiones y un misil interceptado?",
+        "a": [
+          "Irán",
+          "Arabia Saudita",
+          "Catar",
+          "Israel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, ¿qué presidente estadounidense admitió que su política de deportaciones fue « demasiado dura »?",
+        "a": [
+          "Barack Obama",
+          "Joe Biden",
+          "Donald Trump",
+          "George W. Bush"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué país pidió cuentas a Rusia por sus nacionales reclutados para Ucrania, en noviembre de 2026?",
+        "a": [
+          "Chile",
+          "México",
+          "Brasil",
+          "Perú"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "actu",
+        "q": "¿Cuántos muertos, como mínimo, dejó la explosión de una siderúrgica cerca de Izmir a principios de noviembre de 2026?",
+        "a": [
+          "17",
+          "7",
+          "37",
+          "70"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué novelista de 81 años ganó el Premio Booker en noviembre de 2026?",
+        "a": [
+          "Salman Rushdie",
+          "M. John Harrison",
+          "Ian McEwan",
+          "Martin Amis"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "actu",
+        "q": "¿Qué torneo ganó Carlos Alcaraz por primera vez en noviembre de 2026?",
+        "a": [
+          "El Abierto de Australia",
+          "El Másters de Madrid",
+          "El Másters de París",
+          "El Másters 1000 de Roma"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "actu",
+        "q": "En noviembre de 2026, Antoine Arnault se convirtió en presidente de ¿qué club de fútbol?",
+        "a": [
+          "El Lille",
+          "El PSG",
+          "El AS Mónaco",
+          "El París FC"
+        ],
+        "c": 3
       }
     ]
   }
