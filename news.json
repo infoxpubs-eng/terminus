@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "qs": {
     "fr": [
       {
@@ -6227,6 +6227,556 @@
           "Caneton"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "En l'honneur de quel dieu grec se déroulaient les Jeux d'Olympie ?",
+        "a": [
+          "Apollon",
+          "Poséidon",
+          "Zeus",
+          "Hermès"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Selon la légende, qui a fondé la ville de Carthage ?",
+        "a": [
+          "Hannibal",
+          "Didon",
+          "Cléopâtre",
+          "Circé"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel petit-fils de Gengis Khan fonda la dynastie Yuan en Chine ?",
+        "a": [
+          "Ögödeï",
+          "Kubilai Khan",
+          "Tolui",
+          "Batu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel empereur indien a propagé le bouddhisme après la guerre de Kalinga ?",
+        "a": [
+          "Akbar",
+          "Ashoka",
+          "Chandragupta",
+          "Bâbur"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quelle reine britannique a régné plus de 70 ans ?",
+        "a": [
+          "Victoria",
+          "Élisabeth Iʳᵉ",
+          "Élisabeth II",
+          "Marie Tudor"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Le cap de Bonne-Espérance se trouve dans quel pays ?",
+        "a": [
+          "L'Australie",
+          "L'Afrique du Sud",
+          "Le Brésil",
+          "Le Maroc"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quelle cordillère se situe le lac Titicaca ?",
+        "a": [
+          "Les Andes",
+          "Les Alpes",
+          "L'Himalaya",
+          "L'Atlas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel État américain se trouve le parc de Yellowstone ?",
+        "a": [
+          "Le Montana",
+          "Le Wyoming",
+          "Le Colorado",
+          "L'Utah"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quel océan se trouvent les îles Galápagos ?",
+        "a": [
+          "L'Atlantique",
+          "L'Indien",
+          "Le Pacifique",
+          "L'Arctique"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quel canal relie la Méditerranée à la mer Rouge ?",
+        "a": [
+          "Le canal de Corinthe",
+          "Le canal de Suez",
+          "Le canal de Panama",
+          "Le canal de Kiel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Quel est le plus grand satellite naturel de Saturne ?",
+        "a": [
+          "Japet",
+          "Mimas",
+          "Titan",
+          "Rhéa"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle est l'unité de mesure de la puissance ?",
+        "a": [
+          "Le joule",
+          "Le newton",
+          "Le watt",
+          "L'ampère"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quel astre se trouve au centre du système solaire ?",
+        "a": [
+          "La Terre",
+          "La Lune",
+          "Le Soleil",
+          "Jupiter"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Comment appelle-t-on la plus petite particule d'un élément chimique ?",
+        "a": [
+          "La molécule",
+          "L'atome",
+          "La cellule",
+          "L'électron"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Quel est le plus grand désert du monde, toutes catégories ?",
+        "a": [
+          "Le Sahara",
+          "Le Kalahari",
+          "L'Antarctique",
+          "Le Gobi"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quel ordinateur intelligent apparaît dans « 2001, l'Odyssée de l'espace » ?",
+        "a": [
+          "Colossus",
+          "HAL 9000",
+          "Skynet",
+          "Mother"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quel film quasi muet avec Jean Dujardin a gagné l'Oscar du meilleur film ?",
+        "a": [
+          "The King's Speech",
+          "The Artist",
+          "Intouchables",
+          "La La Land"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quel acteur incarne le Petit Vagabond ?",
+        "a": [
+          "Buster Keaton",
+          "Charlie Chaplin",
+          "Harold Lloyd",
+          "Jacques Tati"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Dans quel film musical Julie Andrews est-elle gouvernante en Autriche ?",
+        "a": [
+          "My Fair Lady",
+          "La Mélodie du bonheur",
+          "Mary Poppins",
+          "Chantons sous la pluie"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Quel réalisateur a signé « Pulp Fiction » ?",
+        "a": [
+          "Martin Scorsese",
+          "Quentin Tarantino",
+          "David Lynch",
+          "Ridley Scott"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quel groupe a sorti la chanson « Yesterday » ?",
+        "a": [
+          "The Rolling Stones",
+          "The Beatles",
+          "The Beach Boys",
+          "Queen"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quel est le cuivre le plus grave de l'orchestre ?",
+        "a": [
+          "La trompette",
+          "Le trombone",
+          "Le tuba",
+          "Le cor"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Quel groupe a sorti l'album « Rumours » en 1977 ?",
+        "a": [
+          "Fleetwood Mac",
+          "Eagles",
+          "Pink Floyd",
+          "The Doors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quel chanteur mexicain est surnommé « El Sol de México » ?",
+        "a": [
+          "Vicente Fernández",
+          "Luis Miguel",
+          "Julio Iglesias",
+          "Juan Gabriel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quel instrument écossais fonctionne avec une réserve d'air ?",
+        "a": [
+          "La cornemuse",
+          "L'accordéon",
+          "Le hautbois",
+          "La flûte de Pan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Quelle romancière britannique a créé le personnage de Bridget Jones ?",
+        "a": [
+          "J. K. Rowling",
+          "Helen Fielding",
+          "Sophie Kinsella",
+          "Marian Keyes"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Quelle collection de contes arabes contient l'histoire d'Aladin ?",
+        "a": [
+          "Le Décaméron",
+          "Les Mille et Une Nuits",
+          "Les Fables de La Fontaine",
+          "Le Panchatantra"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Quelle philosophe française a écrit « Le Deuxième Sexe » ?",
+        "a": [
+          "Simone de Beauvoir",
+          "Marguerite Yourcenar",
+          "Françoise Sagan",
+          "Sylvia Plath"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit la pièce « En attendant Godot » ?",
+        "a": [
+          "Eugène Ionesco",
+          "Samuel Beckett",
+          "Jean-Paul Sartre",
+          "Harold Pinter"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Quel écrivain a reçu le Goncourt 2017 pour « L'Ordre du jour » ?",
+        "a": [
+          "Leïla Slimani",
+          "Éric Vuillard",
+          "Pierre Lemaitre",
+          "Nicolas Mathieu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Dans quel sport s'affrontent deux équipes avec un disque volant ?",
+        "a": [
+          "Le baseball",
+          "L'ultimate",
+          "Le hockey sur gazon",
+          "Le curling"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Dans quelle ville se court le Grand Prix de Formule 1 de Monaco ?",
+        "a": [
+          "Menton",
+          "Monte-Carlo",
+          "Nice",
+          "Roquebrune"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle épreuve d'athlétisme comporte dix disciplines ?",
+        "a": [
+          "Le triathlon",
+          "L'heptathlon",
+          "Le décathlon",
+          "Le pentathlon"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Quel joueur a remporté six titres NBA avec les Bulls de Chicago ?",
+        "a": [
+          "Magic Johnson",
+          "Michael Jordan",
+          "Larry Bird",
+          "Kobe Bryant"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quel nageur australien était surnommé « La Torpille » ?",
+        "a": [
+          "Ian Thorpe",
+          "Dawn Fraser",
+          "Grant Hackett",
+          "Kieren Perkins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Frapper le volant dans le camp adverse avant qu'il passe le filet :",
+        "a": [
+          "L'échange continue",
+          "C'est une faute",
+          "C'est un let",
+          "Le point est rejoué"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "En quelle année fut fondée la première fédération de badminton en Angleterre ?",
+        "a": [
+          "1873",
+          "1883",
+          "1893",
+          "1903"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "En doubles, où doit tomber le service long ?",
+        "a": [
+          "Dans la zone avant",
+          "Juste derrière la ligne courte",
+          "Dans la zone arrière",
+          "N'importe où"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Comment appelle-t-on le contre doux d'un smash au filet ?",
+        "a": [
+          "Le block",
+          "Le lift",
+          "Le clear",
+          "Le flick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Comment se compose une équipe de double mixte ?",
+        "a": [
+          "Deux hommes",
+          "Deux femmes",
+          "Un homme et une femme",
+          "Deux paires"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Quel plat provençal mélange aubergines, courgettes et tomates ?",
+        "a": [
+          "La bouillabaisse",
+          "La ratatouille",
+          "La tapenade",
+          "Le tian"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle boisson indienne est à base de yaourt ?",
+        "a": [
+          "Le lassi",
+          "Le chaï",
+          "Le kombucha",
+          "Le sharbat"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Comment appelle-t-on une préparation sucrée faite du seul jus des fruits ?",
+        "a": [
+          "La confiture",
+          "La gelée",
+          "La marmelade",
+          "La compote"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle partie du cannelier donne la cannelle ?",
+        "a": [
+          "La racine",
+          "La feuille",
+          "L'écorce",
+          "La fleur"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Quel dessert new-yorkais est à base de fromage frais ?",
+        "a": [
+          "Le brownie",
+          "Le cheesecake",
+          "Le muffin",
+          "Le donut"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "« Chou-fleur » ou « porte-monnaie » : quel type de mot ?",
+        "a": [
+          "Un mot composé",
+          "Un mot-valise",
+          "Un emprunt",
+          "Un dérivé"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "Dans « il mange une pomme », quel est le complément d'objet direct ?",
+        "a": [
+          "Il",
+          "Mange",
+          "Une pomme",
+          "Aucun"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Comment appelle-t-on « le, la, les » devant un nom ?",
+        "a": [
+          "Des adjectifs",
+          "Des articles définis",
+          "Des pronoms",
+          "Des prépositions"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Quelle est la nature du mot « et » ?",
+        "a": [
+          "Un nom",
+          "Une conjonction",
+          "Un adverbe",
+          "Une préposition"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "À quelle personne correspond le pronom « ils » ?",
+        "a": [
+          "2e du pluriel",
+          "3e du singulier",
+          "3e du pluriel",
+          "1re du pluriel"
+        ],
+        "c": 2
       }
     ],
     "en": [
@@ -12455,6 +13005,556 @@
           "The D"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "In honour of which Greek god were the ancient Olympic Games held?",
+        "a": [
+          "Apollo",
+          "Poseidon",
+          "Zeus",
+          "Hermes"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "According to legend, who founded the city of Carthage?",
+        "a": [
+          "Hannibal",
+          "Dido",
+          "Cleopatra",
+          "Circe"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which grandson of Genghis Khan founded China's Yuan dynasty?",
+        "a": [
+          "Ögedei",
+          "Kublai Khan",
+          "Tolui",
+          "Batu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which Indian emperor spread Buddhism after the Kalinga war?",
+        "a": [
+          "Akbar",
+          "Ashoka",
+          "Chandragupta",
+          "Babur"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which British queen reigned for more than 70 years?",
+        "a": [
+          "Victoria",
+          "Elizabeth I",
+          "Elizabeth II",
+          "Mary Tudor"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "The Cape of Good Hope is located in which country?",
+        "a": [
+          "Australia",
+          "South Africa",
+          "Brazil",
+          "Morocco"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "In which mountain range is Lake Titicaca?",
+        "a": [
+          "The Andes",
+          "The Alps",
+          "The Himalayas",
+          "The Atlas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "In which US state is Yellowstone National Park?",
+        "a": [
+          "Montana",
+          "Wyoming",
+          "Colorado",
+          "Utah"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "In which ocean are the Galápagos Islands?",
+        "a": [
+          "The Atlantic",
+          "The Indian",
+          "The Pacific",
+          "The Arctic"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Which canal links the Mediterranean to the Red Sea?",
+        "a": [
+          "The Corinth Canal",
+          "The Suez Canal",
+          "The Panama Canal",
+          "The Kiel Canal"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "What is Saturn's largest natural satellite?",
+        "a": [
+          "Iapetus",
+          "Mimas",
+          "Titan",
+          "Rhea"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "What is the unit of power?",
+        "a": [
+          "The joule",
+          "The newton",
+          "The watt",
+          "The ampere"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which star is at the centre of the solar system?",
+        "a": [
+          "Earth",
+          "The Moon",
+          "The Sun",
+          "Jupiter"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "What is the smallest particle of a chemical element?",
+        "a": [
+          "The molecule",
+          "The atom",
+          "The cell",
+          "The electron"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "What is the largest desert in the world, including polar ones?",
+        "a": [
+          "The Sahara",
+          "The Kalahari",
+          "Antarctica",
+          "The Gobi"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Which intelligent computer appears in « 2001: A Space Odyssey » ?",
+        "a": [
+          "Colossus",
+          "HAL 9000",
+          "Skynet",
+          "Mother"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which near-silent film starring Jean Dujardin won Best Picture?",
+        "a": [
+          "The King's Speech",
+          "The Artist",
+          "Intouchables",
+          "La La Land"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Which actor played the Little Tramp?",
+        "a": [
+          "Buster Keaton",
+          "Charlie Chaplin",
+          "Harold Lloyd",
+          "Jacques Tati"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "In which musical is Julie Andrews a governess in Austria?",
+        "a": [
+          "My Fair Lady",
+          "The Sound of Music",
+          "Mary Poppins",
+          "Singin' in the Rain"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Who directed « Pulp Fiction » ?",
+        "a": [
+          "Martin Scorsese",
+          "Quentin Tarantino",
+          "David Lynch",
+          "Ridley Scott"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which band released the song « Yesterday » ?",
+        "a": [
+          "The Rolling Stones",
+          "The Beatles",
+          "The Beach Boys",
+          "Queen"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "What is the lowest-pitched brass instrument in the orchestra?",
+        "a": [
+          "The trumpet",
+          "The trombone",
+          "The tuba",
+          "The horn"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Which band released the album « Rumours » in 1977?",
+        "a": [
+          "Fleetwood Mac",
+          "Eagles",
+          "Pink Floyd",
+          "The Doors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which Mexican singer is nicknamed « El Sol de México » ?",
+        "a": [
+          "Vicente Fernández",
+          "Luis Miguel",
+          "Julio Iglesias",
+          "Juan Gabriel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which Scottish instrument works with an air bag?",
+        "a": [
+          "The bagpipes",
+          "The accordion",
+          "The oboe",
+          "The pan flute"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Which British novelist created the character Bridget Jones?",
+        "a": [
+          "J. K. Rowling",
+          "Helen Fielding",
+          "Sophie Kinsella",
+          "Marian Keyes"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Which collection of Arab tales contains the story of Aladdin?",
+        "a": [
+          "The Decameron",
+          "The Thousand and One Nights",
+          "La Fontaine's Fables",
+          "The Panchatantra"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Which French philosopher wrote « The Second Sex » ?",
+        "a": [
+          "Simone de Beauvoir",
+          "Marguerite Yourcenar",
+          "Françoise Sagan",
+          "Sylvia Plath"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote the play « Waiting for Godot » ?",
+        "a": [
+          "Eugène Ionesco",
+          "Samuel Beckett",
+          "Jean-Paul Sartre",
+          "Harold Pinter"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Which writer won the 2017 Goncourt for « The Order of the Day » ?",
+        "a": [
+          "Leïla Slimani",
+          "Éric Vuillard",
+          "Pierre Lemaitre",
+          "Nicolas Mathieu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "In which sport do two teams compete with a flying disc?",
+        "a": [
+          "Baseball",
+          "Ultimate",
+          "Field hockey",
+          "Curling"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "In which city is the Monaco Formula 1 Grand Prix held?",
+        "a": [
+          "Menton",
+          "Monte Carlo",
+          "Nice",
+          "Roquebrune"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which athletics event includes ten disciplines?",
+        "a": [
+          "Triathlon",
+          "Heptathlon",
+          "Decathlon",
+          "Pentathlon"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Which player won six NBA titles with the Chicago Bulls?",
+        "a": [
+          "Magic Johnson",
+          "Michael Jordan",
+          "Larry Bird",
+          "Kobe Bryant"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which Australian swimmer was nicknamed « The Thorpedo » ?",
+        "a": [
+          "Ian Thorpe",
+          "Dawn Fraser",
+          "Grant Hackett",
+          "Kieren Perkins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Hitting the shuttle in the opponent's court before it crosses the net:",
+        "a": [
+          "The rally continues",
+          "It is a fault",
+          "It is a let",
+          "The point is replayed"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "In which year was the first badminton federation founded in England?",
+        "a": [
+          "1873",
+          "1883",
+          "1893",
+          "1903"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "In doubles, where should a long serve land?",
+        "a": [
+          "In the front zone",
+          "Just behind the short line",
+          "In the rear zone",
+          "Anywhere"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "What is a soft counter of a smash at the net called?",
+        "a": [
+          "The block",
+          "The lift",
+          "The clear",
+          "The flick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "How is a mixed doubles team made up?",
+        "a": [
+          "Two men",
+          "Two women",
+          "One man and one woman",
+          "Two pairs"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Which Provençal dish mixes eggplant, courgettes and tomatoes?",
+        "a": [
+          "Bouillabaisse",
+          "Ratatouille",
+          "Tapenade",
+          "Tian"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which Indian drink is made from yogurt?",
+        "a": [
+          "Lassi",
+          "Chai",
+          "Kombucha",
+          "Sherbet"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "What is a sweet spread made only from fruit juice called?",
+        "a": [
+          "Jam",
+          "Jelly",
+          "Marmalade",
+          "Compote"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which part of the cinnamon tree gives cinnamon?",
+        "a": [
+          "The root",
+          "The leaf",
+          "The bark",
+          "The flower"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Which New York dessert is made from cream cheese?",
+        "a": [
+          "Brownie",
+          "Cheesecake",
+          "Muffin",
+          "Donut"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "What do we call a word like « sunglasses » made of two joined words?",
+        "a": [
+          "A compound word",
+          "A portmanteau",
+          "A loanword",
+          "A derivative"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "In « he eats an apple », what is the direct object?",
+        "a": [
+          "He",
+          "Eats",
+          "An apple",
+          "None"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "What are « the » and « a » called before a noun?",
+        "a": [
+          "Adjectives",
+          "Articles",
+          "Pronouns",
+          "Prepositions"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "How many letters are there in the English alphabet?",
+        "a": [
+          "24",
+          "25",
+          "26",
+          "27"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Which person does the pronoun « they » stand for?",
+        "a": [
+          "2nd person plural",
+          "3rd person singular",
+          "3rd person plural",
+          "1st person plural"
+        ],
+        "c": 2
       }
     ],
     "es": [
@@ -18672,6 +19772,556 @@
           "Ocano"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "En honor de qué dios griego se celebraban los Juegos de Olimpia ?",
+        "a": [
+          "Apolo",
+          "Poseidón",
+          "Zeus",
+          "Hermes"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Según la leyenda, ¿quién fundó la ciudad de Cartago ?",
+        "a": [
+          "Aníbal",
+          "Dido",
+          "Cleopatra",
+          "Circe"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué nieto de Gengis Khan fundó la dinastía Yuan en China ?",
+        "a": [
+          "Oguedei",
+          "Kublai Khan",
+          "Tolui",
+          "Batu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué emperador indio difundió el budismo tras la guerra de Kalinga ?",
+        "a": [
+          "Akbar",
+          "Ashoka",
+          "Chandragupta",
+          "Babur"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué reina británica reinó más de 70 años ?",
+        "a": [
+          "Victoria",
+          "Isabel I",
+          "Isabel II",
+          "María Tudor"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué país se encuentra el cabo de Buena Esperanza ?",
+        "a": [
+          "Australia",
+          "Sudáfrica",
+          "Brasil",
+          "Marruecos"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué cordillera se encuentra el lago Titicaca ?",
+        "a": [
+          "Los Andes",
+          "Los Alpes",
+          "El Himalaya",
+          "El Atlas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué estado estadounidense está el parque de Yellowstone ?",
+        "a": [
+          "Montana",
+          "Wyoming",
+          "Colorado",
+          "Utah"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué océano están las islas Galápagos ?",
+        "a": [
+          "El Atlántico",
+          "El Índico",
+          "El Pacífico",
+          "El Ártico"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué canal une el Mediterráneo con el mar Rojo ?",
+        "a": [
+          "El canal de Corinto",
+          "El canal de Suez",
+          "El canal de Panamá",
+          "El canal de Kiel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el satélite natural más grande de Saturno ?",
+        "a": [
+          "Jápeto",
+          "Mimas",
+          "Titán",
+          "Rea"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es la unidad de medida de la potencia ?",
+        "a": [
+          "El julio",
+          "El newton",
+          "El vatio",
+          "El amperio"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué astro está en el centro del sistema solar ?",
+        "a": [
+          "La Tierra",
+          "La Luna",
+          "El Sol",
+          "Júpiter"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cómo se llama la partícula más pequeña de un elemento químico ?",
+        "a": [
+          "La molécula",
+          "El átomo",
+          "La célula",
+          "El electrón"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el desierto más grande del mundo, incluidos los polares ?",
+        "a": [
+          "El Sahara",
+          "El Kalahari",
+          "La Antártida",
+          "El Gobi"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué ordenador inteligente aparece en « 2001: Odisea del espacio » ?",
+        "a": [
+          "Colossus",
+          "HAL 9000",
+          "Skynet",
+          "Mother"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué película casi muda con Jean Dujardin ganó el Óscar a la mejor película ?",
+        "a": [
+          "The King's Speech",
+          "The Artist",
+          "Intouchables",
+          "La La Land"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actor interpretaba al Vagabundo ?",
+        "a": [
+          "Buster Keaton",
+          "Charles Chaplin",
+          "Harold Lloyd",
+          "Jacques Tati"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿En qué musical Julie Andrews es institutriz en Austria ?",
+        "a": [
+          "My Fair Lady",
+          "Sonrisas y lágrimas",
+          "Mary Poppins",
+          "Cantando bajo la lluvia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Quién dirigió « Pulp Fiction » ?",
+        "a": [
+          "Martin Scorsese",
+          "Quentin Tarantino",
+          "David Lynch",
+          "Ridley Scott"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué grupo lanzó la canción « Yesterday » ?",
+        "a": [
+          "The Rolling Stones",
+          "The Beatles",
+          "The Beach Boys",
+          "Queen"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Cuál es el instrumento de metal más grave de la orquesta ?",
+        "a": [
+          "La trompeta",
+          "El trombón",
+          "La tuba",
+          "La trompa"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué grupo lanzó el álbum « Rumours » en 1977 ?",
+        "a": [
+          "Fleetwood Mac",
+          "Eagles",
+          "Pink Floyd",
+          "The Doors"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante mexicano es apodado « El Sol de México » ?",
+        "a": [
+          "Vicente Fernández",
+          "Luis Miguel",
+          "Julio Iglesias",
+          "Juan Gabriel"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué instrumento escocés funciona con una bolsa de aire ?",
+        "a": [
+          "La gaita",
+          "El acordeón",
+          "El oboe",
+          "La flauta de Pan"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué novelista británica creó al personaje Bridget Jones ?",
+        "a": [
+          "J. K. Rowling",
+          "Helen Fielding",
+          "Sophie Kinsella",
+          "Marian Keyes"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué colección de cuentos árabes contiene la historia de Aladino ?",
+        "a": [
+          "El Decamerón",
+          "Las Mil y Una Noches",
+          "Las Fábulas de La Fontaine",
+          "El Panchatantra"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué filósofa francesa escribió « El segundo sexo » ?",
+        "a": [
+          "Simone de Beauvoir",
+          "Marguerite Yourcenar",
+          "Françoise Sagan",
+          "Sylvia Plath"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió la obra « Esperando a Godot » ?",
+        "a": [
+          "Eugène Ionesco",
+          "Samuel Beckett",
+          "Jean-Paul Sartre",
+          "Harold Pinter"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Qué escritor ganó el Goncourt 2017 por « La orden del día » ?",
+        "a": [
+          "Leïla Slimani",
+          "Éric Vuillard",
+          "Pierre Lemaitre",
+          "Nicolas Mathieu"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿En qué deporte se enfrentan dos equipos con un disco volador ?",
+        "a": [
+          "El béisbol",
+          "El ultimate",
+          "El hockey hierba",
+          "El curling"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿En qué ciudad se corre el Gran Premio de Fórmula 1 de Mónaco ?",
+        "a": [
+          "Menton",
+          "Montecarlo",
+          "Niza",
+          "Roquebrune"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué prueba de atletismo comprende diez disciplinas ?",
+        "a": [
+          "El triatlón",
+          "El heptatlón",
+          "El decatlón",
+          "El pentatlón"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué jugador ganó seis títulos NBA con los Bulls de Chicago ?",
+        "a": [
+          "Magic Johnson",
+          "Michael Jordan",
+          "Larry Bird",
+          "Kobe Bryant"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué nadador australiano era apodado « La Torpedo » ?",
+        "a": [
+          "Ian Thorpe",
+          "Dawn Fraser",
+          "Grant Hackett",
+          "Kieren Perkins"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "Golpear el volante en el campo rival antes de que cruce la red:",
+        "a": [
+          "El intercambio continúa",
+          "Es falta",
+          "Es un let",
+          "El punto se repite"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿En qué año se fundó la primera federación de bádminton en Inglaterra ?",
+        "a": [
+          "1873",
+          "1883",
+          "1893",
+          "1903"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "En dobles, ¿dónde debe caer el saque largo ?",
+        "a": [
+          "En la zona delantera",
+          "Justo tras la línea corta",
+          "En la zona trasera",
+          "En cualquier sitio"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se llama el contra suave de un smash en la red ?",
+        "a": [
+          "El block",
+          "El lift",
+          "El clear",
+          "El flick"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "bad",
+        "q": "¿Cómo se compone un equipo de dobles mixtos ?",
+        "a": [
+          "Dos hombres",
+          "Dos mujeres",
+          "Un hombre y una mujer",
+          "Dos parejas"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué plato provenzal mezcla berenjena, calabacín y tomate ?",
+        "a": [
+          "La bouillabaisse",
+          "La ratatouille",
+          "La tapenade",
+          "El tian"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué bebida india se prepara con yogur ?",
+        "a": [
+          "El lassi",
+          "El chai",
+          "El kombucha",
+          "El sharbat"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿Cómo se llama la preparación dulce hecha solo con el zumo de la fruta ?",
+        "a": [
+          "La mermelada",
+          "La jalea",
+          "La confitura",
+          "La compota"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué parte del canelo da la canela ?",
+        "a": [
+          "La raíz",
+          "La hoja",
+          "La corteza",
+          "La flor"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué postre neoyorquino se hace con queso crema ?",
+        "a": [
+          "El brownie",
+          "El cheesecake",
+          "El muffin",
+          "El donut"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Cómo se llama una palabra formada por dos palabras unidas, como « sacapuntas » ?",
+        "a": [
+          "Una palabra compuesta",
+          "Un préstamo",
+          "Un derivado",
+          "Una sigla"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "En « él come una manzana », ¿cuál es el complemento directo ?",
+        "a": [
+          "Él",
+          "Come",
+          "Una manzana",
+          "Ninguno"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué son « el » y « la » delante de un sustantivo ?",
+        "a": [
+          "Adjetivos",
+          "Artículos",
+          "Pronombres",
+          "Preposiciones"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué letra sigue a la « i » en el alfabeto ?",
+        "a": [
+          "La j",
+          "La k",
+          "La h",
+          "La g"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lan",
+        "q": "¿A qué persona corresponde el pronombre « ellos » ?",
+        "a": [
+          "2ª del plural",
+          "3ª del singular",
+          "3ª del plural",
+          "1ª del plural"
+        ],
+        "c": 2
       }
     ]
   }
