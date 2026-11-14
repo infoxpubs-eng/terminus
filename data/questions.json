@@ -1,6 +1,6 @@
 {
- "_version": "v23",
- "_date": "2026-11-04",
+ "_version": "v24",
+ "_date": "2026-11-14",
  "langs": {
   "fr": [
    {
@@ -16612,6 +16612,985 @@
      "La Chine"
     ],
     "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année ont eu lieu les émeutes de Stonewall à New York ?",
+    "a": [
+     "1965",
+     "1967",
+     "1969",
+     "1971"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quelle ville se trouve le Stonewall Inn, lieu des émeutes de 1969 ?",
+    "a": [
+     "San Francisco",
+     "Londres",
+     "New York",
+     "Berlin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a créé le drapeau arc-en-ciel en 1978 ?",
+    "a": [
+     "Harvey Milk",
+     "Gilbert Baker",
+     "Keith Haring",
+     "Andy Warhol"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année le drapeau arc-en-ciel a-t-il été créé ?",
+    "a": [
+     "1969",
+     "1973",
+     "1978",
+     "1985"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Combien de couleurs compte le drapeau arc-en-ciel LGBT+ actuel ?",
+    "a": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Le triangle rose, symbole de la mémoire LGBT+, vient des...",
+    "a": [
+     "camps de concentration nazis",
+     "prisons victoriennes",
+     "couvents médiévaux",
+     "arsenaux du XIXe siècle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Harvey Milk a-t-il été élu à San Francisco ?",
+    "a": [
+     "1973",
+     "1977",
+     "1981",
+     "1985"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel poste Harvey Milk occupait-il à San Francisco ?",
+    "a": [
+     "Maire",
+     "Superviseur municipal",
+     "Gouverneur",
+     "Sénateur"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année ont eu lieu les premières marches des fiertés ?",
+    "a": [
+     "1969",
+     "1970",
+     "1973",
+     "1975"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’organisation ACT UP a-t-elle été fondée à New York ?",
+    "a": [
+     "1981",
+     "1985",
+     "1987",
+     "1991"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année a été fondée la Mattachine Society, premier grand groupe homosexuel américain ?",
+    "a": [
+     "1945",
+     "1950",
+     "1955",
+     "1960"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année a été fondée l’association Daughters of Bilitis, premier groupe lesbien américain ?",
+    "a": [
+     "1950",
+     "1955",
+     "1961",
+     "1969"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quelle ville Magnus Hirschfeld a-t-il ouvert son institut de sexualité en 1919 ?",
+    "a": [
+     "Vienne",
+     "Berlin",
+     "Zurich",
+     "Amsterdam"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a forgé le mot « homosexuel » en 1869 ?",
+    "a": [
+     "Sigmund Freud",
+     "Karl-Maria Kertbeny",
+     "Magnus Hirschfeld",
+     "Richard von Krafft-Ebing"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "De quelle île grecque vient le mot « lesbienne » ?",
+    "a": [
+     "Chios",
+     "Lesbos",
+     "Samos",
+     "Rhodes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Selon Plutarque, les soldats de la compagnie sacrée de Thèbes formaient des...",
+    "a": [
+     "frères d’armes",
+     "couples d’amants",
+     "mercenaires étrangers",
+     "esclaves affranchis"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel empereur romain a fait diviniser son bien-aimé Antinous ?",
+    "a": [
+     "Néron",
+     "Hadrien",
+     "Marc Aurèle",
+     "Auguste"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année le Stonewall Inn est-il devenu un monument national américain ?",
+    "a": [
+     "2010",
+     "2013",
+     "2016",
+     "2019"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’OMS a-t-elle retiré l’homosexualité de la liste des maladies mentales ?",
+    "a": [
+     "1980",
+     "1985",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel jour célèbre la journée mondiale contre l’homophobie et la transphobie ?",
+    "a": [
+     "17 mai",
+     "17 avril",
+     "17 juin",
+     "17 octobre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel a été le premier pays au monde à légaliser le mariage pour tous ?",
+    "a": [
+     "Belgique",
+     "Pays-Bas",
+     "Espagne",
+     "Canada"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année les Pays-Bas ont-ils célébré les premiers mariages entre personnes de même sexe ?",
+    "a": [
+     "1999",
+     "2001",
+     "2003",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays a créé les premiers partenariats enregistrés en 1989 ?",
+    "a": [
+     "Suède",
+     "Norvège",
+     "Danemark",
+     "Islande"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la France a-t-elle créé le PACS ?",
+    "a": [
+     "1998",
+     "1999",
+     "2000",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la France a-t-elle voté le mariage pour tous ?",
+    "a": [
+     "2011",
+     "2013",
+     "2015",
+     "2017"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle ministre a porté la loi sur le mariage pour tous en France ?",
+    "a": [
+     "Christiane Taubira",
+     "Najat Vallaud-Belkacem",
+     "Marisol Touraine",
+     "Cécile Duflot"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la Cour suprême des États-Unis a-t-elle légalisé le mariage pour tous (arrêt Obergefell) ?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’homosexualité a-t-elle été dépénalisée en Angleterre et au pays de Galles ?",
+    "a": [
+     "1957",
+     "1967",
+     "1977",
+     "1987"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’Inde a-t-elle dépénalisé l’homosexualité ?",
+    "a": [
+     "2009",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’Espagne a-t-elle légalisé le mariage pour tous ?",
+    "a": [
+     "2001",
+     "2005",
+     "2010",
+     "2013"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel a été le premier pays d’Amérique latine à légaliser le mariage pour tous ?",
+    "a": [
+     "Mexique",
+     "Brésil",
+     "Argentine",
+     "Uruguay"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’Allemagne a-t-elle voté le « mariage pour tous » (Ehe für alle) ?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2021"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la France a-t-elle interdit les thérapies de conversion ?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2024"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la France a-t-elle ouvert la PMA à toutes les femmes ?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "La tristement célèbre « Section 28 » interdisait la « promotion de l’homosexualité » dans quel pays ?",
+    "a": [
+     "États-Unis",
+     "Royaume-Uni",
+     "Irlande",
+     "Australie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Alan Turing a-t-il reçu une grâce royale à titre posthume ?",
+    "a": [
+     "2009",
+     "2013",
+     "2017",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Oscar Wilde a-t-il été condamné pour « indecence grave » ?",
+    "a": [
+     "1885",
+     "1895",
+     "1900",
+     "1905"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Alan Turing, persécuté pour son homosexualité, est aussi considéré comme le père de...",
+    "a": [
+     "l’intelligence artificielle",
+     "la génétique",
+     "la théorie de la relativité",
+     "la mécanique quantique"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Freddie Mercury a-t-il révélé sa séropositivité, la veille de sa mort ?",
+    "a": [
+     "1989",
+     "1991",
+     "1993",
+     "1995"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Christine Jorgensen est-elle devenue la première personne trans médiatisée ?",
+    "a": [
+     "1945",
+     "1952",
+     "1959",
+     "1968"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle actrice a été en 2014 la première personne trans nominée aux Emmy dans une catégorie de jeu ?",
+    "a": [
+     "Laverne Cox",
+     "Caitlyn Jenner",
+     "Elliot Page",
+     "Chaz Bono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’acteur Elliot Page a-t-il annoncé être trans ?",
+    "a": [
+     "2018",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle figure trans new-yorkaise a cofondé le collectif STAR avec Sylvia Rivera ?",
+    "a": [
+     "Marsha P. Johnson",
+     "Brenda Howard",
+     "Barbara Gittings",
+     "Phyllis Lyon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle organisation de lutte contre le sida Larry Kramer a-t-il cofondée en 1987 ?",
+    "a": [
+     "Act Up",
+     "Aides",
+     "Sidaction",
+     "GLAAD"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle association britannique Ian McKellen a-t-il cofondée en 1989 ?",
+    "a": [
+     "Stonewall",
+     "OutRage!",
+     "Pride in London",
+     "Switchboard"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel organisateur de la marche sur Washington de 1963 était un militant gay assumé ?",
+    "a": [
+     "Bayard Rustin",
+     "Malcolm X",
+     "Jesse Jackson",
+     "John Lewis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Ellen DeGeneres a-t-elle fait son coming out à la télévision ?",
+    "a": [
+     "1995",
+     "1997",
+     "1999",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année le chanteur Frank Ocean a-t-il révélé son amour pour un homme ?",
+    "a": [
+     "2010",
+     "2012",
+     "2014",
+     "2016"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Sam Smith a-t-il annoncé être non-binaire ?",
+    "a": [
+     "2017",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Lil Nas X a-t-il fait son coming out ?",
+    "a": [
+     "2018",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel athlète olympique a fondé les Gay Games en 1982 ?",
+    "a": [
+     "Tom Waddell",
+     "Greg Louganis",
+     "Billie Jean King",
+     "David Kopay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année ont eu lieu les premiers Gay Games à San Francisco ?",
+    "a": [
+     "1978",
+     "1982",
+     "1986",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Justin Fashanu est-il devenu le premier footballeur professionnel à faire son coming out ?",
+    "a": [
+     "1985",
+     "1988",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la championne de tennis Billie Jean King a-t-elle été publiquement outée ?",
+    "a": [
+     "1975",
+     "1981",
+     "1985",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "De quel sport Tom Daley est-il une star olympique ?",
+    "a": [
+     "Natation",
+     "Plongeon",
+     "Water-polo",
+     "Aviron"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quel sport le Gallois Gareth Thomas a-t-il fait son coming out en 2009 ?",
+    "a": [
+     "Football",
+     "Rugby",
+     "Cricket",
+     "Boxe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Megan Rapinoe a-t-elle fait son coming out ?",
+    "a": [
+     "2010",
+     "2012",
+     "2015",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel film a remporté l’Oscar du meilleur film en 2017 ?",
+    "a": [
+     "La La Land",
+     "Moonlight",
+     "Carol",
+     "Call Me by Your Name"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a réalisé « Le Secret de Brokeback Mountain » (2005) ?",
+    "a": [
+     "Ang Lee",
+     "Gus Van Sant",
+     "Todd Haynes",
+     "Joel Schumacher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Le film « Carol » est adapté du roman « The Price of Salt » de...",
+    "a": [
+     "Virginia Woolf",
+     "Patricia Highsmith",
+     "Daphne du Maurier",
+     "Anaïs Nin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a écrit le roman « Orlando » (1928) ?",
+    "a": [
+     "Virginia Woolf",
+     "James Baldwin",
+     "Oscar Wilde",
+     "Gertrude Stein"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a écrit « La chambre de Giovanni » (1956) ?",
+    "a": [
+     "James Baldwin",
+     "Truman Capote",
+     "Gore Vidal",
+     "Norman Mailer"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a écrit le roman « Maurice », publié en 1971 après sa mort ?",
+    "a": [
+     "E.M. Forster",
+     "Oscar Wilde",
+     "Somerset Maugham",
+     "D.H. Lawrence"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la série « Will & Grace » a-t-elle débuté ?",
+    "a": [
+     "1994",
+     "1998",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année « RuPaul’s Drag Race » a-t-elle débuté ?",
+    "a": [
+     "2005",
+     "2009",
+     "2012",
+     "2015"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Conchita Wurst a-t-elle gagné l’Eurovision ?",
+    "a": [
+     "2011",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle chanson Conchita Wurst a-t-elle chantée pour gagner l’Eurovision ?",
+    "a": [
+     "Rise Like a Phoenix",
+     "Euphoria",
+     "Arcade",
+     "Heroes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année la chanteuse trans Dana International a-t-elle gagné l’Eurovision ?",
+    "a": [
+     "1994",
+     "1998",
+     "2000",
+     "2002"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel groupe a créé la chanson « Y.M.C.A. » ?",
+    "a": [
+     "Village People",
+     "Bee Gees",
+     "ABBA",
+     "Chic"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année le groupe Village People a-t-il sorti « Y.M.C.A. » ?",
+    "a": [
+     "1975",
+     "1978",
+     "1981",
+     "1984"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle chanteuse a interprété l’hymne gay « I’m Coming Out » (1980) ?",
+    "a": [
+     "Donna Summer",
+     "Gloria Gaynor",
+     "Diana Ross",
+     "Chaka Khan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui chante « Born This Way », hymne pop de la fierté ?",
+    "a": [
+     "Lady Gaga",
+     "Katy Perry",
+     "Madonna",
+     "Britney Spears"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel groupe new wave a sorti « Smalltown Boy » en 1984 ?",
+    "a": [
+     "Depeche Mode",
+     "Bronski Beat",
+     "Erasure",
+     "Pet Shop Boys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année est sorti le film « Philadelphia » avec Tom Hanks ?",
+    "a": [
+     "1991",
+     "1993",
+     "1995",
+     "1997"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année est sorti « Call Me by Your Name » de Luca Guadagnino ?",
+    "a": [
+     "2015",
+     "2017",
+     "2018",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a réalisé « Portrait de la jeune fille en feu » (2019) ?",
+    "a": [
+     "Céline Sciamma",
+     "Abdellatif Kechiche",
+     "Rebecca Zlotowski",
+     "Mia Hansen-Løve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année « Tout sur ma mère » d’Almodóvar a-t-il gagné l’Oscar du meilleur film étranger ?",
+    "a": [
+     "1999",
+     "2000",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Sur quelle plateforme la série « Heartstopper » est-elle diffusée depuis 2022 ?",
+    "a": [
+     "Netflix",
+     "Prime Video",
+     "Disney+",
+     "HBO Max"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a dessiné le drapeau de la fierté bisexuelle en 1998 ?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Daniel Quasar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a créé le drapeau transgenre en 1999 ?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Sylvia Rivera"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelles couleurs composent le drapeau transgenre ?",
+    "a": [
+     "Bleu clair, rose et blanc",
+     "Noir, gris et violet",
+     "Vert, blanc et bleu",
+     "Jaune, blanc et violet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel jour a lieu la journée mondiale du coming out ?",
+    "a": [
+     "11 octobre",
+     "31 mars",
+     "17 mai",
+     "20 novembre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel jour a lieu la journée du souvenir des personnes trans ?",
+    "a": [
+     "31 mars",
+     "20 novembre",
+     "17 mai",
+     "11 octobre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel jour a lieu la journée de la visibilité trans ?",
+    "a": [
+     "31 mars",
+     "20 novembre",
+     "23 septembre",
+     "11 octobre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel jour a lieu la journée de la visibilité bisexuelle ?",
+    "a": [
+     "31 mars",
+     "20 novembre",
+     "23 septembre",
+     "11 octobre"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel mois est celui des fiertés LGBT+ ?",
+    "a": [
+     "Juin",
+     "Juillet",
+     "Septembre",
+     "Octobre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année SOS Homophobie a-t-elle lancé sa ligne d’écoute en France ?",
+    "a": [
+     "1990",
+     "1994",
+     "1998",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l’association Le Refuge a-t-elle été fondée à Montpellier ?",
+    "a": [
+     "2000",
+     "2003",
+     "2006",
+     "2010"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année Act Up-Paris a-t-elle été fondée ?",
+    "a": [
+     "1987",
+     "1989",
+     "1991",
+     "1994"
+    ],
+    "c": 1
    }
   ],
   "en": [
@@ -33200,6 +34179,985 @@
      "China",
      "Les États-Unis",
      "La Thaïlande"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the Stonewall riots take place in New York?",
+    "a": [
+     "1965",
+     "1967",
+     "1969",
+     "1971"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which city is the Stonewall Inn, the site of the 1969 riots?",
+    "a": [
+     "San Francisco",
+     "London",
+     "New York",
+     "Berlin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who created the rainbow flag in 1978?",
+    "a": [
+     "Harvey Milk",
+     "Gilbert Baker",
+     "Keith Haring",
+     "Andy Warhol"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was the rainbow flag created?",
+    "a": [
+     "1969",
+     "1973",
+     "1978",
+     "1985"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "How many colours does the current LGBT+ rainbow flag have?",
+    "a": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "The pink triangle, a symbol of LGBT+ remembrance, comes from...",
+    "a": [
+     "Nazi concentration camps",
+     "Victorian prisons",
+     "medieval convents",
+     "19th-century shipyards"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was Harvey Milk elected in San Francisco?",
+    "a": [
+     "1973",
+     "1977",
+     "1981",
+     "1985"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "What office did Harvey Milk hold in San Francisco?",
+    "a": [
+     "Mayor",
+     "City supervisor",
+     "Governor",
+     "Senator"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the first Pride marches take place?",
+    "a": [
+     "1969",
+     "1970",
+     "1973",
+     "1975"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was ACT UP founded in New York?",
+    "a": [
+     "1981",
+     "1985",
+     "1987",
+     "1991"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was the Mattachine Society, a pioneering US gay group, founded?",
+    "a": [
+     "1945",
+     "1950",
+     "1955",
+     "1960"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was the Daughters of Bilitis, the first US lesbian group, founded?",
+    "a": [
+     "1950",
+     "1955",
+     "1961",
+     "1969"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which city did Magnus Hirschfeld open his Institute of Sexology in 1919?",
+    "a": [
+     "Vienna",
+     "Berlin",
+     "Zurich",
+     "Amsterdam"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who coined the word “homosexual” in 1869?",
+    "a": [
+     "Sigmund Freud",
+     "Karl-Maria Kertbeny",
+     "Magnus Hirschfeld",
+     "Richard von Krafft-Ebing"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Greek island gave us the word “lesbian”?",
+    "a": [
+     "Chios",
+     "Lesbos",
+     "Samos",
+     "Rhodes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "According to Plutarch, the soldiers of the Sacred Band of Thebes were organised as...",
+    "a": [
+     "bands of brothers",
+     "couples of lovers",
+     "foreign mercenaries",
+     "freed slaves"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Roman emperor had his beloved Antinous deified?",
+    "a": [
+     "Nero",
+     "Hadrian",
+     "Marcus Aurelius",
+     "Augustus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the Stonewall Inn become a US national monument?",
+    "a": [
+     "2010",
+     "2013",
+     "2016",
+     "2019"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the WHO remove homosexuality from its list of mental disorders?",
+    "a": [
+     "1980",
+     "1985",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which date is the International Day Against Homophobia and Transphobia?",
+    "a": [
+     "17 May",
+     "17 April",
+     "17 June",
+     "17 October"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country was the first in the world to legalise same-sex marriage?",
+    "a": [
+     "Belgium",
+     "The Netherlands",
+     "Spain",
+     "Canada"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the Netherlands celebrate the first same-sex marriages?",
+    "a": [
+     "1999",
+     "2001",
+     "2003",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country created the first registered partnerships in 1989?",
+    "a": [
+     "Sweden",
+     "Norway",
+     "Denmark",
+     "Iceland"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did France create the PACS civil partnership?",
+    "a": [
+     "1998",
+     "1999",
+     "2000",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did France legalise same-sex marriage?",
+    "a": [
+     "2011",
+     "2013",
+     "2015",
+     "2017"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which minister championed France’s same-sex marriage law?",
+    "a": [
+     "Christiane Taubira",
+     "Najat Vallaud-Belkacem",
+     "Marisol Touraine",
+     "Cécile Duflot"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the US Supreme Court legalise same-sex marriage (Obergefell ruling)?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was homosexuality decriminalised in England and Wales?",
+    "a": [
+     "1957",
+     "1967",
+     "1977",
+     "1987"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did India decriminalise homosexuality?",
+    "a": [
+     "2009",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Spain legalise same-sex marriage?",
+    "a": [
+     "2001",
+     "2005",
+     "2010",
+     "2013"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which was the first Latin American country to legalise same-sex marriage?",
+    "a": [
+     "Mexico",
+     "Brazil",
+     "Argentina",
+     "Uruguay"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Germany pass marriage for all (“Ehe für alle”)?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2021"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did France ban conversion therapy?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2024"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did France open IVF to all women?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "The infamous “Section 28” banned the “promotion of homosexuality” in which country?",
+    "a": [
+     "United States",
+     "United Kingdom",
+     "Ireland",
+     "Australia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was Alan Turing granted a posthumous royal pardon?",
+    "a": [
+     "2009",
+     "2013",
+     "2017",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was Oscar Wilde convicted of “gross indecency”?",
+    "a": [
+     "1885",
+     "1895",
+     "1900",
+     "1905"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Alan Turing, persecuted for his homosexuality, is also considered the father of...",
+    "a": [
+     "artificial intelligence",
+     "genetics",
+     "relativity theory",
+     "quantum mechanics"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Freddie Mercury reveal his HIV status, the day before his death?",
+    "a": [
+     "1989",
+     "1991",
+     "1993",
+     "1995"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Christine Jorgensen become the first widely known trans woman?",
+    "a": [
+     "1945",
+     "1952",
+     "1959",
+     "1968"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which actress became the first trans person nominated for an acting Emmy in 2014?",
+    "a": [
+     "Laverne Cox",
+     "Caitlyn Jenner",
+     "Elliot Page",
+     "Chaz Bono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did actor Elliot Page come out as trans?",
+    "a": [
+     "2018",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which New York trans figure co-founded STAR with Sylvia Rivera?",
+    "a": [
+     "Marsha P. Johnson",
+     "Brenda Howard",
+     "Barbara Gittings",
+     "Phyllis Lyon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which AIDS organisation did Larry Kramer co-found in 1987?",
+    "a": [
+     "ACT UP",
+     "AIDES",
+     "Sidaction",
+     "GLAAD"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which British organisation did Ian McKellen co-found in 1989?",
+    "a": [
+     "Stonewall",
+     "OutRage!",
+     "Pride in London",
+     "Switchboard"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which organiser of the 1963 March on Washington was an openly gay activist?",
+    "a": [
+     "Bayard Rustin",
+     "Malcolm X",
+     "Jesse Jackson",
+     "John Lewis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Ellen DeGeneres come out on television?",
+    "a": [
+     "1995",
+     "1997",
+     "1999",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did singer Frank Ocean reveal his love for a man?",
+    "a": [
+     "2010",
+     "2012",
+     "2014",
+     "2016"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Sam Smith announce being non-binary?",
+    "a": [
+     "2017",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Lil Nas X come out?",
+    "a": [
+     "2018",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Olympic athlete founded the Gay Games in 1982?",
+    "a": [
+     "Tom Waddell",
+     "Greg Louganis",
+     "Billie Jean King",
+     "David Kopay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year were the first Gay Games held in San Francisco?",
+    "a": [
+     "1978",
+     "1982",
+     "1986",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Justin Fashanu become the first professional footballer to come out?",
+    "a": [
+     "1985",
+     "1988",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was tennis champion Billie Jean King publicly outed?",
+    "a": [
+     "1975",
+     "1981",
+     "1985",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "What sport is Olympic star Tom Daley famous for?",
+    "a": [
+     "Swimming",
+     "Diving",
+     "Water polo",
+     "Rowing"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which sport did Welshman Gareth Thomas come out in 2009?",
+    "a": [
+     "Football",
+     "Rugby",
+     "Cricket",
+     "Boxing"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Megan Rapinoe come out?",
+    "a": [
+     "2010",
+     "2012",
+     "2015",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which film won the Oscar for Best Picture in 2017?",
+    "a": [
+     "La La Land",
+     "Moonlight",
+     "Carol",
+     "Call Me by Your Name"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who directed Brokeback Mountain (2005)?",
+    "a": [
+     "Ang Lee",
+     "Gus Van Sant",
+     "Todd Haynes",
+     "Joel Schumacher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "The film Carol is adapted from “The Price of Salt” by...",
+    "a": [
+     "Virginia Woolf",
+     "Patricia Highsmith",
+     "Daphne du Maurier",
+     "Anaïs Nin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who wrote the novel Orlando (1928)?",
+    "a": [
+     "Virginia Woolf",
+     "James Baldwin",
+     "Oscar Wilde",
+     "Gertrude Stein"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who wrote Giovanni’s Room (1956)?",
+    "a": [
+     "James Baldwin",
+     "Truman Capote",
+     "Gore Vidal",
+     "Norman Mailer"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who wrote the novel Maurice, published posthumously in 1971?",
+    "a": [
+     "E.M. Forster",
+     "Oscar Wilde",
+     "Somerset Maugham",
+     "D.H. Lawrence"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did the TV series Will & Grace debut?",
+    "a": [
+     "1994",
+     "1998",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did RuPaul’s Drag Race premiere?",
+    "a": [
+     "2005",
+     "2009",
+     "2012",
+     "2015"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Conchita Wurst win Eurovision?",
+    "a": [
+     "2011",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which song did Conchita Wurst perform to win Eurovision?",
+    "a": [
+     "Rise Like a Phoenix",
+     "Euphoria",
+     "Arcade",
+     "Heroes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did trans singer Dana International win Eurovision?",
+    "a": [
+     "1994",
+     "1998",
+     "2000",
+     "2002"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which group created the song “Y.M.C.A.”?",
+    "a": [
+     "Village People",
+     "Bee Gees",
+     "ABBA",
+     "Chic"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Village People release “Y.M.C.A.”?",
+    "a": [
+     "1975",
+     "1978",
+     "1981",
+     "1984"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which singer performed the gay anthem “I’m Coming Out” (1980)?",
+    "a": [
+     "Donna Summer",
+     "Gloria Gaynor",
+     "Diana Ross",
+     "Chaka Khan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who sings “Born This Way”, a pop anthem of pride?",
+    "a": [
+     "Lady Gaga",
+     "Katy Perry",
+     "Madonna",
+     "Britney Spears"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which new wave group released “Smalltown Boy” in 1984?",
+    "a": [
+     "Depeche Mode",
+     "Bronski Beat",
+     "Erasure",
+     "Pet Shop Boys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was the film Philadelphia, with Tom Hanks, released?",
+    "a": [
+     "1991",
+     "1993",
+     "1995",
+     "1997"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was Luca Guadagnino’s Call Me by Your Name released?",
+    "a": [
+     "2015",
+     "2017",
+     "2018",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who directed Portrait of a Lady on Fire (2019)?",
+    "a": [
+     "Céline Sciamma",
+     "Abdellatif Kechiche",
+     "Rebecca Zlotowski",
+     "Mia Hansen-Løve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Almodóvar’s All About My Mother win the Oscar for Best Foreign Language Film?",
+    "a": [
+     "1999",
+     "2000",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "On which platform has the series Heartstopper streamed since 2022?",
+    "a": [
+     "Netflix",
+     "Prime Video",
+     "Disney+",
+     "HBO Max"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who designed the bisexual pride flag in 1998?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Daniel Quasar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who created the transgender pride flag in 1999?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Sylvia Rivera"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which colours make up the transgender pride flag?",
+    "a": [
+     "Light blue, pink and white",
+     "Black, grey and purple",
+     "Green, white and blue",
+     "Yellow, white and purple"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which date is the international coming out day?",
+    "a": [
+     "11 October",
+     "31 March",
+     "17 May",
+     "20 November"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which date is the Transgender Day of Remembrance?",
+    "a": [
+     "31 March",
+     "20 November",
+     "17 May",
+     "11 October"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which date is the International Transgender Day of Visibility?",
+    "a": [
+     "31 March",
+     "20 November",
+     "23 September",
+     "11 October"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which date is Bisexual Visibility Day?",
+    "a": [
+     "31 March",
+     "20 November",
+     "23 September",
+     "11 October"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which month is LGBT+ Pride Month?",
+    "a": [
+     "June",
+     "July",
+     "September",
+     "October"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did SOS Homophobie launch its helpline in France?",
+    "a": [
+     "1990",
+     "1994",
+     "1998",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was the association Le Refuge founded in Montpellier?",
+    "a": [
+     "2000",
+     "2003",
+     "2006",
+     "2010"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year was Act Up-Paris founded?",
+    "a": [
+     "1987",
+     "1989",
+     "1991",
+     "1994"
     ],
     "c": 1
    }
@@ -49792,6 +51750,985 @@
      "Singapour"
     ],
     "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año tuvieron lugar los disturbios de Stonewall en Nueva York?",
+    "a": [
+     "1965",
+     "1967",
+     "1969",
+     "1971"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué ciudad está el Stonewall Inn, escenario de los disturbios de 1969?",
+    "a": [
+     "San Francisco",
+     "Londres",
+     "Nueva York",
+     "Berlín"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién creó la bandera arcoíris en 1978?",
+    "a": [
+     "Harvey Milk",
+     "Gilbert Baker",
+     "Keith Haring",
+     "Andy Warhol"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se creó la bandera arcoíris?",
+    "a": [
+     "1969",
+     "1973",
+     "1978",
+     "1985"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Cuántos colores tiene la bandera arcoíris LGBT+ actual?",
+    "a": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "El triángulo rosa, símbolo de la memoria LGBT+, procede de...",
+    "a": [
+     "los campos de concentración nazis",
+     "las prisiones victorianas",
+     "los conventos medievales",
+     "los astilleros del siglo XIX"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año fue elegido Harvey Milk en San Francisco?",
+    "a": [
+     "1973",
+     "1977",
+     "1981",
+     "1985"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué cargo ocupaba Harvey Milk en San Francisco?",
+    "a": [
+     "Alcalde",
+     "Supervisor municipal",
+     "Gobernador",
+     "Senador"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año tuvieron lugar las primeras marchas del orgullo?",
+    "a": [
+     "1969",
+     "1970",
+     "1973",
+     "1975"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se fundó ACT UP en Nueva York?",
+    "a": [
+     "1981",
+     "1985",
+     "1987",
+     "1991"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se fundó la Mattachine Society, pionero grupo homosexual estadounidense?",
+    "a": [
+     "1945",
+     "1950",
+     "1955",
+     "1960"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se fundó Daughters of Bilitis, primer grupo lésbico estadounidense?",
+    "a": [
+     "1950",
+     "1955",
+     "1961",
+     "1969"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué ciudad abrió Magnus Hirschfeld su instituto de sexualidad en 1919?",
+    "a": [
+     "Viena",
+     "Berlín",
+     "Zúrich",
+     "Ámsterdam"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién acuñó la palabra «homosexual» en 1869?",
+    "a": [
+     "Sigmund Freud",
+     "Karl-Maria Kertbeny",
+     "Magnus Hirschfeld",
+     "Richard von Krafft-Ebing"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿De qué isla griega viene la palabra «lesbiana»?",
+    "a": [
+     "Chios",
+     "Lesbos",
+     "Samos",
+     "Rodas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Según Plutarco, los soldados del Batallón Sagrado de Tebas formaban...",
+    "a": [
+     "bandas de hermanos",
+     "parejas de amantes",
+     "mercenarios extranjeros",
+     "esclavos liberados"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué emperador romano divinizó a su amado Antínoo?",
+    "a": [
+     "Nerón",
+     "Adriano",
+     "Marco Aurelio",
+     "Augusto"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se convirtió el Stonewall Inn en monumento nacional estadounidense?",
+    "a": [
+     "2010",
+     "2013",
+     "2016",
+     "2019"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año retiró la OMS la homosexualidad de su lista de enfermedades mentales?",
+    "a": [
+     "1980",
+     "1985",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué fecha se celebra el Día Internacional contra la Homofobia y la Transfobia?",
+    "a": [
+     "17 de mayo",
+     "17 de abril",
+     "17 de junio",
+     "17 de octubre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país fue el primero del mundo en legalizar el matrimonio igualitario?",
+    "a": [
+     "Bélgica",
+     "Países Bajos",
+     "España",
+     "Canadá"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año celebró los primeros matrimonios igualitarios?",
+    "a": [
+     "1999",
+     "2001",
+     "2003",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país creó las primeras parejas registradas en 1989?",
+    "a": [
+     "Suecia",
+     "Noruega",
+     "Dinamarca",
+     "Islandia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año creó Francia la unión civil PACS?",
+    "a": [
+     "1998",
+     "1999",
+     "2000",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año legalizó Francia el matrimonio igualitario?",
+    "a": [
+     "2011",
+     "2013",
+     "2015",
+     "2017"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ministra impulsó la ley del matrimonio igualitario en Francia?",
+    "a": [
+     "Christiane Taubira",
+     "Najat Vallaud-Belkacem",
+     "Marisol Touraine",
+     "Cécile Duflot"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año legalizó el Tribunal Supremo de EE. UU. el matrimonio igualitario (caso Obergefell)?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se despenalizó la homosexualidad en Inglaterra y Gales?",
+    "a": [
+     "1957",
+     "1967",
+     "1977",
+     "1987"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año despenalizó la India la homosexualidad?",
+    "a": [
+     "2009",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año legalizó España el matrimonio igualitario?",
+    "a": [
+     "2001",
+     "2005",
+     "2010",
+     "2013"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Cuál fue el primer país de América Latina en legalizar el matrimonio igualitario?",
+    "a": [
+     "México",
+     "Brasil",
+     "Argentina",
+     "Uruguay"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año aprobó Alemania el «matrimonio para todos» (Ehe für alle)?",
+    "a": [
+     "2013",
+     "2015",
+     "2017",
+     "2021"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año prohibió Francia las terapias de conversión?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2024"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año abrió Francia la reproducción asistida a todas las mujeres?",
+    "a": [
+     "2019",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "La tristemente célebre «Sección 28» prohibía la «promoción de la homosexualidad» en...",
+    "a": [
+     "Estados Unidos",
+     "Reino Unido",
+     "Irlanda",
+     "Australia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año recibió Alan Turing un perdón real póstumo?",
+    "a": [
+     "2009",
+     "2013",
+     "2017",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año fue condenado Oscar Wilde por «indecencia grave»?",
+    "a": [
+     "1885",
+     "1895",
+     "1900",
+     "1905"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Alan Turing, perseguido por su homosexualidad, también es considerado el padre de...",
+    "a": [
+     "la inteligencia artificial",
+     "la genética",
+     "la teoría de la relatividad",
+     "la mecánica cuántica"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año reveló Freddie Mercury su seropositividad, la víspera de su muerte?",
+    "a": [
+     "1989",
+     "1991",
+     "1993",
+     "1995"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se convirtió Christine Jorgensen en la primera persona trans conocida por los medios?",
+    "a": [
+     "1945",
+     "1952",
+     "1959",
+     "1968"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué actriz fue en 2014 la primera persona trans nominada a los Emmy en una categoría de interpretación?",
+    "a": [
+     "Laverne Cox",
+     "Caitlyn Jenner",
+     "Elliot Page",
+     "Chaz Bono"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año anunció el actor Elliot Page ser trans?",
+    "a": [
+     "2018",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué figura trans neoyorquina cofundó el colectivo STAR con Sylvia Rivera?",
+    "a": [
+     "Marsha P. Johnson",
+     "Brenda Howard",
+     "Barbara Gittings",
+     "Phyllis Lyon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué organización de lucha contra el sida cofundó Larry Kramer en 1987?",
+    "a": [
+     "ACT UP",
+     "AIDES",
+     "Sidaction",
+     "GLAAD"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué asociación británica cofundó Ian McKellen en 1989?",
+    "a": [
+     "Stonewall",
+     "OutRage!",
+     "Pride in London",
+     "Switchboard"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué organizador de la Marcha sobre Washington de 1963 era un activista gay declarado?",
+    "a": [
+     "Bayard Rustin",
+     "Malcolm X",
+     "Jesse Jackson",
+     "John Lewis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año salió del armario Ellen DeGeneres en la televisión?",
+    "a": [
+     "1995",
+     "1997",
+     "1999",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año reveló el cantante Frank Ocean su amor por un hombre?",
+    "a": [
+     "2010",
+     "2012",
+     "2014",
+     "2016"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año anunció Sam Smith ser no binario?",
+    "a": [
+     "2017",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año salió del armario Lil Nas X?",
+    "a": [
+     "2018",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué atleta olímpico fundó los Gay Games en 1982?",
+    "a": [
+     "Tom Waddell",
+     "Greg Louganis",
+     "Billie Jean King",
+     "David Kopay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se celebraron los primeros Gay Games en San Francisco?",
+    "a": [
+     "1978",
+     "1982",
+     "1986",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se convirtió Justin Fashanu en el primer futbolista profesional en salir del armario?",
+    "a": [
+     "1985",
+     "1988",
+     "1990",
+     "1995"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año fue sacada públicamente del armario la campeona de tenis Billie Jean King?",
+    "a": [
+     "1975",
+     "1981",
+     "1985",
+     "1990"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿De qué deporte es estrella olímpica Tom Daley?",
+    "a": [
+     "Natación",
+     "Saltos de trampolín",
+     "Waterpolo",
+     "Remo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué deporte salió del armario el galés Gareth Thomas en 2009?",
+    "a": [
+     "Fútbol",
+     "Rugby",
+     "Críquet",
+     "Boxeo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año salió del armario Megan Rapinoe?",
+    "a": [
+     "2010",
+     "2012",
+     "2015",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué película ganó el Óscar a la mejor película en 2017?",
+    "a": [
+     "La La Land",
+     "Moonlight",
+     "Carol",
+     "Call Me by Your Name"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién dirigió «Brokeback Mountain» (2005)?",
+    "a": [
+     "Ang Lee",
+     "Gus Van Sant",
+     "Todd Haynes",
+     "Joel Schumacher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "La película «Carol» está adaptada de la novela «The Price of Salt» de...",
+    "a": [
+     "Virginia Woolf",
+     "Patricia Highsmith",
+     "Daphne du Maurier",
+     "Anaïs Nin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién escribió la novela «Orlando» (1928)?",
+    "a": [
+     "Virginia Woolf",
+     "James Baldwin",
+     "Oscar Wilde",
+     "Gertrude Stein"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién escribió «El cuarto de Giovanni» (1956)?",
+    "a": [
+     "James Baldwin",
+     "Truman Capote",
+     "Gore Vidal",
+     "Norman Mailer"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién escribió la novela «Maurice», publicada en 1971 tras su muerte?",
+    "a": [
+     "E.M. Forster",
+     "Oscar Wilde",
+     "Somerset Maugham",
+     "D.H. Lawrence"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año debutó la serie «Will & Grace»?",
+    "a": [
+     "1994",
+     "1998",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se estrenó «RuPaul’s Drag Race»?",
+    "a": [
+     "2005",
+     "2009",
+     "2012",
+     "2015"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año ganó Conchita Wurst el Festival de Eurovisión?",
+    "a": [
+     "2011",
+     "2014",
+     "2016",
+     "2018"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué canción cantó Conchita Wurst para ganar Eurovisión?",
+    "a": [
+     "Rise Like a Phoenix",
+     "Euphoria",
+     "Arcade",
+     "Heroes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año ganó la cantante trans Dana International el Festival de Eurovisión?",
+    "a": [
+     "1994",
+     "1998",
+     "2000",
+     "2002"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué grupo creó la canción «Y.M.C.A.»?",
+    "a": [
+     "Village People",
+     "Bee Gees",
+     "ABBA",
+     "Chic"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año publicó Village People «Y.M.C.A.»?",
+    "a": [
+     "1975",
+     "1978",
+     "1981",
+     "1984"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué cantante interpretó el himno gay «I’m Coming Out» (1980)?",
+    "a": [
+     "Donna Summer",
+     "Gloria Gaynor",
+     "Diana Ross",
+     "Chaka Khan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién canta «Born This Way», himno pop del orgullo?",
+    "a": [
+     "Lady Gaga",
+     "Katy Perry",
+     "Madonna",
+     "Britney Spears"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué grupo new wave lanzó «Smalltown Boy» en 1984?",
+    "a": [
+     "Depeche Mode",
+     "Bronski Beat",
+     "Erasure",
+     "Pet Shop Boys"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se estrenó la película «Philadelphia», con Tom Hanks?",
+    "a": [
+     "1991",
+     "1993",
+     "1995",
+     "1997"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se estrenó «Call Me by Your Name» de Luca Guadagnino?",
+    "a": [
+     "2015",
+     "2017",
+     "2018",
+     "2019"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién dirigió «Retrato de una mujer en llamas» (2019)?",
+    "a": [
+     "Céline Sciamma",
+     "Abdellatif Kechiche",
+     "Rebecca Zlotowski",
+     "Mia Hansen-Løve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año ganó «Todo sobre mi madre» de Almodóvar el Óscar a la mejor película extranjera?",
+    "a": [
+     "1999",
+     "2000",
+     "2002",
+     "2005"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué plataforma se emite la serie «Heartstopper» desde 2022?",
+    "a": [
+     "Netflix",
+     "Prime Video",
+     "Disney+",
+     "HBO Max"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién diseñó la bandera del orgullo bisexual en 1998?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Daniel Quasar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién creó la bandera transgénero en 1999?",
+    "a": [
+     "Michael Page",
+     "Monica Helms",
+     "Gilbert Baker",
+     "Sylvia Rivera"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué colores componen la bandera transgénero?",
+    "a": [
+     "Azul claro, rosa y blanco",
+     "Negro, gris y violeta",
+     "Verde, blanco y azul",
+     "Amarillo, blanco y violeta"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué fecha es el Día Internacional para Salir del Armario?",
+    "a": [
+     "11 de octubre",
+     "31 de marzo",
+     "17 de mayo",
+     "20 de noviembre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué fecha es el Día de la Memoria Trans?",
+    "a": [
+     "31 de marzo",
+     "20 de noviembre",
+     "17 de mayo",
+     "11 de octubre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué fecha es el Día Internacional de la Visibilidad Trans?",
+    "a": [
+     "31 de marzo",
+     "20 de noviembre",
+     "23 de septiembre",
+     "11 de octubre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué fecha es el Día de la Visibilidad Bisexual?",
+    "a": [
+     "31 de marzo",
+     "20 de noviembre",
+     "23 de septiembre",
+     "11 de octubre"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué mes es el del Orgullo LGBT+?",
+    "a": [
+     "Junio",
+     "Julio",
+     "Septiembre",
+     "Octubre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año lanzó SOS Homophobie su línea de escucha en Francia?",
+    "a": [
+     "1990",
+     "1994",
+     "1998",
+     "2001"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se fundó la asociación Le Refuge en Montpellier?",
+    "a": [
+     "2000",
+     "2003",
+     "2006",
+     "2010"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año se fundó Act Up-París?",
+    "a": [
+     "1987",
+     "1989",
+     "1991",
+     "1994"
+    ],
+    "c": 1
    }
   ]
  }
