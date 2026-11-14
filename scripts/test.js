@@ -433,13 +433,13 @@ function scenarioG() {
   console.log("— Scénario G : bulles agrandies + question 32px + copyright (v22) —");
   check("BUBBLE_H = 64 px (lu : " + BUBBLE_H + ")", BUBBLE_H === 64);
   check("LEVEL_EVERY = 10 (lu : " + LEVEL_EVERY + ")", LEVEL_EVERY === 10);
-  check("VERSION = v23 (lu : " + VERSION + ")", VERSION === "v23");
+  check("VERSION = v24 (lu : " + VERSION + ")", VERSION === "v24");
   resetSession();
   check("copyright sur l'accueil ('© 2026 … Ansault')", /© 2026[^]*Ansault/.test(textOf(tree)));
   check("copyright FR exact", textOf(tree).includes(I18N.fr.copyright));
   check("copyright traduit (EN/ES présents dans I18N)",
     /rights reserved/i.test(I18N.en.copyright) && /derechos/i.test(I18N.es.copyright));
-  check("badge v23 sur l'accueil", textOf(tree).includes("v23"));
+  check("badge v24 sur l'accueil", textOf(tree).includes("v24"));
   check("pas de ligne stats sans historique", !textOf(tree).includes("Parties :"));
   startGame("fr");
   check("question en 32 px (texte doublé, lu : '" + questionCls() + "')",
@@ -665,7 +665,32 @@ async function scenarioJ() {
   fetchImpl = null;
 }
 
-const scenarios = { A: scenarioA, B: scenarioB, C: scenarioC, D: scenarioD, E: scenarioE, F: scenarioF, G: scenarioG, H: scenarioH, I: scenarioI, J: scenarioJ };
+
+/* ---------------- scénario K : catégorie LGBT+ (v24) ---------------- */
+async function scenarioK() {
+  console.log("— Scénario K : catégorie LGBT+ (banque + affichage) —");
+  for (const l of ["fr", "en", "es"]) {
+    const arr = QUESTIONS[l].filter((q) => q.cat === "lgbt");
+    check(l + " : ≥ 89 questions lgbt (lu : " + arr.length + ")", arr.length >= 89);
+    const seen = new Set();
+    let bad = 0;
+    for (const q of arr) {
+      if (!(Array.isArray(q.a) && q.a.length === 4 && new Set(q.a).size === 4)) bad++;
+      if (!(Number.isInteger(q.c) && q.c >= 0 && q.c <= 3)) bad++;
+      if (seen.has(q.q)) bad++;
+      seen.add(q.q);
+    }
+    check(l + " : options valides et zéro doublon" + (bad ? " (" + bad + " défauts)" : ""), bad === 0);
+  }
+  // la pastille LGBT+ est visible sur l écran des catégories (accueil)
+  resetSession();
+  advance(0.2);
+  render();
+  check("pastille « LGBT+ » visible à l accueil (fr)", textOf(tree).includes("LGBT+"));
+  check("13 catégories présentes (chips)", (textOf(tree).match(/LGBT+/g) || []).length >= 1);
+}
+
+const scenarios = { A: scenarioA, B: scenarioB, C: scenarioC, D: scenarioD, E: scenarioE, F: scenarioF, G: scenarioG, H: scenarioH, I: scenarioI, J: scenarioJ, K: scenarioK };
 (async () => {
   for (const s of wanted) {
     if (scenarios[s]) await scenarios[s]();

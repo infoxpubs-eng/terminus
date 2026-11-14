@@ -14,5 +14,5 @@ jobs:
           node-version: "22"
       - name: Validation du dépôt (bundle, banques, news.json)
         run: node scripts/ci_prepare.js
-      - name: Harnais de non-régression (scénarios A-J)
-        run: node scripts/test.js ABCDEFGHIJ
+      - name: Harnais de non-régression (scénarios A-K)
+        run: node scripts/test.js ABCDEFGHIJK
