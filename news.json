@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "qs": {
     "fr": [
       {
@@ -8073,6 +8073,556 @@
           "Helen Fielding",
           "Marian Keyes",
           "Nick Hornby"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel souverain du Mali est souvent cité comme l'homme le plus riche de l'histoire ?",
+        "a": [
+          "Mansa Musa",
+          "Soundiata Keïta",
+          "Askia Mohammed",
+          "Moulay Ismaïl"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Quel calife abbasside apparaît dans les « Mille et Une Nuits » ?",
+        "a": [
+          "Ali ibn Abi Talib",
+          "Haroun ar-Rachid",
+          "Saladin",
+          "Suleiman le Magnifique"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Quel libérateur a proclamé l'indépendance de l'Argentine en 1816 ?",
+        "a": [
+          "Bernardo O'Higgins",
+          "Antonio José de Sucre",
+          "José de San Martín",
+          "Simón Bolívar"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "La colonne Trajane célèbre la victoire de Rome sur quel peuple ?",
+        "a": [
+          "Les Gaulois",
+          "Les Carthaginois",
+          "Les Perses",
+          "Les Daces"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Quelle civilisation a construit la ville de Chichén Itzá ?",
+        "a": [
+          "Les Mayas",
+          "Les Aztèques",
+          "Les Incas",
+          "Les Olmèques"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Où se trouve le Salto Ángel, plus haute chute d'eau du monde ?",
+        "a": [
+          "Au Pérou",
+          "Au Venezuela",
+          "En Équateur",
+          "En Colombie"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Quelle ville d'Argentine est considérée comme la plus australe du monde ?",
+        "a": [
+          "Mendoza",
+          "Rosario",
+          "Ushuaia",
+          "Buenos Aires"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Quel État américain a pour capitale Honolulu ?",
+        "a": [
+          "L'Alaska",
+          "La Californie",
+          "La Floride",
+          "Hawaï"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Quel est le fleuve le plus long d'Asie ?",
+        "a": [
+          "Le Yangtsé",
+          "Le Mékong",
+          "Le Gange",
+          "L'Indus"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Dans quelle ville italienne se trouve la célèbre tour penchée ?",
+        "a": [
+          "À Gênes",
+          "À Pise",
+          "À Florence",
+          "À Venise"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Quel est l'autre nom de la vitamine C ?",
+        "a": [
+          "L'acide folique",
+          "L'acide pantothénique",
+          "L'acide ascorbique",
+          "L'acide citrique"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle mouche transmet la maladie du sommeil ?",
+        "a": [
+          "Le moustique anophèle",
+          "La mouche domestique",
+          "Le taon",
+          "La mouche tsé-tsé"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle grande galaxie est la plus proche de la Voie lactée ?",
+        "a": [
+          "Andromède",
+          "Le Triangle",
+          "La galaxie du Sombrero",
+          "La galaxie Tourbillon"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Quel groupe sanguin est le donneur universel ?",
+        "a": [
+          "B négatif",
+          "O négatif",
+          "AB positif",
+          "A positif"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "Combien de lunes possède la planète Mars ?",
+        "a": [
+          "4",
+          "0",
+          "2",
+          "1"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Quelle est la principale hormone du stress ?",
+        "a": [
+          "L'insuline",
+          "L'adrénaline",
+          "La testostérone",
+          "Le cortisol"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Dans quel pays se déroule le Festival de Cannes ?",
+        "a": [
+          "En France",
+          "En Italie",
+          "En Espagne",
+          "En Belgique"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "John McClane est le héros de quelle série de films ?",
+        "a": [
+          "Mission impossible",
+          "Piège de cristal",
+          "Rambo",
+          "Mad Max"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "Comment s'appelle le tigre dans « L'Odyssée de Pi » ?",
+        "a": [
+          "Aslan",
+          "Bagheera",
+          "Richard Parker",
+          "Sher Khan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle actrice dérive dans l'espace dans le film « Gravity » ?",
+        "a": [
+          "Anne Hathaway",
+          "Natalie Portman",
+          "Scarlett Johansson",
+          "Sandra Bullock"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Quelle chanteuse joue aux côtés de John Travolta dans « Grease » ?",
+        "a": [
+          "Olivia Newton-John",
+          "Karen Carpenter",
+          "Debbie Harry",
+          "Cher"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Qui chante « Tous les garçons et les filles » en 1962 ?",
+        "a": [
+          "Brigitte Bardot",
+          "Françoise Hardy",
+          "France Gall",
+          "Sylvie Vartan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Quelle chanteuse australienne a chanté « Can't Get You Out of My Head » ?",
+        "a": [
+          "Sia",
+          "Delta Goodrem",
+          "Kylie Minogue",
+          "Natalie Imbruglia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Qui chante le tube « Believe » (1998) ?",
+        "a": [
+          "Madonna",
+          "Tina Turner",
+          "Diana Ross",
+          "Cher"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "Combien de pédales possède généralement un piano ?",
+        "a": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Quel instrument est surnommé « le roi des instruments » ?",
+        "a": [
+          "La harpe",
+          "L'orgue",
+          "Le piano",
+          "Le violon"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "Comment s'appelle le hobbit héros du roman « Bilbo le Hobbit » ?",
+        "a": [
+          "Sam Gamegie",
+          "Peregrin Touque",
+          "Bilbo Sacquet",
+          "Frodon Sacquet"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a écrit la tragédie grecque « Antigone » ?",
+        "a": [
+          "Euripide",
+          "Eschyle",
+          "Aristophane",
+          "Sophocle"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Qui a créé le personnage de Fantômas ?",
+        "a": [
+          "Souvestre et Allain",
+          "Gaston Leroux",
+          "Maurice Leblanc",
+          "Émile Gaboriau"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle est la longueur d'une piste d'athlétisme olympique ?",
+        "a": [
+          "500 m",
+          "400 m",
+          "200 m",
+          "300 m"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle région accueillera les JO d'hiver 2030 ?",
+        "a": [
+          "La Norvège",
+          "Le Japon",
+          "Les Alpes françaises",
+          "La Suisse"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "Combien de temps dure un round de boxe professionnelle ?",
+        "a": [
+          "2 minutes",
+          "4 minutes",
+          "5 minutes",
+          "3 minutes"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "Comment surnomme-t-on l'équipe de France de football ?",
+        "a": [
+          "Les Bleus",
+          "Les Verts",
+          "Les Coqs",
+          "Les Aiglons"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Quelle épreuve d'athlétisme consiste à pousser une boule métallique ?",
+        "a": [
+          "Le saut en hauteur",
+          "Le lancer du poids",
+          "Le lancer du javelot",
+          "Le lancer du disque"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Quelle ligne du terrain est la plus proche du filet ?",
+        "a": [
+          "La ligne de fond",
+          "La ligne centrale",
+          "La ligne de service courte",
+          "La ligne de service longue"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Quelle ligne sépare les deux cases de service d'un demi-terrain ?",
+        "a": [
+          "La ligne de fond",
+          "La ligne latérale",
+          "La ligne courte",
+          "La ligne centrale"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "De quel pays le badminton est-il le sport national ?",
+        "a": [
+          "L'Indonésie",
+          "La Chine",
+          "Le Danemark",
+          "La Malaisie"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quel poisson provient le caviar ?",
+        "a": [
+          "Le thon",
+          "L'esturgeon",
+          "Le saumon",
+          "La truite"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle bière belge est brassée par des moines ?",
+        "a": [
+          "La lambic",
+          "La blanche",
+          "La trappiste",
+          "La gueuze"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Quel dessert est fait de blancs d'œufs battus et de sucre ?",
+        "a": [
+          "La crème brûlée",
+          "Le flan",
+          "La génoise",
+          "La meringue"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Quelle épice en poudre est faite de poivrons séchés ?",
+        "a": [
+          "Le paprika",
+          "Le piment de Cayenne",
+          "Le curcuma",
+          "Le cumin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "De quelle région française le Cantal est-il originaire ?",
+        "a": [
+          "L'Alsace",
+          "L'Auvergne",
+          "La Normandie",
+          "La Bretagne"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Quel temps du verbe exprime une action à venir ?",
+        "a": [
+          "L'imparfait",
+          "Le conditionnel",
+          "Le futur",
+          "Le passé composé"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "Dans « un grand chien », quel mot est l'adjectif ?",
+        "a": [
+          "« un »",
+          "« chien »",
+          "« le »",
+          "« grand »"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "Dans « Je lui parle », quelle est la fonction de « lui » ?",
+        "a": [
+          "COI",
+          "COD",
+          "Complément circonstanciel",
+          "Épithète"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "Quelle journaliste transgenre est élue députée en Virginie en 2017 ?",
+        "a": [
+          "Kim Petras",
+          "Danica Roem",
+          "Christine Jorgensen",
+          "Laverne Cox"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lgbt",
+        "q": "Quel symbole lesbien reprend l'insigne noir des déportées nazies ?",
+        "a": [
+          "Le drapeau labrys",
+          "Le bracelet violet",
+          "Le triangle noir",
+          "Le triangle rose"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lgbt",
+        "q": "Quel groupe homophile français fut fondé par André Baudry en 1954 ?",
+        "a": [
+          "Act Up",
+          "Le FHAR",
+          "SOS Homophobie",
+          "Arcadie"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lgbt",
+        "q": "Dans le drapeau arc-en-ciel de Gilbert Baker, que symbolise le rouge ?",
+        "a": [
+          "La vie",
+          "La guérison",
+          "La sérénité",
+          "L'esprit"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "Qui a écrit « Stone Butch Blues » (1993) ?",
+        "a": [
+          "Audre Lorde",
+          "Leslie Feinberg",
+          "Kate Bornstein",
+          "Alison Bechdel"
         ],
         "c": 1
       }
@@ -16151,6 +16701,556 @@
           "Nick Hornby"
         ],
         "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which Mali ruler is often cited as the richest man in history?",
+        "a": [
+          "Mansa Musa",
+          "Sundiata Keita",
+          "Askia Mohammed",
+          "Moulay Ismail"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "Which Abbasid caliph appears in \"One Thousand and One Nights\"?",
+        "a": [
+          "Ali ibn Abi Talib",
+          "Harun al-Rashid",
+          "Saladin",
+          "Suleiman the Magnificent"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "Which liberator proclaimed Argentina's independence in 1816?",
+        "a": [
+          "Bernardo O'Higgins",
+          "Antonio José de Sucre",
+          "José de San Martín",
+          "Simón Bolívar"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "Trajan's Column celebrates Rome's victory over which people?",
+        "a": [
+          "The Gauls",
+          "The Carthaginians",
+          "The Persians",
+          "The Dacians"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "Which civilization built the city of Chichén Itzá?",
+        "a": [
+          "The Maya",
+          "The Aztecs",
+          "The Inca",
+          "The Olmecs"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "Where is Angel Falls, the world's highest waterfall?",
+        "a": [
+          "Peru",
+          "Venezuela",
+          "Ecuador",
+          "Colombia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "Which Argentine city is considered the southernmost in the world?",
+        "a": [
+          "Mendoza",
+          "Rosario",
+          "Ushuaia",
+          "Buenos Aires"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "Which US state has Honolulu as its capital?",
+        "a": [
+          "Alaska",
+          "California",
+          "Florida",
+          "Hawaii"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "Which is the longest river in Asia?",
+        "a": [
+          "The Yangtze",
+          "The Mekong",
+          "The Ganges",
+          "The Indus"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "In which Italian city is the famous Leaning Tower?",
+        "a": [
+          "Genoa",
+          "Pisa",
+          "Florence",
+          "Venice"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "What is another name for vitamin C?",
+        "a": [
+          "Folic acid",
+          "Pantothenic acid",
+          "Ascorbic acid",
+          "Citric acid"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which fly transmits sleeping sickness?",
+        "a": [
+          "The anopheles mosquito",
+          "The housefly",
+          "The horsefly",
+          "The tsetse fly"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "Which large galaxy is closest to the Milky Way?",
+        "a": [
+          "Andromeda",
+          "Triangulum",
+          "The Sombrero Galaxy",
+          "The Whirlpool Galaxy"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "Which blood type is the universal donor?",
+        "a": [
+          "B negative",
+          "O negative",
+          "AB positive",
+          "A positive"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "How many moons does the planet Mars have?",
+        "a": [
+          "4",
+          "0",
+          "2",
+          "1"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "Which is the main stress hormone?",
+        "a": [
+          "Insulin",
+          "Adrenaline",
+          "Testosterone",
+          "Cortisol"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "In which country is the Cannes Film Festival held?",
+        "a": [
+          "France",
+          "Italy",
+          "Spain",
+          "Belgium"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "John McClane is the hero of which film series?",
+        "a": [
+          "Mission Impossible",
+          "Die Hard",
+          "Rambo",
+          "Mad Max"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "What is the tiger's name in \"Life of Pi\"?",
+        "a": [
+          "Aslan",
+          "Bagheera",
+          "Richard Parker",
+          "Shere Khan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "Which actress drifts in space in the film \"Gravity\"?",
+        "a": [
+          "Anne Hathaway",
+          "Natalie Portman",
+          "Scarlett Johansson",
+          "Sandra Bullock"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "Which singer stars opposite John Travolta in \"Grease\"?",
+        "a": [
+          "Olivia Newton-John",
+          "Karen Carpenter",
+          "Debbie Harry",
+          "Cher"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Who sang \"Tous les garçons et les filles\" in 1962?",
+        "a": [
+          "Brigitte Bardot",
+          "Françoise Hardy",
+          "France Gall",
+          "Sylvie Vartan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "Which Australian singer sang \"Can't Get You Out of My Head\"?",
+        "a": [
+          "Sia",
+          "Delta Goodrem",
+          "Kylie Minogue",
+          "Natalie Imbruglia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "Who sings the 1998 hit \"Believe\"?",
+        "a": [
+          "Madonna",
+          "Tina Turner",
+          "Diana Ross",
+          "Cher"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "How many pedals does a piano usually have?",
+        "a": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "Which instrument is nicknamed \"the king of instruments\"?",
+        "a": [
+          "The harp",
+          "The organ",
+          "The piano",
+          "The violin"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "What is the hobbit hero's name in \"The Hobbit\"?",
+        "a": [
+          "Sam Gamgee",
+          "Peregrin Took",
+          "Bilbo Baggins",
+          "Frodo Baggins"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "Who wrote the Greek tragedy \"Antigone\"?",
+        "a": [
+          "Euripides",
+          "Aeschylus",
+          "Aristophanes",
+          "Sophocles"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "Who created the character Fantômas?",
+        "a": [
+          "Souvestre and Allain",
+          "Gaston Leroux",
+          "Maurice Leblanc",
+          "Émile Gaboriau"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "How long is an Olympic athletics track?",
+        "a": [
+          "500 m",
+          "400 m",
+          "200 m",
+          "300 m"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "Which region will host the 2030 Winter Olympics?",
+        "a": [
+          "Norway",
+          "Japan",
+          "The French Alps",
+          "Switzerland"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "How long does a professional boxing round last?",
+        "a": [
+          "2 minutes",
+          "4 minutes",
+          "5 minutes",
+          "3 minutes"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "What is the French national football team's nickname?",
+        "a": [
+          "Les Bleus",
+          "Les Verts",
+          "Les Coqs",
+          "Les Aiglons"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "Which athletics event involves pushing a heavy metal ball?",
+        "a": [
+          "The high jump",
+          "The shot put",
+          "The javelin throw",
+          "The discus throw"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "Which line of the court is closest to the net?",
+        "a": [
+          "The back boundary line",
+          "The centre line",
+          "The short service line",
+          "The long service line"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "Which line separates the two service boxes on each side?",
+        "a": [
+          "The back line",
+          "The side line",
+          "The short service line",
+          "The centre line"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "In which country is badminton the national sport?",
+        "a": [
+          "Indonesia",
+          "China",
+          "Denmark",
+          "Malaysia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which fish does caviar come from?",
+        "a": [
+          "The tuna",
+          "The sturgeon",
+          "The salmon",
+          "The trout"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "Which Belgian beer is brewed by monks?",
+        "a": [
+          "Lambic",
+          "Witbier",
+          "Trappist beer",
+          "Gueuze"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "Which dessert is made of whipped egg whites and sugar?",
+        "a": [
+          "Crème brûlée",
+          "Flan",
+          "Génoise",
+          "Meringue"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "Which powdered spice is made from dried peppers?",
+        "a": [
+          "Paprika",
+          "Cayenne pepper",
+          "Turmeric",
+          "Cumin"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "Which French region does Cantal cheese come from?",
+        "a": [
+          "Alsace",
+          "Auvergne",
+          "Normandy",
+          "Brittany"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "Which verb tense expresses a future action?",
+        "a": [
+          "The imperfect",
+          "The conditional",
+          "The future",
+          "The present perfect"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "In \"a big dog\", which word is the adjective?",
+        "a": [
+          "\"a\"",
+          "\"dog\"",
+          "\"the\"",
+          "\"big\""
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "In \"I speak to him\", what is the function of \"him\"?",
+        "a": [
+          "Indirect object",
+          "Direct object",
+          "Adverbial complement",
+          "Subject"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "Which transgender journalist was elected to the Virginia legislature in 2017?",
+        "a": [
+          "Kim Petras",
+          "Danica Roem",
+          "Christine Jorgensen",
+          "Laverne Cox"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lgbt",
+        "q": "Which lesbian symbol reuses the black badge of Nazi deportees?",
+        "a": [
+          "The labrys flag",
+          "The violet bracelet",
+          "The black triangle",
+          "The pink triangle"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lgbt",
+        "q": "Which French homophile group was founded by André Baudry in 1954?",
+        "a": [
+          "Act Up",
+          "FHAR",
+          "SOS Homophobie",
+          "Arcadie"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lgbt",
+        "q": "In Gilbert Baker's rainbow flag, what does red symbolize?",
+        "a": [
+          "Life",
+          "Healing",
+          "Serenity",
+          "Spirit"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "Who wrote \"Stone Butch Blues\" (1993)?",
+        "a": [
+          "Audre Lorde",
+          "Leslie Feinberg",
+          "Kate Bornstein",
+          "Alison Bechdel"
+        ],
+        "c": 1
       }
     ],
     "es": [
@@ -24214,6 +25314,556 @@
           "Helen Fielding",
           "Marian Keyes",
           "Nick Hornby"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué soberano de Malí suele citarse como el hombre más rico de la historia?",
+        "a": [
+          "Mansa Musa",
+          "Soundiata Keïta",
+          "Askia Mohammed",
+          "Muley Ismaíl"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué califa abasí aparece en «Las mil y una noches»?",
+        "a": [
+          "Alí ibn Abi Talib",
+          "Harún al-Rashid",
+          "Saladino",
+          "Solimán el Magnífico"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué libertador proclamó la independencia de Argentina en 1816?",
+        "a": [
+          "Bernardo O'Higgins",
+          "Antonio José de Sucre",
+          "José de San Martín",
+          "Simón Bolívar"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "hist",
+        "q": "La columna de Trajano celebra la victoria de Roma sobre ¿qué pueblo?",
+        "a": [
+          "Los galos",
+          "Los cartagineses",
+          "Los persas",
+          "Los dacios"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "hist",
+        "q": "¿Qué civilización construyó la ciudad de Chichén Itzá?",
+        "a": [
+          "Los mayas",
+          "Los aztecas",
+          "Los incas",
+          "Los olmecas"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿Dónde está el Salto Ángel, la cascada más alta del mundo?",
+        "a": [
+          "En Perú",
+          "En Venezuela",
+          "En Ecuador",
+          "En Colombia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué ciudad argentina es considerada la más austral del mundo?",
+        "a": [
+          "Mendoza",
+          "Rosario",
+          "Ushuaia",
+          "Buenos Aires"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "geo",
+        "q": "¿Qué estado estadounidense tiene como capital Honolulú?",
+        "a": [
+          "Alaska",
+          "California",
+          "Florida",
+          "Hawái"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "geo",
+        "q": "¿Cuál es el río más largo de Asia?",
+        "a": [
+          "El Yangtsé",
+          "El Mekong",
+          "El Ganges",
+          "El Indo"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "geo",
+        "q": "¿En qué ciudad italiana está la famosa torre inclinada?",
+        "a": [
+          "En Génova",
+          "En Pisa",
+          "En Florencia",
+          "En Venecia"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es el otro nombre de la vitamina C?",
+        "a": [
+          "El ácido fólico",
+          "El ácido pantoténico",
+          "El ácido ascórbico",
+          "El ácido cítrico"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué mosca transmite la enfermedad del sueño?",
+        "a": [
+          "El mosquito anófeles",
+          "La mosca doméstica",
+          "El tábano",
+          "La mosca tse-tse"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué gran galaxia es la más cercana a la Vía Láctea?",
+        "a": [
+          "Andrómeda",
+          "El Triángulo",
+          "La galaxia del Sombrero",
+          "La galaxia del Remolino"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "sci",
+        "q": "¿Qué grupo sanguíneo es el donante universal?",
+        "a": [
+          "B negativo",
+          "O negativo",
+          "AB positivo",
+          "A positivo"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuántas lunas tiene el planeta Marte?",
+        "a": [
+          "4",
+          "0",
+          "2",
+          "1"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "sci",
+        "q": "¿Cuál es la principal hormona del estrés?",
+        "a": [
+          "La insulina",
+          "La adrenalina",
+          "La testosterona",
+          "El cortisol"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "¿En qué país se celebra el Festival de Cannes?",
+        "a": [
+          "En Francia",
+          "En Italia",
+          "En España",
+          "En Bélgica"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "cine",
+        "q": "John McClane es el héroe de ¿qué saga de películas?",
+        "a": [
+          "Misión imposible",
+          "Jungla de cristal",
+          "Rambo",
+          "Mad Max"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "cine",
+        "q": "¿Cómo se llama el tigre en «La vida de Pi»?",
+        "a": [
+          "Aslan",
+          "Bagheera",
+          "Richard Parker",
+          "Shere Khan"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué actriz deriva en el espacio en la película «Gravity»?",
+        "a": [
+          "Anne Hathaway",
+          "Natalie Portman",
+          "Scarlett Johansson",
+          "Sandra Bullock"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "cine",
+        "q": "¿Qué cantante trabaja junto a John Travolta en «Grease»?",
+        "a": [
+          "Olivia Newton-John",
+          "Karen Carpenter",
+          "Debbie Harry",
+          "Cher"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Quién canta «Tous les garçons et les filles» en 1962?",
+        "a": [
+          "Brigitte Bardot",
+          "Françoise Hardy",
+          "France Gall",
+          "Sylvie Vartan"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué cantante australiana cantó «Can't Get You Out of My Head»?",
+        "a": [
+          "Sia",
+          "Delta Goodrem",
+          "Kylie Minogue",
+          "Natalie Imbruglia"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "mus",
+        "q": "¿Quién canta el éxito «Believe» (1998)?",
+        "a": [
+          "Madonna",
+          "Tina Turner",
+          "Diana Ross",
+          "Cher"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "mus",
+        "q": "¿Cuántos pedales tiene generalmente un piano?",
+        "a": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "mus",
+        "q": "¿Qué instrumento es apodado «el rey de los instrumentos»?",
+        "a": [
+          "El arpa",
+          "El órgano",
+          "El piano",
+          "El violín"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lit",
+        "q": "¿Cómo se llama el hobbit héroe de la novela «El hobbit»?",
+        "a": [
+          "Samsagaz Gamyi",
+          "Peregrin Tuk",
+          "Bilbo Bolsón",
+          "Frodo Bolsón"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién escribió la tragedia griega «Antígona»?",
+        "a": [
+          "Eurípides",
+          "Esquilo",
+          "Aristófanes",
+          "Sófocles"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lit",
+        "q": "¿Quién creó el personaje de Fantômas?",
+        "a": [
+          "Souvestre y Allain",
+          "Gaston Leroux",
+          "Maurice Leblanc",
+          "Émile Gaboriau"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuánto mide una pista de atletismo olímpica?",
+        "a": [
+          "500 m",
+          "400 m",
+          "200 m",
+          "300 m"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué región acogerá los Juegos Olímpicos de invierno de 2030?",
+        "a": [
+          "Noruega",
+          "Japón",
+          "Los Alpes franceses",
+          "Suiza"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cuánto dura un asalto de boxeo profesional?",
+        "a": [
+          "2 minutos",
+          "4 minutos",
+          "5 minutos",
+          "3 minutos"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "spo",
+        "q": "¿Cómo se apoda a la selección de fútbol de Francia?",
+        "a": [
+          "Les Bleus",
+          "Les Verts",
+          "Les Coqs",
+          "Les Aiglons"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "spo",
+        "q": "¿Qué prueba de atletismo consiste en empujar una bola metálica?",
+        "a": [
+          "El salto de altura",
+          "El lanzamiento de peso",
+          "El lanzamiento de jabalina",
+          "El lanzamiento de disco"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué línea de la pista está más cerca de la red?",
+        "a": [
+          "La línea de fondo",
+          "La línea central",
+          "La línea de servicio corta",
+          "La línea de servicio larga"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "bad",
+        "q": "¿Qué línea separa las dos zonas de servicio de cada medio campo?",
+        "a": [
+          "La línea de fondo",
+          "La línea lateral",
+          "La línea corta",
+          "La línea central"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "bad",
+        "q": "¿De qué país es el bádminton el deporte nacional?",
+        "a": [
+          "Indonesia",
+          "China",
+          "Dinamarca",
+          "Malasia"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué pez proviene el caviar?",
+        "a": [
+          "Del atún",
+          "Del esturión",
+          "Del salmón",
+          "De la trucha"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué cerveza belga es elaborada por monjes?",
+        "a": [
+          "La lambic",
+          "La blanca",
+          "La trapense",
+          "La gueuze"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué postre se hace con claras de huevo batidas y azúcar?",
+        "a": [
+          "La crema catalana",
+          "El flan",
+          "El bizcocho",
+          "El merengue"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "gas",
+        "q": "¿Qué especia en polvo se hace con pimientos secos?",
+        "a": [
+          "El pimentón",
+          "La cayena",
+          "El cúrcuma",
+          "El comino"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "gas",
+        "q": "¿De qué región francesa es originario el queso Cantal?",
+        "a": [
+          "De Alsacia",
+          "De Auvernia",
+          "De Normandía",
+          "De Bretaña"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lan",
+        "q": "¿Qué tiempo verbal expresa una acción futura?",
+        "a": [
+          "El imperfecto",
+          "El condicional",
+          "El futuro",
+          "El pretérito perfecto"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lan",
+        "q": "En «un perro grande», ¿qué palabra es el adjetivo?",
+        "a": [
+          "«un»",
+          "«perro»",
+          "«el»",
+          "«grande»"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lan",
+        "q": "En «Le hablo», ¿cuál es la función de «le»?",
+        "a": [
+          "Complemento indirecto",
+          "Complemento directo",
+          "Complemento circunstancial",
+          "Sujeto"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "¿Qué periodista transgénero fue elegida diputada en Virginia en 2017?",
+        "a": [
+          "Kim Petras",
+          "Danica Roem",
+          "Christine Jorgensen",
+          "Laverne Cox"
+        ],
+        "c": 1
+      },
+      {
+        "cat": "lgbt",
+        "q": "¿Qué símbolo lésbico retoma la insignia negra de las deportadas nazis?",
+        "a": [
+          "La bandera del labrys",
+          "El brazalete violeta",
+          "El triángulo negro",
+          "El triángulo rosa"
+        ],
+        "c": 2
+      },
+      {
+        "cat": "lgbt",
+        "q": "¿Qué grupo homófilo francés fundó André Baudry en 1954?",
+        "a": [
+          "Act Up",
+          "El FHAR",
+          "SOS Homofobie",
+          "Arcadie"
+        ],
+        "c": 3
+      },
+      {
+        "cat": "lgbt",
+        "q": "En la bandera arcoíris de Gilbert Baker, ¿qué simboliza el rojo?",
+        "a": [
+          "La vida",
+          "La curación",
+          "La serenidad",
+          "El espíritu"
+        ],
+        "c": 0
+      },
+      {
+        "cat": "lgbt",
+        "q": "¿Quién escribió «Stone Butch Blues» (1993)?",
+        "a": [
+          "Audre Lorde",
+          "Leslie Feinberg",
+          "Kate Bornstein",
+          "Alison Bechdel"
         ],
         "c": 1
       }
