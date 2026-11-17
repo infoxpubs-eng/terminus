@@ -202,14 +202,14 @@ function questionText() {
   for (const n of walkHosts(tree)) {
     const cls = n.props.className || "";
     // v11 : la question est en text-[32px] ; avant c'était leading-snug
-    if (n.type === "p" && /text-\[32px\]|leading-snug/.test(cls)) return textOf(n).trim();
+    if (n.type === "p" && /text-\[26px\]|leading-snug/.test(cls)) return textOf(n).trim();
   }
   return null;
 }
 function questionCls() {
   for (const n of walkHosts(tree)) {
     const cls = n.props.className || "";
-    if (n.type === "p" && /text-\[32px\]|leading-snug/.test(cls)) return cls;
+    if (n.type === "p" && /text-\[26px\]|leading-snug/.test(cls)) return cls;
   }
   return null;
 }
@@ -430,28 +430,28 @@ function scenarioF() {
 }
 
 function scenarioG() {
-  console.log("— Scénario G : bulles agrandies + question 32px + copyright (v22) —");
-  check("BUBBLE_H = 64 px (lu : " + BUBBLE_H + ")", BUBBLE_H === 64);
+  console.log("— Scénario G : bulles réduites −20 % + question 26px + copyright (v22) —");
+  check("BUBBLE_H = 51 px (lu : " + BUBBLE_H + ")", BUBBLE_H === 51);
   check("LEVEL_EVERY = 10 (lu : " + LEVEL_EVERY + ")", LEVEL_EVERY === 10);
-  check("VERSION = v24 (lu : " + VERSION + ")", VERSION === "v24");
+  check("VERSION = v25 (lu : " + VERSION + ")", VERSION === "v25");
   resetSession();
   check("copyright sur l'accueil ('© 2026 … Ansault')", /© 2026[^]*Ansault/.test(textOf(tree)));
   check("copyright FR exact", textOf(tree).includes(I18N.fr.copyright));
   check("copyright traduit (EN/ES présents dans I18N)",
     /rights reserved/i.test(I18N.en.copyright) && /derechos/i.test(I18N.es.copyright));
-  check("badge v24 sur l'accueil", textOf(tree).includes("v24"));
+  check("badge v25 sur l'accueil", textOf(tree).includes("v25"));
   check("pas de ligne stats sans historique", !textOf(tree).includes("Parties :"));
   startGame("fr");
-  check("question en 32 px (texte doublé, lu : '" + questionCls() + "')",
-    questionCls() !== null && /text-\[32px\]/.test(questionCls()));
+  check("question en 26 px (−20 %, lu : '" + questionCls() + "')",
+    questionCls() !== null && /text-\[26px\]/.test(questionCls()));
   let b = null;
   for (let i = 0; i < 30 && !b; i++) { advance(0.25); b = bubbles()[0]; }
   check("une bulle apparaît", !!b);
   if (b) {
-    check("hauteur 64 px (lu : " + b.h + ")", b.h === 64);
-    check("police doublée : 26 px", /text-\[26px\]/.test(b.cls));
+    check("hauteur 51 px (lu : " + b.h + ")", b.h === 51);
+    check("police bulle : 21 px (−20 %)", /text-\[21px\]/.test(b.cls));
     check("texte non tronqué (plus de 'truncate')", !/truncate/.test(b.cls));
-    check("largeur min 170 px (lu : " + b.w + ")", b.w >= 170);
+    check("largeur min 136 px (lu : " + b.w + ")", b.w >= 136);
     check("largeur ≤ aire − 16 px (lu : " + b.w + ")", b.w <= 374);
   }
 }
