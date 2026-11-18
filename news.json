@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "qs": {
   "fr": [
    {
@@ -9373,6 +9373,556 @@
      "Des députés"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel pharaon a fait construire le temple d'Abou Simbel ?",
+    "a": [
+     "Ramsès II",
+     "Toutânkhamon",
+     "Akhenaton",
+     "Khéphren"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Quel empereur a divisé l'Empire romain en deux en 395 ?",
+    "a": [
+     "Auguste",
+     "Théodose Ier",
+     "Constantin",
+     "Trajan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel empereur romain a lancé la construction du Colisée ?",
+    "a": [
+     "Néron",
+     "Trajan",
+     "Vespasien",
+     "Auguste"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle dynastie a régné sur la Chine de 1644 à 1912 ?",
+    "a": [
+     "Les Ming",
+     "Les Han",
+     "Les Song",
+     "Les Qing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Qui est traditionnellement considéré comme le premier empereur du Japon ?",
+    "a": [
+     "L'empereur Jimmu",
+     "L'empereur Meiji",
+     "L'empereur Hirohito",
+     "L'empereur Akihito"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le désert du Kalahari ?",
+    "a": [
+     "La Namibie",
+     "Le Botswana",
+     "L'Afrique du Sud",
+     "L'Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays d'Amérique du Sud n'a pas d'accès à la mer ?",
+    "a": [
+     "Le Pérou",
+     "L'Équateur",
+     "La Bolivie",
+     "La Colombie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le lac Ladoga, le plus grand d'Europe ?",
+    "a": [
+     "La Finlande",
+     "L'Estonie",
+     "La Suède",
+     "La Russie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le fjord de Geiranger ?",
+    "a": [
+     "La Norvège",
+     "La Suède",
+     "La Finlande",
+     "L'Islande"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel océan borde la Russie au nord ?",
+    "a": [
+     "L'océan Atlantique",
+     "L'océan Arctique",
+     "L'océan Pacifique",
+     "L'océan Indien"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel est le plus grand satellite naturel de Jupiter ?",
+    "a": [
+     "Europe",
+     "Callisto",
+     "Ganymède",
+     "Io"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de ventricules compte le cœur humain ?",
+    "a": [
+     "3",
+     "4",
+     "1",
+     "2"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Qui a inventé le téléphone ?",
+    "a": [
+     "Alexander Graham Bell",
+     "Thomas Edison",
+     "Nikola Tesla",
+     "Guglielmo Marconi"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quel organisme marin microscopique produit une grande partie de l'oxygène terrestre ?",
+    "a": [
+     "Le krill",
+     "Le phytoplancton",
+     "Le corail",
+     "Le zooplancton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle est l'étoile la plus proche de la Terre ?",
+    "a": [
+     "Proxima du Centaure",
+     "Sirius",
+     "Le Soleil",
+     "Alpha du Centaure"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film Audrey Hepburn incarne-t-elle une princesse à Rome ?",
+    "a": [
+     "Sabrina",
+     "My Fair Lady",
+     "Charade",
+     "Vacances romaines"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Qui incarne Black Widow dans les films Avengers ?",
+    "a": [
+     "Scarlett Johansson",
+     "Jennifer Lawrence",
+     "Emma Stone",
+     "Natalie Portman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film de Kubrick un écrivain sombre-t-il dans la folie dans un hôtel ?",
+    "a": [
+     "2001",
+     "Shining",
+     "Orange mécanique",
+     "Full Metal Jacket"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui incarne Furiosa dans Mad Max : Fury Road ?",
+    "a": [
+     "Anne Hathaway",
+     "Zoe Kravitz",
+     "Charlize Theron",
+     "Anya Taylor-Joy"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Qui incarne John Wick au cinéma ?",
+    "a": [
+     "Matt Damon",
+     "Bruce Willis",
+     "Liam Neeson",
+     "Keanu Reeves"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel trompettiste de jazz était surnommé « Satchmo » ?",
+    "a": [
+     "Louis Armstrong",
+     "Miles Davis",
+     "Dizzy Gillespie",
+     "Chet Baker"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quel album des Beatles sorti en 1967 a révolutionné le rock ?",
+    "a": [
+     "Abbey Road",
+     "Sgt. Pepper's Lonely Hearts Club Band",
+     "Revolver",
+     "Let It Be"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel genre électronique est né à Détroit dans les années 1980 ?",
+    "a": [
+     "La house",
+     "La trance",
+     "La techno",
+     "La drum and bass"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Dans quelle ville est né Mozart ?",
+    "a": [
+     "À Vienne",
+     "À Berlin",
+     "À Prague",
+     "À Salzbourg"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Quel roman de Julio Cortázar peut se lire dans le désordre ?",
+    "a": [
+     "Marelle",
+     "Bestiaire",
+     "Les Armes secrètes",
+     "Libro de Manuel"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle autrice américaine a écrit « I Know Why the Caged Bird Sings » ?",
+    "a": [
+     "Toni Morrison",
+     "Maya Angelou",
+     "Alice Walker",
+     "Zora Neale Hurston"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle bande dessinée de Art Spiegelman montre la Shoah avec des souris ?",
+    "a": [
+     "Persépolis",
+     "Watchmen",
+     "Maus",
+     "V pour Vendetta"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle course cycliste relie Milan et San Remo ?",
+    "a": [
+     "Liège-Bastogne-Liège",
+     "Paris-Roubaix",
+     "Le Tour des Flandres",
+     "Milan-San Remo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel pays a remporté l'Euro de football 2016 ?",
+    "a": [
+     "Le Portugal",
+     "La France",
+     "L'Allemagne",
+     "L'Espagne"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle franchise NBA détient le record de titres ?",
+    "a": [
+     "Les Lakers",
+     "Les Celtics",
+     "Les Bulls",
+     "Les Warriors"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quel est le surnom de l'équipe de rugby de Nouvelle-Zélande ?",
+    "a": [
+     "Les Wallabies",
+     "Les Springboks",
+     "Les All Blacks",
+     "Les Pumas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quel boxeur américain est surnommé « Money » ?",
+    "a": [
+     "Mike Tyson",
+     "Manny Pacquiao",
+     "Evander Holyfield",
+     "Floyd Mayweather"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "Quel pays a accueilli la première Sudirman Cup en 1989 ?",
+    "a": [
+     "L'Indonésie",
+     "La Chine",
+     "La Malaisie",
+     "Le Danemark"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "Quel tournoi Super 1000 se dispute à Kuala Lumpur ?",
+    "a": [
+     "L'Indonesia Open",
+     "Le Malaysia Open",
+     "L'All England",
+     "Le Singapore Open"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "Comment s'appelle la frappe coupée qui dévie le volant ?",
+    "a": [
+     "Le smash",
+     "Le clear",
+     "Le slice",
+     "Le drop"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Dans quel pays les moules-frites sont-elles une spécialité ?",
+    "a": [
+     "Les Pays-Bas",
+     "L'Allemagne",
+     "L'Espagne",
+     "La Belgique"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Que signifie « dolma » en turc ?",
+    "a": [
+     "Farci",
+     "Grillé",
+     "Bouilli",
+     "Séché"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quel biscuit provençal en forme de barque est spécialité de Marseille ?",
+    "a": [
+     "La madeleine",
+     "La navette",
+     "Le canelé",
+     "Le macaron"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quel dessert se partage le 6 janvier en France ?",
+    "a": [
+     "La bûche de Noël",
+     "Le kouign-amann",
+     "La galette des rois",
+     "La crêpe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel plat catalan consiste à frotter de la tomate sur du pain ?",
+    "a": [
+     "Les tapas",
+     "La tortilla",
+     "Le gaspacho",
+     "Le pan con tomate"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le féminin de « chat » ?",
+    "a": [
+     "Chatte",
+     "Chate",
+     "Chatonne",
+     "Chatelle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la première personne du pluriel de « être » au présent ?",
+    "a": [
+     "Nous étions",
+     "Nous sommes",
+     "Nous serons",
+     "Nous soyons"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle le signe « & » ?",
+    "a": [
+     "L'arobase",
+     "L'astérisque",
+     "L'esperluette",
+     "Le tilde"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on un mot nouvellement apparu dans une langue ?",
+    "a": [
+     "Un archaïsme",
+     "Un paronyme",
+     "Un synonyme",
+     "Un néologisme"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel mot s'abrège en « M. » ?",
+    "a": [
+     "Monsieur",
+     "Madame",
+     "Maître",
+     "Médecin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays a été le premier à dépénaliser l'homosexualité, en 1791 ?",
+    "a": [
+     "Les Pays-Bas",
+     "La France",
+     "L'Angleterre",
+     "L'Espagne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays africain a légalisé le mariage égalitaire en 2006 ?",
+    "a": [
+     "Le Nigeria",
+     "Le Kenya",
+     "L'Afrique du Sud",
+     "Le Maroc"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle couleur du drapeau arc-en-ciel représente la nature ?",
+    "a": [
+     "Le bleu",
+     "Le jaune",
+     "Le violet",
+     "Le vert"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle journée de visibilité lesbienne est célébrée le 26 avril ?",
+    "a": [
+     "La Journée de visibilité lesbienne",
+     "La Journée contre l'homophobie",
+     "La Journée intersexe",
+     "La Journée du coming out"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle joueuse de tennis a fait son coming out en 1981 ?",
+    "a": [
+     "Chris Evert",
+     "Martina Navratilova",
+     "Steffi Graf",
+     "Margaret Court"
+    ],
+    "c": 1
    }
   ],
   "en": [
@@ -18747,6 +19297,556 @@
      "members of parliament"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which pharaoh built the Great Temple of Abu Simbel?",
+    "a": [
+     "Ramesses II",
+     "Tutankhamun",
+     "Akhenaten",
+     "Khafre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Which emperor split the Roman Empire in two in 395?",
+    "a": [
+     "Augustus",
+     "Theodosius I",
+     "Constantine",
+     "Trajan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which Roman emperor began the construction of the Colosseum?",
+    "a": [
+     "Nero",
+     "Trajan",
+     "Vespasian",
+     "Augustus"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which dynasty ruled China from 1644 to 1912?",
+    "a": [
+     "The Ming",
+     "The Han",
+     "The Song",
+     "The Qing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Who is traditionally considered the first emperor of Japan?",
+    "a": [
+     "Emperor Jimmu",
+     "Emperor Meiji",
+     "Emperor Hirohito",
+     "Emperor Akihito"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Kalahari Desert?",
+    "a": [
+     "Namibia",
+     "Botswana",
+     "South Africa",
+     "Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which South American country has no access to the sea?",
+    "a": [
+     "Peru",
+     "Ecuador",
+     "Bolivia",
+     "Colombia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is Lake Ladoga, Europe's largest lake?",
+    "a": [
+     "Finland",
+     "Estonia",
+     "Sweden",
+     "Russia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Geiranger fjord?",
+    "a": [
+     "Norway",
+     "Sweden",
+     "Finland",
+     "Iceland"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which ocean borders Russia to the north?",
+    "a": [
+     "The Atlantic Ocean",
+     "The Arctic Ocean",
+     "The Pacific Ocean",
+     "The Indian Ocean"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What is the largest moon of Jupiter?",
+    "a": [
+     "Europa",
+     "Callisto",
+     "Ganymede",
+     "Io"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "How many ventricles does the human heart have?",
+    "a": [
+     "3",
+     "4",
+     "1",
+     "2"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Who invented the telephone?",
+    "a": [
+     "Alexander Graham Bell",
+     "Thomas Edison",
+     "Nikola Tesla",
+     "Guglielmo Marconi"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which microscopic marine organism produces much of Earth's oxygen?",
+    "a": [
+     "Krill",
+     "Phytoplankton",
+     "Coral",
+     "Zooplankton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What is the closest star to Earth?",
+    "a": [
+     "Proxima Centauri",
+     "Sirius",
+     "The Sun",
+     "Alpha Centauri"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "In which film does Audrey Hepburn play a princess in Rome?",
+    "a": [
+     "Sabrina",
+     "My Fair Lady",
+     "Charade",
+     "Roman Holiday"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays Black Widow in the Avengers films?",
+    "a": [
+     "Scarlett Johansson",
+     "Jennifer Lawrence",
+     "Emma Stone",
+     "Natalie Portman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "In which Kubrick film does a writer go mad in a hotel?",
+    "a": [
+     "2001",
+     "The Shining",
+     "A Clockwork Orange",
+     "Full Metal Jacket"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays Furiosa in Mad Max: Fury Road?",
+    "a": [
+     "Anne Hathaway",
+     "Zoe Kravitz",
+     "Charlize Theron",
+     "Anya Taylor-Joy"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays John Wick in the movies?",
+    "a": [
+     "Matt Damon",
+     "Bruce Willis",
+     "Liam Neeson",
+     "Keanu Reeves"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which jazz trumpeter was nicknamed \"Satchmo\"?",
+    "a": [
+     "Louis Armstrong",
+     "Miles Davis",
+     "Dizzy Gillespie",
+     "Chet Baker"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which 1967 Beatles album revolutionised rock?",
+    "a": [
+     "Abbey Road",
+     "Sgt. Pepper's Lonely Hearts Club Band",
+     "Revolver",
+     "Let It Be"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which electronic genre was born in Detroit in the 1980s?",
+    "a": [
+     "House",
+     "Trance",
+     "Techno",
+     "Drum and bass"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "In which city was Mozart born?",
+    "a": [
+     "Vienna",
+     "Berlin",
+     "Prague",
+     "Salzburg"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Which Julio Cortázar novel can be read out of order?",
+    "a": [
+     "Hopscotch",
+     "Bestiary",
+     "A Manual for Manuel",
+     "Around the Day in Eighty Worlds"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Which American author wrote \"I Know Why the Caged Bird Sings\"?",
+    "a": [
+     "Toni Morrison",
+     "Maya Angelou",
+     "Alice Walker",
+     "Zora Neale Hurston"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which Art Spiegelman comic depicts the Holocaust with mice?",
+    "a": [
+     "Persepolis",
+     "Watchmen",
+     "Maus",
+     "V for Vendetta"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which cycle race links Milan and San Remo?",
+    "a": [
+     "Liège-Bastogne-Liège",
+     "Paris-Roubaix",
+     "The Tour of Flanders",
+     "Milan-San Remo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which country won the 2016 football European Championship?",
+    "a": [
+     "Portugal",
+     "France",
+     "Germany",
+     "Spain"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which NBA franchise holds the record for most titles?",
+    "a": [
+     "The Lakers",
+     "The Celtics",
+     "The Bulls",
+     "The Warriors"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "What is the nickname of New Zealand's rugby team?",
+    "a": [
+     "The Wallabies",
+     "The Springboks",
+     "The All Blacks",
+     "The Pumas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which American boxer is nicknamed \"Money\"?",
+    "a": [
+     "Mike Tyson",
+     "Manny Pacquiao",
+     "Evander Holyfield",
+     "Floyd Mayweather"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "Which country hosted the first Sudirman Cup in 1989?",
+    "a": [
+     "Indonesia",
+     "China",
+     "Malaysia",
+     "Denmark"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "Which Super 1000 tournament is played in Kuala Lumpur?",
+    "a": [
+     "The Indonesia Open",
+     "The Malaysia Open",
+     "The All England",
+     "The Singapore Open"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "What is the sliced shot that deflects the shuttle called?",
+    "a": [
+     "A smash",
+     "A clear",
+     "A slice",
+     "A drop"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "In which country are moules-frites a specialty?",
+    "a": [
+     "The Netherlands",
+     "Germany",
+     "Spain",
+     "Belgium"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "What does \"dolma\" mean in Turkish?",
+    "a": [
+     "Stuffed",
+     "Grilled",
+     "Boiled",
+     "Dried"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Which boat-shaped biscuit is a specialty of Marseille?",
+    "a": [
+     "The madeleine",
+     "The navette",
+     "The canelé",
+     "The macaron"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which dessert is traditionally shared on 6 January in France?",
+    "a": [
+     "Yule log",
+     "Kouign-amann",
+     "Galette des rois",
+     "Crêpes"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which Catalan dish consists of rubbing tomato on bread?",
+    "a": [
+     "Tapas",
+     "Tortilla",
+     "Gazpacho",
+     "Pan con tomate"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "How many letters are in the word \"beautiful\"?",
+    "a": [
+     "9",
+     "8",
+     "7",
+     "10"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of \"sheep\"?",
+    "a": [
+     "Sheeps",
+     "Sheep",
+     "Sheepes",
+     "Sheepen"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in the word \"gnome\"?",
+    "a": [
+     "N",
+     "E",
+     "G",
+     "O"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is a word formed from the first letters of other words?",
+    "a": [
+     "A synonym",
+     "A homonym",
+     "A pseudonym",
+     "An acronym"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of \"expensive\"?",
+    "a": [
+     "Cheap",
+     "Costly",
+     "Rich",
+     "Valuable"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country first decriminalised homosexuality, in 1791?",
+    "a": [
+     "The Netherlands",
+     "France",
+     "England",
+     "Spain"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which African country legalised same-sex marriage in 2006?",
+    "a": [
+     "Nigeria",
+     "Kenya",
+     "South Africa",
+     "Morocco"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which colour of the rainbow flag stands for nature?",
+    "a": [
+     "Blue",
+     "Yellow",
+     "Purple",
+     "Green"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which visibility day is celebrated on 26 April?",
+    "a": [
+     "Lesbian Visibility Day",
+     "Day against homophobia",
+     "Intersex Awareness Day",
+     "Coming Out Day"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which tennis player came out in 1981?",
+    "a": [
+     "Chris Evert",
+     "Martina Navratilova",
+     "Steffi Graf",
+     "Margaret Court"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -28110,6 +29210,556 @@
      "A diputados"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué faraón mandó construir el templo de Abu Simbel?",
+    "a": [
+     "Ramsés II",
+     "Tutankamón",
+     "Akenatón",
+     "Kefrén"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué emperador dividió el Imperio romano en dos en el año 395?",
+    "a": [
+     "Augusto",
+     "Teodosio I",
+     "Constantino",
+     "Trajano"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué emperador romano inició la construcción del Coliseo?",
+    "a": [
+     "Nerón",
+     "Trajano",
+     "Vespasiano",
+     "Augusto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué dinastía gobernó China de 1644 a 1912?",
+    "a": [
+     "Los Ming",
+     "Los Han",
+     "Los Song",
+     "Los Qing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién se considera tradicionalmente el primer emperador de Japón?",
+    "a": [
+     "El emperador Jimmu",
+     "El emperador Meiji",
+     "El emperador Hirohito",
+     "El emperador Akihito"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el desierto del Kalahari?",
+    "a": [
+     "Namibia",
+     "Botsuana",
+     "Sudáfrica",
+     "Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país sudamericano no tiene salida al mar?",
+    "a": [
+     "Perú",
+     "Ecuador",
+     "Bolivia",
+     "Colombia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el lago Ladoga, el mayor de Europa?",
+    "a": [
+     "Finlandia",
+     "Estonia",
+     "Suecia",
+     "Rusia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el fiordo de Geiranger?",
+    "a": [
+     "Noruega",
+     "Suecia",
+     "Finlandia",
+     "Islandia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué océano bordea Rusia al norte?",
+    "a": [
+     "El océano Atlántico",
+     "El océano Glacial Ártico",
+     "El océano Pacífico",
+     "El océano Índico"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es la mayor luna de Júpiter?",
+    "a": [
+     "Europa",
+     "Calisto",
+     "Ganimedes",
+     "Ío"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos ventrículos tiene el corazón humano?",
+    "a": [
+     "3",
+     "4",
+     "1",
+     "2"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Quién inventó el teléfono?",
+    "a": [
+     "Alexander Graham Bell",
+     "Thomas Edison",
+     "Nikola Tesla",
+     "Guglielmo Marconi"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué organismo marino microscópico produce gran parte del oxígeno terrestre?",
+    "a": [
+     "El kril",
+     "El fitoplancton",
+     "El coral",
+     "El zooplancton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es la estrella más cercana a la Tierra?",
+    "a": [
+     "Proxima Centauri",
+     "Sirio",
+     "El Sol",
+     "Alfa Centauri"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película Audrey Hepburn interpreta a una princesa en Roma?",
+    "a": [
+     "Sabrina",
+     "My Fair Lady",
+     "Charada",
+     "Vacaciones en Roma"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta a Viuda Negra en las películas de Avengers?",
+    "a": [
+     "Scarlett Johansson",
+     "Jennifer Lawrence",
+     "Emma Stone",
+     "Natalie Portman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película de Kubrick un escritor enloquece en un hotel?",
+    "a": [
+     "2001",
+     "El resplandor",
+     "La naranja mecánica",
+     "La chaqueta metálica"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta a Furiosa en Mad Max: Furia en la carretera?",
+    "a": [
+     "Anne Hathaway",
+     "Zoe Kravitz",
+     "Charlize Theron",
+     "Anya Taylor-Joy"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta a John Wick en el cine?",
+    "a": [
+     "Matt Damon",
+     "Bruce Willis",
+     "Liam Neeson",
+     "Keanu Reeves"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué trompetista de jazz tenía el apodo «Satchmo»?",
+    "a": [
+     "Louis Armstrong",
+     "Miles Davis",
+     "Dizzy Gillespie",
+     "Chet Baker"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué álbum de los Beatles de 1967 revolucionó el rock?",
+    "a": [
+     "Abbey Road",
+     "Sgt. Pepper's Lonely Hearts Club Band",
+     "Revolver",
+     "Let It Be"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué género electrónico nació en Detroit en los años 80?",
+    "a": [
+     "El house",
+     "El trance",
+     "El tecno",
+     "El drum and bass"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿En qué ciudad nació Mozart?",
+    "a": [
+     "En Viena",
+     "En Berlín",
+     "En Praga",
+     "En Salzburgo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué novela de Julio Cortázar puede leerse en desorden?",
+    "a": [
+     "Rayuela",
+     "Bestiario",
+     "Libro de Manuel",
+     "La vuelta al día en ochenta mundos"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué autora estadounidense escribió «Yo sé por qué canta el pájaro enjaulado»?",
+    "a": [
+     "Toni Morrison",
+     "Maya Angelou",
+     "Alice Walker",
+     "Zora Neale Hurston"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué cómic de Art Spiegelman retrata el Holocausto con ratones?",
+    "a": [
+     "Persépolis",
+     "Watchmen",
+     "Maus",
+     "V de Vendetta"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué carrera ciclista une Milán y San Remo?",
+    "a": [
+     "Lieja-Bastoña-Lieja",
+     "París-Roubaix",
+     "El Tour de Flandes",
+     "Milán-San Remo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué país ganó la Eurocopa de fútbol de 2016?",
+    "a": [
+     "Portugal",
+     "Francia",
+     "Alemania",
+     "España"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué franquicia de la NBA tiene más títulos?",
+    "a": [
+     "Los Lakers",
+     "Los Celtics",
+     "Los Bulls",
+     "Los Warriors"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es el apodo del equipo de rugby de Nueva Zelanda?",
+    "a": [
+     "Los Wallabies",
+     "Los Springboks",
+     "Los All Blacks",
+     "Los Pumas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué boxeador estadounidense tiene el apodo «Money»?",
+    "a": [
+     "Mike Tyson",
+     "Manny Pacquiao",
+     "Evander Holyfield",
+     "Floyd Mayweather"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "bad",
+    "q": "¿Qué país acogió la primera Copa Sudirman en 1989?",
+    "a": [
+     "Indonesia",
+     "China",
+     "Malasia",
+     "Dinamarca"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "bad",
+    "q": "¿Qué torneo Super 1000 se juega en Kuala Lumpur?",
+    "a": [
+     "El Indonesia Open",
+     "El Malasia Open",
+     "El All England",
+     "El Singapur Open"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "bad",
+    "q": "¿Cómo se llama el golpe cortado que desvía el volante?",
+    "a": [
+     "El smash",
+     "El clear",
+     "El slice",
+     "El drop"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿En qué país son especialidad los mejillones con patatas fritas?",
+    "a": [
+     "Países Bajos",
+     "Alemania",
+     "España",
+     "Bélgica"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué significa «dolma» en turco?",
+    "a": [
+     "Relleno",
+     "Asado",
+     "Hervido",
+     "Seco"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué galleta en forma de barco es especialidad de Marsella?",
+    "a": [
+     "La madeleine",
+     "La navette",
+     "El canelé",
+     "El macaron"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué postre se comparte el 6 de enero en Francia?",
+    "a": [
+     "El tronco de Navidad",
+     "El kouign-amann",
+     "La galette des rois",
+     "Los crepes"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué plato catalán consiste en frotar tomate sobre el pan?",
+    "a": [
+     "Las tapas",
+     "La tortilla",
+     "El gazpacho",
+     "El pan con tomate"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pasado del verbo «tener»?",
+    "a": [
+     "Tuvo",
+     "Tenió",
+     "Tenía",
+     "Tendió"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas sílabas tiene la palabra «biblioteca»?",
+    "a": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el antónimo de «difícil»?",
+    "a": [
+     "Duro",
+     "Complicado",
+     "Fácil",
+     "Simple"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué es una palabra aguda?",
+    "a": [
+     "La que lleva el acento en la penúltima sílaba",
+     "La que lleva el acento en la antepenúltima sílaba",
+     "La que no lleva acento",
+     "La que lleva el acento en la última sílaba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el femenino de «dios»?",
+    "a": [
+     "Diosa",
+     "Diesa",
+     "Diosesa",
+     "Diosita"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país despenalizó primero la homosexualidad, en 1791?",
+    "a": [
+     "Países Bajos",
+     "Francia",
+     "Inglaterra",
+     "España"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país africano legalizó el matrimonio igualitario en 2006?",
+    "a": [
+     "Nigeria",
+     "Kenia",
+     "Sudáfrica",
+     "Marruecos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué color de la bandera arcoíris representa la naturaleza?",
+    "a": [
+     "El azul",
+     "El amarillo",
+     "El morado",
+     "El verde"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué día de visibilidad se celebra el 26 de abril?",
+    "a": [
+     "El de visibilidad lésbica",
+     "El contra la homofobia",
+     "El de la conciencia intersexual",
+     "El de salir del armario"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué tenista hizo público su lesbianismo en 1981?",
+    "a": [
+     "Chris Evert",
+     "Martina Navratilova",
+     "Steffi Graf",
+     "Margaret Court"
+    ],
+    "c": 1
    }
   ]
  }
