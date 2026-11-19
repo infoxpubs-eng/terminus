@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "qs": {
   "fr": [
    {
@@ -9921,6 +9921,556 @@
      "Martina Navratilova",
      "Steffi Graf",
      "Margaret Court"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle organisation humanitaire a été fondée par Henry Dunant ?",
+    "a": [
+     "La Croix-Rouge",
+     "Médecins sans frontières",
+     "L'UNICEF",
+     "Amnesty International"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Quel pays a offert la Statue de la Liberté aux États-Unis ?",
+    "a": [
+     "Le Royaume-Uni",
+     "La France",
+     "L'Italie",
+     "L'Espagne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel empereur romain a instauré la Tétrarchie en 293 ?",
+    "a": [
+     "Auguste",
+     "Néron",
+     "Dioclétien",
+     "Trajan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle langue était principalement parlée dans l'Empire byzantin ?",
+    "a": [
+     "Le latin",
+     "L'arabe",
+     "L'égyptien",
+     "Le grec"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Sur quelle île Nelson Mandela a-t-il été emprisonné pendant 18 ans ?",
+    "a": [
+     "Robben",
+     "Madagascar",
+     "Malte",
+     "La Réunion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la plus petite république du monde ?",
+    "a": [
+     "Monaco",
+     "Nauru",
+     "Saint-Marin",
+     "Les Maldives"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quelle chaîne de montagnes se trouve le K2 ?",
+    "a": [
+     "L'Himalaya",
+     "Les Andes",
+     "Le Karakoram",
+     "Le Caucase"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le lac le plus profond d'Afrique ?",
+    "a": [
+     "Le lac Victoria",
+     "Le lac Tchad",
+     "Le lac Malawi",
+     "Le lac Tanganyika"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le geyser Geysir, qui a donné son nom aux geysers ?",
+    "a": [
+     "L'Islande",
+     "Les États-Unis",
+     "La Nouvelle-Zélande",
+     "Le Japon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la monnaie officielle du Japon ?",
+    "a": [
+     "Le won",
+     "Le yen",
+     "Le yuan",
+     "Le baht"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel fleuve traverse Berlin ?",
+    "a": [
+     "L'Elbe",
+     "Le Rhin",
+     "La Sprée",
+     "Le Danube"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel métal est le meilleur conducteur électrique ?",
+    "a": [
+     "Le cuivre",
+     "L'or",
+     "L'aluminium",
+     "L'argent"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quel appareil mesure la tension électrique ?",
+    "a": [
+     "Le voltmètre",
+     "L'ampèremètre",
+     "L'ohmmètre",
+     "Le baromètre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle maladie le moustique tigre peut-il transmettre ?",
+    "a": [
+     "Le paludisme",
+     "La dengue",
+     "Le choléra",
+     "La grippe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel gaz est utilisé pour gonfler les ballons de baudruche ?",
+    "a": [
+     "L'oxygène",
+     "L'azote",
+     "L'hélium",
+     "Le dioxyde de carbone"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel oiseau peut tourner la tête jusqu'à 270 degrés ?",
+    "a": [
+     "Le pigeon",
+     "Le corbeau",
+     "Le canari",
+     "Le hibou"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quel sens permet de percevoir les odeurs ?",
+    "a": [
+     "L'odorat",
+     "Le goût",
+     "L'ouïe",
+     "Le toucher"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quel animal porte le surnom de « roi de la savane » ?",
+    "a": [
+     "L'éléphant",
+     "Le lion",
+     "La girafe",
+     "Le rhinocéros"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a joué Rose dans le film Titanic ?",
+    "a": [
+     "Julia Roberts",
+     "Keira Knightley",
+     "Kate Winslet",
+     "Anne Hathaway"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Sur quelle plateforme la série Stranger Things est-elle diffusée ?",
+    "a": [
+     "Prime Video",
+     "Disney+",
+     "Apple TV+",
+     "Netflix"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quelle ville se déroule le festival de la Berlinale ?",
+    "a": [
+     "Berlin",
+     "Munich",
+     "Francfort",
+     "Hambourg"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film d'animation met en scène une famille de super-héros ?",
+    "a": [
+     "Ratatouille",
+     "Les Indestructibles",
+     "Là-haut",
+     "Coco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui prête sa voix au Génie dans Aladdin (1992) ?",
+    "a": [
+     "Eddie Murphy",
+     "Jim Carrey",
+     "Robin Williams",
+     "Dan Aykroyd"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quel style musical jamaïcain a précédé le reggae ?",
+    "a": [
+     "Le calypso",
+     "Le zouk",
+     "La salsa",
+     "Le ska"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel rappeur a sorti l'album The Eminem Show ?",
+    "a": [
+     "Eminem",
+     "Jay-Z",
+     "Dr. Dre",
+     "Kanye West"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé la musique de la saga Star Wars ?",
+    "a": [
+     "Hans Zimmer",
+     "John Williams",
+     "Ennio Morricone",
+     "Howard Shore"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit le roman Anne de Green Gables ?",
+    "a": [
+     "Jane Austen",
+     "Louisa May Alcott",
+     "Lucy Maud Montgomery",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le personnage de Peter Pan ?",
+    "a": [
+     "Lewis Carroll",
+     "Roald Dahl",
+     "Rudyard Kipling",
+     "J. M. Barrie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le personnage de Tarzan ?",
+    "a": [
+     "Edgar Rice Burroughs",
+     "Jack London",
+     "Jules Verne",
+     "Robert Louis Stevenson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit Chroniques martiennes ?",
+    "a": [
+     "Isaac Asimov",
+     "Ray Bradbury",
+     "Arthur C. Clarke",
+     "Philip K. Dick"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle nation a remporté la Coupe du monde de cricket 2019 ?",
+    "a": [
+     "L'Australie",
+     "L'Inde",
+     "L'Angleterre",
+     "Le Pakistan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Qui a remporté le Tour de France 2024 ?",
+    "a": [
+     "Jonas Vingegaard",
+     "Remco Evenepoel",
+     "Primož Roglič",
+     "Tadej Pogačar"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel est le surnom de l'équipe nationale de football du Brésil ?",
+    "a": [
+     "La Seleção",
+     "Los Gauchos",
+     "Les Oranje",
+     "La Albiceleste"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel joueur a marqué 100 points dans un match de NBA ?",
+    "a": [
+     "Michael Jordan",
+     "Wilt Chamberlain",
+     "Kobe Bryant",
+     "Kareem Abdul-Jabbar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Combien de Ballons d'or Lionel Messi a-t-il remportés ?",
+    "a": [
+     "6",
+     "10",
+     "8",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle ville provençale le calisson est-il la spécialité ?",
+    "a": [
+     "Marseille",
+     "Avignon",
+     "Nîmes",
+     "Aix-en-Provence"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "À base de quel aliment est fait le natto japonais ?",
+    "a": [
+     "Le soja fermenté",
+     "Le riz gluant",
+     "Le pois chiche",
+     "Le blé"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quelle est la base du nuoc-mâm ?",
+    "a": [
+     "Le porc",
+     "Le poisson fermenté",
+     "La crevette séchée",
+     "Le soja"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région française le kouglof est-il originaire ?",
+    "a": [
+     "La Bretagne",
+     "La Normandie",
+     "L'Alsace",
+     "Le Limousin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel ingrédient sucre traditionnellement le pain d'épices ?",
+    "a": [
+     "Le sucre de canne",
+     "Le sirop d'érable",
+     "Le caramel",
+     "Le miel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie l'abréviation N.B. ?",
+    "a": [
+     "Nota bene",
+     "Nouveau bloc",
+     "Non balancé",
+     "Nota brevis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on une courte phrase populaire exprimant une sagesse ?",
+    "a": [
+     "Un euphémisme",
+     "Un proverbe",
+     "Une hyperbole",
+     "Une anaphore"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le féminin de « bélier » ?",
+    "a": [
+     "La chèvre",
+     "L'agneau",
+     "La brebis",
+     "La jument"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Le mot « oasis » est de quel genre ?",
+    "a": [
+     "Masculin",
+     "Les deux",
+     "Aucun",
+     "Féminin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle ville européenne a accueilli la WorldPride en 2017 ?",
+    "a": [
+     "Madrid",
+     "Amsterdam",
+     "Berlin",
+     "Paris"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2025, quel pays d'Asie du Sud-Est célèbre ses premiers mariages égalitaires ?",
+    "a": [
+     "Le Vietnam",
+     "La Thaïlande",
+     "L'Indonésie",
+     "Les Philippines"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quelle ville hors des États-Unis ont eu lieu les Gay Games de 1990 ?",
+    "a": [
+     "Londres",
+     "Sydney",
+     "Vancouver",
+     "Toronto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a été le premier joueur ouvertement gay drafté en NFL, en 2014 ?",
+    "a": [
+     "Jason Collins",
+     "Ryan O'Callaghan",
+     "Kwame Harris",
+     "Michael Sam"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle est la couleur de fond du drapeau intersexe ?",
+    "a": [
+     "Le jaune",
+     "Le violet",
+     "Le bleu",
+     "Le vert"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Qui fut le premier empereur romain ?",
+    "a": [
+     "Jules César",
+     "Auguste",
+     "Tibère",
+     "Caligula"
     ],
     "c": 1
    }
@@ -19847,6 +20397,556 @@
      "Margaret Court"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which humanitarian organisation was founded by Henry Dunant ?",
+    "a": [
+     "The Red Cross",
+     "Médecins Sans Frontières",
+     "UNICEF",
+     "Amnesty International"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Which country gave the Statue of Liberty to the United States ?",
+    "a": [
+     "The United Kingdom",
+     "France",
+     "Italy",
+     "Spain"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which Roman emperor introduced the Tetrarchy in 293 ?",
+    "a": [
+     "Augustus",
+     "Nero",
+     "Diocletian",
+     "Trajan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which language was mainly spoken in the Byzantine Empire ?",
+    "a": [
+     "Latin",
+     "Arabic",
+     "Egyptian",
+     "Greek"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "On which island was Nelson Mandela imprisoned for 18 years ?",
+    "a": [
+     "Robben Island",
+     "Madagascar",
+     "Malta",
+     "Réunion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "What is the smallest republic in the world ?",
+    "a": [
+     "Monaco",
+     "Nauru",
+     "San Marino",
+     "The Maldives"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "In which mountain range is K2 located ?",
+    "a": [
+     "The Himalayas",
+     "The Andes",
+     "The Karakoram",
+     "The Caucasus"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "What is the deepest lake in Africa ?",
+    "a": [
+     "Lake Victoria",
+     "Lake Chad",
+     "Lake Malawi",
+     "Lake Tanganyika"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Geysir geyser that named all geysers ?",
+    "a": [
+     "Iceland",
+     "The United States",
+     "New Zealand",
+     "Japan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "What is the official currency of Japan ?",
+    "a": [
+     "The won",
+     "The yen",
+     "The yuan",
+     "The baht"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which river flows through Berlin ?",
+    "a": [
+     "The Elbe",
+     "The Rhine",
+     "The Spree",
+     "The Danube"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which metal is the best electrical conductor ?",
+    "a": [
+     "Copper",
+     "Gold",
+     "Aluminium",
+     "Silver"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which device measures electrical voltage ?",
+    "a": [
+     "The voltmeter",
+     "The ammeter",
+     "The ohmmeter",
+     "The barometer"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which disease can the Asian tiger mosquito transmit ?",
+    "a": [
+     "Malaria",
+     "Dengue",
+     "Cholera",
+     "Flu"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which gas is used to inflate party balloons ?",
+    "a": [
+     "Oxygen",
+     "Nitrogen",
+     "Helium",
+     "Carbon dioxide"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which bird can turn its head up to 270 degrees ?",
+    "a": [
+     "The pigeon",
+     "The crow",
+     "The canary",
+     "The owl"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which sense perceives smells ?",
+    "a": [
+     "Smell",
+     "Taste",
+     "Hearing",
+     "Touch"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which animal is nicknamed 'king of the savanna' ?",
+    "a": [
+     "The elephant",
+     "The lion",
+     "The giraffe",
+     "The rhino"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who played Rose in the movie Titanic ?",
+    "a": [
+     "Julia Roberts",
+     "Keira Knightley",
+     "Kate Winslet",
+     "Anne Hathaway"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which platform streams the series Stranger Things ?",
+    "a": [
+     "Prime Video",
+     "Disney+",
+     "Apple TV+",
+     "Netflix"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "In which city does the Berlinale film festival take place ?",
+    "a": [
+     "Berlin",
+     "Munich",
+     "Frankfurt",
+     "Hamburg"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which animated film features a family of superheroes ?",
+    "a": [
+     "Ratatouille",
+     "The Incredibles",
+     "Up",
+     "Coco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who voices the Genie in Aladdin (1992) ?",
+    "a": [
+     "Eddie Murphy",
+     "Jim Carrey",
+     "Robin Williams",
+     "Dan Aykroyd"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which Jamaican music style came before reggae ?",
+    "a": [
+     "Calypso",
+     "Zouk",
+     "Salsa",
+     "Ska"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which rapper released the album The Eminem Show ?",
+    "a": [
+     "Eminem",
+     "Jay-Z",
+     "Dr. Dre",
+     "Kanye West"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the music of the Star Wars saga ?",
+    "a": [
+     "Hans Zimmer",
+     "John Williams",
+     "Ennio Morricone",
+     "Howard Shore"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the novel Anne of Green Gables ?",
+    "a": [
+     "Jane Austen",
+     "Louisa May Alcott",
+     "Lucy Maud Montgomery",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the character of Peter Pan ?",
+    "a": [
+     "Lewis Carroll",
+     "Roald Dahl",
+     "Rudyard Kipling",
+     "J. M. Barrie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the character of Tarzan ?",
+    "a": [
+     "Edgar Rice Burroughs",
+     "Jack London",
+     "Jules Verne",
+     "Robert Louis Stevenson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote The Martian Chronicles ?",
+    "a": [
+     "Isaac Asimov",
+     "Ray Bradbury",
+     "Arthur C. Clarke",
+     "Philip K. Dick"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which nation won the Cricket World Cup in 2019 ?",
+    "a": [
+     "Australia",
+     "India",
+     "England",
+     "Pakistan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Who won the 2024 Tour de France ?",
+    "a": [
+     "Jonas Vingegaard",
+     "Remco Evenepoel",
+     "Primož Roglič",
+     "Tadej Pogačar"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "What is the nickname of Brazil's national football team ?",
+    "a": [
+     "A Seleção",
+     "Los Gauchos",
+     "Les Oranje",
+     "La Albiceleste"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which player scored 100 points in a single NBA game ?",
+    "a": [
+     "Michael Jordan",
+     "Wilt Chamberlain",
+     "Kobe Bryant",
+     "Kareem Abdul-Jabbar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "How many Ballons d'Or has Lionel Messi won ?",
+    "a": [
+     "6",
+     "10",
+     "8",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which Provençal city is the home of the calisson ?",
+    "a": [
+     "Marseille",
+     "Avignon",
+     "Nîmes",
+     "Aix-en-Provence"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which food is the Japanese natto made from ?",
+    "a": [
+     "Fermented soybeans",
+     "Sticky rice",
+     "Chickpeas",
+     "Wheat"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "What is the base ingredient of nuoc-mâm ?",
+    "a": [
+     "Pork",
+     "Fermented fish",
+     "Dried shrimp",
+     "Soybeans"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "From which French region does the kouglof come ?",
+    "a": [
+     "Brittany",
+     "Normandy",
+     "Alsace",
+     "Limousin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which ingredient traditionally sweetens gingerbread ?",
+    "a": [
+     "Cane sugar",
+     "Maple syrup",
+     "Caramel",
+     "Honey"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What does the abbreviation 'N.B.' mean ?",
+    "a": [
+     "Nota bene",
+     "New block",
+     "Not balanced",
+     "Nota brevis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What do we call a short popular sentence expressing wisdom ?",
+    "a": [
+     "A euphemism",
+     "A proverb",
+     "A hyperbole",
+     "An anaphora"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "In French, what is 'la brebis' ?",
+    "a": [
+     "A goat",
+     "A lamb",
+     "A ewe",
+     "A mare"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "In French, is the word 'oasis' masculine or feminine ?",
+    "a": [
+     "Masculine",
+     "Both",
+     "Neither",
+     "Feminine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which European city hosted WorldPride in 2017 ?",
+    "a": [
+     "Madrid",
+     "Amsterdam",
+     "Berlin",
+     "Paris"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 2025, which Southeast Asian country celebrated its first same-sex marriages ?",
+    "a": [
+     "Vietnam",
+     "Thailand",
+     "Indonesia",
+     "The Philippines"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which city outside the US were the 1990 Gay Games held ?",
+    "a": [
+     "London",
+     "Sydney",
+     "Vancouver",
+     "Toronto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who was the first openly gay player drafted in the NFL, in 2014 ?",
+    "a": [
+     "Jason Collins",
+     "Ryan O'Callaghan",
+     "Kwame Harris",
+     "Michael Sam"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "What is the background colour of the intersex flag ?",
+    "a": [
+     "Yellow",
+     "Purple",
+     "Blue",
+     "Green"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Who was the first Roman emperor ?",
+    "a": [
+     "Julius Caesar",
+     "Augustus",
+     "Tiberius",
+     "Caligula"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -29758,6 +30858,556 @@
      "Martina Navratilova",
      "Steffi Graf",
      "Margaret Court"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué organización humanitaria fue fundada por Henry Dunant ?",
+    "a": [
+     "La Cruz Roja",
+     "Médicos Sin Fronteras",
+     "Unicef",
+     "Amnistía Internacional"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué país regaló la Estatua de la Libertad a Estados Unidos ?",
+    "a": [
+     "Reino Unido",
+     "Francia",
+     "Italia",
+     "España"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué emperador romano instauró la Tetrarquía en 293 ?",
+    "a": [
+     "Augusto",
+     "Nerón",
+     "Diocleciano",
+     "Trajano"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué lengua se hablaba principalmente en el Imperio bizantino ?",
+    "a": [
+     "El latín",
+     "El árabe",
+     "El egipcio",
+     "El griego"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué isla estuvo preso Nelson Mandela durante 18 años ?",
+    "a": [
+     "Robben",
+     "Madagascar",
+     "Malta",
+     "Reunión"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la república más pequeña del mundo ?",
+    "a": [
+     "Mónaco",
+     "Nauru",
+     "San Marino",
+     "Maldivas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué cordillera se encuentra el K2 ?",
+    "a": [
+     "El Himalaya",
+     "Los Andes",
+     "El Karakórum",
+     "El Cáucaso"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el lago más profundo de África ?",
+    "a": [
+     "El lago Victoria",
+     "El lago Chad",
+     "El lago Malawi",
+     "El lago Tanganyika"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el géiser Geysir, que dio nombre a todos los géiseres ?",
+    "a": [
+     "Islandia",
+     "Estados Unidos",
+     "Nueva Zelanda",
+     "Japón"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la moneda oficial de Japón ?",
+    "a": [
+     "El won",
+     "El yen",
+     "El yuan",
+     "El baht"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué río atraviesa Berlín ?",
+    "a": [
+     "El Elba",
+     "El Rin",
+     "El Spree",
+     "El Danubio"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué metal es el mejor conductor eléctrico ?",
+    "a": [
+     "El cobre",
+     "El oro",
+     "El aluminio",
+     "La plata"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué aparato mide el voltaje eléctrico ?",
+    "a": [
+     "El voltímetro",
+     "El amperímetro",
+     "El óhmetro",
+     "El barómetro"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué enfermedad puede transmitir el mosquito tigre ?",
+    "a": [
+     "La malaria",
+     "El dengue",
+     "El cólera",
+     "La gripe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué gas se usa para inflar los globos de fiesta ?",
+    "a": [
+     "El oxígeno",
+     "El nitrógeno",
+     "El helio",
+     "El dióxido de carbono"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué ave puede girar la cabeza hasta 270 grados ?",
+    "a": [
+     "La paloma",
+     "El cuervo",
+     "El canario",
+     "El búho"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué sentido permite percibir los olores ?",
+    "a": [
+     "El olfato",
+     "El gusto",
+     "El oído",
+     "El tacto"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué animal tiene el apodo de «rey de la sabana» ?",
+    "a": [
+     "El elefante",
+     "El león",
+     "La jirafa",
+     "El rinoceronte"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpretó a Rose en la película Titanic ?",
+    "a": [
+     "Julia Roberts",
+     "Keira Knightley",
+     "Kate Winslet",
+     "Anne Hathaway"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué plataforma se emite la serie Stranger Things ?",
+    "a": [
+     "Prime Video",
+     "Disney+",
+     "Apple TV+",
+     "Netflix"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué ciudad se celebra el festival de la Berlinale ?",
+    "a": [
+     "Berlín",
+     "Múnich",
+     "Fráncfort",
+     "Hamburgo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de animación muestra a una familia de superhéroes ?",
+    "a": [
+     "Ratatouille",
+     "Los Increíbles",
+     "Up",
+     "Coco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién pone voz al Genio de Aladdin (1992) ?",
+    "a": [
+     "Eddie Murphy",
+     "Jim Carrey",
+     "Robin Williams",
+     "Dan Aykroyd"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué estilo musical jamaicano precedió al reggae ?",
+    "a": [
+     "El calipso",
+     "El zouk",
+     "La salsa",
+     "El ska"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué rapero sacó el álbum The Eminem Show ?",
+    "a": [
+     "Eminem",
+     "Jay-Z",
+     "Dr. Dre",
+     "Kanye West"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso la música de la saga Star Wars ?",
+    "a": [
+     "Hans Zimmer",
+     "John Williams",
+     "Ennio Morricone",
+     "Howard Shore"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la novela Anne de Green Gables ?",
+    "a": [
+     "Jane Austen",
+     "Louisa May Alcott",
+     "Lucy Maud Montgomery",
+     "Emily Brontë"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó el personaje de Peter Pan ?",
+    "a": [
+     "Lewis Carroll",
+     "Roald Dahl",
+     "Rudyard Kipling",
+     "J. M. Barrie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó el personaje de Tarzán ?",
+    "a": [
+     "Edgar Rice Burroughs",
+     "Jack London",
+     "Julio Verne",
+     "Robert Louis Stevenson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió Crónicas marcianas ?",
+    "a": [
+     "Isaac Asimov",
+     "Ray Bradbury",
+     "Arthur C. Clarke",
+     "Philip K. Dick"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué nación ganó la Copa del Mundo de críquet en 2019 ?",
+    "a": [
+     "Australia",
+     "India",
+     "Inglaterra",
+     "Pakistán"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Quién ganó el Tour de Francia 2024 ?",
+    "a": [
+     "Jonas Vingegaard",
+     "Remco Evenepoel",
+     "Primož Roglič",
+     "Tadej Pogačar"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es el apodo de la selección de fútbol de Brasil ?",
+    "a": [
+     "La Seleção",
+     "Los Gauchos",
+     "Los Oranje",
+     "La Albiceleste"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué jugador anotó 100 puntos en un partido de la NBA ?",
+    "a": [
+     "Michael Jordan",
+     "Wilt Chamberlain",
+     "Kobe Bryant",
+     "Kareem Abdul-Jabbar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántos Balones de Oro ha ganado Lionel Messi ?",
+    "a": [
+     "6",
+     "10",
+     "8",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué ciudad provenzal es especialidad el calisson ?",
+    "a": [
+     "Marsella",
+     "Aviñón",
+     "Nimes",
+     "Aix-en-Provence"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿A partir de qué alimento se hace el natto japonés ?",
+    "a": [
+     "La soja fermentada",
+     "El arroz glutinoso",
+     "El garbanzo",
+     "El trigo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Cuál es la base del nuoc-mâm ?",
+    "a": [
+     "El cerdo",
+     "El pescado fermentado",
+     "El camarón seco",
+     "La soja"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región francesa es originario el kouglof ?",
+    "a": [
+     "Bretaña",
+     "Normandía",
+     "Alsacia",
+     "Limosín"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué ingrediente endulza tradicionalmente el pan de especias ?",
+    "a": [
+     "El azúcar de caña",
+     "El sirope de arce",
+     "El caramelo",
+     "La miel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué significa la abreviatura N.B. ?",
+    "a": [
+     "Nota bene",
+     "Nuevo bloque",
+     "No balanceado",
+     "Nota brevis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama una frase popular corta que expresa sabiduría ?",
+    "a": [
+     "Un eufemismo",
+     "Un refrán",
+     "Una hipérbole",
+     "Una anáfora"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el femenino de « carnero » ?",
+    "a": [
+     "La cabra",
+     "El cordero",
+     "La oveja",
+     "La yegua"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿La palabra «oasis» es masculina o femenina ?",
+    "a": [
+     "Masculina",
+     "Ambas",
+     "Ninguna",
+     "Femenina"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ciudad europea acogió el WorldPride de 2017 ?",
+    "a": [
+     "Madrid",
+     "Ámsterdam",
+     "Berlín",
+     "París"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2025, ¿qué país del Sudeste Asiático celebró sus primeras bodas igualitarias ?",
+    "a": [
+     "Vietnam",
+     "Tailandia",
+     "Indonesia",
+     "Filipinas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué ciudad fuera de Estados Unidos se celebraron los Gay Games de 1990 ?",
+    "a": [
+     "Londres",
+     "Sídney",
+     "Vancouver",
+     "Toronto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién fue el primer jugador abiertamente gay elegido en la NFL, en 2014 ?",
+    "a": [
+     "Jason Collins",
+     "Ryan O'Callaghan",
+     "Kwame Harris",
+     "Michael Sam"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué color de fondo tiene la bandera intersexual ?",
+    "a": [
+     "El amarillo",
+     "El violeta",
+     "El azul",
+     "El verde"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién fue el primer emperador romano ?",
+    "a": [
+     "Julio César",
+     "Augusto",
+     "Tiberio",
+     "Calígula"
     ],
     "c": 1
    }
