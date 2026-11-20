@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "qs": {
   "fr": [
    {
@@ -10473,6 +10473,754 @@
      "Caligula"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel médecin grec de l'Antiquité a donné son nom au serment des médecins ?",
+    "a": [
+     "Hippocrate",
+     "Galien",
+     "Avicenne",
+     "Aristote"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Comment s'appellent les guerres qui ont opposé Rome à Carthage ?",
+    "a": [
+     "Les guerres gauloises",
+     "Les guerres puniques",
+     "Les guerres médiques",
+     "Les guerres samnites"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle femme pharaon a régné sur l'Égypte vers 1500 av. J.-C. ?",
+    "a": [
+     "Néfertiti",
+     "Cléopâtre",
+     "Hatchepsout",
+     "Nitocris"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel ordre religieux a été fondé par Ignace de Loyola en 1540 ?",
+    "a": [
+     "Les Bénédictins",
+     "Les Franciscains",
+     "Les Dominicains",
+     "Les Jésuites"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Dans quelle ville française Léonard de Vinci est-il mort en 1519 ?",
+    "a": [
+     "Amboise",
+     "Florence",
+     "Rome",
+     "Avignon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le Namib, l'un des plus vieux déserts du monde ?",
+    "a": [
+     "L'Afrique du Sud",
+     "La Namibie",
+     "Le Botswana",
+     "L'Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel océan borde la côte est des États-Unis ?",
+    "a": [
+     "L'océan Pacifique",
+     "L'océan Indien",
+     "L'océan Atlantique",
+     "L'océan Arctique"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la plus grande île de Grèce ?",
+    "a": [
+     "Rhodes",
+     "Santorin",
+     "Corfou",
+     "La Crète"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays africain se trouve le mont Kenya ?",
+    "a": [
+     "Le Kenya",
+     "La Tanzanie",
+     "L'Ouganda",
+     "L'Éthiopie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays du Royaume-Uni se trouve le Yorkshire ?",
+    "a": [
+     "L'Écosse",
+     "L'Angleterre",
+     "Le pays de Galles",
+     "L'Irlande du Nord"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel micro-organisme unicellulaire fait fermenter la bière ?",
+    "a": [
+     "Le virus",
+     "L'amibe",
+     "La levure",
+     "L'algue"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle partie de l'œil lui donne sa couleur ?",
+    "a": [
+     "La cornée",
+     "La rétine",
+     "Le cristallin",
+     "L'iris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quel instrument mesure l'humidité de l'air ?",
+    "a": [
+     "L'hygromètre",
+     "Le baromètre",
+     "L'anémomètre",
+     "Le manomètre"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quel mammifère a la plus longue gestation, environ 22 mois ?",
+    "a": [
+     "La girafe",
+     "L'éléphant",
+     "Le rhinocéros",
+     "La baleine bleue"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle maladie provoque une perte progressive de la mémoire ?",
+    "a": [
+     "La maladie de Parkinson",
+     "Le diabète",
+     "La maladie d'Alzheimer",
+     "L'asthme"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel âge les scientifiques donnent-ils approximativement à l'univers ?",
+    "a": [
+     "Environ 4,5 milliards d'années",
+     "Environ 100 000 ans",
+     "Environ 1 000 milliards d'années",
+     "Environ 13,8 milliards d'années"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film Clarice Starling interroge-t-elle Hannibal Lecter ?",
+    "a": [
+     "Le Silence des agneaux",
+     "Seven",
+     "Identity",
+     "Prisoners"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé le film sud-coréen « Parasite », Oscar du meilleur film ?",
+    "a": [
+     "Park Chan-wook",
+     "Bong Joon-ho",
+     "Kim Ki-duk",
+     "Na Hong-jin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice joue la mariée vengeresse dans « Kill Bill » ?",
+    "a": [
+     "Lucy Liu",
+     "Angelina Jolie",
+     "Uma Thurman",
+     "Scarlett Johansson"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film muet Jean Dujardin a-t-il gagné l'Oscar du meilleur acteur ?",
+    "a": [
+     "Intouchables",
+     "La Môme",
+     "Le Dîner de cons",
+     "The Artist"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel classique Disney Maléfique lance-t-elle un sort à la princesse Aurore ?",
+    "a": [
+     "La Belle au bois dormant",
+     "Blanche-Neige",
+     "Cendrillon",
+     "La Petite Sirène"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "De quel groupe britannique Sting était-il le chanteur ?",
+    "a": [
+     "The Cure",
+     "The Police",
+     "Duran Duran",
+     "The Clash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe norvégien a connu un succès mondial avec « Take On Me » ?",
+    "a": [
+     "ABBA",
+     "Roxette",
+     "a-ha",
+     "Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse française a gagné l'Eurovision 1965 avec « Poupée de cire » ?",
+    "a": [
+     "Françoise Hardy",
+     "Sylvie Vartan",
+     "Mireille Mathieu",
+     "France Gall"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé l'opéra « L'Or du Rhin » ?",
+    "a": [
+     "Richard Wagner",
+     "Giuseppe Verdi",
+     "Gaetano Donizetti",
+     "Richard Strauss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le personnage de Zorro en 1919 ?",
+    "a": [
+     "Hergé",
+     "Johnston McCulley",
+     "Goscinny",
+     "Alexandre Dumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit la pièce « Ubu roi » ?",
+    "a": [
+     "Molière",
+     "Beaumarchais",
+     "Alfred Jarry",
+     "Racine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a dessiné le cow-boy Lucky Luke ?",
+    "a": [
+     "Goscinny",
+     "Hergé",
+     "Uderzo",
+     "Morris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit la pièce de théâtre « Oncle Vania » ?",
+    "a": [
+     "Anton Tchekhov",
+     "Léon Tolstoï",
+     "Maxime Gorki",
+     "Ivan Tourgueniev"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel Kenyan détient le record du monde du marathon (2h00min35) ?",
+    "a": [
+     "Eliud Kipchoge",
+     "Kelvin Kiptum",
+     "Haile Gebrselassie",
+     "Paul Tergat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quels trois pays ont co-organisé la Coupe du monde de football en 2026 ?",
+    "a": [
+     "Argentine, Brésil, Uruguay",
+     "Espagne, Portugal, Maroc",
+     "États-Unis, Mexique, Canada",
+     "Allemagne, Autriche, Suisse"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Qui a battu le record de buts de Wayne Gretzky en NHL en 2025 ?",
+    "a": [
+     "Sidney Crosby",
+     "Connor McDavid",
+     "Mario Lemieux",
+     "Alexander Ovechkin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel club italien est surnommé « la Vecchia Signora » (la Vieille Dame) ?",
+    "a": [
+     "La Juventus",
+     "L'AC Milan",
+     "L'Inter Milan",
+     "L'AS Rome"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel pays a remporté la Coupe du monde féminine de football en 2019 ?",
+    "a": [
+     "Les Pays-Bas",
+     "Les États-Unis",
+     "La Suède",
+     "L'Angleterre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle graine le tahini, préparation orientale, est-il fait ?",
+    "a": [
+     "Le tournesol",
+     "La courge",
+     "Le sésame",
+     "Le lin"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel dessert imbibé de rhum est associé au roi Stanislas en Lorraine ?",
+    "a": [
+     "Le canelé",
+     "La charlotte",
+     "Le paris-brest",
+     "Le rum baba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Quel plat bourguignon cuit des escargots au beurre persillé ?",
+    "a": [
+     "Les escargots de Bourgogne",
+     "Le bœuf bourguignon",
+     "La poule au pot",
+     "Le coq au vin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Que désigne le mot japonais « umami » ?",
+    "a": [
+     "Une algue marine",
+     "La cinquième saveur",
+     "Une sauce soja épicée",
+     "Un légume mariné"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Le gyoza est un ravioli de quelle cuisine ?",
+    "a": [
+     "La cuisine chinoise",
+     "La cuisine coréenne",
+     "La cuisine japonaise",
+     "La cuisine vietnamienne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on une inscription gravée sur une tombe ?",
+    "a": [
+     "Une épitre",
+     "Une épigramme",
+     "Un ex-libris",
+     "Une épitaphe"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Complétez : « Il faut que j'___ à la réunion. » (aller)",
+    "a": [
+     "aille",
+     "vais",
+     "irai",
+     "allais"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le contraire d'« avare » ?",
+    "a": [
+     "Mesquin",
+     "Généreux",
+     "Rapace",
+     "Pingre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie l'abréviation « SVP » ?",
+    "a": [
+     "Sans autre préavis",
+     "Suivant votre position",
+     "S'il vous plaît",
+     "Suite à votre présence"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quel adjectif signifie « qui dégage une odeur très désagréable » ?",
+    "a": [
+     "Loquace",
+     "Vaillant",
+     "Crépu",
+     "Fétide"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Complétez : « Vous ___ partir quand vous voulez. » (pouvoir)",
+    "a": [
+     "pouvez",
+     "peux",
+     "peuvent",
+     "pourras"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans le drapeau de Gilbert Baker, que représente la couleur orange ?",
+    "a": [
+     "La vie",
+     "La guérison",
+     "L'harmonie",
+     "La nature"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle ville américaine a accueilli la WorldPride en 2025 ?",
+    "a": [
+     "New York",
+     "San Francisco",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel magazine français LGBT+ a été fondé en 1996 ?",
+    "a": [
+     "Illico",
+     "Le Gai Pied",
+     "Homosphère",
+     "Têtu"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays a adopté en 2012 une loi d'identité de genre sur l'autodétermination ?",
+    "a": [
+     "L'Argentine",
+     "Le Chili",
+     "Le Brésil",
+     "L'Uruguay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel objet à double lame est un symbole lesbien historique ?",
+    "a": [
+     "L'épée brisée",
+     "La hache (labrys)",
+     "Le ruban pourpre",
+     "Le miroir d'or"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, la CIJ juge quel État responsable d'un génocide, une première ?",
+    "a": [
+     "Le Soudan",
+     "La Syrie",
+     "La Birmanie",
+     "La Serbie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quelle banque allemande chute de 6 % après une fuite de documents ?",
+    "a": [
+     "Commerzbank",
+     "KfW",
+     "BayernLB",
+     "Deutsche Bank"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, où les députés du mouvement étudiant forment-ils une majorité ?",
+    "a": [
+     "En Serbie",
+     "En Géorgie",
+     "En Bulgarie",
+     "En Croatie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quelle marathonienne kényane est suspendue 3 ans pour dopage ?",
+    "a": [
+     "Faith Kipyegon",
+     "Peres Jepchirchir",
+     "Hellen Obiri",
+     "Ruth Chepngetich"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel sport nord-américain s'oriente vers un lock-out le 2 décembre ?",
+    "a": [
+     "Le basket-ball",
+     "Le football US",
+     "Le baseball",
+     "Le hockey sur glace"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel match de NFL retourne à Mexico City ?",
+    "a": [
+     "Cowboys-Cardinals",
+     "Dolphins-Colts",
+     "Bears-Rams",
+     "Vikings-49ers"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Après l'exclusion de la Russie, quelle fédération subit un piratage en novembre 2026 ?",
+    "a": [
+     "Celle de hockey sur glace",
+     "Celle de football",
+     "Celle de volleyball",
+     "Celle de ski"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, Mauricio Pochettino devient entraîneur de quel club ?",
+    "a": [
+     "Chelsea",
+     "Manchester United",
+     "Tottenham",
+     "Le PSG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Mi novembre 2026, quelles équipes sont parmi les premières qualifiées de la CAN-2027 ?",
+    "a": [
+     "L'Égypte et le Nigeria",
+     "Le Cameroun et le Ghana",
+     "Le Maroc et le Sénégal",
+     "L'Algérie et la Tunisie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel président veut rouvrir le dossier de l'Ukraine à l'OTAN ?",
+    "a": [
+     "Keir Starmer",
+     "Pedro Sánchez",
+     "Olaf Scholz",
+     "Emmanuel Macron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Quel économiste propose un impôt exceptionnel sur les milliardaires en 2026 ?",
+    "a": [
+     "Gabriel Zucman",
+     "Thomas Piketty",
+     "Joseph Stiglitz",
+     "Esther Duflo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, de quelle nationalité est le favori pour présider la BCE ?",
+    "a": [
+     "Allemande",
+     "Espagnole",
+     "Française",
+     "Italienne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pays obtient un accord de plus de 2 milliards $ avec le FMI ?",
+    "a": [
+     "Le Ghana",
+     "Le Kenya",
+     "L'Égypte",
+     "Le Maroc"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Dans quelle ville la FIFA élira-t-elle son président en mars 2027 ?",
+    "a": [
+     "Zurich",
+     "Doha",
+     "Genève",
+     "Rabat"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, le CPJ honore quelle journaliste de l'AFP blessée en reportage ?",
+    "a": [
+     "Christina Assi",
+     "Marie Colvin",
+     "Clare Gillis",
+     "Shireen Abu Akleh"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel président latino-américain enregistre sa candidature à un 3e mandat ?",
+    "a": [
+     "Daniel Noboa",
+     "Nayib Bukele",
+     "Xiomara Castro",
+     "Javier Milei"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, prison ferme requise contre des militants de quelle mouvance en France ?",
+    "a": [
+     "Anarchiste",
+     "Ultraroyaliste",
+     "Masculiniste",
+     "Négationniste"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pays condamne à la perpétuité un triple meurtrier lesbophobe ?",
+    "a": [
+     "Le Chili",
+     "Le Brésil",
+     "Le Mexique",
+     "L'Argentine"
+    ],
+    "c": 3
    }
   ],
   "en": [
@@ -20947,6 +21695,754 @@
      "Caligula"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which ancient Greek physician gave his name to the doctors' oath?",
+    "a": [
+     "Hippocrates",
+     "Galen",
+     "Avicenna",
+     "Aristotle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "What were the wars between Rome and Carthage called?",
+    "a": [
+     "The Gallic Wars",
+     "The Punic Wars",
+     "The Persian Wars",
+     "The Samnite Wars"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which female pharaoh ruled Egypt around 1500 BC?",
+    "a": [
+     "Nefertiti",
+     "Cleopatra",
+     "Hatshepsut",
+     "Nitocris"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which religious order was founded by Ignatius of Loyola in 1540?",
+    "a": [
+     "The Benedictines",
+     "The Franciscans",
+     "The Dominicans",
+     "The Jesuits"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "In which French city did Leonardo da Vinci die in 1519?",
+    "a": [
+     "Amboise",
+     "Florence",
+     "Rome",
+     "Avignon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Namib, one of the world's oldest deserts?",
+    "a": [
+     "South Africa",
+     "Namibia",
+     "Botswana",
+     "Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which ocean borders the east coast of the United States?",
+    "a": [
+     "The Pacific Ocean",
+     "The Indian Ocean",
+     "The Atlantic Ocean",
+     "The Arctic Ocean"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "What is the largest island of Greece?",
+    "a": [
+     "Rhodes",
+     "Santorini",
+     "Corfu",
+     "Crete"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "In which African country is Mount Kenya located?",
+    "a": [
+     "Kenya",
+     "Tanzania",
+     "Uganda",
+     "Ethiopia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which UK country is the county of Yorkshire?",
+    "a": [
+     "Scotland",
+     "England",
+     "Wales",
+     "Northern Ireland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which single-celled microorganism ferments beer?",
+    "a": [
+     "A virus",
+     "An amoeba",
+     "Yeast",
+     "An alga"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which part of the eye gives it its colour?",
+    "a": [
+     "The cornea",
+     "The retina",
+     "The lens",
+     "The iris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which instrument measures air humidity?",
+    "a": [
+     "The hygrometer",
+     "The barometer",
+     "The anemometer",
+     "The manometer"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which mammal has the longest pregnancy, about 22 months?",
+    "a": [
+     "The giraffe",
+     "The elephant",
+     "The rhinoceros",
+     "The blue whale"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which disease causes progressive memory loss?",
+    "a": [
+     "Parkinson's disease",
+     "Diabetes",
+     "Alzheimer's disease",
+     "Asthma"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What approximate age do scientists give to the universe?",
+    "a": [
+     "About 4.5 billion years",
+     "About 100,000 years",
+     "About a trillion years",
+     "About 13.8 billion years"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "In which film does Clarice Starling interview Hannibal Lecter?",
+    "a": [
+     "The Silence of the Lambs",
+     "Seven",
+     "Identity",
+     "Prisoners"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed the South Korean film 'Parasite', Best Picture Oscar winner?",
+    "a": [
+     "Park Chan-wook",
+     "Bong Joon-ho",
+     "Kim Ki-duk",
+     "Na Hong-jin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress plays the vengeful Bride in 'Kill Bill'?",
+    "a": [
+     "Lucy Liu",
+     "Angelina Jolie",
+     "Uma Thurman",
+     "Scarlett Johansson"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "In which silent film did Jean Dujardin win the Best Actor Oscar?",
+    "a": [
+     "Intouchables",
+     "La Vie en Rose",
+     "The Dinner Game",
+     "The Artist"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "In which Disney classic does Maleficent curse Princess Aurora?",
+    "a": [
+     "Sleeping Beauty",
+     "Snow White",
+     "Cinderella",
+     "The Little Mermaid"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Sting was the lead singer of which British band?",
+    "a": [
+     "The Cure",
+     "The Police",
+     "Duran Duran",
+     "The Clash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which Norwegian band had a worldwide hit with 'Take On Me'?",
+    "a": [
+     "ABBA",
+     "Roxette",
+     "a-ha",
+     "Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which French singer won Eurovision 1965 with 'Poupee de cire'?",
+    "a": [
+     "Francoise Hardy",
+     "Sylvie Vartan",
+     "Mireille Mathieu",
+     "France Gall"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the opera 'Das Rheingold'?",
+    "a": [
+     "Richard Wagner",
+     "Giuseppe Verdi",
+     "Gaetano Donizetti",
+     "Richard Strauss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the character of Zorro in 1919?",
+    "a": [
+     "Herge",
+     "Johnston McCulley",
+     "Goscinny",
+     "Alexandre Dumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the play 'Ubu Roi'?",
+    "a": [
+     "Moliere",
+     "Beaumarchais",
+     "Alfred Jarry",
+     "Racine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who drew the cowboy Lucky Luke?",
+    "a": [
+     "Goscinny",
+     "Herge",
+     "Uderzo",
+     "Morris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the play 'Uncle Vanya'?",
+    "a": [
+     "Anton Chekhov",
+     "Leo Tolstoy",
+     "Maxim Gorky",
+     "Ivan Turgenev"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which Kenyan holds the marathon world record (2:00:35)?",
+    "a": [
+     "Eliud Kipchoge",
+     "Kelvin Kiptum",
+     "Haile Gebrselassie",
+     "Paul Tergat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which three countries co-hosted the football World Cup in 2026?",
+    "a": [
+     "Argentina, Brazil, Uruguay",
+     "Spain, Portugal, Morocco",
+     "USA, Mexico, Canada",
+     "Germany, Austria, Switzerland"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Who broke Wayne Gretzky's NHL goals record in 2025?",
+    "a": [
+     "Sidney Crosby",
+     "Connor McDavid",
+     "Mario Lemieux",
+     "Alexander Ovechkin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which Italian club is nicknamed 'La Vecchia Signora' (the Old Lady)?",
+    "a": [
+     "Juventus",
+     "AC Milan",
+     "Inter Milan",
+     "AS Roma"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which country won the Women's Football World Cup in 2019?",
+    "a": [
+     "The Netherlands",
+     "The United States",
+     "Sweden",
+     "England"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Tahini, the Middle Eastern paste, is made from which seed?",
+    "a": [
+     "Sunflower",
+     "Pumpkin",
+     "Sesame",
+     "Flax"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which rum-soaked dessert is linked to King Stanislas in Lorraine?",
+    "a": [
+     "The canele",
+     "The charlotte",
+     "The paris-brest",
+     "The rum baba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which Burgundy dish cooks snails in parsley butter?",
+    "a": [
+     "Escargots de Bourgogne",
+     "Boeuf bourguignon",
+     "Poule au pot",
+     "Coq au vin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "What does the Japanese word 'umami' mean?",
+    "a": [
+     "A seaweed",
+     "The fifth taste",
+     "A spicy soy sauce",
+     "A pickled vegetable"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Gyoza is a dumpling from which cuisine?",
+    "a": [
+     "Chinese cuisine",
+     "Korean cuisine",
+     "Japanese cuisine",
+     "Vietnamese cuisine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of 'crisis'?",
+    "a": [
+     "Crisises",
+     "Crisis",
+     "Criseses",
+     "Crises"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the contracted form of 'will not'?",
+    "a": [
+     "won't",
+     "willn't",
+     "wonn't",
+     "will no't"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of 'transparent'?",
+    "a": [
+     "Translucent",
+     "Opaque",
+     "Visible",
+     "Lucid"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the comparative form of 'little'?",
+    "a": [
+     "Littler",
+     "Least",
+     "Less",
+     "Littlest"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in the word 'comb'?",
+    "a": [
+     "The c",
+     "The m",
+     "The o",
+     "The b"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the fear of heights called?",
+    "a": [
+     "Acrophobia",
+     "Agoraphobia",
+     "Claustrophobia",
+     "Hydrophobia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In Gilbert Baker's rainbow flag, what does the orange stripe stand for?",
+    "a": [
+     "Life",
+     "Healing",
+     "Harmony",
+     "Nature"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which US city hosted WorldPride in 2025?",
+    "a": [
+     "New York",
+     "San Francisco",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which French LGBT+ magazine was founded in 1996?",
+    "a": [
+     "Illico",
+     "Le Gai Pied",
+     "Homosphere",
+     "Tetu"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country passed a gender identity law based on self-determination in 2012?",
+    "a": [
+     "Argentina",
+     "Chile",
+     "Brazil",
+     "Uruguay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which double-bladed object is a historic lesbian symbol?",
+    "a": [
+     "The broken sword",
+     "The labrys (double axe)",
+     "The purple ribbon",
+     "The golden mirror"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, the ICJ for the first time finds which state responsible of genocide?",
+    "a": [
+     "Sudan",
+     "Syria",
+     "Myanmar",
+     "Serbia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which German bank falls 6% after a document leak?",
+    "a": [
+     "Commerzbank",
+     "KfW",
+     "BayernLB",
+     "Deutsche Bank"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, where do student-backed MPs form a parliamentary majority?",
+    "a": [
+     "In Serbia",
+     "In Georgia",
+     "In Bulgaria",
+     "In Croatia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which Kenyan marathon champion gets a 3-year doping ban?",
+    "a": [
+     "Faith Kipyegon",
+     "Peres Jepchirchir",
+     "Hellen Obiri",
+     "Ruth Chepngetich"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which North American sport is heading to a lockout on Dec 2?",
+    "a": [
+     "Basketball",
+     "American football",
+     "Baseball",
+     "Ice hockey"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which NFL game returns to Mexico City?",
+    "a": [
+     "Cowboys-Cardinals",
+     "Dolphins-Colts",
+     "Bears-Rams",
+     "Vikings-49ers"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "After Russia's exclusion, which sport's federation is hacked in Nov 2026?",
+    "a": [
+     "Ice hockey",
+     "Football",
+     "Volleyball",
+     "Skiing"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, Mauricio Pochettino becomes head coach of which club?",
+    "a": [
+     "Chelsea",
+     "Manchester United",
+     "Tottenham",
+     "PSG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Mid-November 2026, which teams are among the first qualified for AFCON 2027?",
+    "a": [
+     "Egypt and Nigeria",
+     "Cameroon and Ghana",
+     "Morocco and Senegal",
+     "Algeria and Tunisia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which president wants to reopen Ukraine's NATO accession?",
+    "a": [
+     "Keir Starmer",
+     "Pedro Sanchez",
+     "Olaf Scholz",
+     "Emmanuel Macron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Which economist proposes a one-off tax on billionaires in 2026?",
+    "a": [
+     "Gabriel Zucman",
+     "Thomas Piketty",
+     "Joseph Stiglitz",
+     "Esther Duflo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, the favourite to lead the ECB is of which nationality?",
+    "a": [
+     "German",
+     "Spanish",
+     "French",
+     "Italian"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country reaches a $2bn+ deal with the IMF?",
+    "a": [
+     "Ghana",
+     "Kenya",
+     "Egypt",
+     "Morocco"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In which city will FIFA elect its president in March 2027?",
+    "a": [
+     "Zurich",
+     "Doha",
+     "Geneva",
+     "Rabat"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, the CPJ honours which AFP journalist wounded on duty?",
+    "a": [
+     "Christina Assi",
+     "Marie Colvin",
+     "Clare Gillis",
+     "Shireen Abu Akleh"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In Nov 2026, which Latin American president registers to run for a third term?",
+    "a": [
+     "Daniel Noboa",
+     "Nayib Bukele",
+     "Xiomara Castro",
+     "Javier Milei"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, France holds its first trial of which movement's militants?",
+    "a": [
+     "Anarchist",
+     "Royalist",
+     "Masculinist",
+     "Denialist"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country jails a lesbophobic triple murderer for life?",
+    "a": [
+     "Chile",
+     "Brazil",
+     "Mexico",
+     "Argentina"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -31410,6 +32906,754 @@
      "Calígula"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué médico griego de la Antigüedad dio su nombre al juramento de los médicos?",
+    "a": [
+     "Hipócrates",
+     "Galeno",
+     "Avicena",
+     "Aristóteles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Cómo se llaman las guerras entre Roma y Cartago?",
+    "a": [
+     "Las guerras galas",
+     "Las guerras púnicas",
+     "Las guerras médicas",
+     "Las guerras samnitas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué mujer faraón gobernó Egipto hacia el 1500 a.C.?",
+    "a": [
+     "Nefertiti",
+     "Cleopatra",
+     "Hatshepsut",
+     "Nitocris"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué orden religiosa fundó Ignacio de Loyola en 1540?",
+    "a": [
+     "Los benedictinos",
+     "Los franciscanos",
+     "Los dominicos",
+     "Los jesuitas"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué ciudad francesa murió Leonardo da Vinci en 1519?",
+    "a": [
+     "Amboise",
+     "Florencia",
+     "Roma",
+     "Aviñón"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país se encuentra el Namib, uno de los desiertos más antiguos?",
+    "a": [
+     "Sudáfrica",
+     "Namibia",
+     "Botsuana",
+     "Angola"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué océano baña la costa este de Estados Unidos?",
+    "a": [
+     "El océano Pacífico",
+     "El océano Índico",
+     "El océano Atlántico",
+     "El océano Glacial Ártico"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la isla más grande de Grecia?",
+    "a": [
+     "Rodas",
+     "Santorini",
+     "Corfú",
+     "Creta"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país africano se encuentra el monte Kenia?",
+    "a": [
+     "Kenia",
+     "Tanzania",
+     "Uganda",
+     "Etiopía"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país del Reino Unido está el condado de Yorkshire?",
+    "a": [
+     "Escocia",
+     "Inglaterra",
+     "Gales",
+     "Irlanda del Norte"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué microorganismo unicelular fermenta la cerveza?",
+    "a": [
+     "El virus",
+     "La ameba",
+     "La levadura",
+     "El alga"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué parte del ojo le da su color?",
+    "a": [
+     "La córnea",
+     "La retina",
+     "El cristalino",
+     "El iris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué instrumento mide la humedad del aire?",
+    "a": [
+     "El higrómetro",
+     "El barómetro",
+     "El anemómetro",
+     "El manómetro"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué mamífero tiene la gestación más larga, unos 22 meses?",
+    "a": [
+     "La jirafa",
+     "El elefante",
+     "El rinoceronte",
+     "La ballena azul"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué enfermedad provoca una pérdida progresiva de la memoria?",
+    "a": [
+     "El párkinson",
+     "La diabetes",
+     "El alzhéimer",
+     "El asma"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué edad aproximada dan los científicos al universo?",
+    "a": [
+     "Unos 4.500 millones de años",
+     "Unos 100.000 años",
+     "Un billón de años",
+     "Unos 13.800 millones de años"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película Clarice Starling interroga a Hannibal Lecter?",
+    "a": [
+     "El silencio de los corderos",
+     "Seven",
+     "Identity",
+     "Prisioneros"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió la película surcoreana 'Parásitos', Óscar a mejor película?",
+    "a": [
+     "Park Chan-wook",
+     "Bong Joon-ho",
+     "Kim Ki-duk",
+     "Na Hong-jin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz interpreta a la novia vengativa en 'Kill Bill'?",
+    "a": [
+     "Lucy Liu",
+     "Angelina Jolie",
+     "Uma Thurman",
+     "Scarlett Johansson"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película muda Jean Dujardin ganó el Óscar al mejor actor?",
+    "a": [
+     "Intocable",
+     "La vie en rose",
+     "El juego del idiota",
+     "The Artist"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué clásico de Disney Maléfica lanza un hechizo a la princesa Aurora?",
+    "a": [
+     "La bella durmiente",
+     "Blancanieves",
+     "Cenicienta",
+     "La sirenita"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Sting era el cantante de qué grupo británico?",
+    "a": [
+     "The Cure",
+     "The Police",
+     "Duran Duran",
+     "The Clash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo noruego triunfó en el mundo con 'Take On Me'?",
+    "a": [
+     "ABBA",
+     "Roxette",
+     "a-ha",
+     "Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante francesa ganó Eurovisión 1965 con 'Muñeca de cera'?",
+    "a": [
+     "Françoise Hardy",
+     "Sylvie Vartan",
+     "Mireille Mathieu",
+     "France Gall"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso la ópera 'El oro del Rin'?",
+    "a": [
+     "Richard Wagner",
+     "Giuseppe Verdi",
+     "Gaetano Donizetti",
+     "Richard Strauss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó al personaje del Zorro en 1919?",
+    "a": [
+     "Hergé",
+     "Johnston McCulley",
+     "Goscinny",
+     "Alexandre Dumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la obra 'Ubu rey'?",
+    "a": [
+     "Molière",
+     "Beaumarchais",
+     "Alfred Jarry",
+     "Racine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién dibujó al vaquero Lucky Luke?",
+    "a": [
+     "Goscinny",
+     "Hergé",
+     "Uderzo",
+     "Morris"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la obra 'El tío Vania'?",
+    "a": [
+     "Antón Chéjov",
+     "León Tolstói",
+     "Máximo Gorki",
+     "Iván Turguénev"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué keniano tiene el récord mundial de maratón (2h00min35)?",
+    "a": [
+     "Eliud Kipchoge",
+     "Kelvin Kiptum",
+     "Haile Gebrselassie",
+     "Paul Tergat"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué tres países coorganizaron el Mundial de fútbol de 2026?",
+    "a": [
+     "Argentina, Brasil y Uruguay",
+     "España, Portugal y Marruecos",
+     "EE.UU., México y Canadá",
+     "Alemania, Austria y Suiza"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Quién batió el récord de goles de Wayne Gretzky en la NHL en 2025?",
+    "a": [
+     "Sidney Crosby",
+     "Connor McDavid",
+     "Mario Lemieux",
+     "Alexander Ovechkin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué club italiano tiene el apodo de 'La Vecchia Signora'?",
+    "a": [
+     "La Juventus",
+     "El AC Milan",
+     "El Inter de Milán",
+     "La AS Roma"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué país ganó el Mundial femenino de fútbol en 2019?",
+    "a": [
+     "Países Bajos",
+     "Estados Unidos",
+     "Suecia",
+     "Inglaterra"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué semilla se hace el tahini?",
+    "a": [
+     "El girasol",
+     "La calabaza",
+     "El sésamo",
+     "El lino"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué postre empapado en ron se asocia al rey Estanislao en Lorena?",
+    "a": [
+     "El canelé",
+     "La charlotte",
+     "El paris-brest",
+     "El babà de ron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué plato borgoñón cocina caracoles en mantequilla de perejil?",
+    "a": [
+     "Los caracoles de Borgoña",
+     "El buey a la borgoñona",
+     "La poule au pot",
+     "El coq au vin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué significa la palabra japonesa 'umami'?",
+    "a": [
+     "Un alga marina",
+     "El quinto sabor",
+     "Una salsa de soja picante",
+     "Un vegetal encurtido"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿El gyoza es una empanadilla de qué cocina?",
+    "a": [
+     "De la cocina china",
+     "De la cocina coreana",
+     "De la cocina japonesa",
+     "De la cocina vietnamita"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pasado de «decir»?",
+    "a": [
+     "deció",
+     "diría",
+     "digo",
+     "dijo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el antónimo de «cercano»?",
+    "a": [
+     "lejano",
+     "próximo",
+     "vecino",
+     "siguiente"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas sílabas tiene «aeropuerto»?",
+    "a": [
+     "4",
+     "5",
+     "6",
+     "3"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el femenino de «hombre»?",
+    "a": [
+     "hombra",
+     "hombresa",
+     "mujer",
+     "hombrita"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas vocales tiene la palabra «educación»?",
+    "a": [
+     "4",
+     "6",
+     "3",
+     "5"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el plural correcto de «crisis»?",
+    "a": [
+     "crisis (invariable)",
+     "crisises",
+     "críses",
+     "crisen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En la bandera de Gilbert Baker, ¿qué representa la franja naranja?",
+    "a": [
+     "La vida",
+     "La curación",
+     "La armonía",
+     "La naturaleza"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ciudad estadounidense acogió la WorldPride de 2025?",
+    "a": [
+     "Nueva York",
+     "San Francisco",
+     "Washington",
+     "Chicago"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué revista francesa LGBT+ se fundó en 1996?",
+    "a": [
+     "Illico",
+     "Le Gai Pied",
+     "Homosphère",
+     "Têtu"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país aprobó en 2012 una ley de identidad de género autodeterminada?",
+    "a": [
+     "Argentina",
+     "Chile",
+     "Brasil",
+     "Uruguay"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué objeto de doble filo es un símbolo lésbico histórico?",
+    "a": [
+     "La espada rota",
+     "El hacha (labrys)",
+     "La cinta morada",
+     "El espejo dorado"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, la CIJ declara a qué Estado responsable de un genocidio, una primicia?",
+    "a": [
+     "Sudán",
+     "Siria",
+     "Birmania",
+     "Serbia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué banco alemán cae un 6 % tras una filtración de documentos?",
+    "a": [
+     "Commerzbank",
+     "KfW",
+     "BayernLB",
+     "Deutsche Bank"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, dónde los diputados del movimiento estudiante forman mayoría?",
+    "a": [
+     "En Serbia",
+     "En Georgia",
+     "En Bulgaria",
+     "En Croacia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué maratoniana keniana es suspendida 3 años por dopaje?",
+    "a": [
+     "Faith Kipyegon",
+     "Peres Jepchirchir",
+     "Hellen Obiri",
+     "Ruth Chepngetich"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué deporte norteamericano va hacia un cierre patronal el 2 de diciembre?",
+    "a": [
+     "El baloncesto",
+     "El fútbol americano",
+     "El béisbol",
+     "El hockey sobre hielo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué partido de la NFL regresa a Ciudad de México?",
+    "a": [
+     "Cowboys-Cardinals",
+     "Dolphins-Colts",
+     "Bears-Rams",
+     "Vikings-49ers"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Tras la exclusión de Rusia, la federación de qué deporte sufre un ciberataque en noviembre de 2026?",
+    "a": [
+     "El hockey sobre hielo",
+     "El fútbol",
+     "El voleibol",
+     "El esquí"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, Mauricio Pochettino se convierte en entrenador de qué club?",
+    "a": [
+     "Chelsea",
+     "Manchester United",
+     "Tottenham",
+     "El PSG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "A mediados de noviembre de 2026, qué selecciones ya están clasificadas a la CAN-2027?",
+    "a": [
+     "Egipto y Nigeria",
+     "Camerún y Ghana",
+     "Marruecos y Senegal",
+     "Argelia y Túnez"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué presidente quiere reabrir la adhesión de Ucrania a la OTAN?",
+    "a": [
+     "Keir Starmer",
+     "Pedro Sánchez",
+     "Olaf Scholz",
+     "Emmanuel Macron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Qué economista propone un impuesto extraordinario a los millonarios en 2026?",
+    "a": [
+     "Gabriel Zucman",
+     "Thomas Piketty",
+     "Joseph Stiglitz",
+     "Esther Duflo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, de qué nacionalidad es el favorito para presidir el BCE?",
+    "a": [
+     "Alemana",
+     "Española",
+     "Francesa",
+     "Italiana"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué país llega a un acuerdo de más de 2.000 M$ con el FMI?",
+    "a": [
+     "Ghana",
+     "Kenia",
+     "Egipto",
+     "Marruecos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿En qué ciudad elegirá la FIFA a su presidente en marzo de 2027?",
+    "a": [
+     "Zúrich",
+     "Doha",
+     "Ginebra",
+     "Rabat"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, el CPJ homenajea a qué periodista de la AFP herida en misión?",
+    "a": [
+     "Christina Assi",
+     "Marie Colvin",
+     "Clare Gillis",
+     "Shireen Abu Akleh"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué presidente latinoamericano registra su candidatura a un tercer mandato?",
+    "a": [
+     "Daniel Noboa",
+     "Nayib Bukele",
+     "Xiomara Castro",
+     "Javier Milei"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, Francia juzga por primera vez a activistas de qué corriente?",
+    "a": [
+     "Anarquista",
+     "Monárquica",
+     "Masculinista",
+     "Negacionista"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, qué país condena a cadena perpetua a un triple asesino lesbofóbico?",
+    "a": [
+     "Chile",
+     "Brasil",
+     "México",
+     "Argentina"
+    ],
+    "c": 3
    }
   ]
  }
