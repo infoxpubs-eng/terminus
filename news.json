@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "qs": {
   "fr": [
    {
@@ -11219,6 +11219,556 @@
      "Le Brésil",
      "Le Mexique",
      "L'Argentine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Aliénor d'Aquitaine fut reine de France puis reine de quel pays ?",
+    "a": [
+     "L'Angleterre",
+     "L'Espagne",
+     "L'Italie",
+     "Le Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "En 1803, la France a vendu la Louisiane à quel pays ?",
+    "a": [
+     "À l'Espagne",
+     "À l'Angleterre",
+     "Au Mexique",
+     "Aux États-Unis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Dans quel pays Che Guevara a-t-il été capturé en 1967 ?",
+    "a": [
+     "En Argentine",
+     "Au Pérou",
+     "En Bolivie",
+     "À Cuba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "En 1975, la fin de la guerre du Vietnam est marquée par la chute de…",
+    "a": [
+     "Da Nang",
+     "Saïgon",
+     "Hanoï",
+     "Hué"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année la prohibition de l'alcool a-t-elle débuté aux États-Unis ?",
+    "a": [
+     "En 1920",
+     "En 1901",
+     "En 1933",
+     "En 1912"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Le lac Léman se situe entre la France et quel pays ?",
+    "a": [
+     "L'Italie",
+     "L'Allemagne",
+     "L'Autriche",
+     "La Suisse"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la plus grande île des Antilles ?",
+    "a": [
+     "La Jamaïque",
+     "La République dominicaine",
+     "Cuba",
+     "Haïti"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Combien d'îles compte l'archipel des Philippines ?",
+    "a": [
+     "Environ 100",
+     "Plus de 7 000",
+     "Environ 700",
+     "Environ 70 000"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Comment s'appelait le Sri Lanka avant 1972 ?",
+    "a": [
+     "Ceylan",
+     "Birmanie",
+     "Siam",
+     "Persan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quelle mer se trouve l'île de Malte ?",
+    "a": [
+     "La mer Rouge",
+     "La mer Noire",
+     "La mer Baltique",
+     "La Méditerranée"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Sur quelle île vivait le dodo, oiseau aujourd'hui disparu ?",
+    "a": [
+     "La Réunion",
+     "Tahiti",
+     "Maurice",
+     "Madagascar"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Dans quel milieu le son ne se propage-t-il pas ?",
+    "a": [
+     "L'acier",
+     "Le vide",
+     "L'eau",
+     "L'air"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Botaniquement, la banane est classée comme une…",
+    "a": [
+     "Baie",
+     "Drupe",
+     "Noix",
+     "Racine"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Comment les abeilles indiquent-elles une source de nectar à la ruche ?",
+    "a": [
+     "En chantant",
+     "En changeant de couleur",
+     "En frottant leurs antennes",
+     "En dansant"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quelles couleurs les chiens distinguent-ils le mieux ?",
+    "a": [
+     "Le violet et l'orange",
+     "Aucune",
+     "Le bleu et le jaune",
+     "Le rouge et le vert"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de bras a généralement une étoile de mer ?",
+    "a": [
+     "3",
+     "5",
+     "8",
+     "10"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui joue Ben-Hur dans le film oscarisé de 1959 ?",
+    "a": [
+     "Charlton Heston",
+     "Kirk Douglas",
+     "Richard Burton",
+     "Burt Lancaster"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Qui porte le masque dans la comédie « The Mask » (1994) ?",
+    "a": [
+     "Adam Sandler",
+     "Mike Myers",
+     "Eddie Murphy",
+     "Jim Carrey"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel pays la trilogie « Le Seigneur des anneaux » a-t-elle été tournée ?",
+    "a": [
+     "L'Irlande",
+     "Le Canada",
+     "La Nouvelle-Zélande",
+     "L'Australie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Qui incarne le tueur à gages dans le film « Léon » (1994) ?",
+    "a": [
+     "Alain Delon",
+     "Jean Reno",
+     "Gérard Depardieu",
+     "Vincent Cassel"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Comment s'appelle le grand chien peureux du dessin animé Scooby-Doo ?",
+    "a": [
+     "Scooby-Doo",
+     "Scrappy-Doo",
+     "Pluto",
+     "Odie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quel chanteur est surnommé « le roi du rock 'n' roll » ?",
+    "a": [
+     "Chuck Berry",
+     "Johnny Hallyday",
+     "Jerry Lee Lewis",
+     "Elvis Presley"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel instrument a été inventé par Adolphe Sax au XIXe siècle ?",
+    "a": [
+     "Le tuba",
+     "Le basson",
+     "Le saxophone",
+     "La clarinette"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "De quel pays le sitar est-il l'instrument traditionnel ?",
+    "a": [
+     "La Thaïlande",
+     "L'Inde",
+     "La Chine",
+     "Le Japon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé la comédie musicale « The Phantom of the Opera » ?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "Leonard Bernstein",
+     "Claude-Michel Schönberg"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Quel est le nom du capitaine ami de Tintin ?",
+    "a": [
+     "Nemo",
+     "Achab",
+     "Crochet",
+     "Haddock"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Balzac a rassemblé l'ensemble de ses romans sous le titre…",
+    "a": [
+     "Les Contes cruels",
+     "Le Théâtre complet",
+     "La Comédie humaine",
+     "Les Rougon-Macquart"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Dans quelle langue ancienne le poème épique « Beowulf » a-t-il été écrit ?",
+    "a": [
+     "Le grec ancien",
+     "Le vieil anglais",
+     "Le latin",
+     "Le vieux norrois"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit les romans qui ont inspiré la série « Game of Thrones » ?",
+    "a": [
+     "George R. R. Martin",
+     "J. R. R. Tolkien",
+     "J. K. Rowling",
+     "Philip Pullman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quelle ville se sont tenus les premiers Jeux paralympiques d'été, en 1960 ?",
+    "a": [
+     "Tokyo",
+     "Londres",
+     "Paris",
+     "Rome"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Le rallye Dakar doit son nom à une ville de quel pays ?",
+    "a": [
+     "L'Égypte",
+     "La Mauritanie",
+     "Le Sénégal",
+     "Le Maroc"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Combien de cases compte un échiquier de jeu d'échecs ?",
+    "a": [
+     "100",
+     "64",
+     "49",
+     "81"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Combien de manches compte un match de baseball professionnel ?",
+    "a": [
+     "9",
+     "7",
+     "5",
+     "11"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel site antique la flamme olympique est-elle allumée ?",
+    "a": [
+     "Athènes",
+     "Delphes",
+     "Sparte",
+     "Olympie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Le bagel, pain en anneau bouilli puis cuit, vient des communautés juives de quelle région ?",
+    "a": [
+     "Le Maghreb",
+     "L'Europe du Sud",
+     "L'Europe de l'Est",
+     "L'Europe du Nord"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays la bruschetta est-elle une spécialité ?",
+    "a": [
+     "La Croatie",
+     "L'Italie",
+     "La Grèce",
+     "L'Espagne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Qui a inventé les nachos au Mexique en 1943 ?",
+    "a": [
+     "Ignacio Anaya",
+     "Pancho Villa",
+     "Frida Kahlo",
+     "Un chef français"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Le Wiener Schnitzel est une escalope traditionnelle de quel pays ?",
+    "a": [
+     "L'Allemagne",
+     "La Hongrie",
+     "La Suisse",
+     "L'Autriche"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "La fougasse, pain à croûte dorée, est une spécialité de quelle région française ?",
+    "a": [
+     "L'Alsace",
+     "Le Nord",
+     "La Provence",
+     "La Bretagne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Que désigne une « ruelle » ?",
+    "a": [
+     "Un ruban de tissu",
+     "Une petite rue étroite",
+     "Un petit ruisseau",
+     "Une petite reine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Avec l'auxiliaire « être », le participe passé s'accorde avec…",
+    "a": [
+     "Le sujet",
+     "Le complément d'objet direct",
+     "Le verbe",
+     "Rien"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Sous quelle lettre place-t-on la cédille en français ?",
+    "a": [
+     "Le s",
+     "Le g",
+     "Le q",
+     "Le c"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Que désigne la pénultième syllabe d'un mot ?",
+    "a": [
+     "La dernière",
+     "La deuxième",
+     "L'avant-dernière",
+     "La première"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle le signe de ponctuation « : » ?",
+    "a": [
+     "Le slash",
+     "Les deux-points",
+     "Le point-virgule",
+     "Le tiret"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie « s'esclaffer » ?",
+    "a": [
+     "Éclater de rire",
+     "Se mettre en colère",
+     "Pleurer bruyamment",
+     "S'enfuir vite"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays asiatique a légalisé le mariage égalitaire en premier, en 2019 ?",
+    "a": [
+     "Le Japon",
+     "La Thaïlande",
+     "La Corée du Sud",
+     "Taïwan"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Leo Varadkar, dirigeant ouvertement gay, a été Premier ministre de quel pays ?",
+    "a": [
+     "La Norvège",
+     "Le Danemark",
+     "L'Irlande",
+     "L'Islande"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a eu l'idée de l'AIDS Memorial Quilt en 1985 ?",
+    "a": [
+     "Peter Staley",
+     "Cleve Jones",
+     "Harvey Milk",
+     "Larry Kramer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "La première marche des fiertés d'Amérique latine a eu lieu en 1979 à…",
+    "a": [
+     "Mexico",
+     "Buenos Aires",
+     "São Paulo",
+     "Lima"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel quartier de Paris est historiquement un centre de la vie LGBT+ ?",
+    "a": [
+     "Montmartre",
+     "Belleville",
+     "Saint-Germain",
+     "Le Marais"
     ],
     "c": 3
    }
@@ -22443,6 +22993,556 @@
      "Argentina"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Eleanor of Aquitaine was queen of France and then queen of which country?",
+    "a": [
+     "England",
+     "Spain",
+     "Italy",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "In 1803, France sold Louisiana to which country?",
+    "a": [
+     "Spain",
+     "England",
+     "Mexico",
+     "The United States"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "In which country was Che Guevara captured in 1967?",
+    "a": [
+     "Argentina",
+     "Peru",
+     "Bolivia",
+     "Cuba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "The Vietnam War ended in 1975 with the fall of which city?",
+    "a": [
+     "Da Nang",
+     "Saigon",
+     "Hanoi",
+     "Hue"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "In which year did Prohibition begin in the United States?",
+    "a": [
+     "1920",
+     "1901",
+     "1933",
+     "1912"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Lake Geneva lies between France and which country?",
+    "a": [
+     "Italy",
+     "Germany",
+     "Austria",
+     "Switzerland"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the largest island of the Antilles?",
+    "a": [
+     "Jamaica",
+     "The Dominican Republic",
+     "Cuba",
+     "Haiti"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "How many islands does the Philippine archipelago have?",
+    "a": [
+     "About 100",
+     "Over 7,000",
+     "About 700",
+     "About 70,000"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "What was Sri Lanka called before 1972?",
+    "a": [
+     "Ceylon",
+     "Burma",
+     "Siam",
+     "Persia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which sea is the island of Malta located?",
+    "a": [
+     "The Red Sea",
+     "The Black Sea",
+     "The Baltic Sea",
+     "The Mediterranean"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "On which island did the dodo, now extinct, live?",
+    "a": [
+     "Reunion",
+     "Tahiti",
+     "Mauritius",
+     "Madagascar"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "In which medium does sound not travel?",
+    "a": [
+     "Steel",
+     "A vacuum",
+     "Water",
+     "Air"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Botanically, the banana is classified as a…",
+    "a": [
+     "Berry",
+     "Drupe",
+     "Nut",
+     "Root"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "How do bees tell the hive about a nectar source?",
+    "a": [
+     "By singing",
+     "By changing colour",
+     "By antennas rubbing",
+     "By dancing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which colours do dogs see best?",
+    "a": [
+     "Violet and orange",
+     "None",
+     "Blue and yellow",
+     "Red and green"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "How many arms does a typical starfish (sea star) have?",
+    "a": [
+     "3",
+     "5",
+     "8",
+     "10"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays Ben-Hur in the Oscar-winning 1959 film?",
+    "a": [
+     "Charlton Heston",
+     "Kirk Douglas",
+     "Richard Burton",
+     "Burt Lancaster"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Who wears the mask in the comedy The Mask (1994)?",
+    "a": [
+     "Adam Sandler",
+     "Mike Myers",
+     "Eddie Murphy",
+     "Jim Carrey"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "In which country was The Lord of the Rings trilogy filmed?",
+    "a": [
+     "Ireland",
+     "Canada",
+     "New Zealand",
+     "Australia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays the hitman in the film Leon: The Professional (1994)?",
+    "a": [
+     "Alain Delon",
+     "Jean Reno",
+     "Gerard Depardieu",
+     "Vincent Cassel"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "What is the name of the big cowardly dog in the Scooby-Doo cartoon?",
+    "a": [
+     "Scooby-Doo",
+     "Scrappy-Doo",
+     "Pluto",
+     "Odie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which singer is nicknamed 'the King of Rock 'n' Roll'?",
+    "a": [
+     "Chuck Berry",
+     "Jerry Lee Lewis",
+     "Little Richard",
+     "Elvis Presley"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument was invented by Adolphe Sax in the 19th century?",
+    "a": [
+     "The tuba",
+     "The bassoon",
+     "The saxophone",
+     "The clarinet"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "The sitar is a traditional instrument of which country?",
+    "a": [
+     "Thailand",
+     "India",
+     "China",
+     "Japan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the musical The Phantom of the Opera?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "Leonard Bernstein",
+     "Claude-Michel Schönberg"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "What is the name of Tintin's sea captain friend?",
+    "a": [
+     "Nemo",
+     "Ahab",
+     "Hook",
+     "Haddock"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Balzac gathered his novels under the title…",
+    "a": [
+     "Les Contes cruels",
+     "Le Human comedy cycle",
+     "La Comedie humaine",
+     "Les Rougon-Macquart"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "In which ancient language is the epic poem Beowulf written?",
+    "a": [
+     "Ancient Greek",
+     "Old English",
+     "Latin",
+     "Old Norse"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the novels that inspired the series Game of Thrones?",
+    "a": [
+     "George R. R. Martin",
+     "J. R. R. Tolkien",
+     "J. K. Rowling",
+     "Philip Pullman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "In which city were the first Summer Paralympic Games held, in 1960?",
+    "a": [
+     "Tokyo",
+     "London",
+     "Paris",
+     "Rome"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "The Dakar Rally is named after a city in which country?",
+    "a": [
+     "Egypt",
+     "Mauritania",
+     "Senegal",
+     "Morocco"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "How many squares are there on a chessboard?",
+    "a": [
+     "100",
+     "64",
+     "49",
+     "81"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "How many innings are there in a professional baseball game?",
+    "a": [
+     "9",
+     "7",
+     "5",
+     "11"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "At which ancient site is the Olympic flame lit?",
+    "a": [
+     "Athens",
+     "Delphi",
+     "Sparta",
+     "Olympia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "The bagel, a boiled-then-baked ring bread, comes from Jewish communities of which region?",
+    "a": [
+     "North Africa",
+     "Southern Europe",
+     "Eastern Europe",
+     "Northern Europe"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Bruschetta is a speciality of which country?",
+    "a": [
+     "Croatia",
+     "Italy",
+     "Greece",
+     "Spain"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Who invented nachos in Mexico in 1943?",
+    "a": [
+     "Ignacio Anaya",
+     "Pancho Villa",
+     "A French chef",
+     "A Peruvian cook"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Wiener Schnitzel is a traditional cutlet of which country?",
+    "a": [
+     "Germany",
+     "Hungary",
+     "Switzerland",
+     "Austria"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Fougasse, a golden-crusted bread, is a speciality of which French region?",
+    "a": [
+     "Alsace",
+     "The North",
+     "Provence",
+     "Brittany"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What do we call a group of crows?",
+    "a": [
+     "A swarm",
+     "A murder",
+     "A herd",
+     "A pack"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in 'receipt'?",
+    "a": [
+     "The p",
+     "The r",
+     "The t",
+     "The c"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is a young swan called?",
+    "a": [
+     "A duckling",
+     "A gosling",
+     "A chick",
+     "A cygnet"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of 'weep'?",
+    "a": [
+     "Weped",
+     "Wepten",
+     "Wept",
+     "Weeped"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which word is an anagram of 'listen'?",
+    "a": [
+     "Enlist",
+     "Silent",
+     "Tinsel",
+     "Little"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the name of the '~' mark above letters like the 'n' in 'piñata'?",
+    "a": [
+     "The tilde",
+     "The cedilla",
+     "The umlaut",
+     "The circumflex"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Asian country legalised same-sex marriage first, in 2019?",
+    "a": [
+     "Japan",
+     "Thailand",
+     "South Korea",
+     "Taiwan"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Leo Varadkar, an openly gay leader, was prime minister of which country?",
+    "a": [
+     "Norway",
+     "Denmark",
+     "Ireland",
+     "Iceland"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who came up with the idea of the AIDS Memorial Quilt in 1985?",
+    "a": [
+     "Peter Staley",
+     "Cleve Jones",
+     "Harvey Milk",
+     "Larry Kramer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Latin America's first pride march took place in 1979 in…",
+    "a": [
+     "Mexico City",
+     "Buenos Aires",
+     "São Paulo",
+     "Lima"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Paris district is historically a hub of LGBT+ life?",
+    "a": [
+     "Montmartre",
+     "Belleville",
+     "Saint-Germain",
+     "Le Marais"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -33652,6 +34752,556 @@
      "Brasil",
      "México",
      "Argentina"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Leonor de Aquitania fue reina de Francia y luego reina de qué país ?",
+    "a": [
+     "Inglaterra",
+     "España",
+     "Italia",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿En 1803, Francia vendió Luisiana a qué país ?",
+    "a": [
+     "España",
+     "Inglaterra",
+     "México",
+     "Estados Unidos"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué país fue capturado el Che Guevara en 1967 ?",
+    "a": [
+     "Argentina",
+     "Perú",
+     "Bolivia",
+     "Cuba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿La guerra de Vietnam terminó en 1975 con la caída de…",
+    "a": [
+     "Da Nang",
+     "Saigón",
+     "Hanói",
+     "Hué"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año comenzó la prohibición del alcohol en Estados Unidos ?",
+    "a": [
+     "1920",
+     "1901",
+     "1933",
+     "1912"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿El lago Lemán se encuentra entre Francia y qué país ?",
+    "a": [
+     "Italia",
+     "Alemania",
+     "Austria",
+     "Suiza"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la isla más grande de las Antillas ?",
+    "a": [
+     "Jamaica",
+     "República Dominicana",
+     "Cuba",
+     "Haití"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuántas islas tiene el archipiélago de Filipinas ?",
+    "a": [
+     "Unas 100",
+     "Más de 7 000",
+     "Unas 700",
+     "Unas 70 000"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cómo se llamaba Sri Lanka antes de 1972 ?",
+    "a": [
+     "Ceilán",
+     "Birmania",
+     "Siam",
+     "Persia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué mar está la isla de Malta ?",
+    "a": [
+     "El mar Rojo",
+     "El mar Negro",
+     "El mar Báltico",
+     "El Mediterráneo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿En qué isla vivía el dodó, ave hoy extinta ?",
+    "a": [
+     "Reunión",
+     "Tahití",
+     "Mauricio",
+     "Madagascar"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿En qué medio no se propaga el sonido ?",
+    "a": [
+     "El acero",
+     "El vacío",
+     "El agua",
+     "El aire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Botánicamente, el plátano (banana) se clasifica como…",
+    "a": [
+     "Una baya",
+     "Una drupa",
+     "Un fruto seco",
+     "Una raíz"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo indican las abejas a la colmena una fuente de néctar ?",
+    "a": [
+     "Cantando",
+     "Cambiando de color",
+     "Frotándose las antenas",
+     "Bailando"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué colores distinguen mejor los perros ?",
+    "a": [
+     "El violeta y el naranja",
+     "Ninguno",
+     "El azul y el amarillo",
+     "El rojo y el verde"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos brazos tiene generalmente una estrella de mar ?",
+    "a": [
+     "3",
+     "5",
+     "8",
+     "10"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpretó a Ben-Hur en la película oscarizada de 1959 ?",
+    "a": [
+     "Charlton Heston",
+     "Kirk Douglas",
+     "Richard Burton",
+     "Burt Lancaster"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién lleva la máscara en la comedia « The Mask » (1994) ?",
+    "a": [
+     "Adam Sandler",
+     "Mike Myers",
+     "Eddie Murphy",
+     "Jim Carrey"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué país se rodó la trilogía de « El Señor de los Anillos » ?",
+    "a": [
+     "Irlanda",
+     "Canadá",
+     "Nueva Zelanda",
+     "Australia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta al sicario en la película « Léon » (1994) ?",
+    "a": [
+     "Alain Delon",
+     "Jean Reno",
+     "Gérard Depardieu",
+     "Vincent Cassel"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Cómo se llama el gran perro miedoso del dibujo animado Scooby-Doo ?",
+    "a": [
+     "Scooby-Doo",
+     "Scrappy-Doo",
+     "Pluto",
+     "Odie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante es apodado « el rey del rock 'n' roll » ?",
+    "a": [
+     "Chuck Berry",
+     "Jerry Lee Lewis",
+     "Little Richard",
+     "Elvis Presley"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué instrumento fue inventado por Adolphe Sax en el siglo XIX ?",
+    "a": [
+     "La tuba",
+     "El fagot",
+     "El saxofón",
+     "El clarinete"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿El sitar es un instrumento tradicional de qué país ?",
+    "a": [
+     "Tailandia",
+     "India",
+     "China",
+     "Japón"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso el musical « The Phantom of the Opera » ?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "Leonard Bernstein",
+     "Claude-Michel Schönberg"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Cómo se llama el capitán amigo de Tintín ?",
+    "a": [
+     "Nemo",
+     "Ahab",
+     "Garfio",
+     "Haddock"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Balzac reunió sus novelas bajo el título…",
+    "a": [
+     "Los cuentos crueles",
+     "El teatro completo",
+     "La comedia humana",
+     "Los Rougon-Macquart"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿En qué lengua antigua está escrito el poema épico « Beowulf » ?",
+    "a": [
+     "El griego antiguo",
+     "El inglés antiguo",
+     "El latín",
+     "El nórdico antiguo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió las novelas que inspiraron la serie « Juego de Tronos » ?",
+    "a": [
+     "George R. R. Martin",
+     "J. R. R. Tolkien",
+     "J. K. Rowling",
+     "Philip Pullman"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué ciudad se celebraron los primeros Juegos Paralímpicos de verano, en 1960 ?",
+    "a": [
+     "Tokio",
+     "Londres",
+     "París",
+     "Roma"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿El rally Dakar debe su nombre a una ciudad de qué país ?",
+    "a": [
+     "Egipto",
+     "Mauritania",
+     "Senegal",
+     "Marruecos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántas casillas tiene un tablero de ajedrez ?",
+    "a": [
+     "100",
+     "64",
+     "49",
+     "81"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántas entradas (innings) tiene un partido profesional de béisbol ?",
+    "a": [
+     "9",
+     "7",
+     "5",
+     "11"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué sitio antiguo se enciende la llama olímpica ?",
+    "a": [
+     "Atenas",
+     "Delfos",
+     "Esparta",
+     "Olimpia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región viene el bagel, pan en anillo de las comunidades judías ?",
+    "a": [
+     "El Magreb",
+     "Europa del Sur",
+     "Europa del Este",
+     "Europa del Norte"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país es la bruschetta ?",
+    "a": [
+     "Croacia",
+     "Italia",
+     "Grecia",
+     "España"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Quién inventó los nachos en México en 1943 ?",
+    "a": [
+     "Ignacio Anaya",
+     "Pancho Villa",
+     "Un chef francés",
+     "Un cocinero peruano"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿El Wiener Schnitzel es una escalope tradicional de qué país ?",
+    "a": [
+     "Alemania",
+     "Hungría",
+     "Suiza",
+     "Austria"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿La fougasse, pan de costra dorada, es una especialidad de qué región francesa ?",
+    "a": [
+     "Alsacia",
+     "El Norte",
+     "Provenza",
+     "Bretaña"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama 'el día antes de ayer' en español ?",
+    "a": [
+     "El otro día",
+     "Anteayer",
+     "Ayer",
+     "Pasado mañana"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el aumentativo de 'perro' ?",
+    "a": [
+     "Perrazo",
+     "Perrito",
+     "Perrillo",
+     "Perrón pequeño"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué es un diptongo ?",
+    "a": [
+     "Dos consonantes juntas",
+     "Dos sílabas iguales",
+     "Un acento escrito",
+     "Dos vocales en una sola sílaba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas letras tiene la palabra 'responsabilidad' ?",
+    "a": [
+     "16",
+     "13",
+     "15",
+     "14"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué tipo de palabra es 'sin' en 'sin dinero' ?",
+    "a": [
+     "Adjetivo",
+     "Preposición",
+     "Adverbio",
+     "Conjunción"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué es un eufemismo ?",
+    "a": [
+     "Una palabra suave para algo desagradable",
+     "Una exageración",
+     "Una burla cruda",
+     "Una sigla"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país asiático legalizó primero el matrimonio igualitario, en 2019 ?",
+    "a": [
+     "Japón",
+     "Tailandia",
+     "Corea del Sur",
+     "Taiwán"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Leo Varadkar, líder abiertamente gay, fue primer ministro de qué país ?",
+    "a": [
+     "Noruega",
+     "Dinamarca",
+     "Irlanda",
+     "Islandia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién tuvo la idea del AIDS Memorial Quilt en 1985 ?",
+    "a": [
+     "Peter Staley",
+     "Cleve Jones",
+     "Harvey Milk",
+     "Larry Kramer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿La primera marcha del orgullo de América Latina tuvo lugar en 1979 en…",
+    "a": [
+     "La Ciudad de México",
+     "Buenos Aires",
+     "São Paulo",
+     "Lima"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué barrio de París es históricamente un centro de la vida LGBT+ ?",
+    "a": [
+     "Montmartre",
+     "Belleville",
+     "Saint-Germain",
+     "Le Marais"
     ],
     "c": 3
    }
