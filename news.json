@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "qs": {
   "fr": [
    {
@@ -11771,6 +11771,556 @@
      "Le Marais"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel traité de 1494 a partagé le Nouveau Monde entre l'Espagne et le Portugal ?",
+    "a": [
+     "Le traité de Tordesillas",
+     "Le traité d'Utrecht",
+     "Le traité de Westphalie",
+     "Le traité d'Alcalá"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Quel massacre de protestants a eu lieu à Paris le 24 août 1572 ?",
+    "a": [
+     "Le massacre de Vassy",
+     "La Saint-Barthélemy",
+     "Les dragonnades",
+     "Les Vêpres siciliennes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle victoire navale de 1571 arrête l'expansion ottomane en Méditerranée ?",
+    "a": [
+     "La bataille de Préveza",
+     "Le siège de Malte",
+     "La bataille de Lépante",
+     "La bataille de Djerba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a arrêté les cavaliers arabes à Poitiers en 732 ?",
+    "a": [
+     "Clovis",
+     "Charlemagne",
+     "Dagobert",
+     "Charles Martel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel héros italien est surnommé le « héros des deux mondes » ?",
+    "a": [
+     "Giuseppe Garibaldi",
+     "Camillo Cavour",
+     "Giuseppe Mazzini",
+     "Victor-Emmanuel II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le point culminant de l'Australie ?",
+    "a": [
+     "Le mont Townsend",
+     "Le mont Kosciuszko",
+     "Le mont Bogong",
+     "Le mont Feathertop"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle capitale européenne est traversée par le Tage ?",
+    "a": [
+     "Madrid",
+     "Séville",
+     "Lisbonne",
+     "Porto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Les chutes d'Iguaçu se trouvent entre le Brésil et quel pays ?",
+    "a": [
+     "Le Paraguay",
+     "La Bolivie",
+     "L'Uruguay",
+     "L'Argentine"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quel parallèle sépare la Corée du Nord et la Corée du Sud ?",
+    "a": [
+     "Le 38e parallèle",
+     "Le 17e parallèle",
+     "Le 49e parallèle",
+     "Le 60e parallèle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Sur quelle île se trouve Copenhague ?",
+    "a": [
+     "Fionie",
+     "Seeland",
+     "Bornholm",
+     "Lolland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle planète tourne sur elle-même dans le sens inverse des autres ?",
+    "a": [
+     "Mars",
+     "Jupiter",
+     "Vénus",
+     "Mercure"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel animal possède le plus gros cerveau du règne animal ?",
+    "a": [
+     "L'éléphant d'Afrique",
+     "L'orque",
+     "Le calamar géant",
+     "Le cachalot"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Où commence la digestion de l'amidon ?",
+    "a": [
+     "Dans la bouche",
+     "Dans l'estomac",
+     "Dans l'intestin grêle",
+     "Dans le côlon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelle la phase quand la Lune est entre la Terre et le Soleil ?",
+    "a": [
+     "La pleine lune",
+     "La nouvelle lune",
+     "Le premier quartier",
+     "La lune gibbeuse"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Que mesure une année-lumière ?",
+    "a": [
+     "Un temps",
+     "Une vitesse",
+     "Une distance",
+     "Une température"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle part approximative d'un iceberg se trouve sous l'eau ?",
+    "a": [
+     "Environ 50 %",
+     "Environ 30 %",
+     "Environ 10 %",
+     "Environ 90 %"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a composé la musique du film « Titanic » (1997) ?",
+    "a": [
+     "James Horner",
+     "John Williams",
+     "Hans Zimmer",
+     "Ennio Morricone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film du studio Ghibli suit deux enfants dans le Japon en guerre ?",
+    "a": [
+     "Le Château dans le ciel",
+     "Le Tombeau des lucioles",
+     "Mon voisin Totoro",
+     "Le Voyage de Chihiro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Comment s'appelle le navire de Jack Sparrow dans « Pirates des Caraïbes » ?",
+    "a": [
+     "Le Hollandais volant",
+     "L'Interceptor",
+     "Le Black Pearl",
+     "Le Queen Anne's Revenge"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Qui joue Django dans « Django Unchained » de Tarantino ?",
+    "a": [
+     "Leonardo DiCaprio",
+     "Christoph Waltz",
+     "Samuel L. Jackson",
+     "Jamie Foxx"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle troupe de comédiens a créé « Les Bronzés » en 1978 ?",
+    "a": [
+     "Le Splendid",
+     "Les Inconnus",
+     "Monty Python",
+     "Les Nuls"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "De quel pays le fado est-il le chant traditionnel ?",
+    "a": [
+     "L'Espagne",
+     "Le Portugal",
+     "L'Italie",
+     "La Grèce"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel chef a dirigé l'Orchestre philharmonique de Berlin pendant 34 ans ?",
+    "a": [
+     "Leonard Bernstein",
+     "Claudio Abbado",
+     "Herbert von Karajan",
+     "Daniel Barenboim"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "À quelle famille d'instruments appartient le xylophone ?",
+    "a": [
+     "Aux cordes",
+     "Aux cuivres",
+     "Aux bois",
+     "Aux percussions"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe a chanté « Yellow Submarine » ?",
+    "a": [
+     "Les Beatles",
+     "Les Rolling Stones",
+     "The Who",
+     "The Beach Boys"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le personnage de Winnie l'ourson ?",
+    "a": [
+     "Lewis Carroll",
+     "A. A. Milne",
+     "J. M. Barrie",
+     "Roald Dahl"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Dans quelle ville italienne se déroule « Roméo et Juliette » ?",
+    "a": [
+     "Venise",
+     "Florence",
+     "Vérone",
+     "Milan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle légende anglaise volait aux riches pour donner aux pauvres ?",
+    "a": [
+     "Guillaume Tell",
+     "Arsène Lupin",
+     "Zorro",
+     "Robin des bois"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit le roman « Ivanhoé » ?",
+    "a": [
+     "Walter Scott",
+     "Charles Dickens",
+     "Robert Louis Stevenson",
+     "Jane Austen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle écurie détient le plus de titres de champion constructeur de F1 ?",
+    "a": [
+     "McLaren",
+     "Ferrari",
+     "Williams",
+     "Mercedes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quelle ville s'est joué le premier Super Bowl en 1967 ?",
+    "a": [
+     "New York",
+     "Chicago",
+     "Los Angeles",
+     "Miami"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Les 500 miles d'Indianapolis se courent sur combien de tours ?",
+    "a": [
+     "100 tours",
+     "250 tours",
+     "500 tours",
+     "200 tours"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle compétition de golf oppose l'Europe aux États-Unis ?",
+    "a": [
+     "La Ryder Cup",
+     "La Presidents Cup",
+     "La Walker Cup",
+     "La Solheim Cup"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Comment s'appelle le plus haut rang du sumo ?",
+    "a": [
+     "Ozeki",
+     "Yokozuna",
+     "Sekiwake",
+     "Komusubi"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quel dessert espagnol est une crème au caramel renversée ?",
+    "a": [
+     "L'arroz con leche",
+     "La crema catalane",
+     "Le flan",
+     "Les churros"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel plat mexicain est une tortilla roulée garnie ?",
+    "a": [
+     "Le taco",
+     "La quesadilla",
+     "Les nachos",
+     "Le burrito"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays le limoncello est-il la liqueur traditionnelle ?",
+    "a": [
+     "L'Italie",
+     "La Grèce",
+     "La France",
+     "Le Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "La truffe est un champignon ou une racine ?",
+    "a": [
+     "Une racine",
+     "Un champignon",
+     "Un tubercule",
+     "Une algue"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région italienne le prosecco est-il originaire ?",
+    "a": [
+     "La Toscane",
+     "Le Piémont",
+     "La Vénétie",
+     "La Sicile"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a fondé l'église Metropolitan Community Church en 1968 ?",
+    "a": [
+     "Harvey Milk",
+     "Harry Hay",
+     "Gene Robinson",
+     "Troy Perry"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2020, qui devient la première personne trans élue sénatrice d'un État américain ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Christine Jorgensen",
+     "Caitlyn Jenner"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1974, qui est élue à Ann Arbor première personne ouvertement lesbienne aux États-Unis ?",
+    "a": [
+     "Elaine Noble",
+     "Kathy Kozachenko",
+     "Harvey Milk",
+     "Phyllis Lyon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2021, qui devient la première personne trans confirmée à un poste fédéral américain ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Rachel Levine",
+     "Christine Jorgensen"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelles couleurs Philadelphie a-t-elle ajoutées au drapeau des fiertés en 2017 ?",
+    "a": [
+     "Le rose et le bleu",
+     "L'argent et l'or",
+     "Le gris et le blanc",
+     "Le noir et le marron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la nature du mot « chacun » ?",
+    "a": [
+     "Un pronom indéfini",
+     "Un adverbe",
+     "Un adjectif",
+     "Un nom commun"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle la plus petite unité sonore d'une langue ?",
+    "a": [
+     "Le morphème",
+     "Le phonème",
+     "La syllabe",
+     "La lettre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on un jeu de mots fondé sur les sons ?",
+    "a": [
+     "L'anagramme",
+     "Le palindrome",
+     "Le calembourg",
+     "Le lipogramme"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle la répétition d'une même voyelle ?",
+    "a": [
+     "L'allitération",
+     "La rime",
+     "Le hiatus",
+     "L'assonance"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle l'étude de l'origine des mots ?",
+    "a": [
+     "L'étymologie",
+     "La lexicologie",
+     "La sémantique",
+     "La morphologie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Dans « a-t-il », comment s'appelle le « t » ajouté ?",
+    "a": [
+     "Une consonne de liaison",
+     "Le « t » euphonique",
+     "Un « t » interrogatif",
+     "Un pronom atone"
+    ],
+    "c": 1
    }
   ],
   "en": [
@@ -23543,6 +24093,556 @@
      "Le Marais"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which 1494 treaty divided the New World between Spain and Portugal ?",
+    "a": [
+     "The Treaty of Tordesillas",
+     "The Treaty of Utrecht",
+     "The Treaty of Westphalia",
+     "The Treaty of Alcáçovas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "What massacre of Protestants took place in Paris on 24 August 1572 ?",
+    "a": [
+     "The Massacre of Vassy",
+     "The St. Bartholomew's Day massacre",
+     "The Dragonnades",
+     "The Sicilian Vespers"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which 1571 naval battle halted Ottoman expansion in the Mediterranean ?",
+    "a": [
+     "The Battle of Preveza",
+     "The Siege of Malta",
+     "The Battle of Lepanto",
+     "The Battle of Djerba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Who stopped Arab cavalry at Poitiers in 732 ?",
+    "a": [
+     "Clovis",
+     "Charlemagne",
+     "Dagobert",
+     "Charles Martel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which Italian hero is nicknamed the 'Hero of the Two Worlds' ?",
+    "a": [
+     "Giuseppe Garibaldi",
+     "Camillo Cavour",
+     "Giuseppe Mazzini",
+     "Victor Emmanuel II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "What is the highest peak in Australia ?",
+    "a": [
+     "Mount Townsend",
+     "Mount Kosciuszko",
+     "Mount Bogong",
+     "Mount Feathertop"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which European capital is crossed by the Tagus river ?",
+    "a": [
+     "Madrid",
+     "Seville",
+     "Lisbon",
+     "Porto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Iguazú Falls lie between Brazil and which country ?",
+    "a": [
+     "Paraguay",
+     "Bolivia",
+     "Uruguay",
+     "Argentina"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Which parallel divides North Korea and South Korea ?",
+    "a": [
+     "The 38th parallel",
+     "The 17th parallel",
+     "The 49th parallel",
+     "The 60th parallel"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "On which island is Copenhagen located ?",
+    "a": [
+     "Funen",
+     "Zealand",
+     "Bornholm",
+     "Lolland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which planet spins on its axis in the opposite direction to most ?",
+    "a": [
+     "Mars",
+     "Jupiter",
+     "Venus",
+     "Mercury"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which animal has the largest brain in the animal kingdom ?",
+    "a": [
+     "The African elephant",
+     "The orca",
+     "The giant squid",
+     "The sperm whale"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Where does the digestion of starch begin ?",
+    "a": [
+     "In the mouth",
+     "In the stomach",
+     "In the small intestine",
+     "In the colon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "What is the phase called when the Moon is between Earth and the Sun ?",
+    "a": [
+     "The full moon",
+     "The new moon",
+     "The first quarter",
+     "The gibbous moon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What does a light-year measure ?",
+    "a": [
+     "A time",
+     "A speed",
+     "A distance",
+     "A temperature"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Roughly what proportion of an iceberg sits below the water ?",
+    "a": [
+     "About 50 %",
+     "About 30 %",
+     "About 10 %",
+     "About 90 %"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Who composed the score of the film 'Titanic' (1997) ?",
+    "a": [
+     "James Horner",
+     "John Williams",
+     "Hans Zimmer",
+     "Ennio Morricone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which Studio Ghibli film follows two children in wartime Japan ?",
+    "a": [
+     "Castle in the Sky",
+     "Grave of the Fireflies",
+     "My Neighbour Totoro",
+     "Spirited Away"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "What is the name of Jack Sparrow's ship in 'Pirates of the Caribbean' ?",
+    "a": [
+     "The Flying Dutchman",
+     "The Interceptor",
+     "The Black Pearl",
+     "The Queen Anne's Revenge"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays Django in Tarantino's 'Django Unchained' ?",
+    "a": [
+     "Leonardo DiCaprio",
+     "Christoph Waltz",
+     "Samuel L. Jackson",
+     "Jamie Foxx"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which comedy troupe created the French film 'Les Bronzés' in 1978 ?",
+    "a": [
+     "Le Splendid",
+     "Les Inconnus",
+     "Monty Python",
+     "Les Nuls"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which country is the home of fado music ?",
+    "a": [
+     "Spain",
+     "Portugal",
+     "Italy",
+     "Greece"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which conductor led the Berlin Philharmonic for 34 years ?",
+    "a": [
+     "Leonard Bernstein",
+     "Claudio Abbado",
+     "Herbert von Karajan",
+     "Daniel Barenboim"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument family does the xylophone belong to ?",
+    "a": [
+     "Strings",
+     "Brass",
+     "Woodwinds",
+     "Percussion"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which band sang 'Yellow Submarine' ?",
+    "a": [
+     "The Beatles",
+     "The Rolling Stones",
+     "The Who",
+     "The Beach Boys"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the character Winnie-the-Pooh ?",
+    "a": [
+     "Lewis Carroll",
+     "A. A. Milne",
+     "J. M. Barrie",
+     "Roald Dahl"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "In which Italian city is 'Romeo and Juliet' set ?",
+    "a": [
+     "Venice",
+     "Florence",
+     "Verona",
+     "Milan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Which English legend robbed the rich to give to the poor ?",
+    "a": [
+     "William Tell",
+     "Arsène Lupin",
+     "Zorro",
+     "Robin Hood"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the novel 'Ivanhoe' ?",
+    "a": [
+     "Walter Scott",
+     "Charles Dickens",
+     "Robert Louis Stevenson",
+     "Jane Austen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which team holds the most Formula 1 constructors' titles ?",
+    "a": [
+     "McLaren",
+     "Ferrari",
+     "Williams",
+     "Mercedes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which city hosted the first Super Bowl in 1967 ?",
+    "a": [
+     "New York",
+     "Chicago",
+     "Los Angeles",
+     "Miami"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "How many laps make up the Indianapolis 500 ?",
+    "a": [
+     "100 laps",
+     "250 laps",
+     "500 laps",
+     "200 laps"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which golf competition pits Europe against the United States ?",
+    "a": [
+     "The Ryder Cup",
+     "The Presidents Cup",
+     "The Walker Cup",
+     "The Solheim Cup"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "What is the highest rank in sumo called ?",
+    "a": [
+     "Ozeki",
+     "Yokozuna",
+     "Sekiwake",
+     "Komusubi"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which Spanish dessert is an inverted caramel custard ?",
+    "a": [
+     "Arroz con leche",
+     "Crema catalana",
+     "Flan",
+     "Churros"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which Mexican dish is a rolled filled tortilla ?",
+    "a": [
+     "The taco",
+     "The quesadilla",
+     "Nachos",
+     "The burrito"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which country is limoncello the traditional liqueur of ?",
+    "a": [
+     "Italy",
+     "Greece",
+     "France",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Is the truffle a mushroom or a root ?",
+    "a": [
+     "A root",
+     "A mushroom",
+     "A tuber",
+     "A seaweed"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which Italian region is prosecco from ?",
+    "a": [
+     "Tuscany",
+     "Piedmont",
+     "Veneto",
+     "Sicily"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who founded the Metropolitan Community Church in 1968 ?",
+    "a": [
+     "Harvey Milk",
+     "Harry Hay",
+     "Gene Robinson",
+     "Troy Perry"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 2020, who became the first transgender person elected a US state senator ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Christine Jorgensen",
+     "Caitlyn Jenner"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Elected in Ann Arbor in 1974, who was the first openly lesbian US official ?",
+    "a": [
+     "Elaine Noble",
+     "Kathy Kozachenko",
+     "Harvey Milk",
+     "Phyllis Lyon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 2021, who became the first trans person confirmed to a US federal post ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Rachel Levine",
+     "Christine Jorgensen"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which colours did Philadelphia add to the pride flag in 2017 ?",
+    "a": [
+     "Pink and blue",
+     "Silver and gold",
+     "Grey and white",
+     "Black and brown"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What do we call a group of fish swimming together ?",
+    "a": [
+     "A school",
+     "A flock",
+     "A pack",
+     "A herd"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in the word 'debt' ?",
+    "a": [
+     "The d",
+     "The b",
+     "The e",
+     "The t"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the superlative of 'tall' ?",
+    "a": [
+     "Most tall",
+     "More tall",
+     "Tallest",
+     "Talles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of 'half' ?",
+    "a": [
+     "Halfs",
+     "Halfes",
+     "Halvs",
+     "Halves"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of 'stand' ?",
+    "a": [
+     "Stood",
+     "Standed",
+     "Stound",
+     "Stooded"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "How many letters are in the word 'rhythm' ?",
+    "a": [
+     "Five",
+     "Six",
+     "Seven",
+     "Eight"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -35304,6 +36404,556 @@
      "Le Marais"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué tratado de 1494 repartió el Nuevo Mundo entre España y Portugal ?",
+    "a": [
+     "El tratado de Tordesillas",
+     "El tratado de Utrecht",
+     "El tratado de Westfalia",
+     "El tratado de Alcaçovas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué matanza de protestantes ocurrió en París el 24 de agosto de 1572 ?",
+    "a": [
+     "La matanza de Vassy",
+     "La matanza de San Bartolomé",
+     "Las dragonadas",
+     "Las Vísperas Sicilianas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué batalla naval de 1571 frenó la expansión otomana en el Mediterráneo ?",
+    "a": [
+     "La batalla de Preveza",
+     "El sitio de Malta",
+     "La batalla de Lepanto",
+     "La batalla de Yerba"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién detuvo a los jinetes árabes en Poitiers en 732 ?",
+    "a": [
+     "Clodoveo",
+     "Carlomagno",
+     "Dagoberto",
+     "Carlos Martel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué héroe italiano es apodado el « héroe de los dos mundos » ?",
+    "a": [
+     "Giuseppe Garibaldi",
+     "Camillo Cavour",
+     "Giuseppe Mazzini",
+     "Víctor Manuel II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la montaña más alta de Australia ?",
+    "a": [
+     "El monte Townsend",
+     "El monte Kosciuszko",
+     "El monte Bogong",
+     "El monte Feathertop"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué capital europea atraviesa el río Tajo ?",
+    "a": [
+     "Madrid",
+     "Sevilla",
+     "Lisboa",
+     "Oporto"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Las cataratas del Iguazú están entre Brasil y ¿qué país ?",
+    "a": [
+     "Paraguay",
+     "Bolivia",
+     "Uruguay",
+     "Argentina"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué paralelo separa Corea del Norte y Corea del Sur ?",
+    "a": [
+     "El paralelo 38",
+     "El paralelo 17",
+     "El paralelo 49",
+     "El paralelo 60"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué isla se encuentra Copenhague ?",
+    "a": [
+     "Fionia",
+     "Selandia",
+     "Bornholm",
+     "Lolland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué planeta gira sobre su eje en sentido contrario a los demás ?",
+    "a": [
+     "Marte",
+     "Júpiter",
+     "Venus",
+     "Mercurio"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué animal tiene el cerebro más grande del reino animal ?",
+    "a": [
+     "El elefante africano",
+     "La orca",
+     "El calamar gigante",
+     "El cachalote"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Dónde comienza la digestión del almidón ?",
+    "a": [
+     "En la boca",
+     "En el estómago",
+     "En el intestino delgado",
+     "En el colon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama la fase en que la Luna está entre la Tierra y el Sol ?",
+    "a": [
+     "La luna llena",
+     "La luna nueva",
+     "El cuarto creciente",
+     "La luna gibosa"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué mide un año luz ?",
+    "a": [
+     "Tiempo",
+     "Velocidad",
+     "Una distancia",
+     "Temperatura"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué parte aproximada de un iceberg está bajo el agua ?",
+    "a": [
+     "Cerca del 50 %",
+     "Cerca del 30 %",
+     "Cerca del 10 %",
+     "Cerca del 90 %"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién compuso la música de la película « Titanic » (1997) ?",
+    "a": [
+     "James Horner",
+     "John Williams",
+     "Hans Zimmer",
+     "Ennio Morricone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película del estudio Ghibli sigue a dos niños en el Japón en guerra ?",
+    "a": [
+     "El castillo en el cielo",
+     "La tumba de las luciérnagas",
+     "Mi vecino Totoro",
+     "El viaje de Chihiro"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Cómo se llama el barco de Jack Sparrow en « Piratas del Caribe » ?",
+    "a": [
+     "El Holandés Errante",
+     "El Interceptor",
+     "La Perla Negra",
+     "El Queen Anne's Revenge"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta a Django en « Django desencadenado » de Tarantino ?",
+    "a": [
+     "Leonardo DiCaprio",
+     "Christoph Waltz",
+     "Samuel L. Jackson",
+     "Jamie Foxx"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué grupo de cómicos creó la película francesa « Les Bronzés » en 1978 ?",
+    "a": [
+     "Le Splendid",
+     "Les Inconnus",
+     "Monty Python",
+     "Les Nuls"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿De qué país es el fado la música tradicional ?",
+    "a": [
+     "España",
+     "Portugal",
+     "Italia",
+     "Grecia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué director dirigió la Filarmónica de Berlín durante 34 años ?",
+    "a": [
+     "Leonard Bernstein",
+     "Claudio Abbado",
+     "Herbert von Karajan",
+     "Daniel Barenboim"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿A qué familia de instrumentos pertenece el xilófono ?",
+    "a": [
+     "A las cuerdas",
+     "A los metales",
+     "A las maderas",
+     "A la percusión"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo cantó « Yellow Submarine » ?",
+    "a": [
+     "The Beatles",
+     "Los Rolling Stones",
+     "The Who",
+     "The Beach Boys"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó al personaje de Winnie the Pooh ?",
+    "a": [
+     "Lewis Carroll",
+     "A. A. Milne",
+     "J. M. Barrie",
+     "Roald Dahl"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿En qué ciudad italiana transcurre « Romeo y Julieta » ?",
+    "a": [
+     "Venecia",
+     "Florencia",
+     "Verona",
+     "Milán"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué leyenda inglesa robaba a los ricos para dar a los pobres ?",
+    "a": [
+     "Guillermo Tell",
+     "Arsenio Lupin",
+     "El Zorro",
+     "Robin Hood"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la novela « Ivanhoe » ?",
+    "a": [
+     "Walter Scott",
+     "Charles Dickens",
+     "Robert Louis Stevenson",
+     "Jane Austen"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué escudería tiene más títulos de constructores de Fórmula 1 ?",
+    "a": [
+     "McLaren",
+     "Ferrari",
+     "Williams",
+     "Mercedes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué ciudad acogió el primer Super Bowl en 1967 ?",
+    "a": [
+     "Nueva York",
+     "Chicago",
+     "Los Ángeles",
+     "Miami"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántas vueltas tienen las 500 millas de Indianápolis ?",
+    "a": [
+     "100 vueltas",
+     "250 vueltas",
+     "500 vueltas",
+     "200 vueltas"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué competición de golf enfrenta a Europa con Estados Unidos ?",
+    "a": [
+     "La Copa Ryder",
+     "La Copa de los Presidentes",
+     "La Copa Walker",
+     "La Copa Solheim"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cómo se llama el rango más alto del sumo ?",
+    "a": [
+     "Ozeki",
+     "Yokozuna",
+     "Sekiwake",
+     "Komusubi"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué postre español es una crema de caramelo volteada ?",
+    "a": [
+     "El arroz con leche",
+     "La crema catalana",
+     "El flan",
+     "Los churros"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué plato mexicano es una tortilla enrollada rellena ?",
+    "a": [
+     "El taco",
+     "La quesadilla",
+     "Los nachos",
+     "El burrito"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país es el limoncello el licor tradicional ?",
+    "a": [
+     "Italia",
+     "Grecia",
+     "Francia",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿La trufa es un hongo o una raíz ?",
+    "a": [
+     "Una raíz",
+     "Un hongo",
+     "Un tubérculo",
+     "Un alga"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región italiana es el prosecco ?",
+    "a": [
+     "De la Toscana",
+     "Del Piamonte",
+     "Del Véneto",
+     "De Sicilia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién fundó la iglesia Metropolitan Community Church en 1968 ?",
+    "a": [
+     "Harvey Milk",
+     "Harry Hay",
+     "Gene Robinson",
+     "Troy Perry"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2020, ¿quién se convirtió en la primera persona trans electa senadora estatal en EE. UU. ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Christine Jorgensen",
+     "Caitlyn Jenner"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Elegida en Ann Arbor en 1974, ¿quién fue la primera funcionaria abiertamente lesbiana de EE. UU. ?",
+    "a": [
+     "Elaine Noble",
+     "Kathy Kozachenko",
+     "Harvey Milk",
+     "Phyllis Lyon"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2021, ¿quién fue la primera persona trans confirmada en un cargo federal de EE. UU. ?",
+    "a": [
+     "Sarah McBride",
+     "Danica Roem",
+     "Rachel Levine",
+     "Christine Jorgensen"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué colores añadió Filadelfia a la bandera del orgullo en 2017 ?",
+    "a": [
+     "El rosa y el azul",
+     "La plata y el oro",
+     "El gris y el blanco",
+     "El negro y el marrón"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el plural de « árbol » ?",
+    "a": [
+     "Árboles",
+     "Árboleses",
+     "Arbolesos",
+     "Árbols"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Con qué palabra interrogativa se pregunta por un lugar ?",
+    "a": [
+     "Cuándo",
+     "Dónde",
+     "Cómo",
+     "Cuánto"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama la unidad mínima de sonido de una lengua ?",
+    "a": [
+     "El morfema",
+     "La sílaba",
+     "El fonema",
+     "La letra"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas sílabas tiene la palabra « rápido » ?",
+    "a": [
+     "Dos",
+     "Cuatro",
+     "Cinco",
+     "Tres"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama la palabra acentuada en la penúltima sílaba ?",
+    "a": [
+     "Llana",
+     "Aguda",
+     "Esdrújula",
+     "Sobresdrújula"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama cuando dos vocales fuertes se separan en sílabas distintas ?",
+    "a": [
+     "El diptongo",
+     "El hiato",
+     "El triptongo",
+     "La sinalefa"
+    ],
+    "c": 1
    }
   ]
  }
