@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "qs": {
   "fr": [
    {
@@ -12321,6 +12321,754 @@
      "Un pronom atone"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a proclamé la République populaire de Chine en 1949 ?",
+    "a": [
+     "Mao Zedong",
+     "Sun Yat-sen",
+     "Deng Xiaoping",
+     "Qin Shi Huang"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année l'homme a-t-il marché pour la première fois sur la Lune ?",
+    "a": [
+     "1961",
+     "1969",
+     "1972",
+     "1958"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle ville italienne abrite la plus ancienne université d'Occident (1088) ?",
+    "a": [
+     "Florence",
+     "Padoue",
+     "Bologne",
+     "Sienne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Sur quel navire le Japon a-t-il signé sa capitulation en 1945 ?",
+    "a": [
+     "L'USS Arizona",
+     "Le HMS Victory",
+     "Le Normandie",
+     "L'USS Missouri"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel roi de Prusse du XVIIIe siècle est surnommé « le Grand » ?",
+    "a": [
+     "Frédéric II",
+     "Guillaume II",
+     "Charles XII",
+     "Joseph II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle mer sépare la Grèce de l'Italie du Sud ?",
+    "a": [
+     "La mer Égée",
+     "La mer Ionienne",
+     "La mer Tyrrhénienne",
+     "La mer Adriatique"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est l'État américain le moins peuplé ?",
+    "a": [
+     "Le Vermont",
+     "L'Alaska",
+     "Le Wyoming",
+     "Le Dakota du Sud"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel canal allemand relie la mer du Nord à la mer Baltique ?",
+    "a": [
+     "Le canal de Suez",
+     "Le canal du Midi",
+     "Le canal de Corinthe",
+     "Le canal de Kiel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Comment s'appelle le vent froid qui souffle dans la vallée du Rhône ?",
+    "a": [
+     "Le mistral",
+     "La tramontane",
+     "Le sirocco",
+     "L'autan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays possède la plus longue côte au monde ?",
+    "a": [
+     "La Russie",
+     "Le Canada",
+     "L'Australie",
+     "L'Indonésie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Comment appelle-t-on le bébé du kangourou ?",
+    "a": [
+     "Le poussin",
+     "Le chevreau",
+     "Le joey",
+     "Le faon"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelle la peur des espaces confinés ?",
+    "a": [
+     "L'agoraphobie",
+     "L'acrophobie",
+     "L'hydrophobie",
+     "La claustrophobie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "À quelle température l'eau bout-elle en degrés Fahrenheit ?",
+    "a": [
+     "212 °F",
+     "100 °F",
+     "180 °F",
+     "250 °F"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de temps dure environ une journée sur Mars ?",
+    "a": [
+     "19 h 18 min",
+     "24 h 37 min",
+     "28 h 45 min",
+     "31 h 05 min"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Qu'est-ce en réalité une « étoile filante » ?",
+    "a": [
+     "Une comète",
+     "Un astéroïde",
+     "Un météore",
+     "Une étoile morte"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelle le rejet de vapeur d'eau par les plantes ?",
+    "a": [
+     "La condensation",
+     "La sublimation",
+     "La liquéfaction",
+     "La transpiration"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel classique Disney de 1942 a pour héros le faon Bambi ?",
+    "a": [
+     "Bambi",
+     "Dumbo",
+     "Pinocchio",
+     "Blanche-Neige"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film de 1990 Patrick Swayze et Demi Moore façonnent-ils de la poterie ?",
+    "a": [
+     "Dirty Dancing",
+     "Ghost",
+     "Pretty Woman",
+     "Bodyguard"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur a remporté l'Oscar du meilleur acteur pour « Rain Man » (1988) ?",
+    "a": [
+     "Tom Cruise",
+     "Jack Nicholson",
+     "Dustin Hoffman",
+     "Al Pacino"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé « La Cité de Dieu » (2002), sur les favelas de Rio ?",
+    "a": [
+     "Walter Salles",
+     "Alfonso Cuarón",
+     "Alejandro Iñárritu",
+     "Fernando Meirelles"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quelle comédie musicale de 1952 Gene Kelly chante-t-il sous la pluie ?",
+    "a": [
+     "Chantons sous la pluie",
+     "Un Américain à Paris",
+     "Oliver !",
+     "Peaux neuves"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe a interprété le tube disco « Stayin' Alive » ?",
+    "a": [
+     "ABBA",
+     "Les Bee Gees",
+     "Chic",
+     "Earth, Wind and Fire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Combien de lignes compte une portée musicale ?",
+    "a": [
+     "4",
+     "6",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Dans quel pays est né le cha-cha-cha ?",
+    "a": [
+     "Le Mexique",
+     "L'Espagne",
+     "Le Brésil",
+     "Cuba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé l'opéra « Tosca » ?",
+    "a": [
+     "Giacomo Puccini",
+     "Giuseppe Verdi",
+     "Richard Wagner",
+     "Georges Bizet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Quel romancier suédois a créé l'inspecteur Kurt Wallander ?",
+    "a": [
+     "Stieg Larsson",
+     "Henning Mankell",
+     "Jo Nesbø",
+     "Åsa Larsson"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quel auteur américain a écrit « L'Abattoir 5 » ?",
+    "a": [
+     "J. D. Salinger",
+     "Ernest Hemingway",
+     "Kurt Vonnegut",
+     "John Steinbeck"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Eugénie Grandet » ?",
+    "a": [
+     "Gustave Flaubert",
+     "Émile Zola",
+     "Stendhal",
+     "Honoré de Balzac"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a créé le personnage de Conan le Barbare ?",
+    "a": [
+     "Robert E. Howard",
+     "J. R. R. Tolkien",
+     "Michael Moorcock",
+     "Fritz Leiber"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel maillot récompense le meilleur grimpeur du Tour de France ?",
+    "a": [
+     "Le maillot blanc",
+     "Le maillot à pois",
+     "Le maillot vert",
+     "Le maillot bleu"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Combien de nages officielles existe-t-il en natation de compétition ?",
+    "a": [
+     "2",
+     "6",
+     "4",
+     "8"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle franchise de baseball a remporté le plus de World Series ?",
+    "a": [
+     "Les Boston Red Sox",
+     "Les Dodgers de Los Angeles",
+     "Les Chicago Cubs",
+     "Les New York Yankees"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel club anglais est surnommé « les Red Devils » ?",
+    "a": [
+     "Manchester United",
+     "Liverpool",
+     "Arsenal",
+     "Newcastle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle pièce ne doit jamais être capturée aux échecs ?",
+    "a": [
+     "La reine",
+     "Le roi",
+     "Le cavalier",
+     "Le fou"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel fruit est tirée la pâte de coing ?",
+    "a": [
+     "La pêche",
+     "La figue",
+     "Le coing",
+     "La poire"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle plante est extrait le tapioca ?",
+    "a": [
+     "Le riz",
+     "Le maïs",
+     "La patate douce",
+     "Le manioc"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région française la soupe au pistou est-elle originaire ?",
+    "a": [
+     "La Provence",
+     "Le Languedoc",
+     "Le Périgord",
+     "La Corse"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays sont originaires les blinis, petits pancakes salés ?",
+    "a": [
+     "La Pologne",
+     "La Russie",
+     "La Grèce",
+     "La Suède"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays sont originaires les stroopwafels ?",
+    "a": [
+     "La Belgique",
+     "L'Allemagne",
+     "Les Pays-Bas",
+     "Le Danemark"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quelle ville espagnole se déroule chaque année l'une des fiertés les plus grandes d'Europe ?",
+    "a": [
+     "Barcelone",
+     "Lisbonne",
+     "Milan",
+     "Madrid"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Qui a écrit la pièce « La Cage aux folles » (1973) ?",
+    "a": [
+     "Jean Poiret",
+     "Marcel Achard",
+     "Félicien Marceau",
+     "Robert Thomas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle lettre grecque fut un symbole d'emblème du mouvement gay dans les années 1970 ?",
+    "a": [
+     "Bêta (β)",
+     "Lambda (λ)",
+     "Sigma (σ)",
+     "Oméga (ω)"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays a légalisé le mariage égalitaire par référendum en 2015 ?",
+    "a": [
+     "Le Portugal",
+     "Malte",
+     "L'Irlande",
+     "L'Autriche"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Que symbolise la couleur violette du drapeau arc-en-ciel de Baker ?",
+    "a": [
+     "La sérénité",
+     "L'art",
+     "La nature",
+     "L'esprit"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel temps est utilisé dans « j'ai mangé une pomme » ?",
+    "a": [
+     "Le passé composé",
+     "L'imparfait",
+     "Le présent",
+     "Le futur simple"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la 1ʳᵉ personne du singulier du verbe « aller » au présent ?",
+    "a": [
+     "Je va",
+     "Je vais",
+     "J'allons",
+     "J'irai"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle le signe typographique « § » ?",
+    "a": [
+     "L'alinéa",
+     "L'astérisque",
+     "Le paragraphe",
+     "La section"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Dans « ce livre est rouge », « ce » est un adjectif…",
+    "a": [
+     "Possessif",
+     "Indéfini",
+     "Interrogatif",
+     "Démonstratif"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le pluriel de « génie » ?",
+    "a": [
+     "Des génies",
+     "Des géniaux",
+     "Des génie",
+     "Des génie's"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le contraire du verbe « monter » ?",
+    "a": [
+     "Avancer",
+     "Descendre",
+     "Stagner",
+     "Glisser"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Mi-novembre 2026, la COP31 d'Antalya s'est achevée sans accord : sur quoi portaient les désaccords ?",
+    "a": [
+     "Le nucléaire",
+     "Les subventions agricoles",
+     "La sortie des énergies fossiles",
+     "Les quotas de pêche"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel sommet réunit plus de 250 dirigeants d'entreprises à Paris ?",
+    "a": [
+     "Tech for Good",
+     "France 2030",
+     "Le Choosing Summit",
+     "Choose France"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Le 22 novembre 2026, quel établissement de santé de Guadeloupe a été victime d'une cyberattaque ?",
+    "a": [
+     "Le CHU de Pointe-à-Pitre",
+     "L'hôpital de Basse-Terre",
+     "La clinique des Abymes",
+     "Le centre hospitalier du Lamentin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Mi-novembre 2026, quel département français a évacué près de 800 personnes après des inondations ?",
+    "a": [
+     "Le Var",
+     "Le Pas-de-Calais",
+     "L'Aude",
+     "La Somme"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Aux demi-finales du Masters ATP de Turin en novembre 2026, qui a battu Ben Shelton ?",
+    "a": [
+     "Alexander Zverev",
+     "Daniil Medvedev",
+     "Carlos Alcaraz",
+     "Jannik Sinner"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Tirage de novembre 2026 : quelle équipe affrontera la France en quart de Ligue des nations ?",
+    "a": [
+     "L'Angleterre",
+     "La Belgique",
+     "Le Portugal",
+     "L'Espagne"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pilote Ducati a remporté un 8e titre de champion du monde MotoGP ?",
+    "a": [
+     "Marc Márquez",
+     "Francesco Bagnaia",
+     "Jorge Martín",
+     "Fabio Quartararo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Mi-novembre 2026, quelle équipe italienne s'est imposée 5-1 sur la pelouse de Parme en Serie A ?",
+    "a": [
+     "L'Inter Milan",
+     "L'AS Rome",
+     "La Juventus",
+     "Le Napoli"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Mi-novembre 2026, quelle équipe a battu Chelsea 4-1 en Premier League à Stamford Bridge ?",
+    "a": [
+     "Fulham",
+     "Newcastle",
+     "Leeds United",
+     "Everton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Quel jeu vidéo a généré 3,79 milliards de dollars le jour de sa sortie (novembre 2026) ?",
+    "a": [
+     "Call of Duty",
+     "Zelda",
+     "Cyberpunk 2077",
+     "GTA VI"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Mi-novembre 2026, quelle entreprise d'IA s'est introduite en Bourse au Nasdaq ?",
+    "a": [
+     "Anthropic",
+     "OpenAI",
+     "Mistral AI",
+     "DeepSeek"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Quelle économiste française a été nommée au directoire de la BCE en novembre 2026 ?",
+    "a": [
+     "Christine Lagarde",
+     "Laurence Boone",
+     "Sibyle Veil",
+     "Isabelle Kocher"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Le 21 novembre 2026, 7 000 personnes ont manifesté à Bayonne pour quelle langue ?",
+    "a": [
+     "Le breton",
+     "Le catalan",
+     "Le basque",
+     "Le corse"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Le 22 novembre 2026, des drones ont touché un bâtiment de l'ONU dans quelle capitale ?",
+    "a": [
+     "Niamey",
+     "N'Djamena",
+     "Bamako",
+     "Khartoum"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Le 22 novembre 2026, que défendaient les milliers de manifestants d'Istanbul ?",
+    "a": [
+     "Les médias d'opposition",
+     "Les médias sportifs",
+     "Les médias d'État",
+     "Les médias étrangers"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Dans quel pays le slalom de Coupe du monde de Gurgl a-t-il eu lieu le 22 novembre 2026 ?",
+    "a": [
+     "La Suisse",
+     "L'Autriche",
+     "La Norvège",
+     "L'Italie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Le 20 novembre 2026, quel pays a expulsé l'attaché de défense russe ?",
+    "a": [
+     "La Suède",
+     "La Finlande",
+     "Le Danemark",
+     "L'Estonie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, le hip-hop signe à Paris une charte ouvrant la voie vers quelle institution ?",
+    "a": [
+     "L'ONU",
+     "Le Louvre",
+     "La FIFA",
+     "L'Unesco"
+    ],
+    "c": 3
    }
   ],
   "en": [
@@ -24643,6 +25391,754 @@
      "Eight"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Who proclaimed the People's Republic of China in 1949?",
+    "a": [
+     "Mao Zedong",
+     "Sun Yat-sen",
+     "Deng Xiaoping",
+     "Qin Shi Huang"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "In which year did a human first walk on the Moon?",
+    "a": [
+     "1961",
+     "1969",
+     "1972",
+     "1958"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which Italian city hosts the oldest university in the West (1088)?",
+    "a": [
+     "Florence",
+     "Padua",
+     "Bologna",
+     "Siena"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "On which ship did Japan sign its surrender in 1945?",
+    "a": [
+     "The USS Arizona",
+     "HMS Victory",
+     "SS Normandie",
+     "The USS Missouri"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which 18th-century king of Prussia is called \"the Great\"?",
+    "a": [
+     "Frederick II",
+     "William II",
+     "Charles XII",
+     "Joseph II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which sea separates Greece from southern Italy?",
+    "a": [
+     "The Aegean Sea",
+     "The Ionian Sea",
+     "The Tyrrhenian Sea",
+     "The Adriatic Sea"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which is the least populous US state?",
+    "a": [
+     "Vermont",
+     "Alaska",
+     "Wyoming",
+     "South Dakota"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which German canal links the North Sea to the Baltic Sea?",
+    "a": [
+     "The Suez Canal",
+     "The Midi Canal",
+     "The Corinth Canal",
+     "The Kiel Canal"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the cold wind blowing down the Rhône valley called?",
+    "a": [
+     "The mistral",
+     "The tramontane",
+     "The sirocco",
+     "The autan"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which country has the longest coastline in the world?",
+    "a": [
+     "Russia",
+     "Canada",
+     "Australia",
+     "Indonesia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What is a baby kangaroo called?",
+    "a": [
+     "A chick",
+     "A kid",
+     "A joey",
+     "A foal"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the fear of confined spaces called?",
+    "a": [
+     "Agoraphobia",
+     "Acrophobia",
+     "Hydrophobia",
+     "Claustrophobia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "At what temperature does water boil in degrees Fahrenheit?",
+    "a": [
+     "212 °F",
+     "100 °F",
+     "180 °F",
+     "250 °F"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "About how long does a day on Mars last?",
+    "a": [
+     "19 h 18 min",
+     "24 h 37 min",
+     "28 h 45 min",
+     "31 h 05 min"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What is a \"shooting star\" in reality?",
+    "a": [
+     "A comet",
+     "An asteroid",
+     "A meteor",
+     "A dead star"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the release of water vapour by plants called?",
+    "a": [
+     "Condensation",
+     "Sublimation",
+     "Liquefaction",
+     "Transpiration"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1942 Disney classic stars the fawn Bambi?",
+    "a": [
+     "Bambi",
+     "Dumbo",
+     "Pinocchio",
+     "Snow White"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "In which 1990 film do Patrick Swayze and Demi Moore sculpt pottery?",
+    "a": [
+     "Dirty Dancing",
+     "Ghost",
+     "Pretty Woman",
+     "The Bodyguard"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor won the Best Actor Oscar for \"Rain Man\" (1988)?",
+    "a": [
+     "Tom Cruise",
+     "Jack Nicholson",
+     "Dustin Hoffman",
+     "Al Pacino"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed \"City of God\" (2002), set in Rio's favelas?",
+    "a": [
+     "Walter Salles",
+     "Alfonso Cuarón",
+     "Alejandro Iñárritu",
+     "Fernando Meirelles"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "In which 1952 musical does Gene Kelly sing in the rain?",
+    "a": [
+     "Singin' in the Rain",
+     "An American in Paris",
+     "Oliver!",
+     "Easter Parade"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which group performed the disco hit \"Stayin' Alive\"?",
+    "a": [
+     "ABBA",
+     "The Bee Gees",
+     "Chic",
+     "Earth, Wind and Fire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "How many lines does a musical staff have?",
+    "a": [
+     "4",
+     "6",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "In which country was the cha-cha-cha born?",
+    "a": [
+     "Mexico",
+     "Spain",
+     "Brazil",
+     "Cuba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the opera \"Tosca\"?",
+    "a": [
+     "Giacomo Puccini",
+     "Giuseppe Verdi",
+     "Richard Wagner",
+     "Georges Bizet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Which Swedish novelist created inspector Kurt Wallander?",
+    "a": [
+     "Stieg Larsson",
+     "Henning Mankell",
+     "Jo Nesbø",
+     "Åsa Larsson"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which American author wrote \"Slaughterhouse-Five\"?",
+    "a": [
+     "J. D. Salinger",
+     "Ernest Hemingway",
+     "Kurt Vonnegut",
+     "John Steinbeck"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote \"Eugénie Grandet\"?",
+    "a": [
+     "Gustave Flaubert",
+     "Émile Zola",
+     "Stendhal",
+     "Honoré de Balzac"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who created the character Conan the Barbarian?",
+    "a": [
+     "Robert E. Howard",
+     "J. R. R. Tolkien",
+     "Michael Moorcock",
+     "Fritz Leiber"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which jersey rewards the best climber of the Tour de France?",
+    "a": [
+     "The white jersey",
+     "The polka dot jersey",
+     "The green jersey",
+     "The blue jersey"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "How many official strokes exist in competitive swimming?",
+    "a": [
+     "2",
+     "6",
+     "4",
+     "8"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which baseball franchise has won the most World Series?",
+    "a": [
+     "The Boston Red Sox",
+     "The Los Angeles Dodgers",
+     "The Chicago Cubs",
+     "The New York Yankees"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which English club is nicknamed \"the Red Devils\"?",
+    "a": [
+     "Manchester United",
+     "Liverpool",
+     "Arsenal",
+     "Newcastle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which piece must never be captured in chess?",
+    "a": [
+     "The queen",
+     "The king",
+     "The knight",
+     "The bishop"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "From which fruit is quince paste made?",
+    "a": [
+     "The peach",
+     "The fig",
+     "The quince",
+     "The pear"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "From which plant is tapioca extracted?",
+    "a": [
+     "Rice",
+     "Corn",
+     "Sweet potato",
+     "Cassava"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "From which French region does soupe au pistou come?",
+    "a": [
+     "Provence",
+     "Languedoc",
+     "Périgord",
+     "Corsica"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "From which country do blini, small savoury pancakes, originate?",
+    "a": [
+     "Poland",
+     "Russia",
+     "Greece",
+     "Sweden"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "From which country do stroopwafels originate?",
+    "a": [
+     "Belgium",
+     "Germany",
+     "The Netherlands",
+     "Denmark"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which Spanish city is one of Europe's largest Pride parades held annually?",
+    "a": [
+     "Barcelona",
+     "Lisbon",
+     "Milan",
+     "Madrid"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Who wrote the play \"La Cage aux Folles\" (1973)?",
+    "a": [
+     "Jean Poiret",
+     "Marcel Achard",
+     "Félicien Marceau",
+     "Robert Thomas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Greek letter became a symbol of the gay movement in the 1970s?",
+    "a": [
+     "Beta (β)",
+     "Lambda (λ)",
+     "Sigma (σ)",
+     "Omega (ω)"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country legalised equal marriage by referendum in 2015?",
+    "a": [
+     "Portugal",
+     "Malta",
+     "Ireland",
+     "Austria"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "What does the violet stripe of Baker's rainbow flag symbolise?",
+    "a": [
+     "Serenity",
+     "Art",
+     "Nature",
+     "Spirit"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of \"give\"?",
+    "a": [
+     "gave",
+     "gived",
+     "given",
+     "giving"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the typographic symbol \"¶\" called?",
+    "a": [
+     "The ampersand",
+     "The pilcrow",
+     "The asterisk",
+     "The caret"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of \"strong\"?",
+    "a": [
+     "heavy",
+     "rough",
+     "weak",
+     "bitter"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of \"species\"?",
+    "a": [
+     "specieses",
+     "specie",
+     "specs",
+     "species"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "In \"the red apple\", what part of speech is \"red\"?",
+    "a": [
+     "An adjective",
+     "An adverb",
+     "A noun",
+     "A pronoun"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of \"radius\"?",
+    "a": [
+     "radiuses",
+     "radii",
+     "radia",
+     "radixes"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In mid-November 2026, COP31 in Antalya ended without a deal: what was the disagreement about?",
+    "a": [
+     "Nuclear power",
+     "Farm subsidies",
+     "Phasing out fossil fuels",
+     "Fishing quotas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which summit gathered over 250 business leaders in Paris?",
+    "a": [
+     "Tech for Good",
+     "France 2030",
+     "The Choosing Summit",
+     "Choose France"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "On 22 November 2026, which health facility in Guadeloupe suffered a major cyberattack?",
+    "a": [
+     "The university hospital (CHU) of Guadeloupe",
+     "Basse-Terre hospital",
+     "Les Abymes clinic",
+     "Lamentin hospital"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In mid-November 2026, which French department evacuated nearly 800 people after floods?",
+    "a": [
+     "Var",
+     "Pas-de-Calais",
+     "Aude",
+     "Somme"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In the ATP Finals semifinals in Turin in November 2026, who beat Ben Shelton?",
+    "a": [
+     "Alexander Zverev",
+     "Daniil Medvedev",
+     "Carlos Alcaraz",
+     "Jannik Sinner"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "November 2026 Nations League draw: which team will France face in the quarters?",
+    "a": [
+     "England",
+     "Belgium",
+     "Portugal",
+     "Spain"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which Ducati rider won an 8th MotoGP world title?",
+    "a": [
+     "Marc Márquez",
+     "Francesco Bagnaia",
+     "Jorge Martín",
+     "Fabio Quartararo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In mid-November 2026, which Italian team won 5-1 away at Parma in Serie A?",
+    "a": [
+     "Inter Milan",
+     "AS Roma",
+     "Juventus",
+     "Napoli"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In mid-November 2026, which team beat Chelsea 4-1 in the Premier League?",
+    "a": [
+     "Fulham",
+     "Newcastle",
+     "Leeds United",
+     "Everton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Which video game made $3.79 billion on its release day in November 2026?",
+    "a": [
+     "Call of Duty",
+     "Zelda",
+     "Cyberpunk 2077",
+     "GTA VI"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In mid-November 2026, which AI company debuted on the Nasdaq stock exchange?",
+    "a": [
+     "Anthropic",
+     "OpenAI",
+     "Mistral AI",
+     "DeepSeek"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Which French economist joined the ECB executive board in November 2026?",
+    "a": [
+     "Christine Lagarde",
+     "Laurence Boone",
+     "Sibyle Veil",
+     "Isabelle Kocher"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "On 21 November 2026, 7,000 people marched in Bayonne for which language?",
+    "a": [
+     "Breton",
+     "Catalan",
+     "Basque",
+     "Corsican"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "On 22 November 2026, drones hit a UN building in which capital?",
+    "a": [
+     "Niamey",
+     "N'Djamena",
+     "Bamako",
+     "Khartoum"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "On 22 November 2026, what did thousands of Istanbul marchers defend?",
+    "a": [
+     "Opposition media",
+     "Sports media",
+     "State media",
+     "Foreign media"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In which country was the Gurgl World Cup slalom held on 22 November 2026?",
+    "a": [
+     "Switzerland",
+     "Austria",
+     "Norway",
+     "Italy"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "On 20 November 2026, which country expelled Russia's defence attache?",
+    "a": [
+     "Sweden",
+     "Finland",
+     "Denmark",
+     "Estonia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, hip-hop signed a charter in Paris opening the way to which institution?",
+    "a": [
+     "The UN",
+     "The Louvre",
+     "FIFA",
+     "UNESCO"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -36954,6 +38450,754 @@
      "La sinalefa"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién proclamó la República Popular China en 1949?",
+    "a": [
+     "Mao Zedong",
+     "Sun Yat-sen",
+     "Deng Xiaoping",
+     "Qin Shi Huang"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año caminó el ser humano por primera vez en la Luna?",
+    "a": [
+     "1961",
+     "1969",
+     "1972",
+     "1958"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué ciudad italiana alberga la universidad más antigua de Occidente (1088)?",
+    "a": [
+     "Florencia",
+     "Padua",
+     "Bolonia",
+     "Siena"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué buque firmó Japón su rendición en 1945?",
+    "a": [
+     "El USS Arizona",
+     "El HMS Victory",
+     "El Normandie",
+     "El USS Missouri"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué rey de Prusia del siglo XVIII es llamado «el Grande»?",
+    "a": [
+     "Federico II",
+     "Guillermo II",
+     "Carlos XII",
+     "José II"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué mar separa Grecia del sur de Italia?",
+    "a": [
+     "El mar Egeo",
+     "El mar Jónico",
+     "El mar Tirreno",
+     "El mar Adriático"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el estado menos poblado de EE. UU.?",
+    "a": [
+     "Vermont",
+     "Alaska",
+     "Wyoming",
+     "Dakota del Sur"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué canal alemán une el mar del Norte con el mar Báltico?",
+    "a": [
+     "El canal de Suez",
+     "El canal del Midi",
+     "El canal de Corinto",
+     "El canal de Kiel"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cómo se llama el viento frío que sopla por el valle del Ródano?",
+    "a": [
+     "El mistral",
+     "La tramontana",
+     "El siroco",
+     "El aután"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país tiene la costa más larga del mundo?",
+    "a": [
+     "Rusia",
+     "Canadá",
+     "Australia",
+     "Indonesia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama la cría del canguro?",
+    "a": [
+     "El polluelo",
+     "La cría de cabra",
+     "El joey",
+     "El cervatillo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama el miedo a los espacios cerrados?",
+    "a": [
+     "La agorafobia",
+     "La acrofobia",
+     "La hidrofobia",
+     "La claustrofobia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿A qué temperatura hierve el agua en grados Fahrenheit?",
+    "a": [
+     "212 °F",
+     "100 °F",
+     "180 °F",
+     "250 °F"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuánto dura aproximadamente un día en Marte?",
+    "a": [
+     "19 h 18 min",
+     "24 h 37 min",
+     "28 h 45 min",
+     "31 h 05 min"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué es en realidad una «estrella fugaz»?",
+    "a": [
+     "Un cometa",
+     "Un asteroide",
+     "Un meteoro",
+     "Una estrella muerta"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama la liberación de vapor de agua por las plantas?",
+    "a": [
+     "La condensación",
+     "La sublimación",
+     "La licuación",
+     "La transpiración"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué clásico de Disney de 1942 protagoniza el cervatillo Bambi?",
+    "a": [
+     "Bambi",
+     "Dumbo",
+     "Pinocho",
+     "Blancanieves"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película de 1990 Patrick Swayze y Demi Moore modelan cerámica?",
+    "a": [
+     "Dirty Dancing",
+     "Ghost",
+     "Pretty Woman",
+     "El guardaespaldas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor ganó el Óscar al mejor actor por «Rain Man» (1988)?",
+    "a": [
+     "Tom Cruise",
+     "Jack Nicholson",
+     "Dustin Hoffman",
+     "Al Pacino"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió «Ciudad de Dios» (2002), sobre las favelas de Río?",
+    "a": [
+     "Walter Salles",
+     "Alfonso Cuarón",
+     "Alejandro Iñárritu",
+     "Fernando Meirelles"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué musical de 1952 Gene Kelly canta bajo la lluvia?",
+    "a": [
+     "Cantando bajo la lluvia",
+     "Un americano en París",
+     "Oliver!",
+     "Desfile de Pascua"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo interpretó el éxito disco «Stayin' Alive»?",
+    "a": [
+     "ABBA",
+     "Los Bee Gees",
+     "Chic",
+     "Earth, Wind and Fire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Cuántas líneas tiene un pentagrama?",
+    "a": [
+     "4",
+     "6",
+     "5",
+     "7"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿En qué país nació el chachachá?",
+    "a": [
+     "México",
+     "España",
+     "Brasil",
+     "Cuba"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso la ópera «Tosca»?",
+    "a": [
+     "Giacomo Puccini",
+     "Giuseppe Verdi",
+     "Richard Wagner",
+     "Georges Bizet"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué novelista sueco creó al inspector Kurt Wallander?",
+    "a": [
+     "Stieg Larsson",
+     "Henning Mankell",
+     "Jo Nesbø",
+     "Åsa Larsson"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué autor estadounidense escribió «Matadero 5»?",
+    "a": [
+     "J. D. Salinger",
+     "Ernest Hemingway",
+     "Kurt Vonnegut",
+     "John Steinbeck"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió «Eugenia Grandet»?",
+    "a": [
+     "Gustave Flaubert",
+     "Émile Zola",
+     "Stendhal",
+     "Honoré de Balzac"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién creó al personaje Conan el Bárbaro?",
+    "a": [
+     "Robert E. Howard",
+     "J. R. R. Tolkien",
+     "Michael Moorcock",
+     "Fritz Leiber"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué maillot premia al mejor escalador del Tour de Francia?",
+    "a": [
+     "El maillot blanco",
+     "El maillot de lunares",
+     "El maillot verde",
+     "El maillot azul"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuántos estilos oficiales existen en natación de competición?",
+    "a": [
+     "2",
+     "6",
+     "4",
+     "8"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué franquicia de béisbol ha ganado más Series Mundiales?",
+    "a": [
+     "Los Red Sox de Boston",
+     "Los Dodgers de Los Ángeles",
+     "Los Cubs de Chicago",
+     "Los Yankees de Nueva York"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué club inglés tiene el apodo de «los Red Devils»?",
+    "a": [
+     "Manchester United",
+     "Liverpool",
+     "Arsenal",
+     "Newcastle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué pieza nunca debe ser capturada en el ajedrez?",
+    "a": [
+     "La reina",
+     "El rey",
+     "El caballo",
+     "El alfil"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué fruta se hace el dulce de membrillo?",
+    "a": [
+     "El durazno",
+     "El higo",
+     "El membrillo",
+     "La pera"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué planta se extrae la tapioca?",
+    "a": [
+     "El arroz",
+     "El maíz",
+     "La batata",
+     "La yuca"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región francesa procede la sopa de pistú (soupe au pistou)?",
+    "a": [
+     "La Provenza",
+     "El Languedoc",
+     "El Périgord",
+     "Córcega"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país son originarios los blinis, pequeños panqueques salados?",
+    "a": [
+     "Polonia",
+     "Rusia",
+     "Grecia",
+     "Suecia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país son originarios los stroopwafels?",
+    "a": [
+     "Bélgica",
+     "Alemania",
+     "Países Bajos",
+     "Dinamarca"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué ciudad española se celebra cada año uno de los mayores Orgullos de Europa?",
+    "a": [
+     "Barcelona",
+     "Lisboa",
+     "Milán",
+     "Madrid"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Quién escribió la obra «La jaula de las locas» (1973)?",
+    "a": [
+     "Jean Poiret",
+     "Marcel Achard",
+     "Félicien Marceau",
+     "Robert Thomas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué letra griega fue símbolo del movimiento gay en los años 70?",
+    "a": [
+     "Beta (β)",
+     "Lambda (λ)",
+     "Sigma (σ)",
+     "Omega (ω)"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país legalizó el matrimonio igualitario por referéndum en 2015?",
+    "a": [
+     "Portugal",
+     "Malta",
+     "Irlanda",
+     "Austria"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué simboliza el color violeta de la bandera arcoíris de Baker?",
+    "a": [
+     "La serenidad",
+     "El arte",
+     "La naturaleza",
+     "El espíritu"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama el símbolo tipográfico «¶»?",
+    "a": [
+     "El párrafo",
+     "El asterisco",
+     "La almohadilla",
+     "El guion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el sustantivo colectivo para un grupo de lobos?",
+    "a": [
+     "bandada",
+     "manada",
+     "enjambre",
+     "cardumen"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es la 2ª persona del singular de \"tener\" en presente?",
+    "a": [
+     "tenéis",
+     "tenga",
+     "tienes",
+     "tenías"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué modo se usa en \"es posible que venga\"?",
+    "a": [
+     "El indicativo",
+     "El imperativo",
+     "El condicional",
+     "El subjuntivo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el gerundio de \"vivir\"?",
+    "a": [
+     "viviendo",
+     "vivendo",
+     "vivirando",
+     "vivido"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el diminutivo de \"mesa\"?",
+    "a": [
+     "mesuela",
+     "mesita",
+     "meseta",
+     "meso"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "La COP31 de Antalya terminó sin acuerdo en noviembre 2026: ¿sobre qué tema?",
+    "a": [
+     "La energía nuclear",
+     "Los subsidios agrícolas",
+     "La salida de los combustibles fósiles",
+     "Las cuotas de pesca"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué cumbre reunió a más de 250 directivos empresariales en París?",
+    "a": [
+     "Tech for Good",
+     "Francia 2030",
+     "The Choosing Summit",
+     "Choose France"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "El 22 de noviembre de 2026, ¿qué centro sanitario de Guadalupe sufrió un gran ciberataque?",
+    "a": [
+     "El CHU de Pointe-à-Pitre",
+     "El hospital de Basse-Terre",
+     "La clínica de Les Abymes",
+     "El centro hospitalario de Le Lamentin"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Inundaciones de noviembre 2026: ¿qué departamento francés evacuó a casi 800 personas?",
+    "a": [
+     "Var",
+     "Pas-de-Calais",
+     "Aude",
+     "Somme"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En las semifinales del Masters ATP de Turín en noviembre de 2026, ¿quién venció a Ben Shelton?",
+    "a": [
+     "Alexander Zverev",
+     "Daniil Medvedev",
+     "Carlos Alcaraz",
+     "Jannik Sinner"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Sorteo de noviembre de 2026: ¿qué rival tendrá Francia en cuartos de la Liga de Naciones?",
+    "a": [
+     "Inglaterra",
+     "Bélgica",
+     "Portugal",
+     "España"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué piloto de Ducati ganó su 8.º título mundial de MotoGP?",
+    "a": [
+     "Marc Márquez",
+     "Francesco Bagnaia",
+     "Jorge Martín",
+     "Fabio Quartararo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Noviembre 2026, Serie A: ¿qué equipo ganó 5-1 como visitante ante el Parma?",
+    "a": [
+     "El Inter de Milán",
+     "La AS Roma",
+     "La Juventus",
+     "El Nápoles"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "A mediados de noviembre de 2026, ¿qué equipo venció 4-1 al Chelsea en la Premier League?",
+    "a": [
+     "Fulham",
+     "Newcastle",
+     "Leeds United",
+     "Everton"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "¿Qué videojuego generó 3.790 millones de dólares el día de su lanzamiento en 2026?",
+    "a": [
+     "Call of Duty",
+     "Zelda",
+     "Cyberpunk 2077",
+     "GTA VI"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "A mediados de noviembre de 2026, ¿qué empresa de IA debutó en el Nasdaq?",
+    "a": [
+     "Anthropic",
+     "OpenAI",
+     "Mistral AI",
+     "DeepSeek"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "¿Qué economista francesa se incorporó al comité ejecutivo del BCE en noviembre de 2026?",
+    "a": [
+     "Christine Lagarde",
+     "Laurence Boone",
+     "Sibyle Veil",
+     "Isabelle Kocher"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "El 21 de noviembre de 2026, 7.000 personas marcharon en Bayona por ¿qué lengua?",
+    "a": [
+     "El bretón",
+     "El catalán",
+     "El euskera",
+     "El corso"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "El 22 de noviembre de 2026, drones alcanzaron un edificio de la ONU en ¿qué capital?",
+    "a": [
+     "Niamey",
+     "N'Djamena",
+     "Bamako",
+     "Jartum"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "El 22 de noviembre de 2026, ¿qué defendían miles de manifestantes en Estambul ?",
+    "a": [
+     "Los medios de oposición",
+     "Los medios deportivos",
+     "Los medios estatales",
+     "Los medios extranjeros"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "¿En qué país se celebró el slalom de Gurgl el 22 de noviembre de 2026?",
+    "a": [
+     "Suiza",
+     "Austria",
+     "Noruega",
+     "Italia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "El 20 de noviembre de 2026, ¿qué país expulsó al agregado de defensa ruso?",
+    "a": [
+     "Suecia",
+     "Finlandia",
+     "Dinamarca",
+     "Estonia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "El hip-hop firmó en París (nov. 2026) una carta hacia ¿qué institución?",
+    "a": [
+     "La ONU",
+     "El Louvre",
+     "La FIFA",
+     "La Unesco"
+    ],
+    "c": 3
    }
   ]
  }
