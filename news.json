@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "qs": {
   "fr": [
    {
@@ -13067,6 +13067,556 @@
      "Le Louvre",
      "La FIFA",
      "L'Unesco"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel cosmonaute soviétique a été le premier homme à voyager dans l'espace en 1961 ?",
+    "a": [
+     "Iouri Gagarine",
+     "Neil Armstrong",
+     "Valentina Terechkova",
+     "Alexeï Leonov"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Comment s'appelait le navire qui emmena les Pèlerins en Amérique en 1620 ?",
+    "a": [
+     "La Santa María",
+     "Le Beagle",
+     "Le Golden Hind",
+     "Le Mayflower"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel tsar de Russie fit construire la ville de Saint-Pétersbourg en 1703 ?",
+    "a": [
+     "Catherine II",
+     "Alexis Ier",
+     "Pierre le Grand",
+     "Ivan le Terrible"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel conflit opposa l'Espagne aux États-Unis en 1898 ?",
+    "a": [
+     "La guerre de Sécession",
+     "La guerre hispano-américaine",
+     "La guerre de Crimée",
+     "La guerre des Boers"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel explorateur français fonda la ville de Québec en 1608 ?",
+    "a": [
+     "Samuel de Champlain",
+     "Jacques Cartier",
+     "Cavelier de La Salle",
+     "Jacques Marquette"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays d'Afrique n'a jamais été colonisé, hormis une brève occupation italienne ?",
+    "a": [
+     "Le Kenya",
+     "Le Ghana",
+     "Le Sénégal",
+     "L'Éthiopie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le parc national du Serengeti ?",
+    "a": [
+     "L'Afrique du Sud",
+     "Le Botswana",
+     "La Tanzanie",
+     "Le Kenya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays actuel répondait autrefois au nom de Perse ?",
+    "a": [
+     "L'Afghanistan",
+     "L'Iran",
+     "L'Irak",
+     "La Turquie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel fleuve forme une grande partie de la frontière entre les États-Unis et le Mexique ?",
+    "a": [
+     "Le Rio Grande",
+     "Le Colorado",
+     "Le Mississippi",
+     "Le Yukon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays est le premier producteur mondial de café ?",
+    "a": [
+     "La Colombie",
+     "Le Vietnam",
+     "L'Éthiopie",
+     "Le Brésil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle planète abrite la fameuse Grande Tache rouge ?",
+    "a": [
+     "Saturne",
+     "Neptune",
+     "Jupiter",
+     "Mars"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelle la science qui étudie les fossiles ?",
+    "a": [
+     "La spéléologie",
+     "La paléontologie",
+     "L'archéologie",
+     "La géologie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle structure de la cellule contient l'ADN ?",
+    "a": [
+     "Le noyau",
+     "La membrane",
+     "Le cytoplasme",
+     "La mitochondrie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Que mesure un compteur Geiger ?",
+    "a": [
+     "La pression",
+     "Le vent",
+     "L'humidité",
+     "Les radiations"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle est la principale fonction des globules rouges ?",
+    "a": [
+     "Filtrer le sang",
+     "Lutter contre les virus",
+     "Transporter l'oxygène",
+     "Digérer les aliments"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelle la transformation de la chenille en papillon ?",
+    "a": [
+     "La diapause",
+     "La métamorphose",
+     "La pollinisation",
+     "La migration"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Comment s'appelle le père de Nemo dans « Le Monde de Nemo » ?",
+    "a": [
+     "Marlin",
+     "Gill",
+     "Dory",
+     "Bruce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Comment s'appelle le vaisseau de Han Solo dans « Star Wars » ?",
+    "a": [
+     "L'Étoile Noire",
+     "Un chasseur TIE",
+     "Un X-wing",
+     "Le Faucon Millenium"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel hobbit Elijah Wood incarne-t-il dans « Le Seigneur des anneaux » ?",
+    "a": [
+     "Samwise",
+     "Peregrin",
+     "Frodo",
+     "Bilbo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle star d'Hollywood prête sa voix au cow-boy Woody dans « Toy Story » ?",
+    "a": [
+     "Jim Carrey",
+     "Tom Hanks",
+     "Tim Allen",
+     "Robin Williams"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "De quel pays vient le film « Cinema Paradiso » de Giuseppe Tornatore ?",
+    "a": [
+     "L'Italie",
+     "L'Espagne",
+     "La France",
+     "La Grèce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Comment s'appelle l'unique opéra de Beethoven ?",
+    "a": [
+     "Don Giovanni",
+     "Norma",
+     "Orfeo",
+     "Fidelio"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle comédie musicale raconte l'histoire d'Elphaba, future sorcière de l'Ouest ?",
+    "a": [
+     "Rent",
+     "Grease",
+     "Wicked",
+     "Cats"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Dans quel groupe de heavy metal chantait Ozzy Osbourne ?",
+    "a": [
+     "Led Zeppelin",
+     "Black Sabbath",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "De quel pays la danse traditionnelle « tarantella » est-elle originaire ?",
+    "a": [
+     "L'Italie",
+     "L'Espagne",
+     "La Grèce",
+     "Le Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit la pièce de théâtre « Un tramway nommé Désir » ?",
+    "a": [
+     "Arthur Miller",
+     "Eugene O'Neill",
+     "Edward Albee",
+     "Tennessee Williams"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Quel écrivain égyptien a reçu le prix Nobel de littérature en 1988 ?",
+    "a": [
+     "Tahar Ben Jelloun",
+     "Tawfiq al-Hakim",
+     "Naguib Mahfouz",
+     "Amin Maalouf"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit le roman pour enfants « Charlotte's Web » (1952) ?",
+    "a": [
+     "Beatrix Potter",
+     "E. B. White",
+     "Roald Dahl",
+     "Dr. Seuss"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quel écrivain américain a créé l'avocat Perry Mason ?",
+    "a": [
+     "Erle Stanley Gardner",
+     "John Grisham",
+     "Raymond Chandler",
+     "Scott Turow"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel sport se dispute la Coupe Davis ?",
+    "a": [
+     "Le golf",
+     "Le cricket",
+     "Le badminton",
+     "Le tennis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel pays a remporté le plus de médailles d'or olympiques, été comme hiver ?",
+    "a": [
+     "L'URSS",
+     "La Grande-Bretagne",
+     "Les États-Unis",
+     "La Chine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quel club de football évolue au stade Metropolitano de Madrid ?",
+    "a": [
+     "Le Betis Séville",
+     "L'Atlético de Madrid",
+     "Le Real Madrid",
+     "Le FC Séville"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle pièce aux échecs ne se déplace qu'en diagonale ?",
+    "a": [
+     "Le fou",
+     "La tour",
+     "Le cavalier",
+     "Le pion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel sport traditionnel irlandais se joue avec une crosse et une balle « sliotar » ?",
+    "a": [
+     "Le curling",
+     "Le lacrosse",
+     "Le shinty",
+     "Le hurling"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "À base de quelle plante est fait le beurre de cacahuète ?",
+    "a": [
+     "L'amande",
+     "La noix de cajou",
+     "L'arachide",
+     "La noisette"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays nord-africain la sauce piquante harissa est-elle originaire ?",
+    "a": [
+     "L'Égypte",
+     "La Tunisie",
+     "Le Maroc",
+     "L'Algérie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Qu'est-ce qu'un « cronut » ?",
+    "a": [
+     "Un croissant façon donut",
+     "Une bière trapiste",
+     "Un fromage fondu",
+     "Un sandwich parisien"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quel ingrédient principal compose la polenta ?",
+    "a": [
+     "Le riz",
+     "La farine de blé",
+     "La pomme de terre",
+     "La semoule de maïs"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle cuisine le plat d'aubergines « baba ganoush » est-il typique ?",
+    "a": [
+     "La cuisine mexicaine",
+     "La cuisine grecque",
+     "La cuisine libanaise",
+     "La cuisine indienne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle grande organisation américaine de défense des droits LGBT+ a été fondée en 1980 ?",
+    "a": [
+     "ACT UP",
+     "Human Rights Campaign",
+     "GLAAD",
+     "PFLAG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle universitaire américaine a écrit « Transgender History » (2008) ?",
+    "a": [
+     "Susan Stryker",
+     "Leslie Feinberg",
+     "Kate Bornstein",
+     "Cheryl Clarke"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle organisation décerne chaque année les GLAAD Media Awards ?",
+    "a": [
+     "HRC",
+     "PFLAG",
+     "The Trevor Project",
+     "GLAAD"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2016, quel pays insulaire européen a interdit les thérapies de conversion ?",
+    "a": [
+     "L'Irlande",
+     "Le Portugal",
+     "Malte",
+     "Chypre"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle association fondée à Beyrouth en 2004 fut la première organisation LGBT+ du monde arabe ?",
+    "a": [
+     "Aswat",
+     "Helem",
+     "Al-Qaws",
+     "Mawaleh"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Quel temps verbal exprime une action future, achevée avant une autre ?",
+    "a": [
+     "Le futur antérieur",
+     "Le passé composé",
+     "Le conditionnel présent",
+     "L'imparfait"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "La contraction de la préposition « de » avec l'article « les » donne…",
+    "a": [
+     "du",
+     "de le",
+     "dès",
+     "des"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Dans « euphorie », que signifie le préfixe grec « eu- » ?",
+    "a": [
+     "Autour",
+     "Sans",
+     "Bien, bon",
+     "Contre"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quel acronyme désigne le « train à grande vitesse » ?",
+    "a": [
+     "Le TAC",
+     "Le TGV",
+     "Le TER",
+     "Le TAV"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment s'appelle la science qui étudie les drapeaux ?",
+    "a": [
+     "La vexillologie",
+     "L'héraldique",
+     "La sigillographie",
+     "La toponymie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on une phrase construite sans verbe, comme « Chapeau ! » ?",
+    "a": [
+     "Une phrase verbale",
+     "Une question rhétorique",
+     "Une périphrase",
+     "Une phrase nominale"
     ],
     "c": 3
    }
@@ -26139,6 +26689,556 @@
      "UNESCO"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which Soviet cosmonaut became the first human in space in 1961?",
+    "a": [
+     "Yuri Gagarin",
+     "Neil Armstrong",
+     "Valentina Tereshkova",
+     "Alexei Leonov"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+    "a": [
+     "The Santa María",
+     "The Beagle",
+     "The Golden Hind",
+     "The Mayflower"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which Russian tsar founded the city of Saint Petersburg in 1703?",
+    "a": [
+     "Catherine the Great",
+     "Nicholas II",
+     "Peter the Great",
+     "Ivan the Terrible"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which conflict set Spain against the United States in 1898?",
+    "a": [
+     "The US Civil War",
+     "The Spanish-American War",
+     "The Crimean War",
+     "The Boer War"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which French explorer founded Quebec City in 1608?",
+    "a": [
+     "Samuel de Champlain",
+     "Jacques Cartier",
+     "La Salle",
+     "Jacques Marquette"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which African country was never colonised, apart from a brief Italian occupation?",
+    "a": [
+     "Kenya",
+     "Ghana",
+     "Senegal",
+     "Ethiopia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is Serengeti National Park located?",
+    "a": [
+     "South Africa",
+     "Botswana",
+     "Tanzania",
+     "Kenya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which modern country was formerly known as Persia?",
+    "a": [
+     "Afghanistan",
+     "Iran",
+     "Iraq",
+     "Turkey"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which river forms much of the border between the United States and Mexico?",
+    "a": [
+     "The Rio Grande",
+     "The Colorado",
+     "The Mississippi",
+     "The Yukon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which country is the world's largest coffee producer?",
+    "a": [
+     "Colombia",
+     "Vietnam",
+     "Ethiopia",
+     "Brazil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which planet is home to the famous Great Red Spot?",
+    "a": [
+     "Saturn",
+     "Neptune",
+     "Jupiter",
+     "Mars"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the science that studies fossils called?",
+    "a": [
+     "Speleology",
+     "Palaeontology",
+     "Archaeology",
+     "Geology"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which structure of the cell contains the DNA?",
+    "a": [
+     "The nucleus",
+     "The membrane",
+     "The cytoplasm",
+     "The mitochondrion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "What does a Geiger counter measure?",
+    "a": [
+     "Pressure",
+     "Wind",
+     "Humidity",
+     "Radiation"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "What is the main function of red blood cells?",
+    "a": [
+     "Filtering blood",
+     "Fighting viruses",
+     "Carrying oxygen",
+     "Digesting food"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the transformation of a caterpillar into a butterfly called?",
+    "a": [
+     "Hibernation",
+     "Metamorphosis",
+     "Pollination",
+     "Migration"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "What is Nemo's father called in \"Finding Nemo\"?",
+    "a": [
+     "Marlin",
+     "Gill",
+     "Dory",
+     "Bruce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "What is the name of Han Solo's ship in \"Star Wars\"?",
+    "a": [
+     "The Death Star",
+     "A TIE fighter",
+     "An X-wing",
+     "The Millennium Falcon"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which hobbit does Elijah Wood play in \"The Lord of the Rings\"?",
+    "a": [
+     "Samwise",
+     "Peregrin",
+     "Frodo",
+     "Bilbo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which Hollywood star voices the cowboy Woody in \"Toy Story\"?",
+    "a": [
+     "Jim Carrey",
+     "Tom Hanks",
+     "Tim Allen",
+     "Robin Williams"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which country is the film \"Cinema Paradiso\" from?",
+    "a": [
+     "Italy",
+     "Spain",
+     "France",
+     "Greece"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "What is the title of Beethoven's only opera?",
+    "a": [
+     "Don Giovanni",
+     "Norma",
+     "Orfeo",
+     "Fidelio"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which musical tells the story of Elphaba, the future Wicked Witch of the West?",
+    "a": [
+     "Rent",
+     "Grease",
+     "Wicked",
+     "Cats"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "In which heavy metal band did Ozzy Osbourne sing?",
+    "a": [
+     "Led Zeppelin",
+     "Black Sabbath",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which country does the traditional \"tarantella\" dance come from?",
+    "a": [
+     "Italy",
+     "Spain",
+     "Greece",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the stage play \"A Streetcar Named Desire\"?",
+    "a": [
+     "Arthur Miller",
+     "Eugene O'Neill",
+     "Edward Albee",
+     "Tennessee Williams"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Which Egyptian writer received the Nobel Prize in Literature in 1988?",
+    "a": [
+     "Tahar Ben Jelloun",
+     "Tawfiq al-Hakim",
+     "Naguib Mahfouz",
+     "Amin Maalouf"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the children's novel \"Charlotte's Web\" (1952)?",
+    "a": [
+     "Beatrix Potter",
+     "E. B. White",
+     "Roald Dahl",
+     "Dr. Seuss"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which American writer created the lawyer Perry Mason?",
+    "a": [
+     "Erle Stanley Gardner",
+     "John Grisham",
+     "Raymond Chandler",
+     "Scott Turow"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "In which sport is the Davis Cup contested?",
+    "a": [
+     "Golf",
+     "Cricket",
+     "Badminton",
+     "Tennis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which country has won the most Olympic gold medals, summer and winter combined?",
+    "a": [
+     "The USSR",
+     "Great Britain",
+     "The United States",
+     "China"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which football club plays at the Metropolitano stadium in Madrid?",
+    "a": [
+     "Real Betis",
+     "Atlético Madrid",
+     "Real Madrid",
+     "Sevilla FC"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which chess piece moves only diagonally?",
+    "a": [
+     "The bishop",
+     "The rook",
+     "The knight",
+     "The pawn"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which traditional Irish sport is played with a stick and a \"sliotar\" ball?",
+    "a": [
+     "Curling",
+     "Lacrosse",
+     "Shinty",
+     "Hurling"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Peanut butter is made from which plant?",
+    "a": [
+     "The almond",
+     "The cashew",
+     "The peanut",
+     "The hazelnut"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which North African country is the spicy harissa paste from?",
+    "a": [
+     "Egypt",
+     "Tunisia",
+     "Morocco",
+     "Algeria"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "What is a \"cronut\"?",
+    "a": [
+     "A croissant-doughnut hybrid",
+     "A trappist beer",
+     "A melted cheese dish",
+     "A Parisian sandwich"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "What is the main ingredient of polenta?",
+    "a": [
+     "Rice",
+     "Wheat flour",
+     "Potato",
+     "Cornmeal"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which cuisine is the aubergine dish \"baba ganoush\" typical of?",
+    "a": [
+     "Mexican cuisine",
+     "Greek cuisine",
+     "Lebanese cuisine",
+     "Indian cuisine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which major American LGBT+ rights organisation was founded in 1980?",
+    "a": [
+     "ACT UP",
+     "Human Rights Campaign",
+     "GLAAD",
+     "PFLAG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which American academic wrote \"Transgender History\" (2008)?",
+    "a": [
+     "Susan Stryker",
+     "Leslie Feinberg",
+     "Kate Bornstein",
+     "Cheryl Clarke"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which organisation hands out the annual GLAAD Media Awards?",
+    "a": [
+     "HRC",
+     "PFLAG",
+     "The Trevor Project",
+     "GLAAD"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 2016, which European island country banned conversion therapy?",
+    "a": [
+     "Ireland",
+     "Portugal",
+     "Malta",
+     "Cyprus"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which association founded in Beirut in 2004 was the first LGBT+ organisation in the Arab world?",
+    "a": [
+     "Aswat",
+     "Helem",
+     "Al-Qaws",
+     "Mawaleh"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "In the word \"unhappy\", the prefix \"un-\" means…",
+    "a": [
+     "Not, the opposite of",
+     "Very",
+     "Before",
+     "Together with"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past participle of the verb \"to go\"?",
+    "a": [
+     "Went",
+     "Goed",
+     "Going",
+     "Gone"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the \"-ing\" form of a verb used as a noun called?",
+    "a": [
+     "A participle passé2",
+     "An adverb",
+     "A gerund",
+     "An infinitive"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the term for a word with two opposite meanings, like \"cleave\"?",
+    "a": [
+     "A palindrome",
+     "A contronym",
+     "A synonym",
+     "An acronym"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "How many vowel letters are in the word \"education\"?",
+    "a": [
+     "Five",
+     "Four",
+     "Six",
+     "Three"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of the word \"moose\"?",
+    "a": [
+     "Mooses",
+     "Meese",
+     "Moosies",
+     "Moose"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -39196,6 +40296,556 @@
      "El Louvre",
      "La FIFA",
      "La Unesco"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué cosmonauta soviético fue el primer ser humano en viajar al espacio en 1961?",
+    "a": [
+     "Iuri Gagarin",
+     "Neil Armstrong",
+     "Valentina Tereshkova",
+     "Alexéi Leónov"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Cómo se llamaba el barco que llevó a los peregrinos a América en 1620?",
+    "a": [
+     "La Santa María",
+     "El Beagle",
+     "El Golden Hind",
+     "El Mayflower"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué zar de Rusia fundó la ciudad de San Petersburgo en 1703?",
+    "a": [
+     "Catalina la Grande",
+     "Nicolás II",
+     "Pedro el Grande",
+     "Iván el Terrible"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué conflicto enfrentó a España y Estados Unidos en 1898?",
+    "a": [
+     "La guerra civil estadounidense",
+     "La guerra hispano-estadounidense",
+     "La guerra de Crimea",
+     "La guerra de los Bóeres"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué explorador francés fundó la ciudad de Quebec en 1608?",
+    "a": [
+     "Samuel de Champlain",
+     "Jacques Cartier",
+     "Cavelier de La Salle",
+     "Jacques Marquette"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país africano nunca fue colonizado, salvo una breve ocupación italiana?",
+    "a": [
+     "Kenia",
+     "Ghana",
+     "Senegal",
+     "Etiopía"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país se encuentra el parque nacional del Serengueti?",
+    "a": [
+     "Sudáfrica",
+     "Botsuana",
+     "Tanzania",
+     "Kenia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país actual se conocía antiguamente como Persia?",
+    "a": [
+     "Afganistán",
+     "Irán",
+     "Irak",
+     "Turquía"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué río forma gran parte de la frontera entre Estados Unidos y México?",
+    "a": [
+     "El Río Grande",
+     "El Colorado",
+     "El Misisipi",
+     "El Yukon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país es el mayor productor de café del mundo?",
+    "a": [
+     "Colombia",
+     "Vietnam",
+     "Etiopía",
+     "Brasil"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué planeta alberga la famosa Gran Mancha Roja?",
+    "a": [
+     "Saturno",
+     "Neptuno",
+     "Júpiter",
+     "Marte"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama la ciencia que estudia los fósiles?",
+    "a": [
+     "La espeleología",
+     "La paleontología",
+     "La arqueología",
+     "La geología"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué estructura de la célula contiene el ADN?",
+    "a": [
+     "El núcleo",
+     "La membrana",
+     "El citoplasma",
+     "La mitocondria"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué mide un contador Geiger?",
+    "a": [
+     "La presión",
+     "El viento",
+     "La humedad",
+     "La radiación"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es la función principal de los glóbulos rojos?",
+    "a": [
+     "Filtrar la sangre",
+     "Combatir virus",
+     "Transportar oxígeno",
+     "Digerir los alimentos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llama la transformación de una oruga en mariposa?",
+    "a": [
+     "La hibernación",
+     "La metamorfosis",
+     "La polinización",
+     "La migración"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Cómo se llama el padre de Nemo en «Buscando a Nemo»?",
+    "a": [
+     "Marlin",
+     "Gill",
+     "Dory",
+     "Bruce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Cómo se llama la nave de Han Solo en «La guerra de las galaxias»?",
+    "a": [
+     "La Estrella de la Muerte",
+     "Un caza TIE",
+     "Un X-wing",
+     "El Halcón Milenario"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué hobbit interpreta Elijah Wood en «El Señor de los Anillos»?",
+    "a": [
+     "Sam",
+     "Pippin",
+     "Frodo",
+     "Bilbo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué estrella de Hollywood presta su voz al vaquero Woody en «Toy Story»?",
+    "a": [
+     "Jim Carrey",
+     "Tom Hanks",
+     "Tim Allen",
+     "Robin Williams"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿De qué país es la película «Cinema Paradiso» de Giuseppe Tornatore?",
+    "a": [
+     "Italia",
+     "España",
+     "Francia",
+     "Grecia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Cómo se llama la única ópera de Beethoven?",
+    "a": [
+     "Don Giovanni",
+     "Norma",
+     "Orfeo",
+     "Fidelio"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué musical cuenta la historia de Elphaba, la futura Bruja del Oeste?",
+    "a": [
+     "Rent",
+     "Grease",
+     "Wicked",
+     "Cats"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿En qué grupo de heavy metal cantaba Ozzy Osbourne?",
+    "a": [
+     "Led Zeppelin",
+     "Black Sabbath",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿De qué país es originaria la danza tradicional «tarantela»?",
+    "a": [
+     "Italia",
+     "España",
+     "Grecia",
+     "Portugal"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la obra de teatro «Un tranvía llamado deseo»?",
+    "a": [
+     "Arthur Miller",
+     "Eugene O'Neill",
+     "Edward Albee",
+     "Tennessee Williams"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué escritor egipcio recibió el Premio Nobel de Literatura en 1988?",
+    "a": [
+     "Tahar Ben Jelloun",
+     "Tawfiq al-Hakim",
+     "Naguib Mahfuz",
+     "Amin Maalouf"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la novela infantil «La telaraña de Carlota» (1952)?",
+    "a": [
+     "Beatrix Potter",
+     "E. B. White",
+     "Roald Dahl",
+     "Dr. Seuss"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué escritor estadounidense creó al abogado Perry Mason?",
+    "a": [
+     "Erle Stanley Gardner",
+     "John Grisham",
+     "Raymond Chandler",
+     "Scott Turow"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte se disputa la Copa Davis?",
+    "a": [
+     "Golf",
+     "Cricket",
+     "Bádminton",
+     "Tenis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué país ha ganado más medallas de oro olímpicas, en verano y en invierno?",
+    "a": [
+     "La URSS",
+     "Gran Bretaña",
+     "Estados Unidos",
+     "China"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué club de fútbol juega en el estadio Metropolitano de Madrid?",
+    "a": [
+     "El Real Betis",
+     "El Atlético de Madrid",
+     "El Real Madrid",
+     "El Sevilla FC"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué pieza de ajedrez se mueve solo en diagonal?",
+    "a": [
+     "El alfil",
+     "La torre",
+     "El caballo",
+     "El peón"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué deporte tradicional irlandés se juega con un palo y una bola «sliotar»?",
+    "a": [
+     "Curling",
+     "Lacrosse",
+     "Shinty",
+     "Hurling"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué planta está hecha la mantequilla de maní?",
+    "a": [
+     "La almendra",
+     "El anacardo",
+     "El maní (cacahuete)",
+     "La avellana"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país norteafricano es originaria la salsa picante harissa?",
+    "a": [
+     "Egipto",
+     "Túnez",
+     "Marruecos",
+     "Argelia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué es un «cronut»?",
+    "a": [
+     "Un cruce de croissant y donut",
+     "Una cerveza trapense",
+     "Un queso fundido",
+     "Un sándwich parisino"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Cuál es el ingrediente principal de la polenta?",
+    "a": [
+     "El arroz",
+     "La harina de trigo",
+     "La patata",
+     "La sémola de maíz"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué cocina es típico el plato de berenjenas «baba ganoush»?",
+    "a": [
+     "La cocina mexicana",
+     "La cocina griega",
+     "La cocina libanesa",
+     "La cocina india"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué gran organización estadounidense de derechos LGBT+ se fundó en 1980?",
+    "a": [
+     "ACT UP",
+     "Human Rights Campaign",
+     "GLAAD",
+     "PFLAG"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué académica estadounidense escribió «Transgender History» (2008)?",
+    "a": [
+     "Susan Stryker",
+     "Leslie Feinberg",
+     "Kate Bornstein",
+     "Cheryl Clarke"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué organización entrega cada año los GLAAD Media Awards?",
+    "a": [
+     "HRC",
+     "PFLAG",
+     "The Trevor Project",
+     "GLAAD"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2016, ¿qué país insular europeo prohibió las terapias de conversión?",
+    "a": [
+     "Irlanda",
+     "Portugal",
+     "Malta",
+     "Chipre"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué asociación fundada en Beirut en 2004 fue la primera organización LGBT+ del mundo árabe?",
+    "a": [
+     "Aswat",
+     "Helem",
+     "Al-Qaws",
+     "Mawaleh"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el género de la palabra «problema»?",
+    "a": [
+     "Masculino",
+     "Femenino",
+     "Neutro",
+     "Ambiguo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama la figura que identifica un término real con otro imaginario?",
+    "a": [
+     "La comparación",
+     "La metonimia",
+     "La hipérbole",
+     "La metáfora"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el diminutivo de la palabra «pájaro»?",
+    "a": [
+     "Pajarete",
+     "Pajarero",
+     "Pajarito",
+     "Pajarazo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál de estas palabras llanas se escribe sin tilde?",
+    "a": [
+     "Árbol",
+     "Examen",
+     "Móvil",
+     "Fácil"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué palabra completa «… que trabajar» para expresar obligación?",
+    "a": [
+     "Hay",
+     "Es",
+     "Está",
+     "Hace"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el imperativo de «venir» para «tú»?",
+    "a": [
+     "Vienes",
+     "Veniendo",
+     "Viniste",
+     "Ven"
     ],
     "c": 3
    }
