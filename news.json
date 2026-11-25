@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "qs": {
   "fr": [
    {
@@ -13619,6 +13619,556 @@
      "Une phrase nominale"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel explorateur britannique a atteint le pôle Sud en janvier 1912, après Amundsen ?",
+    "a": [
+     "Robert Scott",
+     "Ernest Shackleton",
+     "Roald Amundsen",
+     "Ernest Joyce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Quel dirigeant soviétique a lancé la perestroïka ?",
+    "a": [
+     "Nikita Khrouchtchev",
+     "Mikhaïl Gorbatchev",
+     "Leonid Brejnev",
+     "Boris Eltsine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a rédigé la Déclaration des droits de la femme en 1791 ?",
+    "a": [
+     "Charlotte Corday",
+     "Marie-Antoinette",
+     "Olympe de Gouges",
+     "Madame de Staël"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "La guerre de 1870 a opposé la France à quel pays ?",
+    "a": [
+     "L'Autriche",
+     "La Russie",
+     "L'Espagne",
+     "La Prusse"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "De quel pays le Brésil était-il une colonie ?",
+    "a": [
+     "Le Portugal",
+     "L'Espagne",
+     "La France",
+     "Les Pays-Bas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel océan se trouve entre l'Afrique et l'Australie ?",
+    "a": [
+     "L'océan Arctique",
+     "L'océan Indien",
+     "Le Pacifique",
+     "L'Atlantique"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la plus grande péninsule du monde ?",
+    "a": [
+     "La péninsule Ibérique",
+     "La Scandinavie",
+     "La péninsule Arabique",
+     "L'Indochine"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays africain se trouve le parc national Kruger ?",
+    "a": [
+     "Kenya",
+     "Tanzanie",
+     "Namibie",
+     "Afrique du Sud"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la monnaie officielle du Royaume-Uni ?",
+    "a": [
+     "La livre sterling",
+     "L'euro",
+     "Le franc",
+     "Le dollar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays partage la plus longue frontière du monde avec les États-Unis ?",
+    "a": [
+     "Cuba",
+     "Le Canada",
+     "Le Mexique",
+     "La Russie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel phénomène solaire provoque les aurores boréales ?",
+    "a": [
+     "L'effet de serre",
+     "Les marées",
+     "Le vent solaire",
+     "La gravité lunaire"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel inventeur américain est associé à l'ampoule électrique moderne ?",
+    "a": [
+     "Nikola Tesla",
+     "Alexander Graham Bell",
+     "George Westinghouse",
+     "Thomas Edison"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Qui a créé la nomenclature binomiale des espèces ?",
+    "a": [
+     "Carl von Linné",
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Louis Pasteur"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Que mesure l'échelle de Richter ?",
+    "a": [
+     "La température",
+     "La magnitude des séismes",
+     "La vitesse du vent",
+     "L'humidité de l'air"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel mathématicien antique est lié au théorème du triangle rectangle ?",
+    "a": [
+     "Archimède",
+     "Thalès",
+     "Pythagore",
+     "Euclide"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Combien de jours compte une année bissextile ?",
+    "a": [
+     "365",
+     "364",
+     "367",
+     "366"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne Ethan Hunt dans Mission: Impossible ?",
+    "a": [
+     "Tom Cruise",
+     "Brad Pitt",
+     "Will Smith",
+     "Matt Damon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a joué le Joker dans le Batman de Tim Burton (1989) ?",
+    "a": [
+     "Cesar Romero",
+     "Jack Nicholson",
+     "Heath Ledger",
+     "Joaquin Phoenix"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice joue Bridget Jones au cinéma ?",
+    "a": [
+     "Julia Roberts",
+     "Kate Winslet",
+     "Renée Zellweger",
+     "Sandra Bullock"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de Spielberg de 1998 se déroule lors du débarquement de Normandie ?",
+    "a": [
+     "La Liste de Schindler",
+     "Les Dents de la mer",
+     "1941",
+     "Il faut sauver le soldat Ryan"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé le film Alien (1979) ?",
+    "a": [
+     "Ridley Scott",
+     "James Cameron",
+     "David Fincher",
+     "Stanley Kubrick"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé la musique du film Les Dents de la mer ?",
+    "a": [
+     "Jerry Goldsmith",
+     "John Williams",
+     "Ennio Morricone",
+     "Hans Zimmer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel genre musical est né dans les églises afro-américaines du sud des États-Unis ?",
+    "a": [
+     "La country",
+     "Le jazz",
+     "Le gospel",
+     "Le blues"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Qui a composé la comédie musicale West Side Story ?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "George Gershwin",
+     "Leonard Bernstein"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Avec quelle chanson Céline Dion a-t-elle gagné l'Eurovision en 1988 ?",
+    "a": [
+     "Ne partez pas sans moi",
+     "Je suis malade",
+     "My Heart Will Go On",
+     "D'amour ou d'amitié"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a reçu le prix Nobel de littérature en 1958 ?",
+    "a": [
+     "Halldór Laxness",
+     "Boris Pasternak",
+     "Albert Camus",
+     "François Mauriac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit la tragédie Andromaque ?",
+    "a": [
+     "Molière",
+     "Voltaire",
+     "Jean Racine",
+     "Pierre Corneille"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit La Chartreuse de Parme ?",
+    "a": [
+     "Honoré de Balzac",
+     "Gustave Flaubert",
+     "Alexandre Dumas",
+     "Stendhal"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit le poème « Demain, dès l'aube » ?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Alphonse de Lamartine",
+     "Arthur Rimbaud"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel joueur de tennis a réalisé le Grand Chelem en 1969 ?",
+    "a": [
+     "Roy Emerson",
+     "Rod Laver",
+     "John Newcombe",
+     "Arthur Ashe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quelle ville se trouve le stade Maracanã ?",
+    "a": [
+     "Buenos Aires",
+     "Lisbonne",
+     "Rio de Janeiro",
+     "São Paulo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quel coureur a remporté le Tour de France 2023 ?",
+    "a": [
+     "Tadej Pogačar",
+     "Geraint Thomas",
+     "Primož Roglič",
+     "Jonas Vingegaard"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel club a remporté la toute première Coupe d'Europe des clubs champions en 1956 ?",
+    "a": [
+     "Le Real Madrid",
+     "Le Benfica",
+     "L'AC Milan",
+     "Le FC Barcelone"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel footballeur allemand est surnommé « Der Kaiser » ?",
+    "a": [
+     "Jürgen Klinsmann",
+     "Franz Beckenbauer",
+     "Gerd Müller",
+     "Lothar Matthäus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Quelle épice est fabriquée à partir de l'écorce d'un arbre ?",
+    "a": [
+     "Le poivre",
+     "La muscade",
+     "La cannelle",
+     "Le curcuma"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Quel cépage rouge est emblématique de la Bourgogne ?",
+    "a": [
+     "Le merlot",
+     "Le cabernet sauvignon",
+     "La syrah",
+     "Le pinot noir"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Quel plat espagnol est fait d'œufs et de pommes de terre ?",
+    "a": [
+     "La tortilla de patatas",
+     "Le gaspacho",
+     "Le pisto",
+     "La paella"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Quel dessert français est recouvert de caramel brûlé ?",
+    "a": [
+     "L'île flottante",
+     "La crème brûlée",
+     "Le flan",
+     "La crème renversée"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays vient le dessert panna cotta ?",
+    "a": [
+     "D'Espagne",
+     "Du Portugal",
+     "D'Italie",
+     "De France"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "De quel dieu romain le mot « jeudi » tire-t-il son origine ?",
+    "a": [
+     "Mars",
+     "Mercure",
+     "Saturne",
+     "Jupiter"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on la répétition de consonnes en début de mots ?",
+    "a": [
+     "L'allitération",
+     "L'assonance",
+     "Le calque",
+     "L'ellipse"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on une personne qui parle plusieurs langues ?",
+    "a": [
+     "Un bilingue",
+     "Un polyglotte",
+     "Un linguiste",
+     "Un interprète"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on un poème dont les initiales forment un mot ?",
+    "a": [
+     "Un calligramme",
+     "Un haïku",
+     "Un acrostiche",
+     "Un acronyme"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la langue maternelle la plus parlée au monde ?",
+    "a": [
+     "L'anglais",
+     "L'espagnol",
+     "L'hindi",
+     "Le mandarin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Combien de voyelles compte le mot « ordinateur » ?",
+    "a": [
+     "5",
+     "4",
+     "6",
+     "3"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1972, quelle ville a accueilli la première « Gay Pride » du Royaume-Uni ?",
+    "a": [
+     "Édimbourg",
+     "Londres",
+     "Manchester",
+     "Brighton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "En quelle année l'Islande a-t-elle légalisé le mariage pour tous ?",
+    "a": [
+     "2013",
+     "2015",
+     "2010",
+     "2006"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle autrice a publié le recueil d'essais « Sister Outsider » en 1984 ?",
+    "a": [
+     "bell hooks",
+     "James Baldwin",
+     "Adrienne Rich",
+     "Audre Lorde"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel quartier de Londres est emblématique de la culture LGBT+ ?",
+    "a": [
+     "Soho",
+     "Camden",
+     "Notting Hill",
+     "Shoreditch"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1998, le meurtre homophobe de quel étudiant américain a marqué les États-Unis ?",
+    "a": [
+     "Ryan White",
+     "Matthew Shepard",
+     "Brandon Teena",
+     "Harvey Milk"
+    ],
+    "c": 1
    }
   ],
   "en": [
@@ -27239,6 +27789,556 @@
      "Moose"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which British explorer reached the South Pole in January 1912, after Amundsen ?",
+    "a": [
+     "Robert Scott",
+     "Ernest Shackleton",
+     "Roald Amundsen",
+     "Ernest Joyce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Which Soviet leader launched perestroika ?",
+    "a": [
+     "Nikita Khrushchev",
+     "Mikhail Gorbachev",
+     "Leonid Brezhnev",
+     "Boris Yeltsin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Who wrote the Declaration of the Rights of Woman in 1791 ?",
+    "a": [
+     "Charlotte Corday",
+     "Marie-Antoinette",
+     "Olympe de Gouges",
+     "Madame de Staël"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "The Franco-Prussian War of 1870 opposed France to which country ?",
+    "a": [
+     "Austria",
+     "Russia",
+     "Spain",
+     "Prussia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Brazil was a colony of which country ?",
+    "a": [
+     "Portugal",
+     "Spain",
+     "France",
+     "The Netherlands"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which ocean lies between Africa and Australia ?",
+    "a": [
+     "The Arctic Ocean",
+     "The Indian Ocean",
+     "The Pacific",
+     "The Atlantic"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "What is the largest peninsula in the world ?",
+    "a": [
+     "The Iberian Peninsula",
+     "Scandinavia",
+     "The Arabian Peninsula",
+     "Indochina"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "In which African country is Kruger National Park located ?",
+    "a": [
+     "Kenya",
+     "Tanzania",
+     "Namibia",
+     "South Africa"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the official currency of the United Kingdom ?",
+    "a": [
+     "Pound sterling",
+     "Euro",
+     "Franc",
+     "Dollar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which country shares the world's longest border with the United States ?",
+    "a": [
+     "Cuba",
+     "Canada",
+     "Mexico",
+     "Russia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What solar phenomenon causes the northern lights ?",
+    "a": [
+     "The greenhouse effect",
+     "Ocean tides",
+     "Solar wind",
+     "Moonlight"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which American inventor is associated with the modern light bulb ?",
+    "a": [
+     "Nikola Tesla",
+     "Alexander Graham Bell",
+     "George Westinghouse",
+     "Thomas Edison"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Who created the binomial nomenclature of species ?",
+    "a": [
+     "Carl Linnaeus",
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Louis Pasteur"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "What does the Richter scale measure ?",
+    "a": [
+     "Temperature",
+     "Earthquake magnitude",
+     "Wind speed",
+     "Air humidity"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which ancient Greek mathematician is linked to the right-triangle theorem ?",
+    "a": [
+     "Archimedes",
+     "Thales",
+     "Pythagoras",
+     "Euclid"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "How many days are there in a leap year ?",
+    "a": [
+     "365",
+     "364",
+     "367",
+     "366"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor plays Ethan Hunt in Mission: Impossible ?",
+    "a": [
+     "Tom Cruise",
+     "Brad Pitt",
+     "Will Smith",
+     "Matt Damon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Who played the Joker in Tim Burton's Batman (1989) ?",
+    "a": [
+     "Cesar Romero",
+     "Jack Nicholson",
+     "Heath Ledger",
+     "Joaquin Phoenix"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress plays Bridget Jones in the movies ?",
+    "a": [
+     "Julia Roberts",
+     "Kate Winslet",
+     "Renee Zellweger",
+     "Sandra Bullock"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1998 Spielberg film takes place during the Normandy landings ?",
+    "a": [
+     "Schindler's List",
+     "Jaws",
+     "1941",
+     "Saving Private Ryan"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed the film Alien (1979) ?",
+    "a": [
+     "Ridley Scott",
+     "James Cameron",
+     "David Fincher",
+     "Stanley Kubrick"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the music for the film Jaws ?",
+    "a": [
+     "Jerry Goldsmith",
+     "John Williams",
+     "Ennio Morricone",
+     "Hans Zimmer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which music genre was born in the African-American churches of the US South ?",
+    "a": [
+     "Country",
+     "Jazz",
+     "Gospel",
+     "Blues"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Who composed the musical West Side Story ?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "George Gershwin",
+     "Leonard Bernstein"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "With which song did Celine Dion win Eurovision in 1988 ?",
+    "a": [
+     "Ne partez pas sans moi",
+     "Je suis malade",
+     "My Heart Will Go On",
+     "D'amour ou d'amitié"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who won the Nobel Prize in Literature in 1958 ?",
+    "a": [
+     "Halldór Laxness",
+     "Boris Pasternak",
+     "Albert Camus",
+     "François Mauriac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the tragedy Andromaque ?",
+    "a": [
+     "Molière",
+     "Voltaire",
+     "Jean Racine",
+     "Pierre Corneille"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote The Charterhouse of Parma ?",
+    "a": [
+     "Honoré de Balzac",
+     "Gustave Flaubert",
+     "Alexandre Dumas",
+     "Stendhal"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the poem « Demain, dès l'aube » ?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Alphonse de Lamartine",
+     "Arthur Rimbaud"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which tennis player completed the Grand Slam in 1969 ?",
+    "a": [
+     "Roy Emerson",
+     "Rod Laver",
+     "John Newcombe",
+     "Arthur Ashe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "In which city is the Maracanã stadium located ?",
+    "a": [
+     "Buenos Aires",
+     "Lisbon",
+     "Rio de Janeiro",
+     "São Paulo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Which rider won the 2023 Tour de France ?",
+    "a": [
+     "Tadej Pogačar",
+     "Geraint Thomas",
+     "Primož Roglič",
+     "Jonas Vingegaard"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which club won the very first European Cup in 1956 ?",
+    "a": [
+     "Real Madrid",
+     "Benfica",
+     "AC Milan",
+     "Barcelona"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which German footballer is nicknamed « Der Kaiser » ?",
+    "a": [
+     "Jürgen Klinsmann",
+     "Franz Beckenbauer",
+     "Gerd Müller",
+     "Lothar Matthäus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which spice is made from the bark of a tree ?",
+    "a": [
+     "Pepper",
+     "Nutmeg",
+     "Cinnamon",
+     "Turmeric"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Which red grape variety is emblematic of Burgundy ?",
+    "a": [
+     "Merlot",
+     "Cabernet sauvignon",
+     "Syrah",
+     "Pinot noir"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which Spanish dish is made with eggs and potatoes ?",
+    "a": [
+     "Tortilla de patatas",
+     "Gazpacho",
+     "Pisto",
+     "Paella"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Which French dessert is topped with burnt caramel ?",
+    "a": [
+     "Île flottante",
+     "Crème brûlée",
+     "Flan",
+     "Crème caramel"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which country does the dessert panna cotta come from ?",
+    "a": [
+     "Spain",
+     "Portugal",
+     "Italy",
+     "France"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Which day of the week is named after the planet Saturn ?",
+    "a": [
+     "Sunday",
+     "Thursday",
+     "Monday",
+     "Saturday"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the repetition of initial consonant sounds called ?",
+    "a": [
+     "Alliteration",
+     "Assonance",
+     "Rhyme",
+     "Sibilance"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What do you call a person who speaks many languages ?",
+    "a": [
+     "A diplomat",
+     "A polyglot",
+     "A linguist",
+     "An interpreter"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of « deer » ?",
+    "a": [
+     "Deeres",
+     "Deer-like",
+     "Deer",
+     "Deers"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of « artificial » ?",
+    "a": [
+     "Synthetic",
+     "Fake",
+     "Modern",
+     "Natural"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in the word « hour » ?",
+    "a": [
+     "H",
+     "O",
+     "U",
+     "R"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 1972, which city hosted the first « Gay Pride » of the United Kingdom ?",
+    "a": [
+     "Edinburgh",
+     "London",
+     "Manchester",
+     "Brighton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which year did Iceland legalise equal marriage ?",
+    "a": [
+     "2013",
+     "2015",
+     "2010",
+     "2006"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which author published the essay collection « Sister Outsider » in 1984 ?",
+    "a": [
+     "bell hooks",
+     "James Baldwin",
+     "Adrienne Rich",
+     "Audre Lorde"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which London neighbourhood is emblematic of LGBT+ culture ?",
+    "a": [
+     "Soho",
+     "Camden",
+     "Notting Hill",
+     "Shoreditch"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 1998, the homophobic murder of which American student shook the United States ?",
+    "a": [
+     "Ryan White",
+     "Matthew Shepard",
+     "Brandon Teena",
+     "Harvey Milk"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -40848,6 +41948,556 @@
      "Ven"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué explorador británico llegó al Polo Sur en enero de 1912, tras Amundsen ?",
+    "a": [
+     "Robert Scott",
+     "Ernest Shackleton",
+     "Roald Amundsen",
+     "Ernest Joyce"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué líder soviético lanzó la perestroika ?",
+    "a": [
+     "Nikita Jruschov",
+     "Mijaíl Gorbachov",
+     "Leonid Brézhnev",
+     "Borís Yeltsin"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién escribió la Declaración de los Derechos de la Mujer en 1791 ?",
+    "a": [
+     "Charlotte Corday",
+     "María Antonieta",
+     "Olympe de Gouges",
+     "Madame de Staël"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿A qué país se enfrentó Francia en la guerra franco-prusiana de 1870 ?",
+    "a": [
+     "Austria",
+     "Rusia",
+     "España",
+     "Prusia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿De qué país fue colonia Brasil ?",
+    "a": [
+     "Portugal",
+     "España",
+     "Francia",
+     "Países Bajos"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué océano se encuentra entre África y Australia ?",
+    "a": [
+     "El océano Ártico",
+     "El océano Índico",
+     "El Pacífico",
+     "El Atlántico"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la mayor península del mundo ?",
+    "a": [
+     "La península Ibérica",
+     "Escandinavia",
+     "La península Arábiga",
+     "Indochina"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país africano se encuentra el parque nacional Kruger ?",
+    "a": [
+     "Kenia",
+     "Tanzania",
+     "Namibia",
+     "Sudáfrica"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la moneda oficial del Reino Unido ?",
+    "a": [
+     "La libra esterlina",
+     "El euro",
+     "El franco",
+     "El dólar"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país comparte la frontera más larga del mundo con Estados Unidos ?",
+    "a": [
+     "Cuba",
+     "Canadá",
+     "México",
+     "Rusia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué fenómeno solar provoca las auroras boreales ?",
+    "a": [
+     "El efecto invernadero",
+     "Las mareas",
+     "El viento solar",
+     "La luz de la Luna"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué inventor estadounidense está asociado a la bombilla eléctrica moderna ?",
+    "a": [
+     "Nikola Tesla",
+     "Alexander Graham Bell",
+     "George Westinghouse",
+     "Thomas Edison"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Quién creó la nomenclatura binomial de las especies ?",
+    "a": [
+     "Carl Linneo",
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Louis Pasteur"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué mide la escala de Richter ?",
+    "a": [
+     "La temperatura",
+     "La magnitud de los terremotos",
+     "La velocidad del viento",
+     "La humedad del aire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué matemático de la Antigüedad está ligado al teorema del triángulo rectángulo ?",
+    "a": [
+     "Arquímedes",
+     "Tales",
+     "Pitágoras",
+     "Euclides"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuántos días tiene un año bisiesto ?",
+    "a": [
+     "365",
+     "364",
+     "367",
+     "366"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta a Ethan Hunt en Mission: Impossible ?",
+    "a": [
+     "Tom Cruise",
+     "Brad Pitt",
+     "Will Smith",
+     "Matt Damon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpretó al Joker en el Batman de Tim Burton (1989) ?",
+    "a": [
+     "Cesar Romero",
+     "Jack Nicholson",
+     "Heath Ledger",
+     "Joaquin Phoenix"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz interpreta a Bridget Jones en el cine ?",
+    "a": [
+     "Julia Roberts",
+     "Kate Winslet",
+     "Renée Zellweger",
+     "Sandra Bullock"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de Spielberg de 1998 transcurre durante el desembarco de Normandía ?",
+    "a": [
+     "La lista de Schindler",
+     "Tiburón",
+     "1941",
+     "Salvar al soldado Ryan"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió la película Alien (1979) ?",
+    "a": [
+     "Ridley Scott",
+     "James Cameron",
+     "David Fincher",
+     "Stanley Kubrick"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso la música de la película Tiburón ?",
+    "a": [
+     "Jerry Goldsmith",
+     "John Williams",
+     "Ennio Morricone",
+     "Hans Zimmer"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué género musical nació en las iglesias afroamericanas del sur de EE. UU. ?",
+    "a": [
+     "La música country",
+     "El jazz",
+     "El gospel",
+     "El blues"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Quién compuso el musical West Side Story ?",
+    "a": [
+     "Andrew Lloyd Webber",
+     "Stephen Sondheim",
+     "George Gershwin",
+     "Leonard Bernstein"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Con qué canción ganó Céline Dion el Festival de Eurovisión en 1988 ?",
+    "a": [
+     "Ne partez pas sans moi",
+     "Je suis malade",
+     "My Heart Will Go On",
+     "D'amour ou d'amitié"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién recibió el Premio Nobel de Literatura en 1958 ?",
+    "a": [
+     "Halldór Laxness",
+     "Boris Pasternak",
+     "Albert Camus",
+     "François Mauriac"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió la tragedia Andromaque ?",
+    "a": [
+     "Molière",
+     "Voltaire",
+     "Jean Racine",
+     "Pierre Corneille"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió La cartuja de Parma ?",
+    "a": [
+     "Honoré de Balzac",
+     "Gustave Flaubert",
+     "Alexandre Dumas",
+     "Stendhal"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió el poema « Demain, dès l'aube » ?",
+    "a": [
+     "Victor Hugo",
+     "Alfred de Musset",
+     "Alphonse de Lamartine",
+     "Arthur Rimbaud"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué tenista completó el Grand Slam en 1969 ?",
+    "a": [
+     "Roy Emerson",
+     "Rod Laver",
+     "John Newcombe",
+     "Arthur Ashe"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué ciudad se encuentra el estadio Maracanã ?",
+    "a": [
+     "Buenos Aires",
+     "Lisboa",
+     "Río de Janeiro",
+     "São Paulo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué corredor ganó el Tour de Francia 2023 ?",
+    "a": [
+     "Tadej Pogačar",
+     "Geraint Thomas",
+     "Primož Roglič",
+     "Jonas Vingegaard"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué club ganó la primera Copa de Europa en 1956 ?",
+    "a": [
+     "El Real Madrid",
+     "El Benfica",
+     "El AC Milan",
+     "El FC Barcelona"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué futbolista alemán es apodado « Der Kaiser » ?",
+    "a": [
+     "Jürgen Klinsmann",
+     "Franz Beckenbauer",
+     "Gerd Müller",
+     "Lothar Matthäus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué especia se obtiene de la corteza de un árbol ?",
+    "a": [
+     "La pimienta",
+     "La nuez moscada",
+     "La canela",
+     "El cúrcuma"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué uva tinta es emblemática de Borgoña ?",
+    "a": [
+     "Merlot",
+     "Cabernet sauvignon",
+     "Syrah",
+     "Pinot noir"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué plato español se hace con huevos y patatas ?",
+    "a": [
+     "La tortilla de patatas",
+     "El gazpacho",
+     "El pisto",
+     "La paella"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué postre francés se cubre con caramelo quemado ?",
+    "a": [
+     "La isla flotante",
+     "La crème brûlée",
+     "El flan",
+     "La crème caramel"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país proviene el postre panna cotta ?",
+    "a": [
+     "De España",
+     "De Portugal",
+     "De Italia",
+     "De Francia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿De qué dios romano proviene la palabra « miércoles » ?",
+    "a": [
+     "Marte",
+     "Júpiter",
+     "Venus",
+     "Mercurio"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama la repetición de consonantes al inicio de las palabras ?",
+    "a": [
+     "La aliteración",
+     "La asonancia",
+     "El calco",
+     "La elipsis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama una persona que habla varios idiomas ?",
+    "a": [
+     "Un traductor",
+     "Un políglota",
+     "Un lingüista",
+     "Un intérprete"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el antónimo de « guerra » ?",
+    "a": [
+     "La lucha",
+     "El conflicto",
+     "La paz",
+     "La tregua"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuántas sílabas tiene la palabra « escuela » ?",
+    "a": [
+     "2",
+     "4",
+     "5",
+     "3"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el gerundio de « cantar » ?",
+    "a": [
+     "Cantando",
+     "Cantó",
+     "Cantaré",
+     "Cantado"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1972, ¿qué ciudad acogió la primera « Gay Pride » del Reino Unido ?",
+    "a": [
+     "Edimburgo",
+     "Londres",
+     "Mánchester",
+     "Brighton"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué año legalizó Islandia el matrimonio igualitario ?",
+    "a": [
+     "2013",
+     "2015",
+     "2010",
+     "2006"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué autora publicó la colección de ensayos « Sister Outsider » en 1984 ?",
+    "a": [
+     "bell hooks",
+     "James Baldwin",
+     "Adrienne Rich",
+     "Audre Lorde"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué barrio de Londres es emblemático de la cultura LGBT+ ?",
+    "a": [
+     "Soho",
+     "Camden",
+     "Notting Hill",
+     "Shoreditch"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1998, ¿el asesinato homófobo de qué estudiante estadounidense conmovió a EE. UU. ?",
+    "a": [
+     "Ryan White",
+     "Matthew Shepard",
+     "Brandon Teena",
+     "Harvey Milk"
+    ],
+    "c": 1
    }
   ]
  }
