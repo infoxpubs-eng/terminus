@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "qs": {
   "fr": [
    {
@@ -14169,6 +14169,754 @@
      "Harvey Milk"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel historien grec antique est surnommé le « père de l'histoire » ?",
+    "a": [
+     "Hérodote",
+     "Platon",
+     "Socrate",
+     "Aristote"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Dans quelle guerre les chars d'assaut ont-ils été employés pour la première fois ?",
+    "a": [
+     "La Seconde Guerre mondiale",
+     "La Première Guerre mondiale",
+     "La guerre de Crimée",
+     "La guerre de Sécession"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a conquis l'empire inca au XVIe siècle ?",
+    "a": [
+     "Hernán Cortés",
+     "Christophe Colomb",
+     "Francisco Pizarro",
+     "Fernand Magellan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?",
+    "a": [
+     "Le traité de Vienne",
+     "Le traité d'Utrecht",
+     "Le traité de Tordesillas",
+     "Les traités de Westphalie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a repris Jérusalem aux croisés en 1187 ?",
+    "a": [
+     "Saladin",
+     "Haroun ar-Rachid",
+     "Suleiman le Magnifique",
+     "Richard Cœur de Lion"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Entre quels pays se trouve le Cervin, emblème des Alpes ?",
+    "a": [
+     "La France et l'Italie",
+     "La Suisse et l'Italie",
+     "L'Autriche et la Suisse",
+     "La France et la Suisse"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Le Transsibérien relie Moscou à quelle ville russe ?",
+    "a": [
+     "Novossibirsk",
+     "Irkoutsk",
+     "Vladivostok",
+     "Kazan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Quel pays d'Amérique du Sud a des côtes sur le Pacifique et les Caraïbes ?",
+    "a": [
+     "Le Pérou",
+     "Le Chili",
+     "Le Paraguay",
+     "La Colombie"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "À quel pays appartient la péninsule du Yucatán ?",
+    "a": [
+     "Le Mexique",
+     "Le Guatemala",
+     "Le Belize",
+     "Le Honduras"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le pays le moins densément peuplé du monde ?",
+    "a": [
+     "L'Australie",
+     "La Mongolie",
+     "Le Canada",
+     "L'Islande"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel poisson est capable de générer des décharges électriques ?",
+    "a": [
+     "Le saumon",
+     "La sardine",
+     "L'anguille électrique",
+     "Le cabillaud"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "De quelle couleur est le sang du limule, le crabe fer à cheval ?",
+    "a": [
+     "Rouge",
+     "Vert",
+     "Jaune",
+     "Bleu"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Que fait le point d'ébullition de l'eau quand l'altitude augmente ?",
+    "a": [
+     "Il baisse",
+     "Il monte",
+     "Il ne change pas",
+     "Il double"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle glande est surnommée la « glande maîtresse » du corps ?",
+    "a": [
+     "La thyroïde",
+     "L'hypophyse",
+     "Le thymus",
+     "Les glandes surrénales"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Autour de quelle planète orbite la lune glacée Europe ?",
+    "a": [
+     "Saturne",
+     "Neptune",
+     "Jupiter",
+     "Uranus"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Lors d'une éclipse solaire, quel astre passe devant le Soleil ?",
+    "a": [
+     "La Terre",
+     "Vénus",
+     "Mercure",
+     "La Lune"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé le thriller « Memento » en 2000 ?",
+    "a": [
+     "Christopher Nolan",
+     "David Fincher",
+     "Ridley Scott",
+     "Denis Villeneuve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Les robots WALL-E et Eve sont les héros d'un film de quel studio ?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "Le Studio Ghibli",
+     "Illumination"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Dans quel film un homme vit, sans le savoir, la star d'une téléréalité ?",
+    "a": [
+     "« The Matrix »",
+     "« Inception »",
+     "« The Truman Show »",
+     "« Pleasantville »"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quels frères ont réalisé « No Country for Old Men » ?",
+    "a": [
+     "Les frères Farrelly",
+     "Les frères Wachowski",
+     "Les frères Scott",
+     "Les frères Coen"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Qui incarne le flic Axel Foley dans « Le Flic de Beverly Hills » ?",
+    "a": [
+     "Eddie Murphy",
+     "Will Smith",
+     "Wesley Snipes",
+     "Denzel Washington"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse de jazz était surnommée « Lady Day » ?",
+    "a": [
+     "Ella Fitzgerald",
+     "Billie Holiday",
+     "Nina Simone",
+     "Sarah Vaughan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe de heavy metal a pour mascotte un squelette nommé Eddie ?",
+    "a": [
+     "Black Sabbath",
+     "Judas Priest",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quel groupe britannique a sorti la chanson « Yellow » en 2000 ?",
+    "a": [
+     "Oasis",
+     "Radiohead",
+     "Travis",
+     "Coldplay"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quel chef d'orchestre de jazz a popularisé « Take the 'A' Train » ?",
+    "a": [
+     "Duke Ellington",
+     "Louis Armstrong",
+     "Miles Davis",
+     "Count Basie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Dans « Le Comte de Monte-Cristo », de quelle prison le héros s'évade-t-il ?",
+    "a": [
+     "La Bastille",
+     "Le château d'If",
+     "Le bagne de Toulon",
+     "La Conciergerie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Le personnage de Tartuffe, chez Molière, incarne…",
+    "a": [
+     "La jalousie",
+     "L'avarice",
+     "L'hypocrisie",
+     "La trahison"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a dessiné les aventures d'Astérix le Gaulois ?",
+    "a": [
+     "René Goscinny",
+     "Hergé",
+     "Morris",
+     "Albert Uderzo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle romancière américaine, prix Nobel 1993, a écrit « Beloved » ?",
+    "a": [
+     "Toni Morrison",
+     "Alice Walker",
+     "Zora Neale Hurston",
+     "Joyce Carol Oates"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle nageuse américaine domine les épreuves de fond depuis 2012 ?",
+    "a": [
+     "Missy Franklin",
+     "Katie Ledecky",
+     "Simone Manuel",
+     "Sarah Sjöström"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quelle salle new-yorkaise jouent les Knicks de la NBA ?",
+    "a": [
+     "Le Barclays Center",
+     "L'United Center",
+     "Le Madison Square Garden",
+     "Le Wells Fargo Center"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Qui a brisé la barrière de couleur de la MLB en 1947 ?",
+    "a": [
+     "Babe Ruth",
+     "Satchel Paige",
+     "Joe DiMaggio",
+     "Jackie Robinson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel boxeur des années 1980-90 était surnommé « Iron Mike » ?",
+    "a": [
+     "Mike Tyson",
+     "Evander Holyfield",
+     "George Foreman",
+     "Joe Frazier"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel sport du Pays basque utilise-t-on une « chistera » ?",
+    "a": [
+     "Le curling",
+     "La pelote basque",
+     "La pétanque",
+     "Le squash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel fruit est tirée la crème de cassis ?",
+    "a": [
+     "La mûre",
+     "La groseille rouge",
+     "La baie de cassis",
+     "La myrtille"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Le gyros, sandwich de viande à la broche, vient de quel pays ?",
+    "a": [
+     "La Turquie",
+     "Le Liban",
+     "L'Italie",
+     "La Grèce"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Dans quelle ville a été inventée la salade César en 1924 ?",
+    "a": [
+     "Tijuana, au Mexique",
+     "Rome",
+     "New York",
+     "Los Angeles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Le ras el hanout est un mélange d'épices de quelle cuisine ?",
+    "a": [
+     "La cuisine indienne",
+     "La cuisine marocaine",
+     "La cuisine libanaise",
+     "La cuisine tunisienne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "La sauce Worcestershire a été créée dans quel pays ?",
+    "a": [
+     "L'Écosse",
+     "L'Irlande",
+     "L'Angleterre",
+     "Les Pays-Bas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le genre du mot « amour » au singulier ?",
+    "a": [
+     "Féminin",
+     "Neutre",
+     "Il n'en a pas",
+     "Masculin"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie le verbe « flâner » ?",
+    "a": [
+     "Se promener sans but",
+     "Courir très vite",
+     "Travailler avec zèle",
+     "Discuter vivement"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Parmi ces mots, lequel est invariable ?",
+    "a": [
+     "« Gentils »",
+     "« Hormis »",
+     "« Beaux »",
+     "« Nouveaux »"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la troisième personne du conditionnel de « avoir » ?",
+    "a": [
+     "Il avait",
+     "Il aura",
+     "Il aurait",
+     "Il ait"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Dans « Soudain, il partit », le mot « soudain » est…",
+    "a": [
+     "Une préposition",
+     "Un adjectif",
+     "Un nom",
+     "Un adverbe"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel signe relie les mots dans « grand-mère » ?",
+    "a": [
+     "Le trait d'union",
+     "L'apostrophe",
+     "Le point-virgule",
+     "L'esperluette"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Dans quel pays l'ILGA, fédération LGBT+ mondiale, a-t-elle été fondée en 1978 ?",
+    "a": [
+     "La France",
+     "Le Royaume-Uni",
+     "Les États-Unis",
+     "L'Allemagne"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel texte américain la victoire d'Edith Windsor a-t-elle invalidé en 2013 ?",
+    "a": [
+     "Le « don't ask, don't tell »",
+     "Le Patriot Act",
+     "Le DOMA",
+     "Le NAFTA"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Comment s'appellent les marches des fiertés en Allemagne ?",
+    "a": [
+     "Love Parades",
+     "Rainbow Days",
+     "Equality Marches",
+     "Christopher Street Day"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Aux États-Unis, la « panique lavande » des années 1950 visait…",
+    "a": [
+     "Les employés homosexuels de l'État",
+     "Les syndicalistes",
+     "Les immigrés mexicains",
+     "Les enseignants juifs"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel pays des Amériques a légalisé le mariage entre personnes du même sexe en premier, en 2005 ?",
+    "a": [
+     "L'Argentine",
+     "Le Canada",
+     "Le Brésil",
+     "Les États-Unis"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, quelle équipe récupère le titre de la CAN-2025 par décision du TAS ?",
+    "a": [
+     "Le Maroc",
+     "L'Égypte",
+     "Le Sénégal",
+     "L'Algérie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pays co-organise la Coupe du monde féminine 2031 avec le Mexique ?",
+    "a": [
+     "Le Brésil",
+     "Le Canada",
+     "L'Argentine",
+     "Les États-Unis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, quel pays est désigné pour la Coupe du monde féminine 2035 ?",
+    "a": [
+     "Le Royaume-Uni",
+     "L'Espagne",
+     "La France",
+     "L'Italie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, quelle vedette de la cuisine relaidera « Top Gear » sur la BBC ?",
+    "a": [
+     "Jeremy Clarkson",
+     "Gordon Ramsay",
+     "Jamie Oliver",
+     "Heston Blumenthal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, l'UE propose d'interdire à ses compétitions sportives…",
+    "a": [
+     "Les supporters russes",
+     "Les clubs saoudiens",
+     "Les athlètes russes",
+     "Les équipementiers chinois"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, l'UE prévoit 50 milliards d'euros pour l'IA et…",
+    "a": [
+     "La voiture électrique",
+     "L'agriculture bio",
+     "La conquête spatiale",
+     "Le calcul quantique"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, le chef de l'ONU Guterres appelle à encadrer les risques de…",
+    "a": [
+     "L'intelligence artificielle",
+     "La finance mondiale",
+     "L'exploration spatiale",
+     "Les pandémies"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, la station spatiale chinoise accueille son premier astronaute étranger, venu du…",
+    "a": [
+     "Japon",
+     "Pakistan",
+     "Vietnam",
+     "Inde"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, le Bayern Munich s'incline en Ligue des champions face à…",
+    "a": [
+     "Paris SG",
+     "Marseille",
+     "Lille",
+     "Lyon"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, le Mondial d'échecs voit s'affronter à Genève Gukesh et…",
+    "a": [
+     "Magnus Carlsen",
+     "Ding Liren",
+     "Ian Nepomniachtchi",
+     "Nodirbek Sindarov"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, deux géants féminins de ski sont annulés au Mont-Tremblant faute de…",
+    "a": [
+     "Neige",
+     "Vent",
+     "Froid extrême",
+     "Pluie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, la Coupe du monde de biathlon s'ouvre à Kontiolahti, en…",
+    "a": [
+     "Norvège",
+     "Finlande",
+     "Suède",
+     "Autriche"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, la France est choisie pour les Mondiaux de badminton par équipes en…",
+    "a": [
+     "2028",
+     "2029",
+     "2030",
+     "2032"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, quel tennisman français est accusé d'avoir refusé un contrôle antidopage ?",
+    "a": [
+     "Adrian Mannarino",
+     "Ugo Humbert",
+     "Giovanni Mpetshi Perricard",
+     "Arthur Rinderknech"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "Fin novembre 2026, la France affronte l'Afrique du Sud en finale de quel tournoi de rugby ?",
+    "a": [
+     "Le Championnat des nations",
+     "La Coupe du monde",
+     "Le Tournoi des Six Nations",
+     "La Rugby Championship"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, l'Espagne vote à des élections générales anticipées le…",
+    "a": [
+     "20 décembre",
+     "29 novembre",
+     "1er décembre",
+     "22 novembre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Selon un bilan de novembre 2026, l'été 2026 en Angleterre a causé un record de décès liés à…",
+    "a": [
+     "La pollution",
+     "Les incendies",
+     "La chaleur",
+     "Les inondations"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En novembre 2026, Nvidia rétablit dans le poste de PDG…",
+    "a": [
+     "Sam Altman",
+     "Lisa Su",
+     "Tim Cook",
+     "Jensen Huang"
+    ],
+    "c": 3
    }
   ],
   "en": [
@@ -28339,6 +29087,754 @@
      "Harvey Milk"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which ancient Greek historian is called the \"father of history\"?",
+    "a": [
+     "Herodotus",
+     "Plato",
+     "Socrates",
+     "Aristotle"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "In which war were tanks used for the first time?",
+    "a": [
+     "World War II",
+     "World War I",
+     "The Crimean War",
+     "The US Civil War"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Who conquered the Inca Empire in the 16th century?",
+    "a": [
+     "Hernán Cortés",
+     "Christopher Columbus",
+     "Francisco Pizarro",
+     "Ferdinand Magellan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which treaties ended the Thirty Years' War in 1648?",
+    "a": [
+     "The Treaty of Vienna",
+     "The Treaty of Utrecht",
+     "The Treaty of Tordesillas",
+     "The Peace of Westphalia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Who retook Jerusalem from the crusaders in 1187?",
+    "a": [
+     "Saladin",
+     "Harun al-Rashid",
+     "Suleiman",
+     "Richard the Lionheart"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "The Matterhorn, icon of the Alps, lies between which two countries?",
+    "a": [
+     "France and Italy",
+     "Switzerland and Italy",
+     "Austria and Switzerland",
+     "France and Switzerland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "The Trans-Siberian Railway links Moscow to which Russian city?",
+    "a": [
+     "Novosibirsk",
+     "Irkutsk",
+     "Vladivostok",
+     "Kazan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Which South American country has coasts on both the Pacific and the Caribbean?",
+    "a": [
+     "Peru",
+     "Chile",
+     "Paraguay",
+     "Colombia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "The Yucatán Peninsula belongs to which country?",
+    "a": [
+     "Mexico",
+     "Guatemala",
+     "Belize",
+     "Honduras"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which is the least densely populated country in the world?",
+    "a": [
+     "Australia",
+     "Mongolia",
+     "Canada",
+     "Iceland"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which fish can generate electric shocks?",
+    "a": [
+     "Salmon",
+     "Sardine",
+     "The electric eel",
+     "Cod"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What colour is the blood of the horseshoe crab?",
+    "a": [
+     "Red",
+     "Green",
+     "Yellow",
+     "Blue"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "What happens to the boiling point of water as altitude increases?",
+    "a": [
+     "It drops",
+     "It rises",
+     "It stays the same",
+     "It doubles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which gland is nicknamed the body's \"master gland\"?",
+    "a": [
+     "The thyroid",
+     "The pituitary gland",
+     "The thymus",
+     "The adrenal glands"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Around which planet orbits the icy moon Europa?",
+    "a": [
+     "Saturn",
+     "Neptune",
+     "Jupiter",
+     "Uranus"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "During a solar eclipse, which body passes in front of the Sun?",
+    "a": [
+     "Earth",
+     "Venus",
+     "Mercury",
+     "The Moon"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed the 2000 thriller \"Memento\"?",
+    "a": [
+     "Christopher Nolan",
+     "David Fincher",
+     "Ridley Scott",
+     "Denis Villeneuve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Robots WALL-E and Eve star in a film by which studio?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "Studio Ghibli",
+     "Illumination"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "In which film does a man unknowingly star in a reality TV show?",
+    "a": [
+     "\"The Matrix\"",
+     "\"Inception\"",
+     "\"The Truman Show\"",
+     "\"Pleasantville\""
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which brothers directed \"No Country for Old Men\"?",
+    "a": [
+     "The Farrelly brothers",
+     "The Wachowskis",
+     "The Scott brothers",
+     "The Coen brothers"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Who plays cop Axel Foley in \"Beverly Hills Cop\"?",
+    "a": [
+     "Eddie Murphy",
+     "Will Smith",
+     "Wesley Snipes",
+     "Denzel Washington"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which jazz singer was nicknamed \"Lady Day\"?",
+    "a": [
+     "Ella Fitzgerald",
+     "Billie Holiday",
+     "Nina Simone",
+     "Sarah Vaughan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which heavy metal band has a skeleton mascot named Eddie?",
+    "a": [
+     "Black Sabbath",
+     "Judas Priest",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which British band released the song \"Yellow\" in 2000?",
+    "a": [
+     "Oasis",
+     "Radiohead",
+     "Travis",
+     "Coldplay"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which jazz bandleader popularised \"Take the 'A' Train\"?",
+    "a": [
+     "Duke Ellington",
+     "Louis Armstrong",
+     "Miles Davis",
+     "Count Basie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "In \"The Count of Monte Cristo\", from which prison does the hero escape?",
+    "a": [
+     "The Bastille",
+     "The Château d'If",
+     "The Bagne of Toulon",
+     "The Conciergerie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Molière's character Tartuffe embodies…",
+    "a": [
+     "Jealousy",
+     "Greed",
+     "Hypocrisy",
+     "Betrayal"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who drew the adventures of Asterix the Gaul?",
+    "a": [
+     "René Goscinny",
+     "Hergé",
+     "Morris",
+     "Albert Uderzo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Which US novelist, 1993 Nobel laureate, wrote \"Beloved\"?",
+    "a": [
+     "Toni Morrison",
+     "Alice Walker",
+     "Zora Neale Hurston",
+     "Joyce Carol Oates"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which US swimmer has dominated long-distance events since 2012?",
+    "a": [
+     "Missy Franklin",
+     "Katie Ledecky",
+     "Simone Manuel",
+     "Sarah Sjöström"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "In which New York arena do the NBA Knicks play?",
+    "a": [
+     "The Barclays Center",
+     "The United Center",
+     "Madison Square Garden",
+     "The Wells Fargo Center"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Who broke MLB's colour barrier in 1947?",
+    "a": [
+     "Babe Ruth",
+     "Satchel Paige",
+     "Joe DiMaggio",
+     "Jackie Robinson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Which 1980s-90s boxer was nicknamed \"Iron Mike\"?",
+    "a": [
+     "Mike Tyson",
+     "Evander Holyfield",
+     "George Foreman",
+     "Joe Frazier"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "In which Basque sport do players use a \"chistera\"?",
+    "a": [
+     "Curling",
+     "Basque pelota",
+     "Pétanque",
+     "Squash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Crème de cassis is made from which fruit?",
+    "a": [
+     "The blackberry",
+     "The redcurrant",
+     "The blackcurrant",
+     "The blueberry"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Gyros, the spit-roasted meat sandwich, comes from which country?",
+    "a": [
+     "Turkey",
+     "Lebanon",
+     "Italy",
+     "Greece"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "In which city was the Caesar salad invented in 1924?",
+    "a": [
+     "Tijuana, Mexico",
+     "Rome",
+     "New York",
+     "Los Angeles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Ras el hanout is a spice blend from which cuisine?",
+    "a": [
+     "Indian cuisine",
+     "Moroccan cuisine",
+     "Lebanese cuisine",
+     "Tunisian cuisine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Worcestershire sauce was created in which country?",
+    "a": [
+     "Scotland",
+     "Ireland",
+     "England",
+     "The Netherlands"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is a collective noun for a group of geese on the ground?",
+    "a": [
+     "A herd",
+     "A swarm",
+     "A pack",
+     "A gaggle"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the superlative form of \"good\"?",
+    "a": [
+     "Best",
+     "Goodest",
+     "Most good",
+     "Better"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in \"castle\"?",
+    "a": [
+     "The \"c\"",
+     "The \"t\"",
+     "The \"s\"",
+     "The \"e\""
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of \"fly\"?",
+    "a": [
+     "Flyed",
+     "Flown",
+     "Flew",
+     "Flied"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of \"wealthy\"?",
+    "a": [
+     "Rich",
+     "Modest",
+     "Careless",
+     "Poor"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Which word is a homophone of \"week\"?",
+    "a": [
+     "Weak",
+     "Wick",
+     "Wink",
+     "Wheat"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In which country was ILGA, the global LGBT+ federation, founded in 1978?",
+    "a": [
+     "France",
+     "The United Kingdom",
+     "The United States",
+     "Germany"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which US law did Edith Windsor's 2013 Supreme Court victory strike down?",
+    "a": [
+     "\"Don't ask, don't tell\"",
+     "The Patriot Act",
+     "DOMA",
+     "NAFTA"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "What are Pride marches called in Germany?",
+    "a": [
+     "Love Parades",
+     "Rainbow Days",
+     "Equality Marches",
+     "Christopher Street Day"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "In the 1950s US, the \"lavender scare\" targeted…",
+    "a": [
+     "Gay government employees",
+     "Trade unionists",
+     "Mexican immigrants",
+     "Jewish teachers"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which country in the Americas first legalised same-sex marriage, in 2005?",
+    "a": [
+     "Argentina",
+     "Canada",
+     "Brazil",
+     "The United States"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which team won back the AFCON 2025 title through the Court of Arbitration for Sport?",
+    "a": [
+     "Morocco",
+     "Egypt",
+     "Senegal",
+     "Algeria"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country hosts the 2031 Women's World Cup with Mexico and Central America?",
+    "a": [
+     "Brazil",
+     "Canada",
+     "Argentina",
+     "The United States"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, which country is awarded the 2035 Women's World Cup?",
+    "a": [
+     "The United Kingdom",
+     "Spain",
+     "France",
+     "Italy"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, which celebrity chef is set to revive BBC's \"Top Gear\"?",
+    "a": [
+     "Jeremy Clarkson",
+     "Gordon Ramsay",
+     "Jamie Oliver",
+     "Heston Blumenthal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, the EU proposes banning… from sports events on its soil",
+    "a": [
+     "Russian fans",
+     "Saudi clubs",
+     "Russian athletes",
+     "Chinese sponsors"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, the EU plans 50 billion euros for AI and…",
+    "a": [
+     "Electric cars",
+     "Organic farming",
+     "Space exploration",
+     "Quantum computing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, UN chief Guterres calls for a framework to manage the risks of…",
+    "a": [
+     "Artificial intelligence",
+     "Global finance",
+     "Space exploration",
+     "Pandemics"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, China's space station welcomes its first foreign astronaut, from…",
+    "a": [
+     "India",
+     "Pakistan",
+     "Japan",
+     "Vietnam"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, Bayern Munich lose in the Champions League to…",
+    "a": [
+     "Paris SG",
+     "Marseille",
+     "Lille",
+     "Lyon"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, the chess world title match in Geneva pits Gukesh against…",
+    "a": [
+     "Magnus Carlsen",
+     "Ding Liren",
+     "Ian Nepomniachtchi",
+     "Nodirbek Sindarov"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, two women's World Cup giant slaloms at Tremblant are cancelled for lack of…",
+    "a": [
+     "Snow",
+     "Wind",
+     "Extreme cold",
+     "Rain"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, the biathlon World Cup season opens in Kontiolahti, in…",
+    "a": [
+     "Norway",
+     "Finland",
+     "Sweden",
+     "Austria"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, France is chosen to host the badminton world team championships in…",
+    "a": [
+     "2028",
+     "2029",
+     "2030",
+     "2032"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, which French tennis player is charged with refusing a doping test?",
+    "a": [
+     "Adrian Mannarino",
+     "Ugo Humbert",
+     "Giovanni Mpetshi Perricard",
+     "Arthur Rinderknech"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "In late November 2026, France face South Africa in the final of which rugby tournament?",
+    "a": [
+     "The Nations Championship",
+     "The World Cup",
+     "The Six Nations",
+     "The Rugby Championship"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, Spain votes in snap general elections on…",
+    "a": [
+     "20 December",
+     "29 November",
+     "1 December",
+     "22 November"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "According to a November 2026 report, England's summer 2026 caused a record number of deaths linked to…",
+    "a": [
+     "Pollution",
+     "Wildfires",
+     "Heat",
+     "Floods"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "In November 2026, Nvidia reinstates… as its CEO",
+    "a": [
+     "Sam Altman",
+     "Lisa Su",
+     "Tim Cook",
+     "Jensen Huang"
+    ],
+    "c": 3
    }
   ],
   "es": [
@@ -42498,6 +43994,754 @@
      "Harvey Milk"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué historiador de la antigua Grecia es llamado «el padre de la historia»?",
+    "a": [
+     "Herodoto",
+     "Platón",
+     "Sócrates",
+     "Aristóteles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué guerra se usaron los tanques por primera vez?",
+    "a": [
+     "La Segunda Guerra Mundial",
+     "La Primera Guerra Mundial",
+     "La Guerra de Crimea",
+     "La Guerra de Secesión"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién conquistó el imperio inca en el siglo XVI?",
+    "a": [
+     "Hernán Cortés",
+     "Cristóbal Colón",
+     "Francisco Pizarro",
+     "Fernando de Magallanes"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué tratados pusieron fin a la guerra de los Treinta Años en 1648?",
+    "a": [
+     "El Tratado de Viena",
+     "El Tratado de Utrecht",
+     "El Tratado de Tordesillas",
+     "La Paz de Westfalia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién retomó Jerusalén a los cruzados en 1187?",
+    "a": [
+     "Saladino",
+     "Harún al-Rashid",
+     "Solimán",
+     "Ricardo Corazón de León"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Entre qué países se encuentra el Matterhorn, icono de los Alpes?",
+    "a": [
+     "Francia e Italia",
+     "Suiza e Italia",
+     "Austria y Suiza",
+     "Francia y Suiza"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿A qué ciudad rusa une el Transiberiano desde Moscú?",
+    "a": [
+     "Novosibirsk",
+     "Irkutsk",
+     "Vladivostok",
+     "Kazán"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué país de América del Sur tiene costas en el Pacífico y el Caribe?",
+    "a": [
+     "Perú",
+     "Chile",
+     "Paraguay",
+     "Colombia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿A qué país pertenece la península de Yucatán?",
+    "a": [
+     "México",
+     "Guatemala",
+     "Belice",
+     "Honduras"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es el país menos densamente poblado del mundo?",
+    "a": [
+     "Australia",
+     "Mongolia",
+     "Canadá",
+     "Islandia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué pez es capaz de generar descargas eléctricas?",
+    "a": [
+     "El salmón",
+     "La sardina",
+     "La anguila eléctrica",
+     "El bacalao"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿De qué color es la sangre del cangrejo cacerola?",
+    "a": [
+     "Rojo",
+     "Verde",
+     "Amarillo",
+     "Azul"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué le pasa al punto de ebullición del agua al aumentar la altitud?",
+    "a": [
+     "Baja",
+     "Sube",
+     "No cambia",
+     "Se duplica"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué glándula es apodada la «glándula maestra»?",
+    "a": [
+     "La tiroides",
+     "La hipófisis",
+     "El timo",
+     "Las glándulas suprarrenales"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Alrededor de qué planeta orbita la luna helada Europa?",
+    "a": [
+     "Saturno",
+     "Neptuno",
+     "Júpiter",
+     "Urano"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "En un eclipse solar, ¿qué astro pasa delante del Sol?",
+    "a": [
+     "La Tierra",
+     "Venus",
+     "Mercurio",
+     "La Luna"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió el thriller «Memento» en 2000?",
+    "a": [
+     "Christopher Nolan",
+     "David Fincher",
+     "Ridley Scott",
+     "Denis Villeneuve"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Los robots WALL-E y Eva protagonizan una película de qué estudio?",
+    "a": [
+     "DreamWorks",
+     "Pixar",
+     "El Estudio Ghibli",
+     "Illumination"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿En qué película un hombre vive, sin saberlo, como estrella de un reality?",
+    "a": [
+     "«The Matrix»",
+     "«Inception»",
+     "«The Truman Show»",
+     "«Pleasantville»"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué hermanos dirigieron «No Country for Old Men»?",
+    "a": [
+     "Los hermanos Farrelly",
+     "Los hermanos Wachowski",
+     "Los hermanos Scott",
+     "Los hermanos Coen"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién interpreta al policía Axel Foley en «Superdetective en Hollywood»?",
+    "a": [
+     "Eddie Murphy",
+     "Will Smith",
+     "Wesley Snipes",
+     "Denzel Washington"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante de jazz era apodada «Lady Day»?",
+    "a": [
+     "Ella Fitzgerald",
+     "Billie Holiday",
+     "Nina Simone",
+     "Sarah Vaughan"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo de heavy metal tiene por mascota a un esqueleto llamado Eddie?",
+    "a": [
+     "Black Sabbath",
+     "Judas Priest",
+     "Iron Maiden",
+     "Deep Purple"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué grupo británico lanzó la canción «Yellow» en 2000?",
+    "a": [
+     "Oasis",
+     "Radiohead",
+     "Travis",
+     "Coldplay"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué director de orquesta de jazz popularizó «Take the 'A' Train»?",
+    "a": [
+     "Duke Ellington",
+     "Louis Armstrong",
+     "Miles Davis",
+     "Count Basie"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "En «El conde de Montecristo», ¿de qué prisión se escapa el héroe?",
+    "a": [
+     "De la Bastilla",
+     "Del castillo de If",
+     "Del penal de Tolón",
+     "De la Conciergerie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "El personaje de Tartufo, de Molière, encarna…",
+    "a": [
+     "Los celos",
+     "La avaricia",
+     "La hipocresía",
+     "La traición"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién dibujó las aventuras de Astérix el Galo?",
+    "a": [
+     "René Goscinny",
+     "Hergé",
+     "Morris",
+     "Albert Uderzo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué novelista estadounidense, Nobel en 1993, escribió «Beloved»?",
+    "a": [
+     "Toni Morrison",
+     "Alice Walker",
+     "Zora Neale Hurston",
+     "Joyce Carol Oates"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué nadadora estadounidense domina las pruebas de fondo desde 2012?",
+    "a": [
+     "Missy Franklin",
+     "Katie Ledecky",
+     "Simone Manuel",
+     "Sarah Sjöström"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué arena de Nueva York juegan los Knicks de la NBA?",
+    "a": [
+     "El Barclays Center",
+     "El United Center",
+     "El Madison Square Garden",
+     "El Wells Fargo Center"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Quién rompió la barrera racial de la MLB en 1947?",
+    "a": [
+     "Babe Ruth",
+     "Satchel Paige",
+     "Joe DiMaggio",
+     "Jackie Robinson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué boxeador de los años 80-90 era apodado «Iron Mike»?",
+    "a": [
+     "Mike Tyson",
+     "Evander Holyfield",
+     "George Foreman",
+     "Joe Frazier"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte del País Vasco se usa una «chistera»?",
+    "a": [
+     "El curling",
+     "La pelota vasca",
+     "La petanca",
+     "El squash"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué fruta se extrae el licor de casis?",
+    "a": [
+     "De la mora",
+     "De la grosella roja",
+     "De la grosella negra",
+     "Del arándano"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "El gyro, sándwich de carne al asador, ¿de qué país proviene?",
+    "a": [
+     "Turquía",
+     "Líbano",
+     "Italia",
+     "Grecia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿En qué ciudad se inventó la ensalada César en 1924?",
+    "a": [
+     "Tijuana, en México",
+     "Roma",
+     "Nueva York",
+     "Los Ángeles"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "El ras el hanout es una mezcla de especias de qué cocina?",
+    "a": [
+     "India",
+     "Marroquí",
+     "Libanesa",
+     "Tunecina"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿En qué país se creó la salsa Worcestershire?",
+    "a": [
+     "Escocia",
+     "Irlanda",
+     "Inglaterra",
+     "Países Bajos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el femenino de «alcalde»?",
+    "a": [
+     "La alcaldesía",
+     "Alcalda",
+     "El alcalde",
+     "La alcaldesa"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué significa el verbo «flanear»?",
+    "a": [
+     "Pasear sin rumbo",
+     "Correr muy rápido",
+     "Trabajar con ahínco",
+     "Discutir vivamente"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál de estas palabras es invariable?",
+    "a": [
+     "«Gentil»",
+     "«Excepto»",
+     "«Buenos»",
+     "«Castillos»"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es la tercera persona del condicional del verbo «haber»?",
+    "a": [
+     "Había",
+     "Habrá",
+     "Habría",
+     "Haya"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "En «De pronto se marchó», la expresión «de pronto» es…",
+    "a": [
+     "Una preposición",
+     "Un adjetivo",
+     "Un sustantivo",
+     "Un adverbio"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué prefijo indica repetición en «releer»?",
+    "a": [
+     "«Re-»",
+     "«Pre-»",
+     "«Sub-»",
+     "«Entre-»"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿En qué país se fundó la ILGA, federación LGBT+ mundial, en 1978?",
+    "a": [
+     "En Francia",
+     "En el Reino Unido",
+     "En Estados Unidos",
+     "En Alemania"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ley estadounidense derogó la victoria de Edith Windsor en 2013?",
+    "a": [
+     "El «don't ask, don't tell»",
+     "El Patriot Act",
+     "El DOMA",
+     "El NAFTA"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Cómo se llaman las marchas del orgullo en Alemania?",
+    "a": [
+     "Love Parades",
+     "Rainbow Days",
+     "Equality Marches",
+     "Christopher Street Day"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "En el «pánico lavanda» de los años 50 en EE. UU., el blanco era…",
+    "a": [
+     "Los homosexuales del sector público",
+     "Los sindicalistas",
+     "Los inmigrantes mexicanos",
+     "Los maestros judíos"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué país de las Américas legalizó primero el matrimonio igualitario, en 2005?",
+    "a": [
+     "Argentina",
+     "Canadá",
+     "Brasil",
+     "Estados Unidos"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, ¿qué selección recupera el título de la CAN-2025 gracias al TAS?",
+    "a": [
+     "Marruecos",
+     "Egipto",
+     "Senegal",
+     "Argelia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué país organiza el Mundial femenino de 2031 junto a México?",
+    "a": [
+     "Brasil",
+     "Canadá",
+     "Argentina",
+     "Estados Unidos"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, ¿qué país recibe el Mundial femenino de 2035?",
+    "a": [
+     "El Reino Unido",
+     "España",
+     "Francia",
+     "Italia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, ¿qué chef famoso relanzará «Top Gear» en la BBC?",
+    "a": [
+     "Jeremy Clarkson",
+     "Gordon Ramsay",
+     "Jamie Oliver",
+     "Heston Blumenthal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, la UE propone prohibir en sus competiciones deportivas…",
+    "a": [
+     "A los aficionados rusos",
+     "A los clubes saudíes",
+     "A los atletas rusos",
+     "A los patrocinadores chinos"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, la UE planea 50.000 millones de euros para la IA y…",
+    "a": [
+     "El coche eléctrico",
+     "La agricultura ecológica",
+     "La exploración espacial",
+     "La computación cuántica"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, el jefe de la ONU Guterres pide un marco sobre los riesgos de…",
+    "a": [
+     "La inteligencia artificial",
+     "Las finanzas globales",
+     "La exploración espacial",
+     "Las pandemias"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, la estación china recibe a su primer astronauta extranjero, de…",
+    "a": [
+     "India",
+     "Pakistán",
+     "Japón",
+     "Vietnam"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, el Bayern Múnich cae en la Liga de Campeones ante…",
+    "a": [
+     "París SG",
+     "Marsella",
+     "Lille",
+     "Lyon"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, el Mundial de ajedrez de Ginebra enfrenta a Gukesh con…",
+    "a": [
+     "Magnus Carlsen",
+     "Ding Liren",
+     "Ian Nepomniachtchi",
+     "Nodirbek Sindarov"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, dos eslalon gigantes de Copa femenina se cancelan en Tremblant por falta de…",
+    "a": [
+     "Nieve",
+     "Viento",
+     "Frío extremo",
+     "Lluvia"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, la Copa del mundo de biatlón arranca en Kontiolahti, en…",
+    "a": [
+     "Noruega",
+     "Finlandia",
+     "Suecia",
+     "Austria"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, Francia es elegida para los Mundiales de bádminton por equipos en…",
+    "a": [
+     "2028",
+     "2029",
+     "2030",
+     "2032"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, ¿qué tenista francés es acusado de rechazar un control antidopaje?",
+    "a": [
+     "Adrian Mannarino",
+     "Ugo Humbert",
+     "Giovanni Mpetshi Perricard",
+     "Arthur Rinderknech"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "actu",
+    "q": "A finales de noviembre de 2026, Francia se enfrenta a Sudáfrica en la final de qué torneo de rugby?",
+    "a": [
+     "El Campeonato de las Naciones",
+     "La Copa del Mundo",
+     "El Torneo de las Seis Naciones",
+     "El Rugby Championship"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, España vota en elecciones generales anticipadas el…",
+    "a": [
+     "20 de diciembre",
+     "29 de noviembre",
+     "1 de diciembre",
+     "22 de noviembre"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "actu",
+    "q": "Según un balance de noviembre de 2026, el verano inglés de 2026 causó un récord de muertes ligadas…",
+    "a": [
+     "A la contaminación",
+     "A los incendios",
+     "Al calor",
+     "A las inundaciones"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "actu",
+    "q": "En noviembre de 2026, Nvidia restituye… como director ejecutivo",
+    "a": [
+     "Sam Altman",
+     "Lisa Su",
+     "Tim Cook",
+     "Jensen Huang"
+    ],
+    "c": 3
    }
   ]
  }
