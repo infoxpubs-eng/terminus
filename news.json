@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "qs": {
   "fr": [
    {
@@ -14917,6 +14917,556 @@
      "Jensen Huang"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Sous quel roi la Sainte-Chapelle de Paris a-t-elle été construite ?",
+    "a": [
+     "Louis IX",
+     "Philippe Auguste",
+     "Charles V",
+     "Henri IV"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Qui a remporté la bataille d'Austerlitz en 1805 ?",
+    "a": [
+     "Le duc de Wellington",
+     "Napoléon Ier",
+     "Le tsar Alexandre Ier",
+     "Frédéric le Grand"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Quel explorateur marocain a parcouru le monde musulman au XIVe siècle ?",
+    "a": [
+     "Ibn Khaldoun",
+     "Marco Polo",
+     "Ibn Battuta",
+     "Zheng He"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel humaniste anglais, auteur d'« Utopie », fut exécuté en 1535 ?",
+    "a": [
+     "Francis Bacon",
+     "Thomas Hobbes",
+     "William Shakespeare",
+     "Thomas More"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quelle culture, malade en 1845, a causé la grande famine irlandaise ?",
+    "a": [
+     "La pomme de terre",
+     "Le blé",
+     "L'avoine",
+     "L'orge"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel détroit sépare l'Iran de la péninsule arabique ?",
+    "a": [
+     "Bab-el-Mandeb",
+     "Ormuz",
+     "Gibraltar",
+     "Malacca"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel canal sépare Madagascar du continent africain ?",
+    "a": [
+     "Le canal de Sicile",
+     "Le canal de Corse",
+     "Le canal du Mozambique",
+     "Le détroit de Magellan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Sur quel fleuve se trouvent les chutes Victoria ?",
+    "a": [
+     "Le Congo",
+     "Le Nil",
+     "Le Niger",
+     "Le Zambèze"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle est la deuxième plus grande île du monde ?",
+    "a": [
+     "La Nouvelle-Guinée",
+     "Madagascar",
+     "Bornéo",
+     "Sumatra"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quel est le plus haut sommet d'Antarctique ?",
+    "a": [
+     "Le mont McClintock",
+     "Le mont Vinson",
+     "Le mont Sidley",
+     "Le mont Erebus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "À quelle fréquence est accordé le « la » du diapason ?",
+    "a": [
+     "442 Hz",
+     "432 Hz",
+     "440 Hz",
+     "400 Hz"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel est le composant liquide majoritaire du sang ?",
+    "a": [
+     "Les globules rouges",
+     "Les plaquettes",
+     "La lymphe",
+     "Le plasma"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quel organe stocke la bile produite par le foie ?",
+    "a": [
+     "La vésicule biliaire",
+     "Le pancréas",
+     "La rate",
+     "L'estomac"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quel pendule permet de démontrer la rotation de la Terre ?",
+    "a": [
+     "Le pendule de Newton",
+     "Le pendule de Foucault",
+     "Le pendule de Galilée",
+     "Le pendule simple"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Qui a proposé la théorie de la dérive des continents ?",
+    "a": [
+     "Charles Darwin",
+     "Alfred Russel Wallace",
+     "Alfred Wegener",
+     "Harry Hess"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel insecte femelle dévore parfois son partenaire après l'accouplement ?",
+    "a": [
+     "La coccinelle",
+     "Le grillon",
+     "La sauterelle",
+     "La mante religieuse"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne l'inspecteur Harry Callahan ?",
+    "a": [
+     "Clint Eastwood",
+     "John Wayne",
+     "Steve McQueen",
+     "Charles Bronson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film d'animation Disney de 1998 met en scène une héroïne déguisée en soldat ?",
+    "a": [
+     "Pocahontas",
+     "Mulan",
+     "Raiponce",
+     "Vaiana"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice joue Trinity dans « Matrix » ?",
+    "a": [
+     "Halle Berry",
+     "Uma Thurman",
+     "Carrie-Anne Moss",
+     "Sigourney Weaver"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de 2007 raconte la bataille des Thermopyles ?",
+    "a": [
+     "Troy",
+     "Gladiator",
+     "Alexandre",
+     "300"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film de 1957 réunit douze jurés dans une même salle ?",
+    "a": [
+     "Douze Hommes en colère",
+     "Le Verdict",
+     "Philadelphia",
+     "Rashomon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle artiste américaine est entrée au Panthéon de Paris en 2021 ?",
+    "a": [
+     "Aretha Franklin",
+     "Joséphine Baker",
+     "Eartha Kitt",
+     "Nina Simone"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse barbadienne a sorti le tube « Diamonds » ?",
+    "a": [
+     "Beyoncé",
+     "Nicki Minaj",
+     "Rihanna",
+     "Alicia Keys"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle famille d'instruments est la plus nombreuse dans un orchestre symphonique ?",
+    "a": [
+     "Les bois",
+     "Les cuivres",
+     "Les percussions",
+     "Les cordes"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle est la note musicale située entre « mi » et « sol » ?",
+    "a": [
+     "Fa",
+     "Ré",
+     "La",
+     "Si"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Gomorrhe », enquête sur la Camorra ?",
+    "a": [
+     "Andrea Camilleri",
+     "Roberto Saviano",
+     "Elena Ferrante",
+     "Umberto Eco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Neuromancien », chef-d'œuvre de la science-fiction ?",
+    "a": [
+     "Philip K. Dick",
+     "Isaac Asimov",
+     "William Gibson",
+     "Jules Verne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Le Grand Cahier » ?",
+    "a": [
+     "Imre Kertész",
+     "Sándor Márai",
+     "Milan Kundera",
+     "Ágota Kristóf"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Auprès de moi toujours » (Never Let Me Go) ?",
+    "a": [
+     "Kazuo Ishiguro",
+     "Salman Rushdie",
+     "Ian McEwan",
+     "Julian Barnes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel pays a remporté le plus de Coupes du monde de cricket ?",
+    "a": [
+     "L'Inde",
+     "L'Australie",
+     "L'Angleterre",
+     "Les Indes occidentales"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quel pays a remporté la première Coupe du monde de basket-ball en 1950 ?",
+    "a": [
+     "Les États-Unis",
+     "Le Brésil",
+     "L'Argentine",
+     "L'Italie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Quel est le plus grand stade du monde ?",
+    "a": [
+     "Le Camp Nou",
+     "Wembley",
+     "Le stade Azteca",
+     "Le Rungrado 1er de Mai"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Quel est le surnom de l'équipe d'Afrique du Sud de rugby à XV ?",
+    "a": [
+     "Les Springboks",
+     "Les All Blacks",
+     "Les Wallabies",
+     "Les Pumas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle station a accueilli les premiers Jeux olympiques d'hiver en 1924 ?",
+    "a": [
+     "Saint-Moritz",
+     "Chamonix",
+     "Garmisch",
+     "Lake Placid"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Le yuzu est un fruit de quelle famille ?",
+    "a": [
+     "Les baies",
+     "Les drupes",
+     "Les agrumes",
+     "Les cucurbitacées"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle communauté d'Espagne vient la sauce romesco ?",
+    "a": [
+     "L'Andalousie",
+     "Le Pays basque",
+     "La Galice",
+     "La Catalogne"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Quel riz à grain rond est utilisé pour le risotto ?",
+    "a": [
+     "L'arborio",
+     "Le basmati",
+     "Le jasmin",
+     "Le long grain"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région du monde vient le kéfir ?",
+    "a": [
+     "Les Balkans",
+     "Le Caucase",
+     "La Scandinavie",
+     "L'Anatolie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel pays vient la soupe « tom kha » au lait de coco ?",
+    "a": [
+     "Le Vietnam",
+     "Le Laos",
+     "La Thaïlande",
+     "La Birmanie"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le contraire de « flexible » ?",
+    "a": [
+     "Souple",
+     "Cassant",
+     "Élastique",
+     "Rigide"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le genre du mot « alphabet » ?",
+    "a": [
+     "Masculin",
+     "Féminin",
+     "Les deux",
+     "Aucun"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "De quelle langue vient le mot « spaghetti » ?",
+    "a": [
+     "L'espagnol",
+     "L'italien",
+     "Le latin",
+     "Le grec"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie le préfixe « mé- » dans « mépris » ?",
+    "a": [
+     "Après",
+     "Avec",
+     "Mal, mauvais",
+     "Grand"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la première personne du présent de « pouvoir » ?",
+    "a": [
+     "Je pourrais",
+     "Je pouva",
+     "Je pourrai",
+     "Je peux"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le contraire de « naître » ?",
+    "a": [
+     "Mourir",
+     "Vivre",
+     "Grandir",
+     "Dormir"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1872, quel pays a dépénalisé l'homosexualité, l'un des premiers au monde ?",
+    "a": [
+     "La France",
+     "Le Mexique",
+     "L'Argentine",
+     "Le Portugal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel groupe britannique a soutenu les mineurs en grève en 1984-1985 ?",
+    "a": [
+     "Greenpeace",
+     "ACT UP",
+     "Lesbians and Gays Support the Miners",
+     "OutRage!"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle série de 2018 met en scène la culture ballroom de New York ?",
+    "a": [
+     "RuPaul's Drag Race",
+     "Queer as Folk",
+     "Looking",
+     "Pose"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quel terme désigne l'hostilité envers les personnes transgenres ?",
+    "a": [
+     "La transphobie",
+     "L'homophobie",
+     "La misogynie",
+     "Le sexisme"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2020, quel pays d'Amérique centrale a légalisé le mariage égalitaire ?",
+    "a": [
+     "Le Guatemala",
+     "Le Costa Rica",
+     "Le Honduras",
+     "Le Panama"
+    ],
+    "c": 1
    }
   ],
   "en": [
@@ -29835,6 +30385,556 @@
      "Jensen Huang"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Under which king was the Sainte-Chapelle in Paris built?",
+    "a": [
+     "Louis IX",
+     "Philip II Augustus",
+     "Charles V",
+     "Henry IV"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Who won the Battle of Austerlitz in 1805?",
+    "a": [
+     "The Duke of Wellington",
+     "Napoleon I",
+     "Tsar Alexander I",
+     "Frederick the Great"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Which Moroccan explorer travelled the Muslim world in the 14th century?",
+    "a": [
+     "Ibn Khaldun",
+     "Marco Polo",
+     "Ibn Battuta",
+     "Zheng He"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which English humanist, author of 'Utopia', was executed in 1535?",
+    "a": [
+     "Francis Bacon",
+     "Thomas Hobbes",
+     "William Shakespeare",
+     "Thomas More"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which crop failed in 1845 and caused the Great Irish Famine?",
+    "a": [
+     "The potato",
+     "Wheat",
+     "Oats",
+     "Barley"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which strait separates Iran from the Arabian Peninsula?",
+    "a": [
+     "Bab-el-Mandeb",
+     "The Strait of Hormuz",
+     "Gibraltar",
+     "Malacca"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which channel separates Madagascar from mainland Africa?",
+    "a": [
+     "The Sicilian Channel",
+     "The Corsican Channel",
+     "The Mozambique Channel",
+     "The Strait of Magellan"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "On which river are Victoria Falls located?",
+    "a": [
+     "The Congo",
+     "The Nile",
+     "The Niger",
+     "The Zambezi"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "What is the second largest island in the world?",
+    "a": [
+     "New Guinea",
+     "Madagascar",
+     "Borneo",
+     "Sumatra"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "What is the highest mountain in Antarctica?",
+    "a": [
+     "Mount McClintock",
+     "Mount Vinson",
+     "Mount Sidley",
+     "Mount Erebus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "At what frequency is the standard tuning A?",
+    "a": [
+     "442 Hz",
+     "432 Hz",
+     "440 Hz",
+     "400 Hz"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What is the main liquid component of blood?",
+    "a": [
+     "Red blood cells",
+     "Platelets",
+     "Lymph",
+     "Plasma"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which organ stores the bile produced by the liver?",
+    "a": [
+     "The gallbladder",
+     "The pancreas",
+     "The spleen",
+     "The stomach"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which pendulum demonstrates the rotation of the Earth?",
+    "a": [
+     "Newton's pendulum",
+     "Foucault's pendulum",
+     "Galileo's pendulum",
+     "The simple pendulum"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Who proposed the theory of continental drift?",
+    "a": [
+     "Charles Darwin",
+     "Alfred Russel Wallace",
+     "Alfred Wegener",
+     "Harry Hess"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which female insect sometimes devours her mate after mating?",
+    "a": [
+     "The ladybug",
+     "The cricket",
+     "The grasshopper",
+     "The praying mantis"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor plays inspector 'Dirty' Harry Callahan?",
+    "a": [
+     "Clint Eastwood",
+     "John Wayne",
+     "Steve McQueen",
+     "Charles Bronson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1998 Disney animation features a heroine disguised as a soldier?",
+    "a": [
+     "Pocahontas",
+     "Mulan",
+     "Tangled",
+     "Moana"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress plays Trinity in 'The Matrix'?",
+    "a": [
+     "Halle Berry",
+     "Uma Thurman",
+     "Carrie-Anne Moss",
+     "Sigourney Weaver"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which 2007 film tells the Battle of Thermopylae?",
+    "a": [
+     "Troy",
+     "Gladiator",
+     "Alexander",
+     "300"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which 1957 film gathers twelve jurors in one room?",
+    "a": [
+     "12 Angry Men",
+     "The Verdict",
+     "Philadelphia",
+     "Rashomon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which American artist entered the Panthéon in Paris in 2021?",
+    "a": [
+     "Aretha Franklin",
+     "Josephine Baker",
+     "Eartha Kitt",
+     "Nina Simone"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which Barbadian singer released the hit 'Diamonds'?",
+    "a": [
+     "Beyoncé",
+     "Nicki Minaj",
+     "Rihanna",
+     "Alicia Keys"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument family is the largest in a symphony orchestra?",
+    "a": [
+     "The woodwinds",
+     "The brass",
+     "The percussion",
+     "The strings"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which musical note sits between E and G?",
+    "a": [
+     "F",
+     "D",
+     "A",
+     "B"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'Gomorrah', the exposé of the Camorra?",
+    "a": [
+     "Andrea Camilleri",
+     "Roberto Saviano",
+     "Elena Ferrante",
+     "Umberto Eco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'Neuromancer', the science-fiction classic?",
+    "a": [
+     "Philip K. Dick",
+     "Isaac Asimov",
+     "William Gibson",
+     "Jules Verne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'The Notebook', about twin brothers in wartime?",
+    "a": [
+     "Imre Kertész",
+     "Sándor Márai",
+     "Milan Kundera",
+     "Ágota Kristóf"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote 'Never Let Me Go'?",
+    "a": [
+     "Kazuo Ishiguro",
+     "Salman Rushdie",
+     "Ian McEwan",
+     "Julian Barnes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which country has won the most Cricket World Cups?",
+    "a": [
+     "India",
+     "Australia",
+     "England",
+     "The West Indies"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which country won the first basketball World Cup in 1950?",
+    "a": [
+     "The United States",
+     "Brazil",
+     "Argentina",
+     "Italy"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "What is the largest stadium in the world?",
+    "a": [
+     "Camp Nou",
+     "Wembley",
+     "Estadio Azteca",
+     "Rungrado 1st of May"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "What is the nickname of South Africa's rugby union team?",
+    "a": [
+     "The Springboks",
+     "The All Blacks",
+     "The Wallabies",
+     "The Pumas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which resort hosted the first Winter Olympics in 1924?",
+    "a": [
+     "St. Moritz",
+     "Chamonix",
+     "Garmisch",
+     "Lake Placid"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "The yuzu is a fruit of which family?",
+    "a": [
+     "Berries",
+     "Drupes",
+     "Citrus",
+     "Gourds"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "The romesco sauce comes from which Spanish region?",
+    "a": [
+     "Andalusia",
+     "The Basque Country",
+     "Galicia",
+     "Catalonia"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Which short-grain rice is used for risotto?",
+    "a": [
+     "Arborio",
+     "Basmati",
+     "Jasmine",
+     "Long-grain"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Kefir originates from which region of the world?",
+    "a": [
+     "The Balkans",
+     "The Caucasus",
+     "Scandinavia",
+     "Anatolia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "The coconut-milk soup 'tom kha' comes from which country?",
+    "a": [
+     "Vietnam",
+     "Laos",
+     "Thailand",
+     "Myanmar"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of 'honest'?",
+    "a": [
+     "Sincere",
+     "Frank",
+     "Loyal",
+     "Dishonest"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Which letter is silent in 'salmon'?",
+    "a": [
+     "The L",
+     "The A",
+     "The S",
+     "The O"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of 'bind'?",
+    "a": [
+     "Binded",
+     "Bound",
+     "Bounded",
+     "Bind"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of 'calf'?",
+    "a": [
+     "Calfs",
+     "Calve",
+     "Calves",
+     "Calfes"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "A group of wolves is called a...?",
+    "a": [
+     "Flock",
+     "Swarm",
+     "School",
+     "Pack"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of 'wolf'?",
+    "a": [
+     "Wolves",
+     "Wolfs",
+     "Wolfes",
+     "Wolf"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 1872, which country decriminalized homosexuality, among the first in the world?",
+    "a": [
+     "France",
+     "Mexico",
+     "Argentina",
+     "Portugal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which British group supported the striking miners in 1984-1985?",
+    "a": [
+     "Greenpeace",
+     "ACT UP",
+     "Lesbians and Gays Support the Miners",
+     "OutRage!"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which 2018 TV series portrays New York ballroom culture?",
+    "a": [
+     "RuPaul's Drag Race",
+     "Queer as Folk",
+     "Looking",
+     "Pose"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "What term describes hostility towards transgender people?",
+    "a": [
+     "Transphobia",
+     "Homophobia",
+     "Misogyny",
+     "Sexism"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "In 2020, which Central American country legalized same-sex marriage?",
+    "a": [
+     "Guatemala",
+     "Costa Rica",
+     "Honduras",
+     "Panama"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -44742,6 +45842,556 @@
      "Jensen Huang"
     ],
     "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Bajo qué rey se construyó la Sainte-Chapelle de París?",
+    "a": [
+     "Luis IX",
+     "Felipe II Augusto",
+     "Carlos V",
+     "Enrique IV"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Quién ganó la batalla de Austerlitz en 1805?",
+    "a": [
+     "El duque de Wellington",
+     "Napoleón I",
+     "El zar Alejandro I",
+     "Federico el Grande"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué explorador marroquí recorrió el mundo musulmán en el siglo XIV?",
+    "a": [
+     "Ibn Jaldún",
+     "Marco Polo",
+     "Ibn Battuta",
+     "Zheng He"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué humanista inglés, autor de 'Utopía', fue ejecutado en 1535?",
+    "a": [
+     "Francis Bacon",
+     "Thomas Hobbes",
+     "William Shakespeare",
+     "Tomás Moro"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué cultivo falló en 1845 causando la Gran Hambruna irlandesa?",
+    "a": [
+     "La patata",
+     "El trigo",
+     "La avena",
+     "La cebada"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué estrecho separa Irán de la península arábiga?",
+    "a": [
+     "Bab el-Mandeb",
+     "Ormuz",
+     "Gibraltar",
+     "Malaca"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué canal separa Madagascar del continente africano?",
+    "a": [
+     "El canal de Sicilia",
+     "El canal de Córcega",
+     "El canal de Mozambique",
+     "El estrecho de Magallanes"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué río se encuentran las cataratas Victoria?",
+    "a": [
+     "El Congo",
+     "El Nilo",
+     "El Níger",
+     "El Zambeze"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la segunda isla más grande del mundo?",
+    "a": [
+     "Nueva Guinea",
+     "Madagascar",
+     "Borneo",
+     "Sumatra"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Cuál es la montaña más alta de la Antártida?",
+    "a": [
+     "El monte McClintock",
+     "El monte Vinson",
+     "El monte Sidley",
+     "El monte Erebus"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿A qué frecuencia está afinado el «la» del diapasón?",
+    "a": [
+     "442 Hz",
+     "432 Hz",
+     "440 Hz",
+     "400 Hz"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el principal componente líquido de la sangre?",
+    "a": [
+     "Los glóbulos rojos",
+     "Las plaquetas",
+     "La linfa",
+     "El plasma"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué órgano almacena la bilis producida por el hígado?",
+    "a": [
+     "La vesícula biliar",
+     "El páncreas",
+     "El bazo",
+     "El estómago"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué péndulo demuestra la rotación de la Tierra?",
+    "a": [
+     "El péndulo de Newton",
+     "El péndulo de Foucault",
+     "El péndulo de Galileo",
+     "El péndulo simple"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Quién propuso la teoría de la deriva continental?",
+    "a": [
+     "Charles Darwin",
+     "Alfred Russel Wallace",
+     "Alfred Wegener",
+     "Harry Hess"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué insecto hembra a veces devora a su pareja tras el apareamiento?",
+    "a": [
+     "La mariquita",
+     "El grillo",
+     "La langosta",
+     "La mantis religiosa"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta al inspector Harry Callahan?",
+    "a": [
+     "Clint Eastwood",
+     "John Wayne",
+     "Steve McQueen",
+     "Charles Bronson"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué animación de Disney de 1998 muestra a una heroína disfrazada de soldado?",
+    "a": [
+     "Pocahontas",
+     "Mulán",
+     "Enredados",
+     "Vaiana"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz interpreta a Trinity en 'Matrix'?",
+    "a": [
+     "Halle Berry",
+     "Uma Thurman",
+     "Carrie-Anne Moss",
+     "Sigourney Weaver"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de 2007 narra la batalla de las Termópilas?",
+    "a": [
+     "Troya",
+     "Gladiator",
+     "Alejandro",
+     "300"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película de 1957 reúne a doce jurados en una sala?",
+    "a": [
+     "Doce hombres sin piedad",
+     "El veredicto",
+     "Philadelphia",
+     "Rashomon"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué artista estadounidense entró en el Panteón de París en 2021?",
+    "a": [
+     "Aretha Franklin",
+     "Josephine Baker",
+     "Eartha Kitt",
+     "Nina Simone"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante barbadense lanzó el éxito 'Diamonds'?",
+    "a": [
+     "Beyoncé",
+     "Nicki Minaj",
+     "Rihanna",
+     "Alicia Keys"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué familia de instrumentos es la más numerosa en una orquesta sinfónica?",
+    "a": [
+     "Las maderas",
+     "Los metales",
+     "Las percusiones",
+     "Las cuerdas"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué nota musical está entre «mi» y «sol»?",
+    "a": [
+     "Fa",
+     "Re",
+     "La",
+     "Si"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'Gomorra', libro sobre la camorra napolitana?",
+    "a": [
+     "Andrea Camilleri",
+     "Roberto Saviano",
+     "Elena Ferrante",
+     "Umberto Eco"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'Neuromante', clásico de la ciencia ficción?",
+    "a": [
+     "Philip K. Dick",
+     "Isaac Asimov",
+     "William Gibson",
+     "Julio Verne"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'El gran cuaderno'?",
+    "a": [
+     "Imre Kertész",
+     "Sándor Márai",
+     "Milan Kundera",
+     "Ágota Kristóf"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió 'Nunca me abandones' (Never Let Me Go)?",
+    "a": [
+     "Kazuo Ishiguro",
+     "Salman Rushdie",
+     "Ian McEwan",
+     "Julian Barnes"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué país ha ganado más Copas del Mundo de crícket?",
+    "a": [
+     "India",
+     "Australia",
+     "Inglaterra",
+     "Las Indias Occidentales"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué país ganó la primera Copa del Mundo de baloncesto en 1950?",
+    "a": [
+     "Estados Unidos",
+     "Brasil",
+     "Argentina",
+     "Italia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es el estadio más grande del mundo?",
+    "a": [
+     "Camp Nou",
+     "Wembley",
+     "Estadio Azteca",
+     "Rungrado Primero de Mayo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es el apodo del equipo de rugby de Sudáfrica?",
+    "a": [
+     "Los Springboks",
+     "Los All Blacks",
+     "Los Wallabies",
+     "Los Pumas"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué estación albergó los primeros Juegos Olímpicos de invierno en 1924?",
+    "a": [
+     "Sankt Moritz",
+     "Chamonix",
+     "Garmisch",
+     "Lake Placid"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "El yuzu es una fruta de qué familia?",
+    "a": [
+     "Las bayas",
+     "Las drupas",
+     "Los cítricos",
+     "Las cucurbitáceas"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué comunidad de España viene la salsa romesco?",
+    "a": [
+     "Andalucía",
+     "El País Vasco",
+     "Galicia",
+     "Cataluña"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Qué arroz de grano corto se usa para el risotto?",
+    "a": [
+     "El arborio",
+     "El basmati",
+     "El jazmín",
+     "El de grano largo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región del mundo viene el kéfir?",
+    "a": [
+     "Los Balcanes",
+     "El Cáucaso",
+     "Escandinavia",
+     "Anatolia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué país es la sopa 'tom kha' con leche de coco?",
+    "a": [
+     "Vietnam",
+     "Laos",
+     "Tailandia",
+     "Birmania"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pretérito de «saber»?",
+    "a": [
+     "Sabó",
+     "Sabió",
+     "Sabía",
+     "Supe"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el plural de 'jabalí'?",
+    "a": [
+     "Jabalíes",
+     "Jabalís",
+     "Jabalí",
+     "Jabalices"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué palabra es esdrújula: 'música' o 'camión'?",
+    "a": [
+     "Camión",
+     "Música",
+     "Ambas",
+     "Ninguna"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pretérito de 'caber'?",
+    "a": [
+     "Cabó",
+     "Cabió",
+     "Cupo",
+     "Cabía"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el aumentativo de 'silla'?",
+    "a": [
+     "Sillote",
+     "Sillaza",
+     "Sillona",
+     "Sillón"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué significa el prefijo 'sub-'?",
+    "a": [
+     "Debajo de",
+     "Encima de",
+     "Antes",
+     "Junto a"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 1872, ¿qué país descriminalizó la homosexualidad, de los primeros del mundo?",
+    "a": [
+     "Francia",
+     "México",
+     "Argentina",
+     "Portugal"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué grupo británico apoyó a los mineros en huelga en 1984-1985?",
+    "a": [
+     "Greenpeace",
+     "ACT UP",
+     "Lesbians and Gays Support the Miners",
+     "OutRage!"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué serie de 2018 retrata la cultura ballroom de Nueva York?",
+    "a": [
+     "RuPaul's Drag Race",
+     "Queer as Folk",
+     "Looking",
+     "Pose"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué término designa la hostilidad hacia las personas trans?",
+    "a": [
+     "La transfobia",
+     "La homofobia",
+     "La misoginia",
+     "El sexismo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "En 2020, ¿qué país de Centroamérica legalizó el matrimonio igualitario?",
+    "a": [
+     "Guatemala",
+     "Costa Rica",
+     "Honduras",
+     "Panamá"
+    ],
+    "c": 1
    }
   ]
  }
