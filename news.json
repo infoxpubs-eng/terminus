@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "qs": {
   "fr": [
    {
@@ -15465,6 +15465,556 @@
      "Le Costa Rica",
      "Le Honduras",
      "Le Panama"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "En quelle année le traité de Lisbonne a-t-il été signé ?",
+    "a": [
+     "2007",
+     "2005",
+     "2009",
+     "2012"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Haïlé Sélassié était empereur de quel pays ?",
+    "a": [
+     "Égypte",
+     "Éthiopie",
+     "Ghana",
+     "Kenya"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "Dans quelle ville française l'armistice du 8 mai 1945 a-t-il été signé ?",
+    "a": [
+     "Paris",
+     "Berlin",
+     "Reims",
+     "Versailles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Quel explorateur revendique le pôle Nord en 1909 ?",
+    "a": [
+     "Roald Amundsen",
+     "Ernest Shackleton",
+     "Robert Scott",
+     "Robert Peary"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Quel pharaon a imposé le culte du disque solaire Aton ?",
+    "a": [
+     "Akhenaton",
+     "Ramsès II",
+     "Toutânkhamon",
+     "Thoutmôsis III"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le désert de Simpson ?",
+    "a": [
+     "États-Unis",
+     "Australie",
+     "Afrique du Sud",
+     "Argentine"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Quel fleuve traverse Séville ?",
+    "a": [
+     "L'Èbre",
+     "Le Tage",
+     "Le Guadalquivir",
+     "Le Douro"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel État américain se trouve le mont Rushmore ?",
+    "a": [
+     "Dakota du Nord",
+     "Wyoming",
+     "Montana",
+     "Dakota du Sud"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "Dans quel pays se trouve le lac Nicaragua ?",
+    "a": [
+     "Nicaragua",
+     "Costa Rica",
+     "Honduras",
+     "Panama"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Quelle ville française est surnommée « la Ville des papes » ?",
+    "a": [
+     "Arles",
+     "Avignon",
+     "Nîmes",
+     "Orange"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quelle est la température du zéro absolu, environ ?",
+    "a": [
+     "-100 °C",
+     "-500 °C",
+     "-273 °C",
+     "-27 °C"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Comment s'appelait la chienne lancée en orbite par l'URSS en 1957 ?",
+    "a": [
+     "Strelka",
+     "Belka",
+     "Mira",
+     "Laïka"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Quel insecte transmet la maladie de Lyme ?",
+    "a": [
+     "La tique",
+     "Le moustique",
+     "La puce",
+     "La mouche tsé-tsé"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Quel organe stocke l'urine avant son élimination ?",
+    "a": [
+     "Le rein",
+     "La vessie",
+     "L'urètre",
+     "La vessie biliaire"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Quel reptile peut détacher sa queue pour échapper à un prédateur ?",
+    "a": [
+     "La tortue",
+     "Le serpent",
+     "Le lézard",
+     "Le crocodile"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Quel est le seul os mobile du crâne humain ?",
+    "a": [
+     "Le maxillaire",
+     "Le zygomatique",
+     "Le temporal",
+     "La mandibule"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quelle actrice incarne la princesse Leia dans Star Wars ?",
+    "a": [
+     "Carrie Fisher",
+     "Natalie Portman",
+     "Sigourney Weaver",
+     "Carrie-Anne Moss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne Hannibal Lecter dans « Le Silence des agneaux » ?",
+    "a": [
+     "Al Pacino",
+     "Anthony Hopkins",
+     "Robert De Niro",
+     "Kevin Spacey"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Qui a réalisé le film « Wonder Woman » de 2017 ?",
+    "a": [
+     "Kathryn Bigelow",
+     "Greta Gerwig",
+     "Patty Jenkins",
+     "Sofia Coppola"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Quel film du studio Ghibli suit deux sœurs et un esprit de la forêt ?",
+    "a": [
+     "Le Voyage de Chihiro",
+     "Kiki la petite sorcière",
+     "Ponyo sur la falaise",
+     "Mon voisin Totoro"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Quel acteur incarne Rocky Balboa ?",
+    "a": [
+     "Sylvester Stallone",
+     "Arnold Schwarzenegger",
+     "Mel Gibson",
+     "Bruce Willis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Quel instrument joue le musicien Yo-Yo Ma ?",
+    "a": [
+     "Le violon",
+     "Le violoncelle",
+     "L'alto",
+     "La contrebasse"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Quel chanteur français a sorti « Mistral gagnant » ?",
+    "a": [
+     "Jacques Brel",
+     "Alain Souchon",
+     "Renaud",
+     "Serge Gainsbourg"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse a sorti « Genie in a Bottle » en 1999 ?",
+    "a": [
+     "Britney Spears",
+     "Jessica Simpson",
+     "Mariah Carey",
+     "Christina Aguilera"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Quelle chanteuse cubaine est surnommée « la reine de la salsa » ?",
+    "a": [
+     "Celia Cruz",
+     "Gloria Estefan",
+     "Shakira",
+     "Jennifer Lopez"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit « Le Procès » ?",
+    "a": [
+     "Hermann Hesse",
+     "Franz Kafka",
+     "Thomas Mann",
+     "Robert Musil"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Quel poème épique espagnol met en scène le Cid ?",
+    "a": [
+     "La Chanson de Roland",
+     "Les Lusiades",
+     "Le Cantar de Mio Cid",
+     "Le Livre de bonne amour"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Qui a écrit les « Confessions » au XVIIIe siècle ?",
+    "a": [
+     "Voltaire",
+     "Diderot",
+     "Chateaubriand",
+     "Jean-Jacques Rousseau"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Quelle poétesse américaine a écrit « Because I could not stop for Death » ?",
+    "a": [
+     "Emily Dickinson",
+     "Sylvia Plath",
+     "Elizabeth Bishop",
+     "Adrienne Rich"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel est le surnom de l'équipe d'Australie de rugby à XV ?",
+    "a": [
+     "Les All Blacks",
+     "Les Wallabies",
+     "Les Springboks",
+     "Les Pumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Quelle grande course cycliste se court en Italie chaque mois de mai ?",
+    "a": [
+     "La Vuelta",
+     "Le Tour de France",
+     "Le Giro",
+     "Milan-San Remo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "Dans quel sport Steve Redgrave a-t-il gagné cinq médailles d'or olympiques ?",
+    "a": [
+     "La natation",
+     "Le cyclisme",
+     "L'escrime",
+     "L'aviron"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "Sur quel appareil de gymnastique fait-on des cercles de jambes ?",
+    "a": [
+     "Le cheval d'arçons",
+     "La barre fixe",
+     "Les anneaux",
+     "Le saut de cheval"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Quel sport se joue au meilleur des cinq sets avec un ballon au-dessus d'un filet ?",
+    "a": [
+     "Le tennis",
+     "Le volleyball",
+     "Le badminton",
+     "Le ping-pong"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région la carbonade flamande est-elle une spécialité ?",
+    "a": [
+     "La Provence",
+     "La Bretagne",
+     "Le Nord de la France",
+     "L'Alsace"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "De quelle région française le beurre blanc est-il une spécialité ?",
+    "a": [
+     "La Provence",
+     "L'Alsace",
+     "La Bretagne",
+     "La Loire-Atlantique"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "Comment s'appelle l'arbuste dont on cueille les feuilles pour faire le thé ?",
+    "a": [
+     "Le théier",
+     "Le caféier",
+     "Le cacaoyer",
+     "L'oranger"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Le bacalhau, morue séchée, est un plat emblématique de quel pays ?",
+    "a": [
+     "L'Espagne",
+     "Le Portugal",
+     "Le Brésil",
+     "L'Italie"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "De quel fruit brésilien violet fait-on des smoothie bowls ?",
+    "a": [
+     "La goyave",
+     "Le fruit de la passion",
+     "L'açaí",
+     "La mangue"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle figure trans américaine fut emblématique des émeutes de Stonewall ?",
+    "a": [
+     "Audre Lorde",
+     "Angela Davis",
+     "Harvey Milk",
+     "Marsha P. Johnson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle ville a accueilli la première EuroPride en 1992 ?",
+    "a": [
+     "Londres",
+     "Berlin",
+     "Amsterdam",
+     "Paris"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle ville canadienne a accueilli la WorldPride 2014 ?",
+    "a": [
+     "Montréal",
+     "Toronto",
+     "Vancouver",
+     "Calgary"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle constitution de 1996 interdit en premier la discrimination selon l'orientation sexuelle ?",
+    "a": [
+     "Celle du Canada",
+     "Celle des Pays-Bas",
+     "Celle de l'Afrique du Sud",
+     "Celle de la Suède"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Quelle série NBC de 1998 met en scène Will Truman et Grace Adler ?",
+    "a": [
+     "Friends",
+     "Sex and the City",
+     "Modern Family",
+     "Will & Grace"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on un mot de sens opposé à un autre ?",
+    "a": [
+     "Un antonyme",
+     "Un synonyme",
+     "Un homonyme",
+     "Un paronyme"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quelle est la deuxième personne du pluriel de « être » au présent ?",
+    "a": [
+     "Vous estes",
+     "Vous êtes",
+     "Vous serrez",
+     "Vous soyez"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "Que signifie l'abréviation « c.-à-d. » ?",
+    "a": [
+     "Ce qui est dit",
+     "Concernant",
+     "C'est-à-dire",
+     "Ci-après désigné"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "Quel est le féminin de « cerf » ?",
+    "a": [
+     "La cane",
+     "La chevrette",
+     "La hase",
+     "La biche"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "Comment appelle-t-on le récit où l'auteur raconte sa propre vie ?",
+    "a": [
+     "Une autobiographie",
+     "Une biographie",
+     "Un roman",
+     "Des mémoires"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "Quel temps situe une action avant une autre action passée ?",
+    "a": [
+     "Le passé composé",
+     "Le plus-que-parfait",
+     "L'imparfait",
+     "Le passé simple"
     ],
     "c": 1
    }
@@ -30935,6 +31485,556 @@
      "Panama"
     ],
     "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "In which year was the Treaty of Lisbon signed?",
+    "a": [
+     "2007",
+     "2005",
+     "2009",
+     "2012"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "Haile Selassie was emperor of which country?",
+    "a": [
+     "Egypt",
+     "Ethiopia",
+     "Ghana",
+     "Kenya"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "In which French city was the armistice of 8 May 1945 signed?",
+    "a": [
+     "Paris",
+     "Berlin",
+     "Reims",
+     "Versailles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "Which explorer claimed the North Pole in 1909?",
+    "a": [
+     "Roald Amundsen",
+     "Ernest Shackleton",
+     "Robert Scott",
+     "Robert Peary"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "Which pharaoh imposed worship of the sun disc Aten?",
+    "a": [
+     "Akhenaten",
+     "Ramesses II",
+     "Tutankhamun",
+     "Thutmose III"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is the Simpson Desert?",
+    "a": [
+     "United States",
+     "Australia",
+     "South Africa",
+     "Argentina"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "Which river flows through Seville?",
+    "a": [
+     "The Ebro",
+     "The Tagus",
+     "The Guadalquivir",
+     "The Douro"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "In which US state is Mount Rushmore?",
+    "a": [
+     "North Dakota",
+     "Wyoming",
+     "Montana",
+     "South Dakota"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "In which country is Lake Nicaragua?",
+    "a": [
+     "Nicaragua",
+     "Costa Rica",
+     "Honduras",
+     "Panama"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "Which French city is nicknamed \"the City of Popes\"?",
+    "a": [
+     "Arles",
+     "Avignon",
+     "Nîmes",
+     "Orange"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "What is the temperature of absolute zero, roughly?",
+    "a": [
+     "-100 °C",
+     "-500 °C",
+     "-273 °C",
+     "-27 °C"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "What was the name of the dog launched into orbit by the USSR in 1957?",
+    "a": [
+     "Strelka",
+     "Belka",
+     "Mira",
+     "Laika"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "Which insect transmits Lyme disease?",
+    "a": [
+     "The tick",
+     "The mosquito",
+     "The flea",
+     "The tsetse fly"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "Which organ stores urine before elimination?",
+    "a": [
+     "The kidney",
+     "The bladder",
+     "The urethra",
+     "The gallbladder"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "Which reptile can drop its tail to escape a predator?",
+    "a": [
+     "The turtle",
+     "The snake",
+     "The lizard",
+     "The crocodile"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "Which is the only mobile bone of the human skull?",
+    "a": [
+     "The maxilla",
+     "The zygomatic bone",
+     "The temporal bone",
+     "The mandible"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which actress plays Princess Leia in Star Wars?",
+    "a": [
+     "Carrie Fisher",
+     "Natalie Portman",
+     "Sigourney Weaver",
+     "Carrie-Anne Moss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor plays Hannibal Lecter in \"The Silence of the Lambs\"?",
+    "a": [
+     "Al Pacino",
+     "Anthony Hopkins",
+     "Robert De Niro",
+     "Kevin Spacey"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "Who directed the 2017 film \"Wonder Woman\"?",
+    "a": [
+     "Kathryn Bigelow",
+     "Greta Gerwig",
+     "Patty Jenkins",
+     "Sofia Coppola"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "Which Studio Ghibli film follows two sisters and a forest spirit?",
+    "a": [
+     "Spirited Away",
+     "Kiki's Delivery Service",
+     "Ponyo",
+     "My Neighbour Totoro"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "Which actor plays Rocky Balboa?",
+    "a": [
+     "Sylvester Stallone",
+     "Arnold Schwarzenegger",
+     "Mel Gibson",
+     "Bruce Willis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "Which instrument does musician Yo-Yo Ma play?",
+    "a": [
+     "The violin",
+     "The cello",
+     "The viola",
+     "The double bass"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "Which French singer released \"Mistral gagnant\"?",
+    "a": [
+     "Jacques Brel",
+     "Alain Souchon",
+     "Renaud",
+     "Serge Gainsbourg"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "Which singer released \"Genie in a Bottle\" in 1999?",
+    "a": [
+     "Britney Spears",
+     "Jessica Simpson",
+     "Mariah Carey",
+     "Christina Aguilera"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "Which Cuban singer is nicknamed \"the Queen of Salsa\"?",
+    "a": [
+     "Celia Cruz",
+     "Gloria Estefan",
+     "Shakira",
+     "Jennifer Lopez"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote \"The Trial\"?",
+    "a": [
+     "Hermann Hesse",
+     "Franz Kafka",
+     "Thomas Mann",
+     "Robert Musil"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "Which Spanish epic poem features El Cid?",
+    "a": [
+     "The Song of Roland",
+     "The Lusiads",
+     "The Cantar de Mio Cid",
+     "The Book of Good Love"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "Who wrote the \"Confessions\" in the 18th century?",
+    "a": [
+     "Voltaire",
+     "Diderot",
+     "Chateaubriand",
+     "Jean-Jacques Rousseau"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "Which American poet wrote \"Because I could not stop for Death\"?",
+    "a": [
+     "Emily Dickinson",
+     "Sylvia Plath",
+     "Elizabeth Bishop",
+     "Adrienne Rich"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "What is the nickname of Australia's rugby union team?",
+    "a": [
+     "The All Blacks",
+     "The Wallabies",
+     "The Springboks",
+     "The Pumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "Which major cycling race is held in Italy every May?",
+    "a": [
+     "The Vuelta",
+     "The Tour de France",
+     "The Giro d'Italia",
+     "Milan-San Remo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "In which sport did Steve Redgrave win five Olympic golds?",
+    "a": [
+     "Swimming",
+     "Cycling",
+     "Fencing",
+     "Rowing"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "On which gymnastics apparatus do you perform leg circles?",
+    "a": [
+     "The pommel horse",
+     "The horizontal bar",
+     "The rings",
+     "The vault"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "Which sport is played best of five sets with a ball over a net?",
+    "a": [
+     "Tennis",
+     "Volleyball",
+     "Badminton",
+     "Table tennis"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "The carbonade flamande is a specialty of which region?",
+    "a": [
+     "Provence",
+     "Brittany",
+     "Northern France",
+     "Alsace"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "Beurre blanc is a specialty of which French region?",
+    "a": [
+     "Provence",
+     "Alsace",
+     "Brittany",
+     "Loire-Atlantique"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "What is the bush whose leaves are picked to make tea?",
+    "a": [
+     "The tea plant",
+     "The coffee plant",
+     "The cacao tree",
+     "The orange tree"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "Bacalhau, dried cod, is a signature dish of which country?",
+    "a": [
+     "Spain",
+     "Portugal",
+     "Brazil",
+     "Italy"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "Which purple Brazilian fruit is used for smoothie bowls?",
+    "a": [
+     "Guava",
+     "Passion fruit",
+     "Açaí",
+     "Mango"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which American trans figure was iconic in the Stonewall riots?",
+    "a": [
+     "Audre Lorde",
+     "Angela Davis",
+     "Harvey Milk",
+     "Marsha P. Johnson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which city hosted the first EuroPride in 1992?",
+    "a": [
+     "London",
+     "Berlin",
+     "Amsterdam",
+     "Paris"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which Canadian city hosted WorldPride 2014?",
+    "a": [
+     "Montreal",
+     "Toronto",
+     "Vancouver",
+     "Calgary"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which 1996 constitution first banned discrimination by sexual orientation?",
+    "a": [
+     "Canada's",
+     "The Netherlands'",
+     "South Africa's",
+     "Sweden's"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "Which 1998 NBC series features Will Truman and Grace Adler?",
+    "a": [
+     "Friends",
+     "Sex and the City",
+     "Modern Family",
+     "Will & Grace"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What does the abbreviation \"e.g.\" stand for?",
+    "a": [
+     "Exempli gratia",
+     "Extra given",
+     "Example gloss",
+     "Exemplum generale"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the plural of \"foot\"?",
+    "a": [
+     "Foots",
+     "Feet",
+     "Footes",
+     "Feets"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of \"sleep\"?",
+    "a": [
+     "Sleeped",
+     "Sleepen",
+     "Slept",
+     "Slapt"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "What is the opposite of \"heavy\"?",
+    "a": [
+     "Strong",
+     "Large",
+     "Hard",
+     "Light"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "What is the British spelling of \"color\"?",
+    "a": [
+     "Colour",
+     "Colore",
+     "Colur",
+     "Collour"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "What is the past tense of \"lead\"?",
+    "a": [
+     "Leaded",
+     "Led",
+     "Lead",
+     "Leant"
+    ],
+    "c": 1
    }
   ],
   "es": [
@@ -46390,6 +47490,556 @@
      "Costa Rica",
      "Honduras",
      "Panamá"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué año se firmó el Tratado de Lisboa?",
+    "a": [
+     "2007",
+     "2005",
+     "2009",
+     "2012"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "hist",
+    "q": "¿Haile Selassie era emperador de qué país?",
+    "a": [
+     "Egipto",
+     "Etiopía",
+     "Ghana",
+     "Kenia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "hist",
+    "q": "¿En qué ciudad francesa se firmó el armisticio del 8 de mayo de 1945?",
+    "a": [
+     "París",
+     "Berlín",
+     "Reims",
+     "Versalles"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué explorador afirmó haber alcanzado el Polo Norte en 1909?",
+    "a": [
+     "Roald Amundsen",
+     "Ernest Shackleton",
+     "Robert Scott",
+     "Robert Peary"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "hist",
+    "q": "¿Qué faraón impuso el culto al disco solar Atón?",
+    "a": [
+     "Akenatón",
+     "Ramsés II",
+     "Tutankamón",
+     "Tutmosis III"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el desierto de Simpson?",
+    "a": [
+     "Estados Unidos",
+     "Australia",
+     "Sudáfrica",
+     "Argentina"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué río atraviesa Sevilla?",
+    "a": [
+     "El Ebro",
+     "El Tajo",
+     "El Guadalquivir",
+     "El Duero"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué estado estadounidense está el monte Rushmore?",
+    "a": [
+     "Dakota del Norte",
+     "Wyoming",
+     "Montana",
+     "Dakota del Sur"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "geo",
+    "q": "¿En qué país está el lago Nicaragua?",
+    "a": [
+     "Nicaragua",
+     "Costa Rica",
+     "Honduras",
+     "Panamá"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "geo",
+    "q": "¿Qué ciudad francesa es apodada \"la Ciudad de los Papas\"?",
+    "a": [
+     "Arles",
+     "Aviñón",
+     "Nimes",
+     "Orange"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es la temperatura del cero absoluto, aproximadamente?",
+    "a": [
+     "-100 °C",
+     "-500 °C",
+     "-273 °C",
+     "-27 °C"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cómo se llamaba la perra lanzada a órbita por la URSS en 1957?",
+    "a": [
+     "Strelka",
+     "Belka",
+     "Mira",
+     "Laika"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué insecto transmite la enfermedad de Lyme?",
+    "a": [
+     "La garrapata",
+     "El mosquito",
+     "La pulga",
+     "La mosca tse-tse"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué órgano almacena la orina antes de eliminarla?",
+    "a": [
+     "El riñón",
+     "La vejiga",
+     "La uretra",
+     "La vesícula biliar"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "sci",
+    "q": "¿Qué reptil puede desprender su cola para escapar de un depredador?",
+    "a": [
+     "La tortuga",
+     "La serpiente",
+     "El lagarto",
+     "El cocodrilo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "sci",
+    "q": "¿Cuál es el único hueso móvil del cráneo humano?",
+    "a": [
+     "El maxilar",
+     "El zigomático",
+     "El temporal",
+     "La mandíbula"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actriz interpreta a la princesa Leia en Star Wars?",
+    "a": [
+     "Carrie Fisher",
+     "Natalie Portman",
+     "Sigourney Weaver",
+     "Carrie-Anne Moss"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta a Hannibal Lecter en \"El silencio de los corderos\"?",
+    "a": [
+     "Al Pacino",
+     "Anthony Hopkins",
+     "Robert De Niro",
+     "Kevin Spacey"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "cine",
+    "q": "¿Quién dirigió la película \"Wonder Woman\" de 2017?",
+    "a": [
+     "Kathryn Bigelow",
+     "Greta Gerwig",
+     "Patty Jenkins",
+     "Sofia Coppola"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué película del estudio Ghibli sigue a dos hermanas y un espíritu del bosque?",
+    "a": [
+     "El viaje de Chihiro",
+     "Kiki, aprendiz de bruja",
+     "Ponyo",
+     "Mi vecino Totoro"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "cine",
+    "q": "¿Qué actor interpreta a Rocky Balboa?",
+    "a": [
+     "Sylvester Stallone",
+     "Arnold Schwarzenegger",
+     "Mel Gibson",
+     "Bruce Willis"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué instrumento toca el músico Yo-Yo Ma?",
+    "a": [
+     "El violín",
+     "El violonchelo",
+     "La viola",
+     "El contrabajo"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante francés lanzó \"Mistral gagnant\"?",
+    "a": [
+     "Jacques Brel",
+     "Alain Souchon",
+     "Renaud",
+     "Serge Gainsbourg"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante lanzó \"Genie in a Bottle\" en 1999?",
+    "a": [
+     "Britney Spears",
+     "Jessica Simpson",
+     "Mariah Carey",
+     "Christina Aguilera"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "mus",
+    "q": "¿Qué cantante cubana es apodada \"la Reina de la Salsa\"?",
+    "a": [
+     "Celia Cruz",
+     "Gloria Estefan",
+     "Shakira",
+     "Jennifer Lopez"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió \"El proceso\"?",
+    "a": [
+     "Hermann Hesse",
+     "Franz Kafka",
+     "Thomas Mann",
+     "Robert Musil"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué poema épico español tiene como protagonista al Cid?",
+    "a": [
+     "La Chanson de Roland",
+     "Los Lusíadas",
+     "El Cantar de Mio Cid",
+     "El Libro de buen amor"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lit",
+    "q": "¿Quién escribió las \"Confesiones\" en el siglo XVIII?",
+    "a": [
+     "Voltaire",
+     "Diderot",
+     "Chateaubriand",
+     "Jean-Jacques Rousseau"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lit",
+    "q": "¿Qué poeta estadounidense escribió \"Because I could not stop for Death\"?",
+    "a": [
+     "Emily Dickinson",
+     "Sylvia Plath",
+     "Elizabeth Bishop",
+     "Adrienne Rich"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Cuál es el apodo del equipo de rugby de Australia?",
+    "a": [
+     "Los All Blacks",
+     "Los Wallabies",
+     "Los Springboks",
+     "Los Pumas"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué gran carrera ciclista se corre en Italia cada mes de mayo?",
+    "a": [
+     "La Vuelta",
+     "El Tour de Francia",
+     "El Giro",
+     "Milán-San Remo"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué deporte Steve Redgrave ganó cinco oros olímpicos?",
+    "a": [
+     "La natación",
+     "El ciclismo",
+     "La esgrima",
+     "El remo"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "spo",
+    "q": "¿En qué aparato de gimnasia se hacen círculos de piernas?",
+    "a": [
+     "El caballo con arcos",
+     "La barra fija",
+     "Las anillas",
+     "El salto de caballo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "spo",
+    "q": "¿Qué deporte se juega al mejor de cinco sets con un balón sobre la red?",
+    "a": [
+     "El tenis",
+     "El voleibol",
+     "El bádminton",
+     "El ping-pong"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región es especialidad la carbonade flamande?",
+    "a": [
+     "Provenza",
+     "Bretaña",
+     "El norte de Francia",
+     "Alsacia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué región francesa es especialidad el beurre blanc?",
+    "a": [
+     "Provenza",
+     "Alsacia",
+     "Bretaña",
+     "Loira Atlántico"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "gas",
+    "q": "¿Cómo se llama el arbusto cuyas hojas se recogen para hacer té?",
+    "a": [
+     "El té",
+     "El cafeto",
+     "El cacaotero",
+     "El naranjo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "gas",
+    "q": "El bacalhau, bacalao seco, es un plato emblemático de qué país?",
+    "a": [
+     "España",
+     "Portugal",
+     "Brasil",
+     "Italia"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "gas",
+    "q": "¿De qué fruta morada brasileña se hacen los smoothie bowls?",
+    "a": [
+     "La guayaba",
+     "La maracuyá",
+     "El açaí",
+     "El mango"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué figura trans estadounidense fue emblema de los disturbios de Stonewall?",
+    "a": [
+     "Audre Lorde",
+     "Angela Davis",
+     "Harvey Milk",
+     "Marsha P. Johnson"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ciudad acogió la primera EuroPride en 1992?",
+    "a": [
+     "Londres",
+     "Berlín",
+     "Ámsterdam",
+     "París"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué ciudad canadiense acogió la WorldPride 2014?",
+    "a": [
+     "Montreal",
+     "Toronto",
+     "Vancouver",
+     "Calgary"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué constitución de 1996 prohibió primero la discriminación por orientación sexual?",
+    "a": [
+     "La de Canadá",
+     "La de Países Bajos",
+     "La de Sudáfrica",
+     "La de Suecia"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lgbt",
+    "q": "¿Qué serie de NBC de 1998 presenta a Will Truman y Grace Adler?",
+    "a": [
+     "Friends",
+     "Sex and the City",
+     "Modern Family",
+     "Will & Grace"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Qué significa la abreviatura « p. ej. » ?",
+    "a": [
+     "Por ejemplo",
+     "Para empezar",
+     "Por fin",
+     "Poco ejemplo"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pasado de « querer » ?",
+    "a": [
+     "Querió",
+     "Quise",
+     "Quera",
+     "Quierí"
+    ],
+    "c": 1
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el futuro de « hablar » ?",
+    "a": [
+     "Hablaba",
+     "Hablé",
+     "Hablaré",
+     "Hablía"
+    ],
+    "c": 2
+   },
+   {
+    "cat": "lan",
+    "q": "¿Antónimo de « frío » ?",
+    "a": [
+     "Helado",
+     "Fresco",
+     "Templado",
+     "Caliente"
+    ],
+    "c": 3
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cómo se llama el colectivo de ovejas ?",
+    "a": [
+     "Rebaño",
+     "Manada",
+     "Enjambre",
+     "Bandada"
+    ],
+    "c": 0
+   },
+   {
+    "cat": "lan",
+    "q": "¿Cuál es el pretérito de « estar » ?",
+    "a": [
+     "Estaba",
+     "Estuvo",
+     "Esté",
+     "Estaba ya"
     ],
     "c": 1
    }
